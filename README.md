@@ -1,0 +1,2 @@
+# AINotes
+WZ笔记
