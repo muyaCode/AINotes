@@ -1,10 +1,22 @@
 # Midjourney AI绘画工具的使用
 
-## 自制Midjourney批量工具，一夜出图2000张！
+在社交软件discord中使用Midjourney：[discord.gg](https://discord.gg/midjourney)
+
+注册好账号并登录：搜索并加入Midjourney频道，可以加公共频道，或创建自己的频道使用
+
+---
+
+教程UP主：[莱森LysonOber](https://space.bilibili.com/630876766)
+
+教程：[1.1 - Midjourney 注册教程教学（保姆级全系列课程合集）免下载，通俗易懂_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1p24y1h7CQ/?vd_source=5f0c99b3deddffe219938763769b15ac)
+
+【一站式入门AI绘画！Midjourney胎教级入门指南！普通人也能成为设计师】<https://www.bilibili.com/video/BV1vm4y1B7gP?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+## 自制Midjourney批量工具，一夜出图2000张
 
 飞书文档教程：[老陆AI知识库目录 - 飞书云文档 (feishu.cn)](https://evnr5jw9no.feishu.cn/wiki/GEWowFtKkiFd3LkqsKUci9HAn8c)
 
-【一夜2000张！自制Midjourney批量工具】https://www.bilibili.com/video/BV1Ua4y1u7i3?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【一夜2000张！自制Midjourney批量工具】<https://www.bilibili.com/video/BV1Ua4y1u7i3?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 ## 利用AI绘画工具和ChatGPT生成的虚拟数字人
 
@@ -74,3 +86,15 @@ D-ID 是一个 Web 应用，它使用实时人脸动画和高级文本到语音�
 打开D-ID网站，注册并登录：<https://www.d-id.com/>
 
 选择上传Midjourney生成的人物画像，输入ChatGPT生成的文字和上传百度AI合成的音频，会自动的3D视频。（上传的是祖孙两人的音频对话，所以需要上传制作两个人物对应的文字/音频/人物头像）
+
+## Midjourney的五大变现的可行方法
+
+1.制作微信表情包
+
+2.包装设计
+
+3.AI插画定制
+
+4.AI品牌投稿比赛
+
+5.Midjourney共享账号出售，30美金一个账号可以共享使用，然后拿去出售

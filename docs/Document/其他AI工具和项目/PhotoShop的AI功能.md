@@ -7,6 +7,8 @@
 - 【PS的ai修图强到离谱！已经有人开始骗了】<https://www.bilibili.com/video/BV1uu4y1Z75z?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 - 【Photoshop接入AI，得让多少人毕业即“失业”？？？】<https://www.bilibili.com/video/BV11u411s7ch?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 - 【【内含AI修图宝典】全新版本 PS 2023 AI ！全民开挂修图时代来临！】<https://www.bilibili.com/video/BV1PN411k77a?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+- 【1.Photoshop2023Beta爱国版全套入门教程及安装！内置Ai创意填充绘图！全民开挂修图时代来临！】<https://www.bilibili.com/video/BV1fh411w7Uw?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+- 【2.Photoshop2023Beta爱国版全套入门教程及安装！内置Ai创意填充绘图！全民开挂修图时代来临！】<https://www.bilibili.com/video/BV1fh411w7Uw?p=2&vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 文字教程：
 
@@ -15,3 +17,5 @@
 软件下载安装：
 
 [Photoshop 2023 24.6.0精简版](https://xd.x6d.com/i-wz-21373.html)
+
+## PS中的SD插件，快速做出三维卡通版风格的海报

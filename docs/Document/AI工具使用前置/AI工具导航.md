@@ -1,10 +1,10 @@
 # AI工具导航
 
-### 藏AI相关的实用工具
+## 藏AI相关的实用工具
 
 [ikaijua/Awesome-AITools: Collection of AI-related utilities. Welcome to submit issues and pull requests /收藏AI相关的实用工具，欢迎提交issues 或者pull requests (github.com)](https://github.com/ikaijua/Awesome-AITools)
 
-### 未来百科
+## 未来百科
 
 是一个全面收录AI工具的导航网站，涵盖了多个领域和应用场景的优质AI产品。该网站旨在为用户提供一个方便快捷地寻找和使用AI工具的平台，让人们更好地了解和利用这些先进技术。
 
@@ -16,25 +16,25 @@
 
 网址：[未来百科](https://nav.6aiq.com/)
 
-### iThinkAi
+## iThinkAi
 
 [iThinkAi-Tools](https://app.ithinkai.world/)
 
 [AI Apps 应用 网址导航 - CoolTools](https://cooltools.top/ai.html)
 
-### 工具达人AI
+## 工具达人AI
 
 [AI导航 - AI人工智能工具导航 | 工具达人 (toolsdar.com)](https://toolsdar.com/ai)
 
-### 飞猪ai导航
+## 飞猪ai导航
 
 [ai导航-飞猪ai导航,一起用ai工具集箱网站吧!它是你的人工智能研究所,为你收集国内外aigc软件服务网址导航 (feizhuke.com)](https://feizhuke.com/)
 
-### 微飞AI导航
+## 微飞AI导航
 
 [AI导航-薇飞导航 (fwfly.com)](https://www.fwfly.com/category-aidaohang.html)
 
-### AI 研究所【重点】
+## AI 研究所【重点】
 
 AI研究所是一个致力于推进人工智能研究和发展的在线网站，有着全球AI工具资讯首发和**1200+AI工具**。
 
@@ -42,55 +42,55 @@ AI研究所是一个致力于推进人工智能研究和发展的在线网站，
 
 > 传送门：[https://www.aiyjs.com/](http://www.aiyjs.com/)
 
-### AIGC Magic
+## AIGC Magic
 
 各种AI工具集合和使用教程
 
 [AIGC Magic AI赋能超级个体-找到适合自己的AIGC产品](https://aigcmagic.com/)
 
-### AI 工具集合
+## AI 工具集合
 
 > 传送门：[aitoolist.net](http://www.aitoolist.net)
 
 通过这个网站就能了解到时下**热门的AI工具**、最及时的AI动态信息，包括AI写作、AI讲故事、AI图片生成、AI代码助手、AI健康、AI金融、AI设计等等，一个网站搞定~
 
-### AIHub
+## AIHub
 
 **简介**：AI 工具聚合站点，包括了中文 AI 工具。
 
 地址：[AIHub - 免费好用的AI工具箱 | AI工具网址导航](https://www.aihub.cn/)
 
-### AI-Lib
+## AI-Lib
 
 **简介**：发现和探索人工智能工具。国内站点。
 
 **访问地址**：[https://www.ai-lib.club/](https://www.ai-lib.club/)
 
-### 750+ AI Resources
+## 750+ AI Resources
 
 访问地址：[750+ AI Resources (notion.site)](https://ignacio-velasquez.notion.site/750-AI-Resources-30379fa273a740aa9e263a405d0f80f1)
 
-### Hugging Face
+## Hugging Face
 
 **简介**：Al 社区，目前已经共享了超100,000个预训练模型，10,000个数据集，变成了机器学习界的github。
 
 **访问地址**：[https://huggingface.co/](https://huggingface.co/)
 
-### Al-research-tools
+## Al-research-tools
 
 简介: A 学术研究工具，用它辅助写论文，做学术研究事半功倍
 
 [github.com](https://github.com/)搜索Al-research-tools
 
-### Futurepedia
+## Futurepedia
 
 作为最大的AI导航网站，Futurepedia收录了50余个分类的上千个AI工具！
 
 是否收费进行了不同的标记，如Free Trial代表免费试用，Freemium代表免费增值，方便大家进行选择。
 
-网址：https://www.futurepedia.io/
+网址：<https://www.futurepedia.io/>
 
-### FutureTools
+## FutureTools
 
 FutureTools是一个AI工具导航网站，收集和整理了各种各样的AI工具，让用户可以方便地发现和使用更多的AI人工智能工具。这些工具涵盖了多个领域和用途，例如营销、创意、生产力、娱乐、金融、教育等。用户可以根据自己的需求和兴趣，浏览或搜索不同的类别和标签，找到适合自己的AI工具，并点击访问它们的官方网站或应用程序。
 
@@ -99,10 +99,6 @@ FutureTools是一个AI工具导航网站，收集和整理了各种各样的AI�
 同时，还提供通过AI收集的每日更新的AI新闻，让你紧跟AI行业的趋势和热闻。
 
 FutureTools不仅是一个AI工具目录网站，它还提供了一些其他的功能和资源，例如：
-
-
-
-
 
 - 新闻：用户可以在这里查看最新的AI相关的新闻和动态，了解AI行业的发展和趋势。
 - 学习：用户可以在这里学习一些基础的AI知识和概念，例如什么是AI、AI的历史和未来、AI的应用和影响等。
@@ -117,9 +113,9 @@ FutureTools作为一个AI工具目录网站，有一些特色功能，让用户�
 - 收藏：可以让用户收藏自己喜欢或想要再次使用的AI工具。只需在每个AI工具的页面上点击收藏按钮，将其添加到自己的收藏夹中。然后可以在个人中心查看和管理自己的收藏夹，并随时访问自己收藏的AI工具。
 - 评价：这是一个互动的功能，可以让用户对自己使用过的AI工具进行评价和评论。可以在每个AI工具的页面上给出自己的评分和意见，分享自己的体验和感受。用户也可以查看其他用户的评价和评论，并与他们进行交流和讨论。
 
-体验地址：https://www.futuretools.io/
+体验地址：<https://www.futuretools.io/>
 
-### AI Design Resource
+## AI Design Resource
 
 AI Design Resource是一个专注于收录产品设计常用的AI工具网站。
 
@@ -127,55 +123,55 @@ AI Design Resource是一个专注于收录产品设计常用的AI工具网站。
 
 网站涵盖有3D、分析、头像、色彩、文案、绘画、图片生成、Logo生成、演示、项目管理、UX调研、视频生成等分类，目前收录了超过200个AI工具和网站。
 
-体验地址：https://aidesignresource.com/
+体验地址：<https://aidesignresource.com/>
 
-### There's An AI For That
+## There's An AI For That
 
 There's an AI for That是一个AI工具分享列表网站。
 
-体验地址：https://theresanaiforthat.com/
+体验地址：<https://theresanaiforthat.com/>
 
 网站每天都会发布新的人工智能应用和产品，帮助用户发现让他们生活和工作更轻松的工具。
 
 该导航网站对不同AI工具的分类很全面，经常更新最新的内容，并提供了关于每个产品的详细功能的信息，目前针对于不同的500+任务，收录了超过2400余个AI工具。
 
-### 工具达人官网
+## 工具达人官网
 
 工具达人的AI导航是一个AI人工智能工具导航网站，该网站目前收录了文本语言、图片处理、音频处理、视频处理、生活助手、代码编程等6大分类的AI工具。
 
-体验地址：https://toolsdar.com/ai
+体验地址：<https://toolsdar.com/ai>
 
-### AI Breakfast
+## AI Breakfast
 
 **简介**：发现 AI 的Twitter 及 Newsletter
 
 地址：[AI Breakfast (beehiiv.com)](https://aibreakfast.beehiiv.com/)
 
-### AI 2045
+## AI 2045
 
 **简介**：Discover AI tools for the future
 
 **访问地址**：[https://ai2045.com/](https://ai2045.com/)
 
-### AI导航网
+## AI导航网
 
 AI导航网是一个专注收录优质AIGC人工智能项目的导航网站，包括AI写作工具、AI绘画修图工具、AI视频音频工具、AI写代码编程工具、以及其他一些交流社区和开放平台，除了AI产品的分享，网站内还包含了AI相关资讯以及AI使用教程。
 
 每一个AI工具，作者都还写了介绍文章，部分复杂的AI产品还包括了使用方法！小白福音~如果你对AI感兴趣，这个导航网站绝对不容错过，让你快速了解更多的AI信息，并利用AI解决问题。
 
-网站地址：https://ai.tboxn.com/
+网站地址：<https://ai.tboxn.com/>
 
-### AI导航
+## AI导航
 
 [AI导航 - ai人工智能爱好者必备ai导航网站！ (jb51.cc)](https://ai.jb51.cc/)
 
-### AI Depot
+## AI Depot
 
 **简介**：AI 工具清单
 
 **访问地址**：[https://aidepot.co/](https://aidepot.co/)
 
-### FuturePedia
+## FuturePedia
 
 **简介**：AI 收集和发现站点
 
@@ -183,13 +179,13 @@ AI导航网是一个专注收录优质AIGC人工智能项目的导航网站，�
 
 ![img](https://pic1.zhimg.com/80/v2-3f8806341211f179c263277500c028e4_720w.webp)
 
-### FutureTools
+## FutureTools
 
 **简介**：AI 工具收集站点
 
 **访问地址**：[https://www.futuretools.io/](https://www.futuretools.io/)
 
-### All Things AI
+## All Things AI
 
 **简介**：AI 工具和服务资源聚合站点
 
@@ -211,13 +207,13 @@ Allthingsai的特色功能主要有以下几点：
 
 **访问地址**：[https://allthingsai.com/](https://allthingsai.com/)
 
-### SaaS AI Tools
+## SaaS AI Tools
 
 SaaS AI Tools 是一个不断更新的 1500+ AI 工具导航网站，可帮助你增强创造力和发现AI趋势。随时了解每日 AI 新闻和工具。
 
 SaaS AI Tools是一个专注于提供各种AI人工智能工具和每日新闻的网站，旨在帮助你提升你的创造力和效率。无论你是商务人士、设计师、自由职业者还是爱好者，都可以在这个网站上找到适合你需求的AI工具。从商业到绘画和卡通，涵盖了各种不同类别的AI工具，让你可以轻松地创建、编辑、生成和管理各种内容。
 
-网址链接：https://saasaitools.com
+网址链接：<https://saasaitools.com>
 
 SaaS AI Tools不仅提供了丰富的AI工具，还提供了一个免费的AI入门套件，让你可以快速地了解和体验AI的魅力。此外网站还有一个博客栏目，定期发布关于AI的最新动态、技巧、案例和教程，让你可以跟上AI的发展趋势，学习如何更好地利用AI。
 
@@ -227,29 +223,29 @@ SaaS AI Tools是一个值得关注的AI人工智能工具集合网站，无论�
 
 **访问地址**：SaaS 领域的 AI 工具聚合站点
 
-### Creaitives
+## Creaitives
 
 **简介**：Browse the largest database of AI
 
 **访问地址**：[https://www.creaitives.com/tools](https://www.creaitives.com/tools)
 
-### Ai Tool Hunt
+## Ai Tool Hunt
 
 **简介**：
 
 **访问地址**：[https://www.aitoolhunt.com/](https://www.aitoolhunt.com/)
 
-### Getinference
+## Getinference
 
 **简介**：Find All You Need For
 
 **访问地址**：[https://airadar.getinference.com/](https://airadar.getinference.com/)
 
-### AI Tool Navigation
+## AI Tool Navigation
 
 AI Tool Navigation是一个专业的AI工具导航网站，为用户提供了海量的AI相关的工具、资源、平台、教程、案例等信息，帮助用户快速找到适合自己需求的AI解决方案。无论你是AI的初学者、爱好者、开发者、研究者还是企业家，都可以在AI Tool Navigation上发现有用的内容，提升你的AI技能和知识。
 
-网址链接：https://www.aitoolnavigation.com
+网址链接：<https://www.aitoolnavigation.com>
 
 AI Tool Navigation的目标是打造一个全面、权威、实用的AI工具导航平台，让用户能够方便地浏览、搜索、比较和使用各种AI工具，从而节省时间和精力，提高效率和质量。AI Tool Navigation不仅收录了国内外知名的AI工具，还包括了一些新兴的、有潜力的、有创意的AI工具，让用户能够及时了解AI领域的最新动态和趋势。
 
@@ -827,25 +823,25 @@ Aiwizard 是您查找和比较最佳 AI 工具的终极资源。只需选择类�
 
 网址链接：[https://www.aiwizard.ai/](https://www.aiwizard.ai/)
 
-### i For AI
+## i For AI
 
 AI一站式导航，你可以定制的AI世界！为AI而生 i For AI
 
 [i For AI - 人工智能工具，一站式导航 | 快速找到您需要的人工智能资源，发现最新、最全面的人工智能工具，探索人工智能领域的无限可能性！](https://iforai.com/)
 
-### AI-research-tools
+## AI-research-tools
 
 **简介**：AI 学术研究工具。
 
 **访问地址**：[https://github.com/bighuang624/AI-research-tools](https://github.com/bighuang624/AI-research-tools)
 
-### Kalos-AIGC 艺术家样式库
+## Kalos-AIGC 艺术家样式库
 
 **简介**：Your Ultimate Ai Artistic Style Library ✅ 目前全球规模最大，1300+艺术家共3万余张 4v1 样式图片； ✅ 覆盖三个主流图像生成模型； ✅ 为每个艺术家都生成了8~11种常见主题，如 人像、风景、科幻、街景、动物、花卉等主题
 
 **访问地址**：[https://lib.kalos.art/](https://lib.kalos.art/)
 
-### FlowUs 基于知识管理与协作平台的写作 AI
+## FlowUs 基于知识管理与协作平台的写作 AI
 
 **FlowUs**：除了**块编辑器**和**多维表格**等核心功能之外，围绕知识管理工作流支持了**微信剪藏、网页剪藏、思维导图、PDF 标注、文件夹页面、页面分享密码**等功能。
 
@@ -859,11 +855,11 @@ AI一站式导航，你可以定制的AI世界！为AI而生 i For AI
 
 **访问地址**：[https://flowus.cn/product](https://flowus.cn/product)
 
-### AI工具集
+## AI工具集
 
 AI工具集专注于收录和推荐国内外热门、创意、有趣、前沿的AI工具和网站，致力于为大家提供一个快速访问任意人工智能网站的门户和入口。我们的目标是让所有人都方便快捷地探索AI技术，让你在个人学习、生活和工作中充分利用人工智能的潜力。
 
-##### AI工具集的网站特色：
+#### AI工具集的网站特色
 
 - AI 工具和网站： 在AI工具集，你可以查看广泛的人工智能工具和应用程序的集合，本站收录了国内外数百个不同类型的AI工具，每日更新和添加最新AI工具，包括不限于AI写作工具、AI图像生成、AI音频转换、AI视频制作、AI编程开发、AI创意设计等分类，以满足你的不同需求。
 - AI 教程和指南： 通过我们简单易懂的教程、指南、百科了解人工智能的来龙去脉，即使你是初学者或完全不懂AI，也能帮助你在不断发展的人工智能领域，开发新的技能并增加你的知识。
@@ -871,107 +867,107 @@ AI工具集专注于收录和推荐国内外热门、创意、有趣、前沿的
 
 网址：[AI工具集导航 | 500+ AI工具导航大全，国内外AI工具集合网站 (ai-bot.cn)](https://ai-bot.cn/)
 
-### 一起用AI
+## 一起用AI
 
 一个国人创建的AI导航网站，除了集成了国内外的各大著名AI网站，还会有专门的注册和使用指南和相关资讯，可以说是非常贴心了！
 
-### GongJu.One
+## GongJu.One
 
 [GongJu.One - 一个/工具/聚合站](https://www.gongju.one/)
 
-### AIGC 导航
+## AIGC 导航
 
 一个非常全的AI工具导航，这个导航专门用来搜集一些借助AI来进行内容生产的工具，目前这个导航搜集了全球超过1240的AI工具集，而且种类非常非常的多
 
 [AIGC导航|AI工具导航|AI人工智能导航|找AI工具_一个AIGC导航网站就够了](https://www.aigc.cn/)
 
-### W3Cschool 的 AI工具箱
+## W3Cschool 的 AI工具箱
 
 [AI工具箱_W3Cschool极客导航](https://123.w3cschool.cn/navaitools)
 
-### AI工具箱
+## AI工具箱
 
 [AI工具箱 - 发现AI世界的优质资源，让AI技术变得更简单易用 - AI工具箱 (phpcms9.com)](https://www.phpcms9.com/)
 
-### 潮点 AI 工具导航
+## 潮点 AI 工具导航
 
 [潮点AI工具导航-AI导航站-专业AI人工智能网站导航 (aichaodian.com)](https://aichaodian.com/)
 
-### 工具达人
+## 工具达人
 
 [AI导航 - AI人工智能工具导航 | 工具达人 (toolsdar.com)](https://toolsdar.com/ai)
 
-### Jay 的资源库
+## Jay 的资源库
 
 [Jay的资源库 | 互联网资源集大成者 (lovejay.top)](https://www.lovejay.top/)
 
-### AI 导航
+## AI 导航
 
 [AI导航网 | 收录优质AI人工智能项目，与你一起遇见未来！ (tboxn.com)](https://ai.tboxn.com/)
 
-### AI 导航网  AINav
+## AI 导航网  AINav
 
 **简介**：中文 AI 工具导航站。AInav 是一个专为您整理最前沿的人工智能工具的平台，让您直接找到适合的工具，成为超人。
 
 [AI导航网 - 精选AI人工智能工具，发现好用AI (ainav.cn)](https://www.ainav.cn/)
 
-### AI在线免费导航
+## AI在线免费导航
 
 [AI免费导航 | 免费AI在线导航 AI大全网AI Online Free Nav (aiofn.com)](https://aiofn.com/)
 
-### AI之旅导航
+## AI之旅导航
 
 [AI之旅导航 | AI导航 - 最实用AI工具集和教程 (aijourney.vip)](https://aijourney.vip/)
 
-### 123.5bei
+## 123.5bei
 
 [aigc网址导航 | 带你玩转AIGC (5bei.cn)](https://www.123.5bei.cn/)
 
-### 91wink
+## 91wink
 
 [91Wink | AI导航](https://www.91wink.com/)
 
-### AI兔子 一站式跨境AI工具大全
+## AI兔子 一站式跨境AI工具大全
 
 [aitools888.com | ai兔子工具导航-ai跨境工具大全](https://aitools888.com/)
 
-### AI工具箱——AI工具汇聚，全方位满足你的各种需求
+## AI工具箱——AI工具汇聚，全方位满足你的各种需求
 
 [AI工具箱 | 人工智能领域工具导航网站 | AILOOKME](https://www.ailookme.com/)
 
-### AIL
+## AIL
 
 [AIL - 人工智能工具资源库 (ai-lib.club)](https://www.ai-lib.club/)
 
-### AIG123 工具导航
+## AIG123 工具导航
 
 [AIG123.com | AI工具导航 | AIGC工具网址大全](https://www.aig123.com/)
 
-### 零沫AI工具导航
+## 零沫AI工具导航
 
 [零沫AI工具导航-全球智能AI工具集网站，AI工具大全，AI工具箱 (0mo.com)](https://0mo.com/)
 
-### 未来百科
+## 未来百科
 
 [未来百科 | 为发现全球优质AI工具产品而生 (6aiq.com)](https://nav.6aiq.com/)
 
-### AI Way
+## AI Way
 
 [AI智式官网 | AI工具导航站丨500+AI工具和国外AI工具合集 (aiwaytools.com)](https://aiwaytools.com/)
 
-### gptdemo
+## gptdemo
 
 [Gpt Demo - 发现最新最好用的AI工具 - GptDemo.Net](https://www.gptdemo.net/cn)
 
-### openai666
+## openai666
 
 [一站式AI导航 | 人工智能领域的导航网站-OpenAI666.com](https://openai666.com/)
 
-### AI 大师
+## AI 大师
 
 [AI大师 | 500+AI工具导航网站！ (aidashi.cn)](https://www.aidashi.cn/)
 
-### AIAGC导航
+## AIAGC导航
 
 AIAGC导航是一个专注于AI人工智能工具网站推荐的导航网站，可以帮助大家发现最新、最好用、最有趣的AI绘画、AI智能写作助手、AI聊天机器人、AI配音、AI音乐、AI换脸等各种AI工具应用软件，让AI帮助你更高效的工作、学习和娱乐。
 
@@ -981,15 +977,7 @@ AIAGC导航希望通过分享发现和使用过的AI人工智能工具网站，�
 
 **特色功能**
 
-
-
-
-
 AIAGC导航有以下几个特色功能：
-
-
-
-
 
 - 分类清晰：AIAGC导航将各种AI人工智能工具网站按照功能和用途进行了分类，例如：AI绘画、AI智能写作助手、AI聊天机器人、AI配音、AI音乐、AI换脸等，方便用户根据自己的需求和兴趣快速找到合适的AI人工智能工具网站。
 - 评价客观：AIAGC导航对每个推荐的AI人工智能工具网站都进行了简短的介绍，包括：简介、截图等，让用户可以在浏览网站之前就有一个大致的了解和判断，避免浪费时间和精力。
@@ -1000,15 +988,15 @@ AIAGC导航有以下几个特色功能：
 
 网址：[AIAGC导航 – 专业的AI人工智能工具导航网站](https://www.aiagc.com/)
 
-### ChatGPT 导航站
+## ChatGPT 导航站
 
 [chatGPT导航站 | 一站式解决你遇到所有chatGPT的问题 (aifuturecome.com)](https://www.aifuturecome.com/)
 
-### TopAi.tools
+## TopAi.tools
 
 TopAi.tools是一个专注于AI工具的在线导航网站，每天为用户提供最新、最有用的AI工具，帮助用户提高个人和商业的生产力。涵盖了多个领域和场景的AI工具，包括图像、视频、音频、文本、数据分析、设计、开发、教育、营销、社交媒体等。用户可以在TopAi.tools上浏览、搜索、收藏和评价各种AI工具，也可以提交自己发现或开发的AI工具，与其他用户分享和交流。
 
-网址链接：https://topai.tools
+网址链接：<https://topai.tools>
 
 TopAi.tools不仅是一个AI工具的展示平台，也是一个AI工具的推荐平台。根据用户的兴趣和需求，为用户提供特别优惠、快速列表、精选工具等功能，帮助用户发现最适合自己的AI工具。TopAi.tools还提供了一些AI提示指南，教用户如何使用一些常见的AI工具，激发用户的创造力和灵感。
 
@@ -1034,71 +1022,71 @@ TopAi.tools为用户提供了一些AI提示指南，教用户如何使用一些�
 
 [Best and top AI tools and Services list](https://topai.tools/)
 
-### 飞猪 AI 导航
+## 飞猪 AI 导航
 
 [ai导航-飞猪ai导航,一起用ai工具集箱网站吧!它是你的人工智能研究所,为你收集国内外aigc软件服务网址导航 (feizhuke.com)](https://feizhuke.com/)
 
-### 优设AI导航
+## 优设AI导航
 
 优设网站官方收集的设计用的AI工具合集
 
 [AI导航 - 优设AI导航 - 专业AIGC网站导航 (uisdc.com)](https://hao.uisdc.com/ai/)
 
-### AI 导航猫
+## AI 导航猫
 
 [AI导航猫-AI导航网_AI工具箱_AI网站大全_AI绘画网站 (h1z1tmc.com)](https://www.h1z1tmc.com/)
 
-### AI工具箱
+## AI工具箱
 
 [AI工具箱 - AI工具集合导航第一站 (aiodt.com)](https://www.aiodt.com/)
 
-### 51bbo
+## 51bbo
 
 [AI工具导航 | AIGC导航 (51bbo.com)](https://www.51bbo.com/)
 
-### AMZ123 AI导航
+## AMZ123 AI导航
 
 [AI工具导航 - AI人工智能导航 - AMZ123](https://www.amz123.com/ai)
 
 ## 国外AI导航网站
 
-### theresanaiforthat
+## theresanaiforthat
 
 > [https://theresanaiforthat.com/](https://theresanaiforthat.com/)
 
 个性鲜明的网站
 
-### futurepedia
+## futurepedia
 
 Futurepedia是一个人工智能工具导航网站，为用户提供了一个方便快捷的方式，来发现和使用各种人工智能工具。Futurepedia收录了1400+多个人工智能工具，涵盖了40多个类别，如文案写作、图像生成和视频编辑。可以按照类别、价格和功能来搜索和过滤自己感兴趣的工具，并且可以查看每个工具的详细介绍、评价和截图。Futurepedia还会每天更新5个以上的新人工智能工具，让用户随时了解最新的人工智能动态和趋势。
 
 > [https://www.futurepedia.io/](https://www.futurepedia.io/)
 
-### aidesignresource
+## aidesignresource
 
 > [https://aidesignresource.com/](https://aidesignresource.com/)
 
 不仅仅收录 AIGC 工具的网站，还有很多神级功能
 
-### huggingface
+## huggingface
 
 > [https://huggingface.co/](https://huggingface.co/)
 
 非常著名的网站，其功能都很强大，值得浏览
 
-### AI Depot
+## AI Depot
 
 > [https://aidepot.co/](https://aidepot.co/)
 
-### AiBard123 AI导航
+## AiBard123 AI导航
 
-网址：https://aibard123.com/
+网址：<https://aibard123.com/>
 
 它是全中文的一个网站，没有网页翻译工具的朋友可以用，它里面不仅集合了国外的AI工具，还有很多国内的AI工具，给大家分享三个。而且还是一个开源的项目，这个项目在[github](https://github.com/go2coding/go2coding.github.io)上。
 
 这个网站收录了国内热门的开源AI工具产品，包括TensorFlow、PyTorch和Keras等。对于那些想要深入学习AI的人，我们还提供了详细的学习教程，帮助您成为一个优秀的AI工程师。此外，我们还提供了一些优秀的开源AI代码库和资源，供学习和研究使用。在我们的网站上，您可以轻松地了解最新的AI技术趋势，发现新的开源AI工具产品，并与其他AI工程师交流分享经验。作为一个开源AI工具爱好者，这个网站绝对是您必须拥有的资源。
 
-### All Things AI
+## All Things AI
 
 它的界面设计相比`futurepedia`来说更加美观，他的工具分类这块做的相对会更好一些。提供了快速简单的导航方式，让您轻松找到所需的AI工具。
 网站的核心功能包括词汇表、投稿通道和检索。
@@ -1111,47 +1099,47 @@ Futurepedia是一个人工智能工具导航网站，为用户提供了一个方
 
 > [https://allthingsai.com/](https://allthingsai.com/)
 
-### creaitives
+## creaitives
 
 > [https://www.creaitives.com](https://www.creaitives.com)
 
-地址：https://www.creaitives.com/tools
+地址：<https://www.creaitives.com/tools>
 
 Creaitives网站定期抓取所有其他 AI 数据库并汇总数据，目前，已收录了800+AI工具，配合浏览器翻译插件使用会更好。
 
 **Airadar.getinference**
 
-网址：https://airadar.getinference.com/
+网址：<https://airadar.getinference.com/>
 
 找到你需要的一切,主要用于创意和营销的AI工具 500+产品
 
-### aitoolhunt
+## aitoolhunt
 
 > [https://www.aitoolhunt.com/](https://www.aitoolhunt.com/)
 
-### aitoolnavigation
+## aitoolnavigation
 
 > [https://www.aitoolnavigation.com/](https://www.aitoolnavigation.com/)
 
-### kalos
+## kalos
 
 > [https://lib.kalos.art](https://lib.kalos.art)
 
 一个很炫酷的网站，还有 APP
 
-### hayo
+## hayo
 
 > [https://www.hayo.com/](https://www.hayo.com/)
 
-### easywithai
+## easywithai
 
 > [https://easywithai.com/](https://easywithai.com/)
 
-### ai tools directory
+## ai tools directory
 
 AI Tools Directory是一个专注于AI软件工具的导航网站，收录了世界上最好的AI工具，并按照不同的类别和功能进行了分类和标注，方便用户根据自己的需求进行筛选和浏览。无论你是想要用AI来生成高质量的内容、编辑精美的图片、制作有趣的视频、创作独特的音乐、自动化繁琐的任务、或者集成AI助手到你的工作流程中，都可以在这个网站上找到合适的工具。这些工具都经过了精心的挑选和评价，只有最优秀和最实用的工具才能入选。此外，网站还会定期更新和添加新的AI工具，让你可以随时了解AI领域的最新动态和发展。
 
-网址链接：https://aitoolsdirectory.com
+网址链接：<https://aitoolsdirectory.com>
 
 **特色功能**
 
@@ -1164,222 +1152,222 @@ AI Tools Directory是一个专注于AI软件工具的导航网站，收录了世
 
 > [https://aitoolsdirectory.com/](https://aitoolsdirectory.com/)
 
-### ai2045
+## ai2045
 
 > [https://ai2045.com/](https://ai2045.com/)
 
-### saasaitools
+## saasaitools
 
 > [https://saasaitools.com/](https://saasaitools.com/)
 
-### aiawesome
+## aiawesome
 
 > [https://www.aiawesome.com/](https://www.aiawesome.com/)
 
-### supertools
+## supertools
 
 > [https://supertools.therundown.ai/](https://supertools.therundown.ai/)
 
-### whattheai
+## whattheai
 
 > [https://whattheai.tech/](https://whattheai.tech/)
 
-### saasgpters
+## saasgpters
 
 > [https://saasgpters.com/](https://saasgpters.com/)
 
-### aitoolnet
+## aitoolnet
 
 > [https://www.aitoolnet.com](https://www.aitoolnet.com/)
 
-### favird
+## favird
 
 > [https://favird.com/l/ai-tools-and-applications](https://favird.com/l/ai-tools-and-applications)
 
-### listintai
+## listintai
 
 > [https://www.listintai.com/](https://www.listintai.com/)
 
-### marsx
+## marsx
 
 > [https://www.marsx.dev/ai-startups](https://www.marsx.dev/ai-startups)
 
-### toolspedia
+## toolspedia
 
 > [https://www.toolspedia.io/](https://www.toolspedia.io/)
 
-### er
+## er
 
 > [https://aitooltracker.com/](https://aitooltracker.com/)
 
-### flipbytes
+## flipbytes
 
 > [https://www.flipbytes.com/](https://www.flipbytes.com/)
 
-### aitoolsarena
+## aitoolsarena
 
 > [https://aitoolsarena.com/](https://aitoolsarena.com/)
 
-### aiscout
+## aiscout
 
 > [https://aiscout.net/](https://aiscout.net/)
 
-### aitoolswiki
+## aitoolswiki
 
 > [https://aitoolswiki.com/](https://aitoolswiki.com/)
 
-### aidir
+## aidir
 
 > [https://www.aidir.cc/](https://www.aidir.cc/)
 
-### amaete
+## amaete
 
 > [https://www.amaete.ai/](https://www.amaete.ai/)
 
-### chataiapps
+## chataiapps
 
 > [https://www.chataiapps.com/](https://www.chataiapps.com/)
 
-### aidirectory
+## aidirectory
 
 > [https://www.aidirectory.org/](https://www.aidirectory.org/)
 
-### wikiaitools
+## wikiaitools
 
 > [https://www.wikiaitools.com/](https://www.wikiaitools.com/)
 
-### free ai tools directory
+## free ai tools directory
 
 > [https://free-ai-tools-directory.com/](https://free-ai-tools-directory.com/)
 
-### aitoolsguide
+## aitoolsguide
 
 > [https://aitoolsguide.com/](https://aitoolsguide.com/)
 
-### victrays
+## victrays
 
 > [https://victrays.com/](https://victrays.com/)
 
-### chatgptdemo
+## chatgptdemo
 
 > [https://chatgptdemo.com/](https://chatgptdemo.com/)
 
-### gptforge
+## gptforge
 
 > [https://gptforge.net/](https://gptforge.net/)
 
-### theaigeneration
+## theaigeneration
 
 > [https://www.theaigeneration.com/](https://www.theaigeneration.com/)
 
-### futureagitools
+## futureagitools
 
 > [https://www.futureagitools.com/](https://www.futureagitools.com/)
 
-### aitools
+## aitools
 
 > [https://www.aitools.directory/](https://www.aitools.directory/)
 
-### aistartups
+## aistartups
 
 > [https://www.aistartups.net/](https://www.aistartups.net/)
 
-### thewarehouse
+## thewarehouse
 
 > [https://www.thewarehouse.ai/](https://www.thewarehouse.ai/)
 
-### appsandwebsites
+## appsandwebsites
 
 > [https://appsandwebsites.com/](https://appsandwebsites.com/)
 
-### faind
+## faind
 
 > [https://faind.ai/](https://faind.ai/)
 
-### digiprotoolz
+## digiprotoolz
 
 > [https://digiprotoolz.com/](https://digiprotoolz.com/)
 
-### aicenter
+## aicenter
 
 > [https://aicenter.ai/](https://aicenter.ai/)
 
-### discovertools
+## discovertools
 
 > [https://discovertools.io/](https://discovertools.io/)
 
-### toolscout
+## toolscout
 
 > [https://toolscout.ai/](https://toolscout.ai/)
 
-### ai finder
+## ai finder
 
 > [https://ai-finder.net/](https://ai-finder.net/)
 
-### toolsnocode
+## toolsnocode
 
 > [https://www.toolsnocode.com/ai](https://www.toolsnocode.com/ai)
 
-### ailib
+## ailib
 
 > [https://ailib.ru/](https://ailib.ru/)
 
-### phygital
+## phygital
 
 > [https://library.phygital.plus/](https://library.phygital.plus/)
 
-### myai
+## myai
 
 > [https://www.myai.tools/](https://www.myai.tools/)
 
-https://saasaitools.com/#tools
+<https://saasaitools.com/#tools>
 
-https://allthingsai.com/
+<https://allthingsai.com/>
 
-https://www.futurepedia.io/
+<https://www.futurepedia.io/>
 
-https://gpt3demo.com/map
+<https://gpt3demo.com/map>
 
 ## AI导航网站集合
 
 **中文网站：**
 
-1. **AI工具集：https://ai-bot.cn/**
-2. **AI研究所：https://www.aiyjs.com/**
-3. **AIHub：https://www.aihub.cn/**
-4. **AI工具集合：https://www.aitoolist.cn/**
-5. **amz123 AI导航：https://www.amz123.com/ai**
-6. **AI导航：https://ai.tboxn.com/**
-7. **深度导航：https://www.deepdh.com/ai**
-8. **AI帮个忙：https://aibang.run/**
-9. **一起用AI：https://17yongai.com/**
-10. **AI-Lib：https://www.ai-lib.club/**
+1. **AI工具集：<https://ai-bot.cn/>**
+2. **AI研究所：<https://www.aiyjs.com/>**
+3. **AIHub：<https://www.aihub.cn/>**
+4. **AI工具集合：<https://www.aitoolist.cn/>**
+5. **amz123 AI导航：<https://www.amz123.com/ai>**
+6. **AI导航：<https://ai.tboxn.com/>**
+7. **深度导航：<https://www.deepdh.com/ai>**
+8. **AI帮个忙：<https://aibang.run/>**
+9. **一起用AI：<https://17yongai.com/>**
+10. **AI-Lib：<https://www.ai-lib.club/>**
     1. **简介**：发现和探索人工智能工具。就是访问速度有些慢。
-11. **AI导航网：http://www.ainav.cn/**
-12. **AI123导航：http://www.fsl123.com/**
-13. **懂AI：http://www.dongaiapp.com/**
-14. **AIAGC：https://www.aiagc.com/**
-15. **工具达人官网AI导航：https://toolsdar.com/ai**
-16. **AIGC.CN：https://www.aigc.cn/**
-17. **ExplainAI：https://www.explainthis.io/zh-hans/ai-toolkit**
+11. **AI导航网：<http://www.ainav.cn/>**
+12. **AI123导航：<http://www.fsl123.com/>**
+13. **懂AI：<http://www.dongaiapp.com/>**
+14. **AIAGC：<https://www.aiagc.com/>**
+15. **工具达人官网AI导航：<https://toolsdar.com/ai>**
+16. **AIGC.CN：<https://www.aigc.cn/>**
+17. **ExplainAI：<https://www.explainthis.io/zh-hans/ai-toolkit>**
 
 **英文网站：**
 
-1. **Ai Design Resource：https://aidesignresource.com/**
+1. **Ai Design Resource：<https://aidesignresource.com/>**
 
-2. **All Things AI：https://allthingsai.com/**
+2. **All Things AI：<https://allthingsai.com/>**
 
-3. **SaaS** **AI Tools：https://saasaitools.com/**
+3. **SaaS** **AI Tools：<https://saasaitools.com/>**
 
-4. **futurepedia：https://www.futurepedia.io/**
+4. **futurepedia：<https://www.futurepedia.io/>**
 
-5. **Futuretools：https://www.futuretools.io/**
+5. **Futuretools：<https://www.futuretools.io/>**
 
-6. **Easy With AI：https://easywithai.com/**
+6. **Easy With AI：<https://easywithai.com/>**
 
    1. Easy With AI是一个AI工具导航网站，收集了各种类型和领域的AI工具，让用户可以方便地找到和使用适合自己的AI工具。无论你是想要提高工作效率，还是想要拓展创意空间，或者想要探索AI的未来趋势，都可以为你提供合适的AI工具。
 
-      网址链接：https://easywithai.com
+      网址链接：<https://easywithai.com>
 
       **特色功能**
 
@@ -1389,13 +1377,13 @@ https://gpt3demo.com/map
       - 工具收藏：用户可以收藏自己喜欢或常用的AI工具，方便以后再次使用或分享。你可以根据自己的喜好和习惯，收藏自己觉得有价值或有趣的AI工具，建立自己的AI工具库。
       - 工具反馈：可以对每个AI工具进行评分和评论，表达自己的意见和建议，帮助其他用户和开发者改进AI工具。可以根据自己的使用体验和感受，给出自己的评分和评论，参与到AI工具的改进和发展中。
 
-7. **Creaitives：https://www.creaitives.com/**
+7. **Creaitives：<https://www.creaitives.com/>**
 
-8. **AI Tool Hunt：https://www.aitoolhunt.com/**
+8. **AI Tool Hunt：<https://www.aitoolhunt.com/>**
 
    1. AI Tool Hunt是一个专门为发现最好的人工智能工具而设计的导航网站。不断地更新最新和最好的人工智能工具，让用户可以轻松地发现和比较适合他们特定需求的选项。无论你是想要用人工智能来生成文本、图像、音频、视频，还是想要用人工智能来提高你的生产力、创造力、沟通能力，或者想要用人工智能来学习、娱乐、启发，你都可以在AI Tool Hunt找到合适的AI工具。AI Tool Hunt还提供了各种分类、标签、评分、评论等功能，帮助你更快更准确地找到你想要的工具。
 
-      网址链接：https://www.aitoolhunt.com
+      网址链接：<https://www.aitoolhunt.com>
 
       **特色功能**
 
@@ -1405,33 +1393,33 @@ https://gpt3demo.com/map
       - 评论功能：可以在每个工具的详情页中，看到其他用户对该工具的评价和反馈。你也可以在下方留下你自己的评论，分享你对该工具的使用体验和建议。还可以对其他用户的评论进行点赞或回复。
       - 提交功能：如果你是一个人工智能工具的开发者或推广者，可以在网站的右上角点击“添加工具”按钮，来提交你的工具到AI Tool Hunt。提交后，你的工具会自动通过审核，并显示在网站上。这样就可以获得更多的曝光度和流量。
 
-9. **Airadar.getinference：https://airadar.getinference.com/**
+9. **Airadar.getinference：<https://airadar.getinference.com/>**
 
-10. **THERE 'S AN AI FOR THAT：https://theresanaiforthat.com/**
+10. **THERE 'S AN AI FOR THAT：<https://theresanaiforthat.com/>**
 
-11. **TopAi.tools：https://topai.tools/**
+11. **TopAi.tools：<https://topai.tools/>**
 
-12. **AI Tools Directory：https://aitoolsdirectory.com**
+12. **AI Tools Directory：<https://aitoolsdirectory.com>**
 
-13. **Toptools.ai：https://www.toptools.ai/**
+13. **Toptools.ai：<https://www.toptools.ai/>**
 
     1. Toptools.ai是一个专注于提供各种AI工具导航的网站，旨在帮助用户提高工作效率和创造力。Toptools.ai上提供的AI工具涵盖了文本、图像、音频、视频、数据等多个领域，包括了文本生成、文本摘要、文本翻译、图像生成、图像编辑、音频转文字、视频剪辑、数据可视化等功能。所有工具都是基于人工智能技术开发的，能够根据用户的输入和需求，快速地生成高质量的输出结果。
 
-       网址链接：https://www.toptools.ai
+       网址链接：<https://www.toptools.ai>
 
        Toptools.ai是一个适合各种用户和场景的平台，无论你是学生、老师、作家、设计师、记者、营销人员、企业家，还是其他任何职业，都可以在Toptools.ai找到适合你的AI工具，帮助你完成你的任务和项目。无论你是想要写一篇文章、制作一张海报、编辑一段音频、剪辑一部视频，还是想要分析一组数据，都可以在toptools.ai找到相应的工具，让你的工作变得更加轻松和有趣。
 
-14. **AI2045：https://ai2045.com/**
+14. **AI2045：<https://ai2045.com/>**
 
-15. **AI-Hunter：https://ai-hunter.io/**
+15. **AI-Hunter：<https://ai-hunter.io/>**
 
-16. **AI Tool Navigation：https://www.aitoolnavigation.com/**
+16. **AI Tool Navigation：<https://www.aitoolnavigation.com/>**
 
-17. **Allaitools.io：https://allaitools.io/**
+17. **Allaitools.io：<https://allaitools.io/>**
 
     1. Allaitools.io是一个AI工具导航网站，收集了各种人工智能（AI）工具的信息，让用户可以方便地搜索、浏览和使用这些工具。allaitools.io每天都会更新新的AI工具，目前已经有超过1000个工具被收录，涵盖了各个领域和功能，例如代码助手、教育、生活助手、财务、娱乐等。allaitools.io的目标是成为最大的AI工具目录，让用户可以发现和利用AI的无限可能。
 
-       网址链接：https://allaitools.io
+       网址链接：<https://allaitools.io>
 
        allaitools.io的网站设计简洁明了，用户可以通过关键词搜索或者分类浏览来找到自己感兴趣的AI工具。每个工具都有一个简短的介绍，包括名称、价格、功能、标签等，用户可以点击查看更多详情，或者直接访问工具的官网。allaitools.io还提供了一些额外的功能，例如用户可以给自己喜欢的工具添加收藏，或者给工具提供反馈和建议。
 
@@ -1447,11 +1435,11 @@ https://gpt3demo.com/map
        - 收藏功能：allaitools.io允许用户给自己喜欢的AI工具添加收藏，方便以后再次查看或使用。可以在个人中心查看自己的收藏列表，并对收藏进行管理。
        - 反馈功能：allaitools.io鼓励用户给AI工具提供反馈和建议，帮助改进和优化工具的质量和体验。用户可以在每个工具的详情页点击“suggest an edit”按钮来提交反馈。
 
-18. **Igniter.ai：https://www.igniter.ai/**
+18. **Igniter.ai：<https://www.igniter.ai/>**
 
-19. **AI Depot：https://aidepot.co/**
+19. **AI Depot：<https://aidepot.co/>**
 
-20. **WhatTheAI：https://whattheai.tech/**
+20. **WhatTheAI：<https://whattheai.tech/>**
 
 ## 具体工具介绍
 
@@ -1459,15 +1447,15 @@ https://gpt3demo.com/map
 
 全球最最火爆的AI对话机器人
 
-- 地址https://chat.openai.com/
+- 地址<https://chat.openai.com/>
 
-### 需要国际网络才能使用
+## 需要国际网络才能使用
 
-### 产品简介
+## 产品简介
 
 ChatGPT是OpenAI旗下的人工智能技术驱动的AI对话聊天机器人，它能够通过学习和理解人类的语言来进行对话，还能根据聊天的上下文进行互动，真正像人类一样来聊天交流，甚至能完成撰写邮件、视频脚本、文案、翻译、代码等任务。
 
-### 产品功能
+## 产品功能
 
 ChatGPT是一个通用的语言模型，可以用于各种任务。以下能够做的一些事情：
 
@@ -1479,7 +1467,7 @@ ChatGPT是一个通用的语言模型，可以用于各种任务。以下能够�
 
 总之，ChatGPT可以作为你的智能帮手，帮助你更轻松地解决问题，找到答案，获得信息，或者只是提供一些娱乐和交流。
 
-### Awesome GPT-3
+## Awesome GPT-3
 
 **简介**：GPT-3 demos 产品和文章汇总
 
@@ -1499,23 +1487,21 @@ GPT-3 Demo是一个非常有价值的资源，可以让用户了解到AI的最�
 
 GitHub地址：[github.com](https://github.com/elyase/awesome-gpt3)
 
-官网：https://gpt3demo.com
+官网：<https://gpt3demo.com>
 
-### GPT-3 DEMO
+## GPT-3 DEMO
 
 **简介**：GPT 使用案例和延伸工具
 
 **访问地址**：[https://gpt3demo.com/](https://gpt3demo.com/)
 
-
-
 ## Bing搜索(ChatGPT版)
 
 像聊天一样使用Bing搜索，甚至能完成撰写邮件、视频脚本、文案、翻译、代码等任务。
 
-- 地址：https://www.bing.com
+- 地址：<https://www.bing.com>
 
-### 产品简介
+## 产品简介
 
 Bing搜索+ChatGPT，是在微软Bing搜索引擎中，集成了最新版的ChatGPT，除了传统的搜索功能外，还能够通过学习和理解人类的语言来进行对话，还能根据聊天的上下文进行互动，真正像人类一样来聊天交流，甚至能完成撰写邮件、视频脚本、文案、翻译、代码等任务。
 
@@ -1525,7 +1511,7 @@ Bing搜索+ChatGPT，是在微软Bing搜索引擎中，集成了最新版的Chat
 
 华为旗下的AI大模型
 
-- 地址https://www.huaweicloud.com
+- 地址<https://www.huaweicloud.com>
 
 根据华为云官网消息，华为旗下的盘古系列AI大模型即将上线，该系列AI大模型中的NLP大模型、CV大模型、科学计算大模型（气象大模型）已经标记为即将上线状态。
 
@@ -1545,7 +1531,7 @@ Google旗下的类ChatGPT对话机器人
 
 - 地址：bard.google.com
 
-### Bard是什么？
+## Bard是什么？
 
 Bard是一个类似ChatGPT的基于大型语言模型的聊天机器人。
 
@@ -1555,7 +1541,7 @@ Bard目前只支持英语，且不具备编码能力。
 
 官网地址：[bard.google.com](http://bard.google.com/)
 
-### 如何申请试用？
+## 如何申请试用？
 
 目前先从美国和英国用户开放，随后根据情况逐步开放其他地区。
 
@@ -1566,7 +1552,7 @@ Bard目前只支持英语，且不具备编码能力。
 - 第一步：可以打开谷歌（科学上网），IP节点使用美国或英国，浏览器使用无痕/隐私模式；
 - 第二步：最好使用国外邮箱，谷歌Gmail，微软outlook都行。
 
-### Bard可以做什么？
+## Bard可以做什么？
 
 “您可以使用 Bard 来提高您的工作效率、加速您的想法并激发您的好奇心。你可能会要求Bard给你一些提示，以实现今年阅读更多书籍的目标，用简单的术语解释量子物理学，或者通过概述博客文章来激发你的创造力，”谷歌产品副总裁 Sissie Hsiao 和谷歌研究副总裁 Eli Collins 在博客文章中写道。
 
@@ -1574,7 +1560,7 @@ Bard 中使用的模型基于谷歌自己的 LaMDA（对话应用程序语言模
 
 在巴黎的一次会议上，Google 解释说 Bard 尤其适用于“NORA”查询——“没有正确答案”的问题。当然，对话式人工智能在准确性、信息来源和道德权宜之计方面也会提出问题。
 
-### Bard是什么样子？
+## Bard是什么样子？
 
 首先，你会看到一个空白的聊天框，其下方有一条免责声明，上面写着“Bard 可能会显示不代表 Google 观点的不准确或令人反感的信息。
 
@@ -1592,47 +1578,47 @@ Bard 中使用的模型基于谷歌自己的 LaMDA（对话应用程序语言模
 
 商汤大语言模型
 
-- 地址：https://chat.sensetime.com/wb/
+- 地址：<https://chat.sensetime.com/wb/>
 
-### 商量是什么？
+## 商量是什么？
 
 “商量”是由商汤科技研发的一款基于自然语言处理技术的人工智能大语言模型，具备超凡的语言理解、生成能力，将科技与人文相互交融。作为高效聊天助手，它能秒解复杂问题，提供定制化建议，还能辅助创作一流文本，具备不断学习进化的特性。
 
-### 商量可以做什么？
+## 商量可以做什么？
 
-#### 通用对话能力
+### 通用对话能力
 
 作为高效聊天助手，它能秒解复杂问题，提供定制化建议，还能辅助创作一流文本。
 
-#### 商量·大医
+### 商量·大医
 
 商汤“大医”是基于海量医学知识和真实医患互动对话数据打造的中文医疗语言大模型，支持导诊、问诊、健康咨询、辅助决策等多场景多轮会话，持续赋能医院诊疗效率及患者服务提升。
 
-#### 商量 · AI代码助手
+### 商量 · AI代码助手
 
 商汤”AI代码助手”，引领编程新时代！智能创新助力，提升编程效率，简化开发流程。让编程变得轻松、高效、愉悦。立即加入我们，让AI助手成为您的得力助手，共同开启人工智能编程的未来！
 
-### 商量怎么用？
+## 商量怎么用？
 
 目前还没对外开放，请关注官网。
 
-官网地址是：https://chat.sensetime.com/wb/
+官网地址是：<https://chat.sensetime.com/wb/>
 
 ## 文心一言
 
 百度推出的类ChatGPT的AI对话机器人
 
-- 地址：https://yiyan.baidu.com/
+- 地址：<https://yiyan.baidu.com/>
 
-### 文心一言是什么？
+## 文心一言是什么？
 
 文心一言，英文名为ERNIE Bot，是百度基于文心大模型技术推出的生成式对话产品，类似ChatGPT的AI对话机器人。
 
 百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
 
-#### 产品官网：[立即访问](https://yiyan.baidu.com/)
+### 产品官网：[立即访问](https://yiyan.baidu.com/)
 
-### 如何 注册和使用
+## 如何 注册和使用
 
 目前没有直接可以体验的入口。
 
@@ -1642,7 +1628,7 @@ Bard 中使用的模型基于谷歌自己的 LaMDA（对话应用程序语言模
 
 目前可在官网直接申请体验，申请通过后，百度会通知你。
 
-文心一言官网：https://yiyan.baidu.com/
+文心一言官网：<https://yiyan.baidu.com/>
 
 2、企业客户：
 
@@ -1652,11 +1638,11 @@ Bard 中使用的模型基于谷歌自己的 LaMDA（对话应用程序语言模
 
 申请地址：
 
-https://cloud.baidu.com/survey_summit/wenxin.html
+<https://cloud.baidu.com/survey_summit/wenxin.html>
 
 按照要求填写完成后，申请通过后会收到百度通知。
 
-### 文心一言可以做什么？
+## 文心一言可以做什么？
 
 文心一言可以与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。
 
@@ -1702,7 +1688,7 @@ AI 星火营生态计划正式启动
 
 基于GPT4的开源项目，AI会自己promtp自己直接生成详细方案，非常好用
 
-- 开源地址：https://github.com/Torantulino/Auto-GPT
+- 开源地址：<https://github.com/Torantulino/Auto-GPT>
 
 你是否想过，有一天，你可以让一台机器为你完成各种复杂的任务，而不需要你亲自动手？你是否想过，有一天，你可以拥有一个智能的助理，它可以根据你的需求，自动搜索信息，编写代码，管理业务，甚至创造内容？如果你有这样的想法，那么你一定要了解一下 AutoGPT 。
 
@@ -1732,35 +1718,35 @@ AutoGPT 由于需要频繁地使用 GPT-4 来完成各种任务，因此消耗 t
 
 目前世界上最强大的开源AI绘画模型
 
-- 地址https://stability.ai/
+- 地址<https://stability.ai/>
 
-### 产品简介
+## 产品简介
 
 Stable Diffusion 是目前世界上最强大的开源AI绘画模型，只需要输入一句提示词（prompt），就能够在几秒钟内创造出令人惊叹的绘画作品。
 
 Stable Diffusion 完全免费开源，所有代码均在 GitHub 上公开，任何人都可以拷贝使用。
 
-此模型由Stability AI公司开发，官网：https://stability.ai/
+此模型由Stability AI公司开发，官网：<https://stability.ai/>
 
-### 使用地址
+## 使用地址
 
-1、个人在线使用：https://beta.dreamstudio.ai/
+1、个人在线使用：<https://beta.dreamstudio.ai/>
 
-Photoshop插件：https://exchange.adobe.com/apps/cc/114117da/stable-diffusion
+Photoshop插件：<https://exchange.adobe.com/apps/cc/114117da/stable-diffusion>
 
-2、开发者API调用地址：https://platform.stability.ai/
+2、开发者API调用地址：<https://platform.stability.ai/>
 
-3、GitHub开源地址（v2.0版）：https://github.com/Stability-AI/stablediffusion
+3、GitHub开源地址（v2.0版）：<https://github.com/Stability-AI/stablediffusion>
 
-4、Hugging face地址：https://huggingface.co/stabilityai/stable-diffusion-2-1
+4、Hugging face地址：<https://huggingface.co/stabilityai/stable-diffusion-2-1>
 
-### 使用教程
+## 使用教程
 
 [Stable Diffusion入门介绍和使用教程](https://mp.weixin.qq.com/s?__biz=MzI1MjQ2OTQ3Ng==&mid=2247589057&idx=2&sn=bf4ef82a82ff60fc003dfa2a0cab097e&chksm=e9e0954ade971c5c2ccf51c61f94012cd0b0006085593610ce8e99ab2c7fa278514935e42525&scene=27)
 
-### 模型库大全
+## 模型库大全
 
-https://civitai.com/
+<https://civitai.com/>
 
 ## Midjourney
 
@@ -1768,7 +1754,7 @@ https://civitai.com/
 
 - 地址：www.midjourney.com
 
-### 产品简介
+## 产品简介
 
 [Midjourney](http://www.midjourney.com/)是目前非常流行的AI绘画工具之一，只要输入关键词（prompt），就能通过AI生成对应的图片。
 
@@ -1776,7 +1762,7 @@ https://civitai.com/
 
 使用的话，需要先注册discord账号，然后进入Midjourney频道即可使用。
 
-### 产品特点
+## 产品特点
 
 - 支持丰富多样的艺术风格。无论你是在寻找一幅充满活力的彩色油画，还是一些更黑暗、更反乌托邦的作品，Midjourney都会为你提供一系列精选的风格。
 
@@ -1784,7 +1770,7 @@ https://civitai.com/
 
 - 普通人也可以画画了。你不需要画笔、铅笔或任何艺术用品来制作漂亮的艺术品，你所需要的只是一个想法，让Midjourney成为你作品的画笔。
 
-### 产品价格
+## 产品价格
 
 免费试用+收费版
 
@@ -1797,11 +1783,11 @@ https://civitai.com/
 
 DALL·E 2是OpenAI开发的一个免费使用的、开源的图像生成器
 
-- 地址https://openai.com/dall-e-2/
+- 地址<https://openai.com/dall-e-2/>
 
 | [chatGPT](https://chat.openai.com/) （需要梯子）        | [Midjourney](https://www.midjourney.com/) （AI图形生成，需要梯子） | [文心一言](https://yiyan.baidu.com/) （百度AI聊天）          |
 | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [文心一格](https://yige.baidu.com/) （百度AI图片生成）  | [PhotoRoom ](https://www.photoroom.com/background-remover) （AI图片去掉背景） | [秘塔写作猫](https://xiezuocat.com/) （AI写作，文章生成）    |
+| [文心一格](https://yige.baidu.com/) （百度AI图片生成）  | [PhotoRoom](https://www.photoroom.com/background-remover) （AI图片去掉背景） | [秘塔写作猫](https://xiezuocat.com/) （AI写作，文章生成）    |
 | [彩云小梦](https://if.caiyunai.com/) （能写小故事）     | [爱改写](https://www.aigaixie.com/) （人工智能改写）         | [悉语·智能文案](https://chuangyi.taobao.com/pages/aiCopy) （智能文案） |
 | [effidit](https://effidit.qq.com/) （腾讯旗下智能写作） | [火龙果写作](https://www.mypitaya.com/) （AI驱动的文字生产力工具） | [HeyFriday](https://www.heyfriday.cn/home) （轻松生成高质量原创文章） |
 | [WPS智能写作](https://aiwrite.wps.cn/)                  | [网易天音](https://tianyin.music.163.com/) （AI音乐创作）    | [讯飞智作](https://peiyin.xunfei.cn/) （音频，视频，虚拟人） |
@@ -1839,5 +1825,4 @@ AI绘画不懂提示词，那你就画不出优质的图片，废话不多说，
 
 另外再推荐一个，这个里面的提示词词典也不错
 
-网址：https://moonvy.com/apps/ops/
-
+网址：<https://moonvy.com/apps/ops/>

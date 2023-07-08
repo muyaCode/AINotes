@@ -22,7 +22,7 @@
 
 ### 2.用AI一分钟制作一条影视解说
 
-教程：【如何用AI一分钟制作一条影视解说丨日薅羊毛1k+！！方法简单建议点赞收藏】https://www.bilibili.com/video/BV17h411j73L?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+教程：【如何用AI一分钟制作一条影视解说丨日薅羊毛1k+！！方法简单建议点赞收藏】<https://www.bilibili.com/video/BV17h411j73L?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 chatGPT提问：段如你是一个影视解说博主，我需要你帮我写一篇关于《生化危机》这部电影的解说稿件，要求要用第一人称视角讲述这部电影的剧情，要跌宕起伏，要精彩
 
@@ -78,16 +78,16 @@ AI配音工具：
 
 
 
-### 5.文本通过AI生成视频
+### 5.文本生成视频的AI工具
 
-教程：【出乎意料！我用AI做出了20万播放量的视频！】https://www.bilibili.com/video/BV15M4y187Bh?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+教程：【出乎意料！我用AI做出了20万播放量的视频！】<https://www.bilibili.com/video/BV15M4y187Bh?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-- giiso：https://www.giiso.com/#/
-- 智影：https://zenvideo.qq.com/
-- 微软免费配音神器：azure：https://www.azure.cn/
-- [一帧秒创](http://search.bilibili.com/all?from_source=webcommentline_search&keyword=一帧秒创)：https://aigc.yizhentv.com/?_f=gjw123
-- morkingbird需要下载：链接: https://pan.baidu.com/s/187WqC3i0VScRVOaKmFIrYA 提取码: 3tws
-- 闪剪：http://shanjian.tv/
+- giiso：<https://www.giiso.com/#/>
+- 智影：<https://zenvideo.qq.com/>
+- 微软免费配音神器：azure：<https://www.azure.cn/>
+- [一帧秒创](http://search.bilibili.com/all?from_source=webcommentline_search&keyword=一帧秒创)：<https://aigc.yizhentv.com/?_f=gjw123>
+- morkingbird需要下载：链接: <https://pan.baidu.com/s/187WqC3i0VScRVOaKmFIrYA> 提取码: 3tws
+- 闪剪：<http://shanjian.tv/>
 
 脚本、配音、画面、剪辑全都是可以AI完成
 
@@ -103,6 +103,38 @@ runway视频软件公司：以下是该公司的软件
 
 - 文本生成视频：
 - 图片生成视频：
+
+**Kaiber**： <https://kaiber.ai>
+
+视频：【「AI文本生成视频」Kaiber轻松生成超现实史诗般大片】<https://www.bilibili.com/video/BV1hg4y1A7Hx?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+Kaiber.ai 强大的视频AI 工具，囊括了文本生成视频、图像生成视频、视频生成视频、以及音频生成视频。
+制作出来的视频令人惊叹，让每个人都过把导演瘾，将自己想象、梦境完美地呈现出来。
+
+视频中提到的AI工具的链接如下：
+
+- 1）、文本生成视频AI ： <https://kaiber.ai>
+- 2）、免费图片、视频素材库：<https://www.pexels.com/zh-cn/>
+- 3）、文本生成语音Bark模型：<https://huggingface.co/spaces/suno/bark>
+- 4）、文本生成图像（免费）Leonardo：<https://app.leonardo.ai/>
+
+Kaiber.ai 照片生视频
+
+Runwayml 文字生视频
+
+D-ID 动态形象
+
+Fliki 文章配视频
+
+Synthesia 动态形象
+
+Pictory 文字生视频
+
+HeyGen 动态形象
+
+Wonder Dynamics 视频生视频
+
+Genmo Al 文字生视频
 
 #### 2.匹配模式
 
@@ -130,11 +162,11 @@ runway视频软件公司：以下是该公司的软件
 
 ## 使用AWS搭建一个属于自己的ChatGPT网站
 
-免费一年的AWS云服务器，领取地址：https://mic.arcdmi.com/url/03
+免费一年的AWS云服务器，领取地址：<https://mic.arcdmi.com/url/03>
 
 ## ChatGPT在办公领域的运用
 
-微软将ChatGPT4.0的功能整合进Office全家桶办公软件中：【ChatGPT整合进Office：AI第一剑，先斩打工人】https://www.bilibili.com/video/BV14o4y1z7oq?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+微软将ChatGPT4.0的功能整合进Office全家桶办公软件中：【ChatGPT整合进Office：AI第一剑，先斩打工人】<https://www.bilibili.com/video/BV14o4y1z7oq?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 - 1.一分钟自动生成小论文
 - 2.十秒钟word变身PPT
