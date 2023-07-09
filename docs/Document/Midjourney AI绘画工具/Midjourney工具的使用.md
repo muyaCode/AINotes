@@ -4,6 +4,22 @@
 
 注册好账号并登录：搜索并加入Midjourney频道，可以加公共频道，或创建自己的频道使用
 
+新手常见问题
+
+### Q1：[Discord](https://so.csdn.net/so/search?q=Discord&spm=1001.2101.3001.7020)是什么？
+
+A：一款专为社群设计的免费通讯社交软体，类似于LINE或Slack，但功能更为强大，自带机器人与各种程式功能，能够在上面发开自己工具，有网页版与手机版App。
+
+### Q2：Midjourney是软件吗？需要安装吗？
+
+A：不用，Midjourney并不是软件，也不用安装，它是一个架设在Discord之下的工具，使用方式只需要在Discord输入文字即可，所以与你电脑本身效能无关，运算中关闭Midjourney也没问题，因为真正运算图片的是云端电脑。
+
+### Q3：Midjourney生成图片是免费的吗？
+
+10美刀：每月可以生成200张图片，适合轻度使用者。
+
+30美刀：每月生成的图片无限制，每月15小时的fast使用时长。
+
 ---
 
 教程UP主：[莱森LysonOber](https://space.bilibili.com/630876766)
@@ -12,11 +28,105 @@
 
 【一站式入门AI绘画！Midjourney胎教级入门指南！普通人也能成为设计师】<https://www.bilibili.com/video/BV1vm4y1B7gP?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
+## 上手教程
+
+1、首先你需要准备魔法上网。
+
+2、然后去注册一个 Discord 账号（Appstore 下载按照提示即可）
+
+> 如果需要国外手机号的，可以参照文章开头的 ChatGPT 攻略里面的方法。
+
+3、点击下方链接，加入 midjourney 服务器：
+
+https://discord.com/invite/midjourney
+
+![midjourney 使用攻略,logo, 海报，网站 UI，AI 绘画又开挂了](https://www.dongyao.ren/wp-content/uploads/2023/03/image-18.png)
+
+4、接受邀请，加入服务器之后，你的好友列表就能看到一个白底的帆船头像，点击进入绘画频道
+
+![midjourney 使用攻略,logo, 海报，网站 UI，AI 绘画又开挂了](https://www.dongyao.ren/wp-content/uploads/2023/06/image-19.jpg)
+
+5、选择频道栏 #Newbies 频道中的任意一个
+
+6、在对话框输入指令 /imagine 图像描述内容即可
+
+![midjourney 使用攻略,logo, 海报，网站 UI，AI 绘画又开挂了](https://www.dongyao.ren/wp-content/uploads/2023/03/image-20.png)
+
+输入斜杠 / 后，系统会自动提示：
+
+![midjourney 使用攻略,logo, 海报，网站 UI，AI 绘画又开挂了](https://www.dongyao.ren/wp-content/uploads/2023/06/image-21.jpg)
+
+输入你的描述关键词，发送，稍等几秒钟，你的作品就出来啦：
+
+![midjourney 使用攻略,logo, 海报，网站 UI，AI 绘画又开挂了](https://www.dongyao.ren/wp-content/uploads/2023/05/image-22.jpg)
+
+最后说明
+
+会员分 10 美刀和 30 美刀两种方式
+
+10 美刀：每月可以生成 200 张图片，适合轻度使用者。
+
+30 美刀：每月生成的图片无限制，每月 15 小时的 fast 使用时长。
+
+版权方面:
+
+官方说了，只要会员生成的图片，版权归属于创作者。
+
+如有相关账号问题，使用问题，可加入免费交流群沟通。
+
+## 上手2
+
+1、在浏览器中打开 Midjourney 网站，并注册一个账户。如果您已经注册过了，直接登录即可。
+
+![img](https://pics4.baidu.com/feed/3bf33a87e950352a4299abae761700f9b3118b78.jpeg@f_auto?token=43b617e5151bc6e739ca10b8d6f28d75)
+
+**2、创建新的绘画：**在页面左侧选择 "New Artwork"，然后选择您想要的画布大小和方向。您还可以选择背景颜色或上传自己的背景图片。
+
+**3、在左侧的菜单栏中选择您想要使用的工具，**如 Pen, Brush 和 Eraser，并设置相应的参数，例如笔刷大小、颜色和透明度。
+
+![img](https://pics0.baidu.com/feed/2cf5e0fe9925bc3157035af7788b76baca1370e6.jpeg@f_auto?token=72bcd18543ef2a309a2cc541780990d1)
+
+**4、开始绘画：**用鼠标或绘画板绘制出您想要的形状或线条。您可以使用不同的颜色、粗细和透明度来实现更多的创意。
+
+**5、在右侧的菜单栏中选择您想要的效果，**如 Gradient、Twist 和 Extrude，并调整相应的参数。这些效果将会应用到您已经绘制的形状或线条上，以产生更加有趣和具有艺术感的效果。
+
+**6、如果需要添加文字或上传图片作为背景，**可以在顶部菜单栏中找到相应的选项。您可以选择不同的字体、大小和颜色来创建各种风格的文本，还可以上传自己的图片作为背景。
+
+**7、导出您的作品：**完成后，可以导出您的作品为 PNG 或 SVG 格式，并保存在本地硬盘上。您也可以直接分享给其他人，或者在社交媒体平台上发布。
+
+![img](https://pics7.baidu.com/feed/bd3eb13533fa828ba65326d7da4bba3f970a5a75.jpeg@f_auto?token=f6e8bccfd94b47548e5fc77dbf72d77d)
+
+我们还可以借助免费的Billfish素材管家，来对我们的AI作品进行管理以下是使用 Billfish素材管家管理AI画作的步骤：
+
+1、下载并安装 Billfish素材管家软件，并登录您的账户。
+
+**2、导入 AI 画作：**在软件界面中选择 "导入"，然后选择您想要导入的 AI 画作文件夹。Billfish素材管家 支持多种类型的 AI 文件，如 SVG、EPS 和 AI 等格式。
+
+![img](https://pics7.baidu.com/feed/a50f4bfbfbedab642055c914d26254c878311e9a.jpeg@f_auto?token=38feab42b8389cfb5eb6a3699c873111)
+
+**3、分类：**导入完成后，Billfish素材管家 会自动将所有图片进行分类，并进行关键词标记。您还可以通过添加自定义标签来进一步分类和组织您的画作。
+
+**4、搜索和浏览：**可以使用关键词搜索功能查找特定的画作，也可以通过不同的分类标签来浏览您的画作集合。
+
+![img](https://pics3.baidu.com/feed/d833c895d143ad4b5cc64dcda456a1a4a50f06b6.jpeg@f_auto?token=3b00fa77804ca6986d157e76ab1fdbfc)
+
+总之，Billfish素材管家 是一款非常实用的画作管理工具，可以帮助您轻松地管理和组织大量的 AI 画作。无论您是个人用户还是团队，都可以通过这个工具提高工作效率和创作品质。
+
 ## 自制Midjourney批量工具，一夜出图2000张
 
 飞书文档教程：[老陆AI知识库目录 - 飞书云文档 (feishu.cn)](https://evnr5jw9no.feishu.cn/wiki/GEWowFtKkiFd3LkqsKUci9HAn8c)
 
 【一夜2000张！自制Midjourney批量工具】<https://www.bilibili.com/video/BV1Ua4y1u7i3?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+## Midjourney生成3D形象
+
+【1分钟手把手Midjourney教程 |  5步搞定狂飙3D形象】https://www.bilibili.com/video/BV1is4y1T7HT?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+- 1️⃣第一步：我们先找到喜欢的角色剧照
+- 2️⃣第二步：把我们找到剧照先上传，然后右键复制图片网址，粘贴在关键词前，然后尽可能用详细的语言去描述这个角色的五官，服装，特点等，以高启强角色为例，我对他的年龄，发型，场景，灯光，都进行了描述
+- 3️⃣第三步：我们就可以选择匹配度最高的一张图片,一次不理想可以通过优化关键词多生成几次
+- 4️⃣第四步：我们就可以把之前找到的剧照上传到insightface里，如果找不到机器人的小伙伴可以，三连我给你发机器人邀请链接
+- 5️⃣第五步：右键点击之前生成的图片选择APP-INSwapper，这样你就能得到一张像极了高启强的3D角色~~
 
 ## 利用AI绘画工具和ChatGPT生成的虚拟数字人
 
@@ -87,6 +197,12 @@ D-ID 是一个 Web 应用，它使用实时人脸动画和高级文本到语音�
 
 选择上传Midjourney生成的人物画像，输入ChatGPT生成的文字和上传百度AI合成的音频，会自动的3D视频。（上传的是祖孙两人的音频对话，所以需要上传制作两个人物对应的文字/音频/人物头像）
 
+## 用UE5让你的Midjourney图片变成3D场景
+
+使用你的AI图像与Midjourney或Stable Diffusion作为参考，并使用虚幻引擎5将它们变成3D场景。这是一个简单的教程，教你如何创建一个场景，可以用于介绍，游戏或任何其他应用程序。
+
+【这一招妙，简单快速，用UE5让你的Midjourney图片变成3D场景】https://www.bilibili.com/video/BV1rs4y167K6?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
 ## Midjourney的五大变现的可行方法
 
 1.制作微信表情包
@@ -98,3 +214,19 @@ D-ID 是一个 Web 应用，它使用实时人脸动画和高级文本到语音�
 4.AI品牌投稿比赛
 
 5.Midjourney共享账号出售，30美金一个账号可以共享使用，然后拿去出售
+
+## 对比
+
+Midjourney是类似于DALL·E的一种文本到图像的AI，专长于“漂亮”图像。它可以通过在聊天应用程序Discord中向机器人发送消息来使用，不需要编程。它可以免费试用，或者之后的基本计划每月收费10美元。Midjourney本质上是为“默认漂亮”而构建的，因此即使对于定义模糊的提示，它也能提供更可靠的“审美”图像。
+
+Midjourney的使用非常简单。用户可以进入Discord的Midjourney服务器，选择一个频道，然后在聊天框里输入或调用/imagine。Midjourney所有的功能都是通过调用聊天机器人程序实现的。在调用/imagine之后，会出现prompt，然后在prompt里输入用户想要的画面描述即可。
+
+Midjourney相对于DALL·E有以下优点：
+
+更便宜：Midjourney提供200次使用次数，10美元，30美元无限量，而DALL·E只提供115次使用次数，价格为15美元。
+
+更美观：Midjourney在美学上更令人愉悦，本质上是为“默认漂亮”而构建的，因此即使对于定义模糊的提示，它也能提供更可靠的“审美”图像。
+
+Midjourney的变量计算量要比从文本生成图像的变体计算量小。例如，在10美元的基本计划中，用户可以生成666个变体（总共2664个缩略图），但只有200个文本提示。
+
+Midjourney的内容规则和限制比DALL·E宽松。DALL·E目前的限制非常严苛，而Midjourney不会生成逼真的图像，因此通过伪造和错误信息滥用的风险降低了。

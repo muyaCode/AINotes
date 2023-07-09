@@ -57,6 +57,14 @@ export default {
           text: "ChatGPT衍生的项目",
           link: "/Document/ChatGPT使用的扩展/ChatGPT衍生的项目",
         },
+        {
+          text: "ChatGPT的使用领域",
+          link: "/Document/ChatGPT使用的扩展/ChatGPT的使用领域",
+        },
+        {
+          text: "",
+          link: "/Document/ChatGPT使用的扩展/",
+        },
       ]
     },
     {
@@ -81,11 +89,27 @@ export default {
       items: [
         {
           text: "DragGAN开源图像AI工具",
-          link: "/Document/图像相关AI工具/DragGAN开源图像AI工具",
+          link: "/Document/图像视频相关AI工具/DragGAN开源图像AI工具",
+        },
+        {
+          text: "图片视频修复AI工具",
+          link: "/Document/图像视频相关AI工具/图片视频修复AI工具",
+        },
+        {
+          text: "AI后期",
+          link: "/Document/图像视频相关AI工具/AI后期",
+        },
+        {
+          text: "AI做3D建模",
+          link: "/Document/图像视频相关AI工具/AI做3D建模",
         },
         {
           text: "",
-          link: "/Document/图像相关AI工具/",
+          link: "/Document/图像视频相关AI工具/",
+        },
+        {
+          text: "",
+          link: "/Document/图像视频相关AI工具/",
         },
       ]
     },
@@ -173,6 +197,26 @@ export default {
           text: "配音声音相关AI",
           link: "/Document/AI音频相关/配音声音相关AI",
         },
+        {
+          text: "AI变声器",
+          link: "/Document/AI音频相关/AI变声器",
+        },
+        {
+          text: "AI语音识别",
+          link: "/Document/AI音频相关/AI语音识别",
+        },
+        {
+          text: "AI音频提取",
+          link: "/Document/AI音频相关/AI音频提取",
+        },
+        {
+          text: "",
+          link: "/Document/AI音频相关/",
+        },
+        {
+          text: "",
+          link: "/Document/AI音频相关/",
+        },
       ]
     },
     {
@@ -212,12 +256,31 @@ export default {
           link: "/Document/AI写作工具/Verse AI写作",
         },
         {
+          text: "RWKV-Runner AI文章写作和续写工具",
+          link: "/Document/AI写作工具/RWKV-Runner AI文章写作和续写工具",
+        },
+        {
           text: "",
           link: "/Document/AI写作工具/",
         },
         {
           text: "",
           link: "/Document/AI写作工具/",
+        },
+      ]
+    },
+    {
+      text: "各种3D和设计软件的AI功能",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "各种3D和设计软件的AI功能",
+          link: "/Document/各种3D和设计软件的AI功能/各种3D和设计软件的AI功能",
+        },
+        {
+          text: "",
+          link: "/Document/各种3D和设计软件的AI功能/",
         },
       ]
     },
@@ -229,14 +292,6 @@ export default {
         {
           text: "虚拟数字人",
           link: "/Document/其他AI工具和项目/虚拟数字人",
-        },
-        {
-          text: "PhotoShop的AI功能",
-          link: "/Document/其他AI工具和项目/PhotoShop的AI功能",
-        },
-        {
-          text: "根据视频生成3D模型",
-          link: "/Document/其他AI工具和项目/根据视频生成3D模型",
         },
         {
           text: "",
@@ -282,6 +337,28 @@ export default {
           link: "/Document/AI工具配合使用的最佳实践/",
         },
       ]
-    }
+    },
+    {
+      text: "常用的软件接入AI",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "常用的软件接入AI",
+          link: "/Document/常用的软件接入AI/常用的软件接入AI",
+        },
+      ]
+    },
+    {
+      text: "AI项目的资讯和热门开源项目",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "AI项目的资讯和热门开源项目",
+          link: "/Document/AI项目的资讯和热门开源项目/AI项目的资讯和热门开源项目",
+        },
+      ]
+    },
   ]
 }

@@ -1,5 +1,23 @@
 # ChatGPT的脑洞和应用
 
+## 写小说大纲
+
+激发灵感生成小说灵感
+
+描写润色
+
+优化帮写段落
+
+创作大纲：生成小说大纲
+
+名言警句生成：高光观点
+
+人物小篆：生成人物故事
+
+## 自动写作
+
+
+
 ## 利用chatGPT策划制作视频拍摄脚本
 
 提问1：你能写个关于索尼ZV-E10教程视频的脚本吗？
@@ -8,9 +26,27 @@
 
 提问3：根据你给的那个分镜表格，你能推荐一些适合的音乐吗
 
-## 自动写作
+## ChatGPT自动发布youtube视频
 
+【ChatGPT自动发布youtube视频，手机操控快速批量上传视频+多语种文案|Youtuber快速製作視頻必備工具；无需代码关联youtube后台】https://www.bilibili.com/video/BV1qh4y1X72Z?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
+把繁琐的营销内容整理、编辑、发布动作交给AI和自动化来做吧！
+
+🗣用手机/电脑上传拍摄好的视频，并让GPT自动写文案自动发布到YouTube频道。
+
+视频、文案、发布动作一气呵成，不再需要人工整理、匹配、点发布，全程自动完成。
+
+用AI+自动化把我们从琐碎、重复的工作中释放出来。
+
+视频中涉及到的工具和作用如下：
+
+- 视频需求收集和视频内容库：@Apitable：http://bit.ly/3Jacqlv
+- 自动流连接GPT和内容库、实现视频自动发布：@Zapier：https://bit.ly/3USjRCi
+- AI创作文案内容：@ChatGPT: https://chat.openai.com/
+
+视频中提到的视频发布器逻辑图及自动化指南《应用连接自动化 让营销变得更简单》：https://www.alexday.org/automation-and-productivity
+
+阅读博客文章《Zapier和Make比较（价格篇）——到底哪个性价比更高？》：https://www.alexday.org/blog/zapier-make-price-comparison
 
 ## CahtGPT制作短视频
 

@@ -1,5 +1,7 @@
 # Stable Diffusion工具的使用
 
+**AI辅助设计高阶训练工作流 从零到一系统教程（￥599.90）**：[AI辅助设计高阶训练工作流 从零到一系统教程-设计小教室 (designdid.top)](https://www.designdid.top/series/XL101039)
+
 推荐两个B站UP主：
 
 - Nenly同学(Stable Diffusion的教程)：[Nenly同学的个人空间_哔哩哔哩_bilibili](https://space.bilibili.com/1814756990)
@@ -15,6 +17,16 @@
 
 【StableDiffusion创意合成·ControlNet.的运用-巧匠】<https://www.bilibili.com/video/BV1cu411a7DP?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
+【没想到，AI还能激发设计创造力】https://www.bilibili.com/video/BV1CV4y127nt?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+【StableDiffusion商业实战应用公开课】https://www.bilibili.com/video/BV1QP411Q7pd?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+## 动画视频生成
+
+补帧软件：TopazVideoAI
+
+【【Ai教学】如何从0开始制作一个Ai动画视频】https://www.bilibili.com/video/BV1Qh4y1o71m?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
 ## Stable diffusion几乎不用提示词，复刻现有的图片画风完美迁移生成自己的图片
 
 【文生图】：反向提示词：文本模型
@@ -22,6 +34,10 @@
 【Stable diffusion几乎不用提示词,完成画风完美迁移，超简单（保姆级教程）】<https://www.bilibili.com/video/BV1oo4y1N7G7?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 ## 小说推文|小说转漫画
+
+插件【漫画助手】：https://pan.baidu.com/s/19F1MRHo_UpOfTjpz6zqFwg?pwd=1234
+
+【漫画助手V4.5发布，AI绘画国产漫画/推文插件，免费下载】https://www.bilibili.com/video/BV1Aa4y1w7or?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
 教程：
 
@@ -35,6 +51,12 @@ Stable Diffusion 启动器 AI绘画 模型 插件 整合包 Lora 云服务 macOS
 2.使 ChatGPT按照小说文本内容划分为一个个场景
 
 **批量出图，批量出描述词，批量出文案的小工具**
+
+**chatgpt + stable diffusion +moviepy + AI生成视频 + 视频一键生成：github地址**：https://github.com/guifaChild/text_to_vedio
+
+https://github.com/hexiaochun/text2video
+
+部署教程：【chatgpt + stable diffusion +moviepy + AI生成视频 + 视频一键生成 （自媒体的福音）】https://www.bilibili.com/video/BV1no4y1J711?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
 ## 小说推文工具
 
@@ -88,13 +110,31 @@ ebsynth+单帧脚本+controlnet
 
 - HeunUinPC
 
-## 盗梦空间视频制作
+## Stable Diffusion + Blender：生成的2D图像制作成3D动画
+
+【Blender + AI 让AI动起来/如何将stable diffusion生成的2D图像制作成3D动画】https://www.bilibili.com/video/BV1HX4y1t7wZ?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+
+
+## 盗梦空间动画视频制作
 
 视频：【秒杀Midjourney，无需订阅，免费制作，盗梦空间视频喂饭教学 #Ai绘画 #aigc #人工智能】<https://www.bilibili.com/video/BV1qs4y1F7BU?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【Stable Diffusion无限扩展盗梦空间动画他来了，Midjourney能生成的我们也能！还免费】https://www.bilibili.com/video/BV1gu411b7S7?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
 ## Stable Diffusion绘制创意二维码
 
 【全网首发Stable Diffusion绘制创意二维码|人人都可以制作属于你的艺术二维码】<https://www.bilibili.com/video/BV1Jm4y1v76C?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【Stable Diffusion可识别二维码生成】https://www.bilibili.com/video/BV1tm4y1q7WW?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+## 日夜天气变化
+
+图生图模式
+
+## 把清明上河图变成了真实照片质感
+
+
 
 ## 固定动作与更换背景的形象
 

@@ -1,5 +1,29 @@
 # DragGAN开源图像AI工具
 
+## 简介
+
+"Diffusion" 和 "GAN（生成对抗网络）"都是生成模型，它们用于从某些数据分布中生成新的样本。但是，它们在理论和实践上都有一些重要的区别。
+
+GAN，或者说生成对抗网络，是由两个网络组成的模型：生成器和鉴别器。生成器试图创建与真实数据类似的假数据，而鉴别器的任务是尝试区分真实数据和生成的假数据。GAN的主要目标是使生成器产生的数据能够在鉴别器中被判断为真实的。
+
+另一方面，"Diffusion"模型则基于随机过程的观念。在这个模型中，一开始会有一个随机噪声，然后通过一系列时间步骤，这个噪声会逐渐变化，最终变得与目标数据分布相似。在每个时间步骤中，模型都会向数据添加或移除一些噪声。
+
+两者之间的一个主要区别是，GAN使用了对抗的方式来生成数据，而Diffusion模型则是通过一种逐步的、基于噪声的过程来生成数据。虽然两者都可以生成新的数据样本，但它们的应用和性能可能会在不同的任务和数据集上有所不同。
+
+## 相关地址
+
+开源地址：[XingangPan/DragGAN: Official Code for DragGAN (SIGGRAPH 2023) (github.com)](https://github.com/XingangPan/DragGAN)
+
+DragGAN 全功能实现，在线Demo，本地部署试用，代码、模型已全部开源，支持Windows, macOS, Linux：<https://github.com/Zeqiang-Lai/DragGAN>
+
+官网：<https://vcai.mpi-inf.mpg.de/projects/DragGAN>
+
+论文：<https://vcai.mpi-inf.mpg.de/projects/DragGAN/data/paper.pdf>
+
+OpenXLab在线Demo：<https://openxlab.org.cn/apps/detail/XingangPan/DragGAN>
+
+教程：【期待已久的DragGAN源代码来了，尝鲜版】<https://www.bilibili.com/video/BV1Us4y1T7WD?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
 免部署一键运行包1.2可用自己的图片版下载地址：（原作者：万能软件君）
 
 - WIN版（仅支持Windows 10、11）】下载链接：<https://pan.quark.cn/s/8d2459f6eee3> 提取码：wcZ5

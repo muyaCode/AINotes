@@ -6,15 +6,15 @@
 
 **开源项目Stable Diffusion WebUI**：
 
-- Stable Diffusion官方开源库：[CompVis/stable-diffusion: A latent text-to-image diffusion model (github.com)](https://github.com/CompVis/stable-diffusion)
-- Stable Diffusion官方开源项目：[CompVis - Computer Vision and Learning LMU Munich (github.com)](https://github.com/CompVis)
+- **Stable Diffusion官方开源库**：[CompVis/stable-diffusion: A latent text-to-image diffusion model (github.com)](https://github.com/CompVis/stable-diffusion)
+- **Stable Diffusion官方开源项目**：[CompVis - Computer Vision and Learning LMU Munich (github.com)](https://github.com/CompVis)
 - **GitHub搜索Stable Diffusion相关**：[Repository search results · GitHub](https://github.com/search?q=Stable+Diffusion&type=repositories&s=stars&o=desc)
-- Stable Diffusion web UI：[AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI (github.com)](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-- stable diffusion webui colab：[camenduru/stable-diffusion-webui-colab: stable diffusion webui colab (github.com)](https://github.com/camenduru/stable-diffusion-webui-colab)
-- 基于Stable Diffusion模型的高分辨率图像合成：[Stability-AI/stablediffusion: High-Resolution Image Synthesis with Latent Diffusion Models (github.com)](https://github.com/Stability-AI/stablediffusion)
-- M1/M2 Mac 上本地运行 Stable Diffusion 的最简单方法：[divamgupta/diffusionbee-stable-diffusion-ui：Diffusion Bee是在M1 Mac上本地运行Stable Diffusion的最简单方法。无需依赖关系或技术知识。 (github.com)](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui)
+- **Stable Diffusion web UI**：[AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI (github.com)](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- **stable diffusion webui colab**：[camenduru/stable-diffusion-webui-colab: stable diffusion webui colab (github.com)](https://github.com/camenduru/stable-diffusion-webui-colab)
+- **基于Stable Diffusion模型的高分辨率图像合成**：[Stability-AI/stablediffusion: High-Resolution Image Synthesis with Latent Diffusion Models (github.com)](https://github.com/Stability-AI/stablediffusion)
+- **M1/M2 Mac 上本地运行 Stable Diffusion 的最简单方法**：[divamgupta/diffusionbee-stable-diffusion-ui：Diffusion Bee是在M1 Mac上本地运行Stable Diffusion的最简单方法。无需依赖关系或技术知识。 (github.com)](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui)
 
-**Stable Diffusion WebUI 启动器+整合包**：[爱兔(AITools) Stable Diffusion WebUl启动器 (easyartx.com)](https://www.easyartx.com/landing)
+**Stable Diffusion WebUI 启动器+整合包  完美支持苹果MAC OS   已经下载webUI的可以一键导入直接使用**：[爱兔(AITools) Stable Diffusion WebUl启动器 (easyartx.com)](https://www.easyartx.com/landing)
 
 **【秋菜aaaki】的Stable Diffusion整合包**：
 
@@ -34,6 +34,54 @@
   - 1.遇到报错请前往启动器的 “疑难解答” 页面进行扫描，绝大部分问题都会有解决方法。
   - 2.打开网页报错 `Something went wrong Expecting value: line 1 column 1 (char 0)` 的，把你梯子关了
 
+**剑心一键安装包**：
+
+- 123云盘：http://mtw.so/61hwF2（请用pc端打开，下载软件不限速下载）
+- 百度网盘：http://mtw.so/6viaOM  提取码：8m51
+- qq频道：https://pd.qq.com/s/dsjf0fhhe
+
+## 低成本Stable Diffusion API解决方案
+
+- **stablediffusion api**：https://stablediffusionapi.com/
+- **replicate**：https://replicate.com/stability-ai/stable-diffusion
+
+## 远程云端部署Stable Diffusion
+
+教程：【AI绘画、国产ChatGPT一键部署，免费服务器A10显卡，10分钟搭建保姆级教程】https://www.bilibili.com/video/BV18c411M7PM?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+一键部署，使用阿里云，远程云端部署Stable Diffusion、通义千问，本地电脑无需高性能的显卡，不用部署复杂的开发环境，也能玩各种有趣好玩的AI算法。
+
+- 免费试用中心：https://click.aliyun.com/m/1000373727/
+- 函数计算FC：https://click.aliyun.com/m/1000374159/
+- 文件存储NAS：https://click.aliyun.com/m/1000374158/
+
+## 【ChatGLM-6B+StableDiffusion+网络搜索】本地部署绘图
+
+视频教程：【【ChatGLM-6B+StableDiffusion+网络搜索】本地部署可绘图，网上寻找信息的AI】https://www.bilibili.com/video/BV1gX4y1B7PV?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+本项目基于 ChatGLM-6B (https://github.com/THUDM/ChatGLM-6B) 后期调教，
+
+网络爬虫及 Stable Diffusion (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
+项目实现了 ChatGLM-6B 的网络搜索及图片生成功能
+
+项目源码：https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering
+
+秋叶里改下端口设置下允许API就可以了， 秋叶安装包默认的7860端口改成这个默认7861
+
+
+
+视频教程：【【AI绘图】ChatGLM+StableDiffusion整合包】https://www.bilibili.com/video/BV1Wa4y1V77o?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+网盘链接：https://pan.baidu.com/s/19kbrJyZXKa093i3N6UYfqQ?pwd=pxok 
+
+lemon大佬的github仓库：https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering
+秋叶大佬的SD整合包：https://www.bilibili.com/video/BV1iM4y1y7oA
+lemon大佬的演示视频：https://www.bilibili.com/video/BV1gX4y1B7PV
+ChatGLM-6B官方仓库：https://github.com/THUDM/ChatGLM-6B
+
+视频音源：樱桃MOMO叉屁屁https://space.bilibili.com/75044618
+
 ## 把Stable Diffusion变成商用软件
 
 视频：【开源！如何把stable diffusion变成商用软件？教你正确的调用stable diffusion api！】<https://www.bilibili.com/video/BV1Y14y127BY?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
@@ -41,6 +89,17 @@
 - sdwebui-api-manager: <https://github.com/nftblackmagic/sdwebui-api-manager>
 - sd-webui-hook-v2: <https://github.com/nftblackmagic/sd-webui-hook-v2>
 - stable diffusion webui: <https://github.com/AUTOMATIC1111/stable-diffusion-webui>
+
+## 图片素材爬虫采集工具
+
+收费：
+
+- Eagle
+- Bilfish
+
+开源免费的爬虫：
+
+
 
 ## Stable Diffusion模型
 
@@ -74,12 +133,26 @@
 
 将 2D 转为 3D 模型：
 
+设计类AI大模型：https://civitai.com/user/laizhende/models
+
+赛博修仙-御水之术图包下载：https://pan.quark.cn/s/4f8dd25d6e0f
+
+【AI绘画｜赛博修仙-御水之术】https://www.bilibili.com/video/BV1Kh4y1o7Hs?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+- 模型：基于majicmixSombre的魔改
+- LORA：Detail Tweaker，hanfu 汉服，Zhongfenghua-style
+- 基本步骤：mj跑底图-sd配合tile增加细节-ps修bug-sd配合tile放大到4k
+
+搜索 chocolae
+
 ### Stable Diffusion模型网站
 
 **模型下载网站C站**：
 
 - 官网：[Civitai | Stable Diffusion models, embeddings, LoRAs and more](http://civitai.com/)
 - github开源地址：[civitai/civitai: A repository of models, textual inversions, and more (github.com)](https://github.com/civitai/civitai)
+
+**xtimesai**：https://www.xtimesai.com
 
 **LiblibAI模型网站(国内首家原创AI模型分享网站)**：<https://www.liblibai.com/>
 
@@ -96,7 +169,64 @@
 
 - 官方B站：[LiblibAI_哩布哩布AI的个人空间_哔哩哔哩_bilibili](https://space.bilibili.com/482619845)
 
+## 模型训练|LoRA炼丹秘籍
+
+LoRA训练文章四部曲链接：
+
+- 【AI绘画进阶篇】喂饭级LoRA模型训练包安装教程 https://www.bilibili.com/read/cv23746330
+- 【AI绘画进阶篇】（手把手教你炼丹）喂饭级LoRA模型训练教程(上) https://www.bilibili.com/read/cv23640309
+- 【AI绘画进阶篇】（手把手教你炼丹）喂饭级LoRA模型训练教程(下) https://www.bilibili.com/read/cv23684137
+- 【AI绘画进阶篇】使用XYZ脚本生成对比图进行LoRA模型测试教程 https://www.bilibili.com/read/cv23572456
+
+教程：【可能是全网最快的LoRA模型训练教程（一），快来训练你的渡鸦小姐姐LoRA模型吧！】https://www.bilibili.com/video/BV1Ms4y1k7eH?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+【全网还原度最高的真人LORA训练方法！】https://www.bilibili.com/video/BV18X4y1t7jn?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+【AI模特~lora训练~穿指定衣服~】https://www.bilibili.com/video/BV1VT411t7Na?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+【如何训练一个非常像的真人Lora模型（深度探讨）】https://www.bilibili.com/video/BV1Ba4y1M7LD?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+### LoRA训练 Part1 图片准备与批量裁切
+
+1.收集整理你想训练的人物模型的人脸画像五官清晰的各种角度的图片20-50张，然后把这些图片批量裁切，成分辨率512乘以512的图片
+
+2.打开Stable Diffusion 找到【训练】-【图像预处理】，粘贴图片所在的文件夹位置，再指定输出位置，勾选【自动面部焦点裁切】，然后点击【预处理】，便开始裁切，等待裁切完成。
+
+### LORA训练 Part2 图片提示词批量反推
+
+1.来到【WD 1.X 标签器(Tagger)】-【批量处理文件夹】，输入目录和输出目录都填入图片所在位置路径，然后点击“反推提示词“，便可以看到图片文件夹里多了txt文本文档，打开txt文本文档之后就可以看到自动反推出的提示词
+
+2.接着对这些提示词进行批量打标(tag)操作：先安装【数据集标签编辑器】插件，【扩展】里搜索搜索【Dataset Tag Editor】来安装这个插件。
+
+3.安装完成后会在顶部tab有了【Dataset Tag Editor】选项，填入【数据集目录】，然后点击【加载】，把图片加载进来
+
+4.然后来到右边的tab【批量编辑描述】-【移除】tab页面。。。。。
+
 ## LoRA模型
+
+
+
+## 如何从0开始训练一个高质量Lora模型
+
+【Stable diffusion：lora模型篇，生成模型基础知识，看完就会，横扫C站，喂饭级，可还原任何作品。】https://www.bilibili.com/video/BV1Tm4y117HK?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+【Stable diffusion：万物皆可lora，生成自己的lora模型，喂饭级。】https://www.bilibili.com/video/BV1Pu411t74w?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+【【Ai教学】如何从0开始训练一个高质量Lora模型】https://www.bilibili.com/video/BV1hs4y1M79K?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+【【Ai教学】如何训练一个画风LoRA】https://www.bilibili.com/video/BV1Kz4y1n7rF?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+【【完美炼丹术，差异炼丹法】最新LoRA训练进阶教程10】https://www.bilibili.com/video/BV11m4y147WQ?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+BIRME - 调整多个图像的大小（在线和免费） (onlinephotosoft.com)
+
+打标软件：BooruDatasetTagManager
+
+日志查看：TensorBoard
+
+### 训练的参数调整设置
+
+
 
 ## Stable Diffusion扩展|插件
 
@@ -165,6 +295,102 @@ github：<https://github.com/hnmr293/sd-webui-cutoff>
 
 一键调用Lora触发词助手太好用啦，插件：LoRA-Prompt-Tool
 
+————————————————————————————————————
+
+最强放大算法 插件|扩展：StableSR
+
+插件国内打包地址：https://www.123pan.com/s/BzxiVv-EPQUv.html
+github需魔法：https://github.com/pkuliyi2015/sd-webui-stablesr
+
+————————————————————————————————————
+
+提示词生成插件：maple-from-fall-and-flower
+
+插件开源地址：https://github.com/maple-flowers/maple-from-fall-and-flower
+
+————————————————————————————————————
+
+人物脸部替换插件：Roop
+
+开源地址：https://github.com/s0md3v/sd-webui-roop
+
+————————————————————————————————————
+
+人物面部重绘插件：sd-face-editor
+
+地址：https://github.com/ototadana/sd-face-editor
+
+————————————————————————————————————
+
+高清写实人物画质采样器：DPM-adaptive
+
+![采样器对比](.\img\采样器对比.jpg)
+
+————————————————————————————————————
+
+高效搭建AI图片管理库插件：mCollection
+
+项目地址：https://github.com/hunmer/mCollection
+
+需要开启SD的api功能，启动参数后面加入 --api 或者在启动器里开启api服务
+
+插件获取：插件->导入->默认列表里有
+
+————————————————————————————————————
+
+人物商业换装插件：Segment Anything GroundingDINO
+
+【【AI绘画】Stable Diffusion强到离谱的插件让商业换装如此简单，Segment Anything GroundingDINO喂饭级安装教程】https://www.bilibili.com/video/BV1Vh411F7Zn?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+————————————————————————————————————
+
+无闪烁动画制作|丝丝顺滑、简单易学|Temporal插件安装学习|Ebsynth程序使用：
+
+【StableDiffusion无闪烁动画制作|丝丝顺滑、简单易学|Temporal插件安装学习|Ebsynth程序使用|AI动画制作】https://www.bilibili.com/video/BV1Po4y1P7zb?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+Temporal插件：https://github.com/CiaraStrawberry/TemporalKit
+Ebsynth下载：https://ebsynth.com/
+
+————————————————————————————————————
+
+提升画面丰富细节插件，让图片更生动饱满：Loopback scaler
+
+GitHub地址：https://github.com/Elldreth/loopback_scaler
+
+————————————————————————————————————
+
+Stable Diffusion里插件装一个PS：Photopea
+
+开源地址：https://github.com/yankooliveira/sd-webui-photopea-embed.git
+
+使用教程：【告别爱国版限制  PS+SD神级插件横空出世】https://www.bilibili.com/video/BV1du4y1d7Wt?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+————————————————————————————————————
+
+
+
+————————————————————————————————————
+
+
+
+————————————————————————————————————
+
+
+
+————————————————————————————————————
+
+
+
+————————————————————————————————————
+
+
+
+————————————————————————————————————
+
+
+
+————————————————————————————————————
+
 ## 主题插件
 
 萝卜主题 Lobe Theme：<https://github.com/canisminor1990/sd-webui-lobe-theme>
@@ -179,6 +405,210 @@ github：<https://github.com/hnmr293/sd-webui-cutoff>
 - github开源：<https://github.com/nftblackmagic/sdwebui-api-manager.git>
 - aws：<https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html>
 - lambda：<https://lambdalabs.com/service/gpu-cloud/pricing>
+
+## StableDiffusion腾讯云快速部署
+
+教程：【StableDiffusion腾讯云快速部署，全网最详细保姆级教程（AI绘画、技术小白必看）】https://www.bilibili.com/video/BV1gu4y1o7Bg?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+文中所涉及的软件以及地址：
+
+- 腾讯云服务器购买入口：http://985.so/mfnph
+- 叶秋一键安装包链接（含contrlnet1.1）: http://985.so/mfz5h
+- hNVIDIA 官网驱动下载： http://985.so/mfz54
+- FTP Rush：http://985.so/mfz5g
+- 插件地址：
+  - 中英文对照界面插件：https://gitcode.net/overbill1683/stable-diffusion-webui-localization-zh_Hans
+  - 最牛提示词插件：https://gitcode.net/ranting8323/sd-webui-prompt-all-in-one
+
+服务器环境搭建篇
+
+### 一、前言
+
+- 关键词：便捷、省钱、简单
+- 大家好，我是AI训练师，一个并不懂技术的AI爱好者。
+- 如今AI做图火了，各大云服务商开始降价，吸引AI玩家租用GPU服务器出图炼丹，网络上也有各类免费薅羊毛的视频供大家学习。但是经过一圈配置下来就会发现，使用过程会遇到各种坑：英文环境报错看不懂，图片不知道存哪里了，下载图片得一张张下，忘记关机还被扣费等等。玩到最后懵逼的你依然懵逼，我是来薅羊毛的，不是来学习一门计算机编程的（此处应该有掌声！）。
+- 要知道，我只是个计算机小白好不好，平时用的是Windows11系统的电脑，点开秋叶整合包的启动器，直接弹出StableDiffusion的出图界面，才是我的习惯。
+- 如何以最快、最省钱、最简单的方式使用StableDiffusion出图呢，我研究出了一整套小白也能看懂的腾讯云端Windows部署方案，让大家在云端部署后也能像在本地电脑一样使用方便。（这个方案还可以多人一起共享哟，费用有人AA了，是不是还有点小激动啊^-^）
+
+### 二、操作步骤
+
+#### 2.1 购买服务器
+
+   跟大家想的一样，GN8型的服务器有P40的显卡，每天到时间就被抢光了，基本抢不到，手速好的可以试试。我们就买GN7型号的，自Tesla-T4显卡，也是个不错的选择。点击“立即购买”按钮 活动地址：http://985.so/mfnph
+
+![img](https://i0.hdslb.com/bfs/article/cb899c8c0cd1d4debc5675c28f04aaa795adf8ad.png@1256w_732h_!web-article-pic.webp)
+
+
+
+- 地域：选择离你最近的地点，不选默认也行，预装镜像：选择Windows sever 2019中文版，点击立即购买付款后
+
+![img](https://i0.hdslb.com/bfs/article/49a767358b60c71294e0cb3abec8fc7f915c642d.png@1256w_1628h_!web-article-pic.webp)
+
+
+
+- 付款购买完成之后（大概5分钟后），我们点击右上角的“控制台”进入腾讯云总览首页，在“我的资源”当中点击“云服务器”即可进入服务器界面
+
+![img](https://i0.hdslb.com/bfs/article/34157366dd77d5047778ec6dfdde21e0bd92a0b8.png@1256w_626h_!web-article-pic.webp)
+
+
+
+- 这里插一嘴，默认购买的服务器硬盘是100G的，服务器系统直接占用了25G，也就是还剩下75G硬盘，通过我多年的经验，这个硬盘是不够的，建议将系统盘增加至200G，花费17.5元左右。
+
+![img](https://i0.hdslb.com/bfs/article/f7041dcae9f52a351c3aac7af46740c3f558fe2a.png@1256w_812h_!web-article-pic.webp)
+
+
+
+- 调整目标硬盘大小点击下一步付款就行。
+
+![img](https://i0.hdslb.com/bfs/article/7eddaac9520baf786ce4a73787fae0844ddcdcbf.png@1256w_950h_!web-article-pic.webp)
+
+
+
+#### 2.2 登录服务器
+
+想要登录服务器获取服务器IP地址、用户名和密码，初始密码在顶部的站内信（小信封），点开即可看到，复制好密码后，点击右侧的登录按钮进入登录界面
+
+![img](https://i0.hdslb.com/bfs/article/e9a62534ae48c3068a266ffaaa33343768981658.png@1256w_476h_!web-article-pic.webp)
+
+
+
+- 填入密码就能登录，不过这个方式不方便，我一般是点击RDP文件下载，存到桌面，这个是今后登录服务器的快捷方式，如果还想用其他的登录方式可以查看这里https://cloud.tencent.com/document/product/213/35697，
+
+![img](https://i0.hdslb.com/bfs/article/9b16168b77c097a95eb1fd5fa4ba6f485d4ddd38.png@1256w_1548h_!web-article-pic.webp)
+
+
+
+- 这样就能直接进入到服务器的桌面了
+
+![img](https://i0.hdslb.com/bfs/article/0aaf812b1be4e651f78c2c13b05c5e4e965202f3.png@1256w_614h_!web-article-pic.webp)
+
+
+
+#### 2.3 安装显卡驱动
+
+- 注意了，初始状态下，服务器是没有特斯拉显卡驱动的，我们需要打开服务器自带浏览器，访问 NVIDIA 驱动下载 http://985.so/mfz54 官网 找到Tesla-T4的驱动，下载对应的驱动进行安装
+
+![img](https://i0.hdslb.com/bfs/article/f704b2e922d77401e582459a957fe363fb03a614.png@1256w_752h_!web-article-pic.webp)
+
+
+
+- 默认安装完成之后，点击这个地址 C:\Program Files\NVIDIA Corporation\NVSMI，确认已经存在以下文件，进行下一步
+
+![img](https://i0.hdslb.com/bfs/article/d37df95653b27bfc1984ca23b0074f51802cfd7a.png@1256w_452h_!web-article-pic.webp)
+
+
+
+- 右键“此电脑”选择属性，
+
+![img](https://i0.hdslb.com/bfs/article/a4ab14af223616859628b94cbab34cff863a894d.png@1256w_1140h_!web-article-pic.webp)
+
+
+
+- 点击系统高级系统设置
+
+![img](https://i0.hdslb.com/bfs/article/d21c5edd82feb73cc052088bafff813509041fd8.png@1256w_900h_!web-article-pic.webp)
+
+
+
+- 点开环境变量
+
+![img](https://i0.hdslb.com/bfs/article/ac0a4cccc02ce652ce21a7dc033e442d9a6432af.png@1256w_1764h_!web-article-pic.webp)
+
+
+
+- 将地址C:\Program Files\NVIDIA Corporation\NVSMI新建至path的环境变量当中，点击确定
+
+![img](https://i0.hdslb.com/bfs/article/002a71dbe4a89cf4957a34de04a8e04e6e0ae394.png@1256w_640h_!web-article-pic.webp)
+
+
+
+- 开始菜单当中打开命令提示符，
+
+![img](https://i0.hdslb.com/bfs/article/3953e3933abf5364c90004cfb6565ea95e7b0c25.png@1256w_810h_!web-article-pic.webp)
+
+
+
+- 输入nvidia-smi 看到以下界面表示驱动程序安装成功，
+
+![img](https://i0.hdslb.com/bfs/article/5c56016f9c8b724ff2a97111be8e33dde51ee518.png@1256w_810h_!web-article-pic.webp)
+
+- 2.4 安装StableDiffusion主程序（敲黑板，关键点来了）
+
+#### 2.4.1上传主程序到服务器
+
+- 我们知道StableDiffusion的秋叶一键安装包体积大概快10G左右，介于各位大佬主程序的存储习惯，这里提供了3种下载方案给大家参考，个人最推荐的是第三种，各位可以根据需求选择：
+- 方案一：百度网盘，须开通超级会员，下载速度实测 12M/s（不开会员你懂的），30元/月；
+- 叶秋一键安装包链接: https://pan.baidu.com/s/1kJX3bj_lV8Ks25m4hMkpwQ?pwd=jsnr
+- 方案二：夸克网盘，无需开通会员，下载速度实测 300K~500K/s，免费；
+- 叶秋一键安装包链接：https://pan.quark.cn/s/320cc763339b
+- 方案三：搭建FTP文件服务器，上传/下载速率实测 5M/s，免费；（服务器都租了，传文件还花钱，岂不是冤大头^-^），把本地文件拖动到服务器，或者从服务器上下载图片，拖动过去即可，跟在自己电脑上一样简单。
+- 云端FTP服务器的搭建，建议参考官方的FTP搭建方式（https://cloud.tencent.com/document/product/213/10414?from=20421&from_column=20421） ，这里我就不赘述了，如果大家在搭建过程遇到很多问题，我再出一个手把手FTP服务器搭建教程。
+- 本地FTP软件我推荐使用的是FTP Rush（https://www.wftpserver.com/zh/download.htm#ftprush），适用于各个平台。
+
+![img](https://i0.hdslb.com/bfs/article/84108efef5a641247740592e7635364acf223101.png@1256w_786h_!web-article-pic.webp)
+
+
+
+- 另外说一下腾讯云本身也提供文件传输方式COSBrowser，个人不推荐，使用过后好像是按照存储量收费的，别问我怎么知道的，嗯哼~
+
+#### 2.4.2 安装软件
+
+- 先双击安装“启动器运行依赖”，之后解压sd-webui-aki-v4.1，解压好之后在文件夹内，双击“A启动器”
+
+![img](https://i0.hdslb.com/bfs/article/108883d14ad6dcdc506c5558a5ad90675f3bb206.png@!web-article-pic.webp)
+
+
+
+- 打开一键启动后
+
+![img](https://i0.hdslb.com/bfs/article/7e3b4ae16206aaa017a3c9f084478926400014fe.png@1256w_814h_!web-article-pic.webp)
+
+
+
+- 当你看到这个界面的时候就可以开始你的出AI之旅了，到此为止服务器配置基本完成。
+
+![img](https://i0.hdslb.com/bfs/article/30a2713ead152200e15ce86aaf2567c99c27f6c6.png@1256w_704h_!web-article-pic.webp)
+
+
+
+
+
+### 三、使用技巧及常见问题
+
+#### 3.1 插件的安装
+
+- 汉化：在启动器界面勾选启用“云端页面汉化”，操作界面将会变成是中文的
+
+![img](https://i0.hdslb.com/bfs/article/dae97b3bb55870cd53ad2cf32bc8b5b001ab82c5.png@1256w_728h_!web-article-pic.webp)
+
+
+
+- 推荐其他的必选插件
+- 中英文对照界面插件  https://gitcode.net/overbill1683/stable-diffusion-webui-localization-zh_Hans
+- 最牛提示词插件 https://gitcode.net/ranting8323/sd-webui-prompt-all-in-one
+
+![img](https://i0.hdslb.com/bfs/article/2c18ff6fe566ad5127b5f73fcb3cea2b9a107013.png@1256w_502h_!web-article-pic.webp)
+
+- 3.2大模型、lora的下载和安装
+- 秋叶启动器上包含有模型管理，大家可以根据需要自行下载安装，如果这里没有的话，那就去C站https://civitai.com/和抱脸上搜索https://huggingface.co/models，万能的互联网会告诉你一切。下载后的模型放在什么位置，点击启动器顶部的“打开文件夹”即可找到对应的文件路径，文件放进去即可。
+
+![img](https://i0.hdslb.com/bfs/article/bdd5223b128880cfcf1a0391e0c066f874503656.png@1256w_730h_!web-article-pic.webp)
+
+- 3.3如何实现多人使用服务器
+- 一键启动之前，一定要在启动之前将这两个按钮打开，如果已经启动了，将黑色界面的控制台关掉重新配置打开。
+
+![img](https://i0.hdslb.com/bfs/article/6a35b0d183f524df92ba668671f108a9ed351459.png@1256w_736h_!web-article-pic.webp)
+
+
+
+- 启动之后就能得到这样的地址，将地址分享给你的朋友，用浏览器打开即可在多台电脑上实现云端出图
+
+![img](https://i0.hdslb.com/bfs/article/5a216910102e2d58d926ad78a4e7b1b8d7f09e06.png@1256w_786h_!web-article-pic.webp)
+
+- 四、总结
+- 上面就是以一个小白的视角搭建云端StableDiffusion的整体流程，注意啊，只是云端搭建流程，软件使用技巧体系过于庞大就不在这里详细说了。有说得不够详细的地方欢迎评论区留言讨论，如果有兴趣想了解其他的知识，我会根据具网友的反馈出额外的教程。
+- 全程操作下来，总共花费79元（可用15天），时长大概有4个小时左右，毕竟我可是传了将近100多G 的文件上去呢。
+- 最后，在线征集想一块租用服务器的小伙伴，合租是当前玩AI绘画最经济、实惠、高效的办法
 
 ## 把Stable Diffuion接入QQ微信等工具
 

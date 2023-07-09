@@ -1,5 +1,13 @@
 # ChatGPT衍生的项目
 
+## Character AI
+
+月访问量2亿、首周170万安装量！声称碾压 ChatGPT
+
+官网：https://character.ai
+
+[Character.ai：每个人都可定制自己的个性化AI (baidu.com)](https://baijiahao.baidu.com/s?id=1763251679965944178&wfr=spider&for=pc)
+
 ## Albus自动生成图文知识图谱
 
 Albus官网：<https://www.albus.org/>
@@ -52,3 +60,68 @@ RWKV官方仓库：<https://github.com/BlinkDL/RWKV-LM>
 体验地址：<https://chato.cn/>
 
 Chato是一款强大而易用的工具，能帮助你将垂直行业知识注入AI，并创建属于自己的AI助手。无需编程，通过上传文档或回答问题，Chato自动学习并建立知识库。你可以设定机器人角色、定制个性，并灵活发布到各渠道。
+
+## ChatGLM-6B开源GPT加上自己的知识库
+
+【开源GPT加上自己的知识库比ChatGTP更精准更专业】https://www.bilibili.com/video/BV19o4y1J7mL?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+开源地址：[THUDM/ChatGLM-6B: ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型 (github.com)](https://github.com/THUDM/ChatGLM-6B)
+
+## langchain+chatGLM的本地知识库项目
+
+教程：【【防坑指南】手把手演示本机部署langchain+chatGLM本地知识库】https://www.bilibili.com/video/BV1Ah4y1d79a?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+传送门：https://github.com/imClumsyPanda/langchain-ChatGLM
+
+Torch版本地址：https://download.pytorch.org/whl/torch_stable.html
+
+关于硬件要求方面，作者文档里提到了embedding模型需要使用3G显存，chatglm最低需要6G显存。
+
+## CodeWhisperer AI编程工具
+
+CodeWhisperer官网注册链接：https://aws.amazon.com/cn/codewhisperer/?trk=a2076b82-2c5d-475a-8b78-f22f4bb4f9a1&sc_channel=display+ads
+
+2023年度亚马逊云科技中国峰会报名：https://summit.awsevents.cn/2023/form.html?source=A1Jmo+hFUc3p2QU//2KWmogg5HLpq2+1rdi8UDFl+
+
+【【AI编程】秒杀LeetCode！以后程序员只用写注释？CodeWhisperer安装使用教程】https://www.bilibili.com/video/BV1Sg4y1K7iD?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+## chatgpt engineer AI编程工具
+
+
+
+## Github Copilot
+
+
+
+## ChatGPT实时语音聊天
+
+ChatGPT+VITS+Galgame
+
+【ChatGPT+Galgame 与老婆自由对话！】https://www.bilibili.com/video/BV1TD4y1E7e8?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+项目地址：https://github.com/cjyaddone/ChatWaifu
+L2D版本：https://github.com/cjyaddone/ChatWaifuL2D
+QQ机器人版本：https://github.com/MuBai-He/ChatWaifu-marai
+
+## CyberWaifu开源聊天机器人 hatGPT+Claude
+
+【【CyberWaifu开源发布，ChatGPT+Claude】我要给她完整的一生，引入思考链和记忆数据库】https://www.bilibili.com/video/BV11V4y1z7rS?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+开源地址：https://github.com/Syan-Lin/CyberWaifu
+
+## MiniGPT-4
+
+图文生成
+
+本地电脑直接部署运行：要求显存12G
+
+开源地址：https://github.com/Vision-CAIR/MiniGPT-4
+
+## 闻达-Wenda 大语言模型调用平台，搭建专属知识库
+
+【【AI知识助理】再也不用读书啦！让收藏夹的文章都秒变知识！用langChain+ChatGLM-6B清华开源模型，附详细安装教程+下载链接】https://www.bilibili.com/video/BV1NW4y1R7aQ?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+1.闻达Github主页地址：https://github.com/wenda-LLM/wenda
+
+2.懒人一键包地址：https://pan.baidu.com/s/105nOsldGt5mEPoT2np1ZoA?pwd=lyqz    提取码：lyqz
+
