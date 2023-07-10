@@ -2,8 +2,6 @@
 
 ## 介绍
 
-
-
 ## 软件
 
 - so-vits-svc github地址：<https://github.com/svc-develop-team/so-vits-svc>
@@ -56,20 +54,18 @@ AI声源：
 - 林俊杰 - 可惜没如果
 - 米津玄师 - Lemon
 
+【AI歌手+AI变声二合一，还能一键制作音乐视频！最新RVC模型训练教程，在线一键训练，效果提升明显，快来试试吧！】<https://www.bilibili.com/video/BV1r8411f7MR?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
+程序连接：<https://huggingface.co/spaces/kevinwang676/Voice-Changer>
 
-【AI歌手+AI变声二合一，还能一键制作音乐视频！最新RVC模型训练教程，在线一键训练，效果提升明显，快来试试吧！】https://www.bilibili.com/video/BV1r8411f7MR?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+详细训练教程：【【RVC】在线一键训练AI歌手，无需配置环境，只需半小时！还能生成音乐视频！使用Autodl镜像快速训练，快来试试吧！】<https://www.bilibili.com/video/BV1mX4y1C7w4?vd_source=36c9491a7fa2ab8a22ca060af01b7472；>
 
-程序连接：https://huggingface.co/spaces/kevinwang676/Voice-Changer
-
-详细训练教程：【【RVC】在线一键训练AI歌手，无需配置环境，只需半小时！还能生成音乐视频！使用Autodl镜像快速训练，快来试试吧！】https://www.bilibili.com/video/BV1mX4y1C7w4?vd_source=36c9491a7fa2ab8a22ca060af01b7472；
-
-在线训练链接：https://www.autodl.com/home；
+在线训练链接：<https://www.autodl.com/home；>
 
 ## 音乐生成与创作AI
 
-【音乐生成与创作AI，Meta开源Audiocraft 安装与使用教程】https://www.bilibili.com/video/BV1bh4y1X77a?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【音乐生成与创作AI，Meta开源Audiocraft 安装与使用教程】<https://www.bilibili.com/video/BV1bh4y1X77a?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-Meta开源音乐生成大模型audiocraft，可根据文本提示和音乐样本创作新的乐曲，生成效果非常逼真，媲美艺术家作品：https://github.com/facebookresearch/audiocraft
+Meta开源音乐生成大模型audiocraft，可根据文本提示和音乐样本创作新的乐曲，生成效果非常逼真，媲美艺术家作品：<https://github.com/facebookresearch/audiocraft>
 
-安装说明文档在百度网盘：链接：https://pan.baidu.com/s/17O8W112laAeSxz3pT0qa5w   提取码：ro7s
+安装说明文档在百度网盘：链接：<https://pan.baidu.com/s/17O8W112laAeSxz3pT0qa5w>   提取码：ro7s

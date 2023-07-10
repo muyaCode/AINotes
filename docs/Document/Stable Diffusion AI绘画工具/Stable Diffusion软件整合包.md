@@ -36,51 +36,65 @@
 
 **剑心一键安装包**：
 
-- 123云盘：http://mtw.so/61hwF2（请用pc端打开，下载软件不限速下载）
-- 百度网盘：http://mtw.so/6viaOM  提取码：8m51
-- qq频道：https://pd.qq.com/s/dsjf0fhhe
+- 123云盘：<http://mtw.so/61hwF2>（请用pc端打开，下载软件不限速下载）
+- 百度网盘：<http://mtw.so/6viaOM>  提取码：8m51
+- qq频道：<https://pd.qq.com/s/dsjf0fhhe>
 
 ## 低成本Stable Diffusion API解决方案
 
-- **stablediffusion api**：https://stablediffusionapi.com/
-- **replicate**：https://replicate.com/stability-ai/stable-diffusion
+- **stablediffusion api**：<https://stablediffusionapi.com/>
+- **replicate**：<https://replicate.com/stability-ai/stable-diffusion>
 
 ## 远程云端部署Stable Diffusion
 
-教程：【AI绘画、国产ChatGPT一键部署，免费服务器A10显卡，10分钟搭建保姆级教程】https://www.bilibili.com/video/BV18c411M7PM?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+教程：【AI绘画、国产ChatGPT一键部署，免费服务器A10显卡，10分钟搭建保姆级教程】<https://www.bilibili.com/video/BV18c411M7PM?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 一键部署，使用阿里云，远程云端部署Stable Diffusion、通义千问，本地电脑无需高性能的显卡，不用部署复杂的开发环境，也能玩各种有趣好玩的AI算法。
 
-- 免费试用中心：https://click.aliyun.com/m/1000373727/
-- 函数计算FC：https://click.aliyun.com/m/1000374159/
-- 文件存储NAS：https://click.aliyun.com/m/1000374158/
+- 免费试用中心：<https://click.aliyun.com/m/1000373727/>
+- 函数计算FC：<https://click.aliyun.com/m/1000374159/>
+- 文件存储NAS：<https://click.aliyun.com/m/1000374158/>
+
+————————————————————————————————————————
+
+【【AI绘画】阿里云在线试用 免费服务器v100显卡 5分钟搭建WebUI 保姆级教程】<https://www.bilibili.com/video/BV1po4y1877P?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+- 阿里云试用宝典：<https://developer.aliyun.com/free/>
+- 机器学习PAI控制台：<https://pai.console.aliyun.com/>
+- 一键包/镜像资源：<https://pan.quark.cn/s/12af730acb20>
+
+【保姆级教程：在colab云端上面部署stable diffusion并汉化，免费的15G显存】<https://www.bilibili.com/video/BV15m4y1r7Y3?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【AutoDL GPU云端部署，开启Stablediffusion无限跑图】<https://www.bilibili.com/video/BV1eL411B7jn?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【五分钟学会Stable Diffusion一键安装包Easy Diffusion】<https://www.bilibili.com/video/BV1B24y1j7jg?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【腾讯云GPU服务器部署Ai绘画Stable Diffusion全过程，操作简单，直接复制粘贴代码即可】<https://www.bilibili.com/video/BV1NY4y1S7eA?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 ## 【ChatGLM-6B+StableDiffusion+网络搜索】本地部署绘图
 
-视频教程：【【ChatGLM-6B+StableDiffusion+网络搜索】本地部署可绘图，网上寻找信息的AI】https://www.bilibili.com/video/BV1gX4y1B7PV?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+视频教程：【【ChatGLM-6B+StableDiffusion+网络搜索】本地部署可绘图，网上寻找信息的AI】<https://www.bilibili.com/video/BV1gX4y1B7PV?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-本项目基于 ChatGLM-6B (https://github.com/THUDM/ChatGLM-6B) 后期调教，
+本项目基于 ChatGLM-6B (<https://github.com/THUDM/ChatGLM-6B>) 后期调教，
 
-网络爬虫及 Stable Diffusion (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+网络爬虫及 Stable Diffusion (<https://github.com/AUTOMATIC1111/stable-diffusion-webui>)
 
 项目实现了 ChatGLM-6B 的网络搜索及图片生成功能
 
-项目源码：https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering
+项目源码：<https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering>
 
 秋叶里改下端口设置下允许API就可以了， 秋叶安装包默认的7860端口改成这个默认7861
 
+视频教程：【【AI绘图】ChatGLM+StableDiffusion整合包】<https://www.bilibili.com/video/BV1Wa4y1V77o?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
+网盘链接：<https://pan.baidu.com/s/19kbrJyZXKa093i3N6UYfqQ?pwd=pxok>
 
-视频教程：【【AI绘图】ChatGLM+StableDiffusion整合包】https://www.bilibili.com/video/BV1Wa4y1V77o?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+lemon大佬的github仓库：<https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering>
+秋叶大佬的SD整合包：<https://www.bilibili.com/video/BV1iM4y1y7oA>
+lemon大佬的演示视频：<https://www.bilibili.com/video/BV1gX4y1B7PV>
+ChatGLM-6B官方仓库：<https://github.com/THUDM/ChatGLM-6B>
 
-网盘链接：https://pan.baidu.com/s/19kbrJyZXKa093i3N6UYfqQ?pwd=pxok 
-
-lemon大佬的github仓库：https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering
-秋叶大佬的SD整合包：https://www.bilibili.com/video/BV1iM4y1y7oA
-lemon大佬的演示视频：https://www.bilibili.com/video/BV1gX4y1B7PV
-ChatGLM-6B官方仓库：https://github.com/THUDM/ChatGLM-6B
-
-视频音源：樱桃MOMO叉屁屁https://space.bilibili.com/75044618
+视频音源：樱桃MOMO叉屁屁<https://space.bilibili.com/75044618>
 
 ## 把Stable Diffusion变成商用软件
 
@@ -99,51 +113,46 @@ ChatGLM-6B官方仓库：https://github.com/THUDM/ChatGLM-6B
 
 开源免费的爬虫：
 
+## 图片反推文字工具tag反推工具
 
+LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
+
+|                         | 工具                                                         | 说明                                                         | 地址                                             |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------ |
+|                         | 提示词工具                                                   | poe机器人，一个是SD，一个是MJ。 (如果出来的提示词出来时汉字，属于poe间歇性抽风综合征，需要我刷新下指令就可以了） | <https://poe.com/JJgeSD> <https://poe.com/JJgeMJ>    |
+| 跑图相关                | 语义分割工具                                                 | oneformer（免费在线使用/免登录/正常上网）                    | <https://huggingface.co/spaces/shi-labs/OneFormer> |
+| 对照表                  | [ADE20K_语义分割释义.pdf](https://d36mqghu8a.feishu.cn/file/Y3vnbbkR8oq5b0xI7GUcvbBZnj4) |                                                              |                                                  |
+| 语义分割工具            | segment-anything                                             | [https://github.com/facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) |                                                  |
+| 百度翻译                | 遇到单词和英文语句问题可使用                                 | <https://fanyi.baidu.com/?aldtype=85#zh/en/>                   |                                                  |
+| controlnet1.1介绍       | 有版本更新细节，和各个模形效果演示                           | <https://github.com/lllyasviel/ControlNet-v1-1-nightly>        |                                                  |
+| controlnet模型库        | 会定期更新新模型(正常上网)                                   | <https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main>  |                                                  |
+| controlnet+tile图片放大 | 应该是目前讲的比较详细的教程了                               | [用controlnet  tile 放大图片步骤](https://d36mqghu8a.feishu.cn/docx/CURZdOGl9oXMDzxZsY0cOIuwnDc) |                                                  |
+| 底模型，lora模型库      | 主要是底模型，lora，vae                                      | <https://civitai.com/> 国产C站（主打一个正常访问）： <https://www.liblibai.com>  <https://i-desai.com/> |                                                  |
+| 建筑相关模型整理        | 由其他建筑大佬整理                                           | 文档放微信群公告里面了                                       |                                                  |
+| stable diffusion安装包  | B站秋叶大佬封装的模型包                                      | <https://pan.baidu.com/s/1IlgadoGHHhRaUYPt2PKBxA?pwd=h40u>     |                                                  |
+| sd模型类型识别工具      | 检查模型文件类型                                             | <https://spell.novelai.dev/>                                   |                                                  |
+| 分辨率锁定高*宽比例     | 解决SD一大痛点，有了这个插件，调整分辨率的时候终于可以锁定宽高比 | <https://github.com/thomasasfk/sd-webui-aspect-ratio-helper.git> |                                                  |
+| 提示词插件              | 可以安装到webui上的提示词插件，支持输入汉语                  | <https://github.com/Physton/sd-webui-prompt-all-in-one>        |                                                  |
+| 放大算法                | 放大算法集合                                                 | <https://icedrive.net/s/43GNBihZyi>                            |                                                  |
+| 提示词插件              | 基于chatgpt 的浏览器插件                                     | 没有链接去google应用商店搜索openai translator                |                                                  |
+| Embeddings库            | 可下载Embeddings                                             | <https://cyberes.github.io/stable-diffusion-textual-inversion-models/> |                                                  |
+| 设计风格图片库          |                                                              | Pinterest.ca                                                 |                                                  |
+| upscale放大模型         | upscale放大模型系统介绍                                      | <https://upscale.wiki/wiki/Model_Database>                     |                                                  |
+| tag反推插件             | 目前支持在线使用，期待被整合进去。亲测对图中元素的识别还存在偏差。这个反推与sd的反推算法差别在于可以输出成句子也就是自然语言，因此有了元素之间的联系和方位等介词信息。 | <http://llama-adapter.opengvlab.com/>                          |                                                  |
+| ps的sd插件              |                                                              | 备忘，回头整理，怕忘了                                       |                                                  |
+|                         | sd的ps插件                                                   |                                                              | 备忘，回头整理，怕忘了。感觉这俩相爱相杀         |
+| 训练相关                | 图片裁剪工具                                                 | 能一次性，把所有照片传到网页上，自定义像素裁剪图片。 不足之处：不能对图片缩放后裁剪。比如想把头放大，就裁剪头部，那就没办法 | <https://www.birme.net/?target_height=384>         |
+| tag修改高效工具         | 训练准备环节，用这个工具可以同时编辑多个tag。而且还带tag翻译功能，不用把翻译网页打开。 | <https://github.com/starik222/BooruDatasetTagManager>          |                                                  |
+| 训练集标签编辑器：      |                                                              | <https://github.com/toshiaki1729/stable-diffusion-webui-dataset-tag-editor> |                                                  |
+| 批量调整图片尺寸：      | 这个图片裁剪工具可以把几十张图放在一屏上调整，统一保存，不用挨个打开。不过有2个缺陷：1、不能对图片做缩放。2、输出的图片尺寸必须统一； | <https://www.birme.net/?target_width=512&target_height=512>    |                                                  |
+| 青龙lora脚本            | 青龙大佬经常更新脚本，可以关注下他的b站“青龙圣者”            | [https://pan.quark.cn/s/2a0ad8446b85#/list/share/911cab837aca4890ae5cf0f8f7dfa62b-%E9%9D%92%E9%BE%99%E7%9A%84AI%E5%B7%A5%E5%85%B7](https://pan.quark.cn/s/2a0ad8446b85#/list/share/911cab837aca4890ae5cf0f8f7dfa62b-青龙的AI工具) |                                                  |
+| 未完待续，长期更新...   |                                                              |                                                              |                                                  |
+|                         |                                                              |                                                              |                                                  |
 
 ## Stable Diffusion模型
 
 - [【AI绘画】全网Stable Diffusion WebUI Model模型资源汇总（自用） - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv20039815)
 - [出图效率倍增！47个高质量 Stable Diffusion 常用模型推荐 - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv23887580)
-
-### **Model资源**
-
-使用注意：
-
-- 与ckpt文件同名的vae.pt文件用于稳固该模型的表现，直接放在相同文件夹即可。训练时将该文件改名或移走。并不是所有模型都需要使用vae文件。
-- 公开资源：
-  - <https://rentry.co/sdmodels（目前觉得比较全）>
-  - <https://cyberes.github.io/stable-diffusion-models/（SD模型）>
-  - <https://publicprompts.art/（App> Icon Generator，比较有趣想资源）
-  - <https://huggingface.co/> （在网站中检索）
-  - <http://aimodel.subrecovery.top>
-  - <https://docs.qq.com/doc/DY0lFeWZuVXRCdUJU>
-  - <http://www.123114514.xyz/models/ckpt（挺多私炉的）>
-
-**SD软件安装包及数个大模型及LORA（120G）链接**：<https://pan.quark.cn/s/a7ae11c9f82f>
-
-- 【Stable Diffusion怎么做小说推文的出图讲解第一期】<https://www.bilibili.com/video/BV1Vs4y1w7kH?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
-- 【Stable Diffusion怎么做小说推文的出图讲解第二期：抄作业大战】<https://www.bilibili.com/video/BV1Eu41147wv?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
-- 【Stable Diffusion小说推文实战讲解第三期：如何利用GPT制作分镜，并批量高效率出图。】<https://www.bilibili.com/video/BV1W14y1D7QG?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
-- 【指定形象生成多人场景，Stable Diffusion小说推文实战讲解第四期。】<https://www.bilibili.com/video/BV1qV4y1m7sS?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
-
-【Stable Diffusion+Midjourney强强联手出梦幻酷图】<https://www.bilibili.com/video/BV1aX4y1q7Rh?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
-
-花开绘百世发布（适用于一些绘画元素的借鉴，偏敦煌风格）图包下载链接：<https://pan.quark.cn/s/090dfd74a8e3>
-
-将 2D 转为 3D 模型：
-
-设计类AI大模型：https://civitai.com/user/laizhende/models
-
-赛博修仙-御水之术图包下载：https://pan.quark.cn/s/4f8dd25d6e0f
-
-【AI绘画｜赛博修仙-御水之术】https://www.bilibili.com/video/BV1Kh4y1o7Hs?vd_source=36c9491a7fa2ab8a22ca060af01b7472
-
-- 模型：基于majicmixSombre的魔改
-- LORA：Detail Tweaker，hanfu 汉服，Zhongfenghua-style
-- 基本步骤：mj跑底图-sd配合tile增加细节-ps修bug-sd配合tile放大到4k
-
-搜索 chocolae
 
 ### Stable Diffusion模型网站
 
@@ -151,8 +160,6 @@ ChatGLM-6B官方仓库：https://github.com/THUDM/ChatGLM-6B
 
 - 官网：[Civitai | Stable Diffusion models, embeddings, LoRAs and more](http://civitai.com/)
 - github开源地址：[civitai/civitai: A repository of models, textual inversions, and more (github.com)](https://github.com/civitai/civitai)
-
-**xtimesai**：https://www.xtimesai.com
 
 **LiblibAI模型网站(国内首家原创AI模型分享网站)**：<https://www.liblibai.com/>
 
@@ -169,22 +176,92 @@ ChatGLM-6B官方仓库：https://github.com/THUDM/ChatGLM-6B
 
 - 官方B站：[LiblibAI_哩布哩布AI的个人空间_哔哩哔哩_bilibili](https://space.bilibili.com/482619845)
 
+**xtimesai**：<https://www.xtimesai.com>
+
+### 其他Model|模型资源
+
+使用注意：
+
+- 与ckpt文件同名的vae.pt文件用于稳固该模型的表现，直接放在相同文件夹即可。训练时将该文件改名或移走。并不是所有模型都需要使用vae文件。
+- 公开资源：
+  - <https://rentry.co/sdmodels>（目前觉得比较全）
+  - <https://cyberes.github.io/stable-diffusion-models/>（SD模型）
+  - <https://publicprompts.art/>（App Icon Generator，比较有趣想资源）
+  - <https://huggingface.co/> （在网站中检索）
+  - <http://aimodel.subrecovery.top>
+  - <https://docs.qq.com/doc/DY0lFeWZuVXRCdUJU>
+  - <http://www.123114514.xyz/models/ckpt>（挺多私炉的）
+
+**SD软件安装包及数个大模型及LORA（120G）链接**：<https://pan.quark.cn/s/a7ae11c9f82f>
+
+- 【Stable Diffusion怎么做小说推文的出图讲解第一期】<https://www.bilibili.com/video/BV1Vs4y1w7kH?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+- 【Stable Diffusion怎么做小说推文的出图讲解第二期：抄作业大战】<https://www.bilibili.com/video/BV1Eu41147wv?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+- 【Stable Diffusion小说推文实战讲解第三期：如何利用GPT制作分镜，并批量高效率出图。】<https://www.bilibili.com/video/BV1W14y1D7QG?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+- 【指定形象生成多人场景，Stable Diffusion小说推文实战讲解第四期。】<https://www.bilibili.com/video/BV1qV4y1m7sS?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【Stable Diffusion+Midjourney强强联手出梦幻酷图】<https://www.bilibili.com/video/BV1aX4y1q7Rh?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+花开绘百世发布（适用于一些绘画元素的借鉴，偏敦煌风格）图包下载链接：<https://pan.quark.cn/s/090dfd74a8e3>
+
+将 2D 转为 3D 模型：
+
+设计类AI大模型：<https://civitai.com/user/laizhende/models>
+
+赛博修仙-御水之术图包下载：<https://pan.quark.cn/s/4f8dd25d6e0f>
+
+【AI绘画｜赛博修仙-御水之术】<https://www.bilibili.com/video/BV1Kh4y1o7Hs?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+- 模型：基于majicmixSombre的魔改
+- LORA：Detail Tweaker，hanfu 汉服，Zhongfenghua-style
+- 基本步骤：mj跑底图-sd配合tile增加细节-ps修bug-sd配合tile放大到4k
+
+搜索 chocolae
+
+何似在人间 仙侠模型图包下载：https://pan.quark.cn/s/e514b63b216a
+
+使用教程：【Stable Diffusion 何似在人间 仙侠模型发布 （适合小说插画、背景）】https://www.bilibili.com/video/BV1Ph4y1X7ub?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+## 模型用处
+
+基础款AI生图模型checkpoint：
+
+- 墨幽人造人：脸部模型固定
+- AWPainting 1.1：日漫风格
+- 国风3 GuoFeng3：汉服，国画，lora
+- majicMIX系列：人造机器人，颜控福音
+
+## 模型训练器
+
+【【AI绘画】模型训练器发布！简单又不失专业的LoRA模型训练一键包】https://www.bilibili.com/video/BV1AL411q7Ub?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+- 百度盘：<https://pan.baidu.com/s/1TBaoLkdJVjk_gPpqbUzZFw>  提取码：p8uy
+- 夸克：<https://pan.quark.cn/s/ec29b91df0c5>
+- AutoDL 云端使用教程：<https://www.bilibili.com/read/cv24050162>
+
+具体的训练操作步骤：【【AI绘画】最佳人物模型训练！保姆式LoRA模型训练教程 一键包发布】https://www.bilibili.com/video/BV1fs4y1x7p2?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
 ## 模型训练|LoRA炼丹秘籍
 
 LoRA训练文章四部曲链接：
 
-- 【AI绘画进阶篇】喂饭级LoRA模型训练包安装教程 https://www.bilibili.com/read/cv23746330
-- 【AI绘画进阶篇】（手把手教你炼丹）喂饭级LoRA模型训练教程(上) https://www.bilibili.com/read/cv23640309
-- 【AI绘画进阶篇】（手把手教你炼丹）喂饭级LoRA模型训练教程(下) https://www.bilibili.com/read/cv23684137
-- 【AI绘画进阶篇】使用XYZ脚本生成对比图进行LoRA模型测试教程 https://www.bilibili.com/read/cv23572456
+- 【AI绘画进阶篇】喂饭级LoRA模型训练包安装教程 <https://www.bilibili.com/read/cv23746330>
+- 【AI绘画进阶篇】（手把手教你炼丹）喂饭级LoRA模型训练教程(上) <https://www.bilibili.com/read/cv23640309>
+- 【AI绘画进阶篇】（手把手教你炼丹）喂饭级LoRA模型训练教程(下) <https://www.bilibili.com/read/cv23684137>
+- 【AI绘画进阶篇】使用XYZ脚本生成对比图进行LoRA模型测试教程 <https://www.bilibili.com/read/cv23572456>
 
-教程：【可能是全网最快的LoRA模型训练教程（一），快来训练你的渡鸦小姐姐LoRA模型吧！】https://www.bilibili.com/video/BV1Ms4y1k7eH?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+教程：【可能是全网最快的LoRA模型训练教程（一），快来训练你的渡鸦小姐姐LoRA模型吧！】<https://www.bilibili.com/video/BV1Ms4y1k7eH?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-【全网还原度最高的真人LORA训练方法！】https://www.bilibili.com/video/BV18X4y1t7jn?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【全网还原度最高的真人LORA训练方法！】<https://www.bilibili.com/video/BV18X4y1t7jn?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-【AI模特~lora训练~穿指定衣服~】https://www.bilibili.com/video/BV1VT411t7Na?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【AI模特~lora训练~穿指定衣服~】<https://www.bilibili.com/video/BV1VT411t7Na?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-【如何训练一个非常像的真人Lora模型（深度探讨）】https://www.bilibili.com/video/BV1Ba4y1M7LD?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【如何训练一个非常像的真人Lora模型（深度探讨）】<https://www.bilibili.com/video/BV1Ba4y1M7LD?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【Stable Diffusion 建筑设计工作流（第二季）—秋叶lora脚本训练UI介绍/Tag批量修改更新】https://www.bilibili.com/video/BV1jk4y1x7X4?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+- Bytorch官网学习：https://pytorch.org/tutorials/
+- Tag批量修改插件原网址：https://github.com/starik222/BooruDatasetTagManager
+- 插件和课件百度网盘链接：https://pan.baidu.com/s/1nVcKpS6OL0VOvyq8zEs8gg?pwd=wrfn    提取码：wrfn
 
 ### LoRA训练 Part1 图片准备与批量裁切
 
@@ -204,19 +281,17 @@ LoRA训练文章四部曲链接：
 
 ## LoRA模型
 
-
-
 ## 如何从0开始训练一个高质量Lora模型
 
-【Stable diffusion：lora模型篇，生成模型基础知识，看完就会，横扫C站，喂饭级，可还原任何作品。】https://www.bilibili.com/video/BV1Tm4y117HK?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【Stable diffusion：lora模型篇，生成模型基础知识，看完就会，横扫C站，喂饭级，可还原任何作品。】<https://www.bilibili.com/video/BV1Tm4y117HK?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-【Stable diffusion：万物皆可lora，生成自己的lora模型，喂饭级。】https://www.bilibili.com/video/BV1Pu411t74w?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【Stable diffusion：万物皆可lora，生成自己的lora模型，喂饭级。】<https://www.bilibili.com/video/BV1Pu411t74w?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-【【Ai教学】如何从0开始训练一个高质量Lora模型】https://www.bilibili.com/video/BV1hs4y1M79K?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【【Ai教学】如何从0开始训练一个高质量Lora模型】<https://www.bilibili.com/video/BV1hs4y1M79K?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-【【Ai教学】如何训练一个画风LoRA】https://www.bilibili.com/video/BV1Kz4y1n7rF?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【【Ai教学】如何训练一个画风LoRA】<https://www.bilibili.com/video/BV1Kz4y1n7rF?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-【【完美炼丹术，差异炼丹法】最新LoRA训练进阶教程10】https://www.bilibili.com/video/BV11m4y147WQ?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【【完美炼丹术，差异炼丹法】最新LoRA训练进阶教程10】<https://www.bilibili.com/video/BV11m4y147WQ?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 BIRME - 调整多个图像的大小（在线和免费） (onlinephotosoft.com)
 
@@ -225,8 +300,6 @@ BIRME - 调整多个图像的大小（在线和免费） (onlinephotosoft.com)
 日志查看：TensorBoard
 
 ### 训练的参数调整设置
-
-
 
 ## Stable Diffusion扩展|插件
 
@@ -299,26 +372,26 @@ github：<https://github.com/hnmr293/sd-webui-cutoff>
 
 最强放大算法 插件|扩展：StableSR
 
-插件国内打包地址：https://www.123pan.com/s/BzxiVv-EPQUv.html
-github需魔法：https://github.com/pkuliyi2015/sd-webui-stablesr
+插件国内打包地址：<https://www.123pan.com/s/BzxiVv-EPQUv.html>
+github需魔法：<https://github.com/pkuliyi2015/sd-webui-stablesr>
 
 ————————————————————————————————————
 
 提示词生成插件：maple-from-fall-and-flower
 
-插件开源地址：https://github.com/maple-flowers/maple-from-fall-and-flower
+插件开源地址：<https://github.com/maple-flowers/maple-from-fall-and-flower>
 
 ————————————————————————————————————
 
 人物脸部替换插件：Roop
 
-开源地址：https://github.com/s0md3v/sd-webui-roop
+开源地址：<https://github.com/s0md3v/sd-webui-roop>
 
 ————————————————————————————————————
 
 人物面部重绘插件：sd-face-editor
 
-地址：https://github.com/ototadana/sd-face-editor
+地址：<https://github.com/ototadana/sd-face-editor>
 
 ————————————————————————————————————
 
@@ -330,7 +403,7 @@ github需魔法：https://github.com/pkuliyi2015/sd-webui-stablesr
 
 高效搭建AI图片管理库插件：mCollection
 
-项目地址：https://github.com/hunmer/mCollection
+项目地址：<https://github.com/hunmer/mCollection>
 
 需要开启SD的api功能，启动参数后面加入 --api 或者在启动器里开启api服务
 
@@ -340,54 +413,42 @@ github需魔法：https://github.com/pkuliyi2015/sd-webui-stablesr
 
 人物商业换装插件：Segment Anything GroundingDINO
 
-【【AI绘画】Stable Diffusion强到离谱的插件让商业换装如此简单，Segment Anything GroundingDINO喂饭级安装教程】https://www.bilibili.com/video/BV1Vh411F7Zn?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【【AI绘画】Stable Diffusion强到离谱的插件让商业换装如此简单，Segment Anything GroundingDINO喂饭级安装教程】<https://www.bilibili.com/video/BV1Vh411F7Zn?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 ————————————————————————————————————
 
 无闪烁动画制作|丝丝顺滑、简单易学|Temporal插件安装学习|Ebsynth程序使用：
 
-【StableDiffusion无闪烁动画制作|丝丝顺滑、简单易学|Temporal插件安装学习|Ebsynth程序使用|AI动画制作】https://www.bilibili.com/video/BV1Po4y1P7zb?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【StableDiffusion无闪烁动画制作|丝丝顺滑、简单易学|Temporal插件安装学习|Ebsynth程序使用|AI动画制作】<https://www.bilibili.com/video/BV1Po4y1P7zb?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-Temporal插件：https://github.com/CiaraStrawberry/TemporalKit
-Ebsynth下载：https://ebsynth.com/
+Temporal插件：<https://github.com/CiaraStrawberry/TemporalKit>
+Ebsynth下载：<https://ebsynth.com/>
 
 ————————————————————————————————————
 
 提升画面丰富细节插件，让图片更生动饱满：Loopback scaler
 
-GitHub地址：https://github.com/Elldreth/loopback_scaler
+GitHub地址：<https://github.com/Elldreth/loopback_scaler>
 
 ————————————————————————————————————
 
 Stable Diffusion里插件装一个PS：Photopea
 
-开源地址：https://github.com/yankooliveira/sd-webui-photopea-embed.git
+开源地址：<https://github.com/yankooliveira/sd-webui-photopea-embed.git>
 
-使用教程：【告别爱国版限制  PS+SD神级插件横空出世】https://www.bilibili.com/video/BV1du4y1d7Wt?vd_source=36c9491a7fa2ab8a22ca060af01b7472
-
-————————————————————————————————————
-
-
+使用教程：【告别爱国版限制  PS+SD神级插件横空出世】<https://www.bilibili.com/video/BV1du4y1d7Wt?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 ————————————————————————————————————
 
-
+————————————————————————————————————
 
 ————————————————————————————————————
 
-
+————————————————————————————————————
 
 ————————————————————————————————————
 
-
-
 ————————————————————————————————————
-
-
-
-————————————————————————————————————
-
-
 
 ————————————————————————————————————
 
@@ -408,17 +469,17 @@ Stable Diffusion里插件装一个PS：Photopea
 
 ## StableDiffusion腾讯云快速部署
 
-教程：【StableDiffusion腾讯云快速部署，全网最详细保姆级教程（AI绘画、技术小白必看）】https://www.bilibili.com/video/BV1gu4y1o7Bg?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+教程：【StableDiffusion腾讯云快速部署，全网最详细保姆级教程（AI绘画、技术小白必看）】<https://www.bilibili.com/video/BV1gu4y1o7Bg?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 文中所涉及的软件以及地址：
 
-- 腾讯云服务器购买入口：http://985.so/mfnph
-- 叶秋一键安装包链接（含contrlnet1.1）: http://985.so/mfz5h
-- hNVIDIA 官网驱动下载： http://985.so/mfz54
-- FTP Rush：http://985.so/mfz5g
+- 腾讯云服务器购买入口：<http://985.so/mfnph>
+- 叶秋一键安装包链接（含contrlnet1.1）: <http://985.so/mfz5h>
+- hNVIDIA 官网驱动下载： <http://985.so/mfz54>
+- FTP Rush：<http://985.so/mfz5g>
 - 插件地址：
-  - 中英文对照界面插件：https://gitcode.net/overbill1683/stable-diffusion-webui-localization-zh_Hans
-  - 最牛提示词插件：https://gitcode.net/ranting8323/sd-webui-prompt-all-in-one
+  - 中英文对照界面插件：<https://gitcode.net/overbill1683/stable-diffusion-webui-localization-zh_Hans>
+  - 最牛提示词插件：<https://gitcode.net/ranting8323/sd-webui-prompt-all-in-one>
 
 服务器环境搭建篇
 
@@ -434,35 +495,25 @@ Stable Diffusion里插件装一个PS：Photopea
 
 #### 2.1 购买服务器
 
-   跟大家想的一样，GN8型的服务器有P40的显卡，每天到时间就被抢光了，基本抢不到，手速好的可以试试。我们就买GN7型号的，自Tesla-T4显卡，也是个不错的选择。点击“立即购买”按钮 活动地址：http://985.so/mfnph
+   跟大家想的一样，GN8型的服务器有P40的显卡，每天到时间就被抢光了，基本抢不到，手速好的可以试试。我们就买GN7型号的，自Tesla-T4显卡，也是个不错的选择。点击“立即购买”按钮 活动地址：<http://985.so/mfnph>
 
 ![img](https://i0.hdslb.com/bfs/article/cb899c8c0cd1d4debc5675c28f04aaa795adf8ad.png@1256w_732h_!web-article-pic.webp)
-
-
 
 - 地域：选择离你最近的地点，不选默认也行，预装镜像：选择Windows sever 2019中文版，点击立即购买付款后
 
 ![img](https://i0.hdslb.com/bfs/article/49a767358b60c71294e0cb3abec8fc7f915c642d.png@1256w_1628h_!web-article-pic.webp)
 
-
-
 - 付款购买完成之后（大概5分钟后），我们点击右上角的“控制台”进入腾讯云总览首页，在“我的资源”当中点击“云服务器”即可进入服务器界面
 
 ![img](https://i0.hdslb.com/bfs/article/34157366dd77d5047778ec6dfdde21e0bd92a0b8.png@1256w_626h_!web-article-pic.webp)
-
-
 
 - 这里插一嘴，默认购买的服务器硬盘是100G的，服务器系统直接占用了25G，也就是还剩下75G硬盘，通过我多年的经验，这个硬盘是不够的，建议将系统盘增加至200G，花费17.5元左右。
 
 ![img](https://i0.hdslb.com/bfs/article/f7041dcae9f52a351c3aac7af46740c3f558fe2a.png@1256w_812h_!web-article-pic.webp)
 
-
-
 - 调整目标硬盘大小点击下一步付款就行。
 
 ![img](https://i0.hdslb.com/bfs/article/7eddaac9520baf786ce4a73787fae0844ddcdcbf.png@1256w_950h_!web-article-pic.webp)
-
-
 
 #### 2.2 登录服务器
 
@@ -470,63 +521,43 @@ Stable Diffusion里插件装一个PS：Photopea
 
 ![img](https://i0.hdslb.com/bfs/article/e9a62534ae48c3068a266ffaaa33343768981658.png@1256w_476h_!web-article-pic.webp)
 
-
-
-- 填入密码就能登录，不过这个方式不方便，我一般是点击RDP文件下载，存到桌面，这个是今后登录服务器的快捷方式，如果还想用其他的登录方式可以查看这里https://cloud.tencent.com/document/product/213/35697，
+- 填入密码就能登录，不过这个方式不方便，我一般是点击RDP文件下载，存到桌面，这个是今后登录服务器的快捷方式，如果还想用其他的登录方式可以查看这里<https://cloud.tencent.com/document/product/213/35697，>
 
 ![img](https://i0.hdslb.com/bfs/article/9b16168b77c097a95eb1fd5fa4ba6f485d4ddd38.png@1256w_1548h_!web-article-pic.webp)
-
-
 
 - 这样就能直接进入到服务器的桌面了
 
 ![img](https://i0.hdslb.com/bfs/article/0aaf812b1be4e651f78c2c13b05c5e4e965202f3.png@1256w_614h_!web-article-pic.webp)
 
-
-
 #### 2.3 安装显卡驱动
 
-- 注意了，初始状态下，服务器是没有特斯拉显卡驱动的，我们需要打开服务器自带浏览器，访问 NVIDIA 驱动下载 http://985.so/mfz54 官网 找到Tesla-T4的驱动，下载对应的驱动进行安装
+- 注意了，初始状态下，服务器是没有特斯拉显卡驱动的，我们需要打开服务器自带浏览器，访问 NVIDIA 驱动下载 <http://985.so/mfz54> 官网 找到Tesla-T4的驱动，下载对应的驱动进行安装
 
 ![img](https://i0.hdslb.com/bfs/article/f704b2e922d77401e582459a957fe363fb03a614.png@1256w_752h_!web-article-pic.webp)
-
-
 
 - 默认安装完成之后，点击这个地址 C:\Program Files\NVIDIA Corporation\NVSMI，确认已经存在以下文件，进行下一步
 
 ![img](https://i0.hdslb.com/bfs/article/d37df95653b27bfc1984ca23b0074f51802cfd7a.png@1256w_452h_!web-article-pic.webp)
 
-
-
 - 右键“此电脑”选择属性，
 
 ![img](https://i0.hdslb.com/bfs/article/a4ab14af223616859628b94cbab34cff863a894d.png@1256w_1140h_!web-article-pic.webp)
-
-
 
 - 点击系统高级系统设置
 
 ![img](https://i0.hdslb.com/bfs/article/d21c5edd82feb73cc052088bafff813509041fd8.png@1256w_900h_!web-article-pic.webp)
 
-
-
 - 点开环境变量
 
 ![img](https://i0.hdslb.com/bfs/article/ac0a4cccc02ce652ce21a7dc033e442d9a6432af.png@1256w_1764h_!web-article-pic.webp)
-
-
 
 - 将地址C:\Program Files\NVIDIA Corporation\NVSMI新建至path的环境变量当中，点击确定
 
 ![img](https://i0.hdslb.com/bfs/article/002a71dbe4a89cf4957a34de04a8e04e6e0ae394.png@1256w_640h_!web-article-pic.webp)
 
-
-
 - 开始菜单当中打开命令提示符，
 
 ![img](https://i0.hdslb.com/bfs/article/3953e3933abf5364c90004cfb6565ea95e7b0c25.png@1256w_810h_!web-article-pic.webp)
-
-
 
 - 输入nvidia-smi 看到以下界面表示驱动程序安装成功，
 
@@ -538,16 +569,14 @@ Stable Diffusion里插件装一个PS：Photopea
 
 - 我们知道StableDiffusion的秋叶一键安装包体积大概快10G左右，介于各位大佬主程序的存储习惯，这里提供了3种下载方案给大家参考，个人最推荐的是第三种，各位可以根据需求选择：
 - 方案一：百度网盘，须开通超级会员，下载速度实测 12M/s（不开会员你懂的），30元/月；
-- 叶秋一键安装包链接: https://pan.baidu.com/s/1kJX3bj_lV8Ks25m4hMkpwQ?pwd=jsnr
+- 叶秋一键安装包链接: <https://pan.baidu.com/s/1kJX3bj_lV8Ks25m4hMkpwQ?pwd=jsnr>
 - 方案二：夸克网盘，无需开通会员，下载速度实测 300K~500K/s，免费；
-- 叶秋一键安装包链接：https://pan.quark.cn/s/320cc763339b
+- 叶秋一键安装包链接：<https://pan.quark.cn/s/320cc763339b>
 - 方案三：搭建FTP文件服务器，上传/下载速率实测 5M/s，免费；（服务器都租了，传文件还花钱，岂不是冤大头^-^），把本地文件拖动到服务器，或者从服务器上下载图片，拖动过去即可，跟在自己电脑上一样简单。
-- 云端FTP服务器的搭建，建议参考官方的FTP搭建方式（https://cloud.tencent.com/document/product/213/10414?from=20421&from_column=20421） ，这里我就不赘述了，如果大家在搭建过程遇到很多问题，我再出一个手把手FTP服务器搭建教程。
-- 本地FTP软件我推荐使用的是FTP Rush（https://www.wftpserver.com/zh/download.htm#ftprush），适用于各个平台。
+- 云端FTP服务器的搭建，建议参考官方的FTP搭建方式（<https://cloud.tencent.com/document/product/213/10414?from=20421&from_column=20421）> ，这里我就不赘述了，如果大家在搭建过程遇到很多问题，我再出一个手把手FTP服务器搭建教程。
+- 本地FTP软件我推荐使用的是FTP Rush（<https://www.wftpserver.com/zh/download.htm#ftprush），适用于各个平台。>
 
 ![img](https://i0.hdslb.com/bfs/article/84108efef5a641247740592e7635364acf223101.png@1256w_786h_!web-article-pic.webp)
-
-
 
 - 另外说一下腾讯云本身也提供文件传输方式COSBrowser，个人不推荐，使用过后好像是按照存储量收费的，别问我怎么知道的，嗯哼~
 
@@ -557,21 +586,13 @@ Stable Diffusion里插件装一个PS：Photopea
 
 ![img](https://i0.hdslb.com/bfs/article/108883d14ad6dcdc506c5558a5ad90675f3bb206.png@!web-article-pic.webp)
 
-
-
 - 打开一键启动后
 
 ![img](https://i0.hdslb.com/bfs/article/7e3b4ae16206aaa017a3c9f084478926400014fe.png@1256w_814h_!web-article-pic.webp)
 
-
-
 - 当你看到这个界面的时候就可以开始你的出AI之旅了，到此为止服务器配置基本完成。
 
 ![img](https://i0.hdslb.com/bfs/article/30a2713ead152200e15ce86aaf2567c99c27f6c6.png@1256w_704h_!web-article-pic.webp)
-
-
-
-
 
 ### 三、使用技巧及常见问题
 
@@ -581,16 +602,14 @@ Stable Diffusion里插件装一个PS：Photopea
 
 ![img](https://i0.hdslb.com/bfs/article/dae97b3bb55870cd53ad2cf32bc8b5b001ab82c5.png@1256w_728h_!web-article-pic.webp)
 
-
-
 - 推荐其他的必选插件
-- 中英文对照界面插件  https://gitcode.net/overbill1683/stable-diffusion-webui-localization-zh_Hans
-- 最牛提示词插件 https://gitcode.net/ranting8323/sd-webui-prompt-all-in-one
+- 中英文对照界面插件  <https://gitcode.net/overbill1683/stable-diffusion-webui-localization-zh_Hans>
+- 最牛提示词插件 <https://gitcode.net/ranting8323/sd-webui-prompt-all-in-one>
 
 ![img](https://i0.hdslb.com/bfs/article/2c18ff6fe566ad5127b5f73fcb3cea2b9a107013.png@1256w_502h_!web-article-pic.webp)
 
 - 3.2大模型、lora的下载和安装
-- 秋叶启动器上包含有模型管理，大家可以根据需要自行下载安装，如果这里没有的话，那就去C站https://civitai.com/和抱脸上搜索https://huggingface.co/models，万能的互联网会告诉你一切。下载后的模型放在什么位置，点击启动器顶部的“打开文件夹”即可找到对应的文件路径，文件放进去即可。
+- 秋叶启动器上包含有模型管理，大家可以根据需要自行下载安装，如果这里没有的话，那就去C站<https://civitai.com/和抱脸上搜索https://huggingface.co/models，万能的互联网会告诉你一切。下载后的模型放在什么位置，点击启动器顶部的“打开文件夹”即可找到对应的文件路径，文件放进去即可。>
 
 ![img](https://i0.hdslb.com/bfs/article/bdd5223b128880cfcf1a0391e0c066f874503656.png@1256w_730h_!web-article-pic.webp)
 
@@ -598,8 +617,6 @@ Stable Diffusion里插件装一个PS：Photopea
 - 一键启动之前，一定要在启动之前将这两个按钮打开，如果已经启动了，将黑色界面的控制台关掉重新配置打开。
 
 ![img](https://i0.hdslb.com/bfs/article/6a35b0d183f524df92ba668671f108a9ed351459.png@1256w_736h_!web-article-pic.webp)
-
-
 
 - 启动之后就能得到这样的地址，将地址分享给你的朋友，用浏览器打开即可在多台电脑上实现云端出图
 
@@ -631,6 +648,8 @@ yadayoAI艺术平台：<https://yodayo.com/>
 
 【无需安装！在线使用2000多个Lora和100多个AI模型进行免费绘画】<https://www.bilibili.com/video/BV1qV411M7Zt?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
+海艺AI：[海艺 (seaart.ai)](https://www.seaart.ai/home)
+
 ## 免费在线的Stable Diffuion
 
 免费Stable Diffuion：[MinisterAI - Free online AI Art Generator | Stable Diffusion (mst.xyz)](https://mst.xyz/home)
@@ -638,3 +657,7 @@ yadayoAI艺术平台：<https://yodayo.com/>
 指令参数：1girl, (high detailed skin:1.0), 8k uhd, dslr, face, soft lighting, high quality, <lora:shiftymine_v2:1.0> 不需要元素：(low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2), bad composition, inaccurate eyes, extra digit, fewer digits, (extra arms:1.2) logo, text, poorly drawn nipples
 
 [Stable Diffusion在线网站集合 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/622751562)
+
+## 各个领域的中英文对照表
+
+室内/建筑关键词中英文对照表：[⁡﻿‌⁤⁡⁢‍⁤‍⁡⁣⁢⁤⁢⁣‍﻿﻿⁣⁣‬‌﻿‬⁢⁣‌‍‬‌⁡⁡⁣⁡⁢室内/建筑关键词中英文对照表 - 飞书云文档 (feishu.cn)](https://d36mqghu8a.feishu.cn/sheets/NnnwsdcCKh3dpgt88kCcQsc8nIe?sheet=oVqwGF)

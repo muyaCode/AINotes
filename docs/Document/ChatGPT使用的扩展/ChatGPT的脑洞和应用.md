@@ -16,8 +16,6 @@
 
 ## 自动写作
 
-
-
 ## 利用chatGPT策划制作视频拍摄脚本
 
 提问1：你能写个关于索尼ZV-E10教程视频的脚本吗？
@@ -28,7 +26,7 @@
 
 ## ChatGPT自动发布youtube视频
 
-【ChatGPT自动发布youtube视频，手机操控快速批量上传视频+多语种文案|Youtuber快速製作視頻必備工具；无需代码关联youtube后台】https://www.bilibili.com/video/BV1qh4y1X72Z?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【ChatGPT自动发布youtube视频，手机操控快速批量上传视频+多语种文案|Youtuber快速製作視頻必備工具；无需代码关联youtube后台】<https://www.bilibili.com/video/BV1qh4y1X72Z?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 把繁琐的营销内容整理、编辑、发布动作交给AI和自动化来做吧！
 
@@ -40,13 +38,13 @@
 
 视频中涉及到的工具和作用如下：
 
-- 视频需求收集和视频内容库：@Apitable：http://bit.ly/3Jacqlv
-- 自动流连接GPT和内容库、实现视频自动发布：@Zapier：https://bit.ly/3USjRCi
-- AI创作文案内容：@ChatGPT: https://chat.openai.com/
+- 视频需求收集和视频内容库：@Apitable：<http://bit.ly/3Jacqlv>
+- 自动流连接GPT和内容库、实现视频自动发布：@Zapier：<https://bit.ly/3USjRCi>
+- AI创作文案内容：@ChatGPT: <https://chat.openai.com/>
 
-视频中提到的视频发布器逻辑图及自动化指南《应用连接自动化 让营销变得更简单》：https://www.alexday.org/automation-and-productivity
+视频中提到的视频发布器逻辑图及自动化指南《应用连接自动化 让营销变得更简单》：<https://www.alexday.org/automation-and-productivity>
 
-阅读博客文章《Zapier和Make比较（价格篇）——到底哪个性价比更高？》：https://www.alexday.org/blog/zapier-make-price-comparison
+阅读博客文章《Zapier和Make比较（价格篇）——到底哪个性价比更高？》：<https://www.alexday.org/blog/zapier-make-price-comparison>
 
 ## CahtGPT制作短视频
 
@@ -82,8 +80,6 @@ chatGPT提问：段如你是一个影视解说博主，我需要你帮我写一�
 
 #### 1.小说授权获得
 
-
-
 #### 2.AI绘画工具生成小说画面
 
 通过我们给的小说关键词搜索，就会有提成
@@ -104,15 +100,11 @@ chatGPT提问：段如你是一个影视解说博主，我需要你帮我写一�
 
 AI绘画工具：
 
-
-
 使用AI配音把小说的文案转成配音
 
 把生成的图片加入进去，进行跟配音逐一匹配，加上一些关键帧转场和特效什么的，让图片动起来，从左到右，从上到下等，然后在再加上一些背景音乐和音效等，最后导出视频
 
 AI配音工具：
-
-
 
 ### 5.文本生成视频的AI工具
 
@@ -186,15 +178,9 @@ Genmo Al 文字生视频
 - 机器配音：配音神器
 - 文案匹配图片和生成视频画面：33搜帧：[33搜帧 - 视频帧画面搜索引擎 (agilestudio.cn)](https://fse.agilestudio.cn/)
 
-
-
 ## 写代码整理数据
 
-
-
 ## ChatGPT通过 stable diffusion 和其他 AI 工具制作视频
-
-
 
 ## 使用AWS搭建一个属于自己的ChatGPT网站
 
@@ -208,3 +194,10 @@ Genmo Al 文字生视频
 - 2.十秒钟word变身PPT
 - 3.一句话在Excel里生成统计图表
 
+【不再求人！独自应用！ChatGPT接入Excel详细教程，随处可用】<https://www.bilibili.com/video/BV1yk4y1s7FV?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+ChatGPT加持的Excel终于来了！ChatExcel，说人话自动处理表格，免费且不限次使用：体验地址：<https://chatexcel.com/>
+
+【ChatGPT加持的Excel终于来了！ChatExcel，说人话自动处理表格，免费且不限次使用】<https://www.bilibili.com/video/BV1fY4y1C7JJ?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【油管大佬教你使用 ChatGPT 将您的 Excel 技能提升 10 倍】<https://www.bilibili.com/video/BV1ox4y157Gh?vd_source=36c9491a7fa2ab8a22ca060af01b7472>

@@ -50,15 +50,31 @@ Tafi的最新开发的生成式3D模型平台，将很快可以在NVIDIA 英伟�
 
 网址：[Tafi Avatar (maketafi.com)](https://maketafi.com/ai#)
 
+## Meshy 输入文字生成3D模型
+
+【3D AIGC 真的来了！只需输入一段文字即可生成 3D 模型，也能为上传的白模生成逼真的贴图，快来 Discord 体验 Meshy 的强大功能！】<https://www.bilibili.com/video/BV1ja4y1w7Rq?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+P1 展示从文本生成 3D 贴图，P2 展示从文本生成 3D 模型
+
+Meshy 是一个面向 3D 设计的 AI 工具组，通过生成式 AI 加速 3D 内容创作，旨在为游戏开发者、设计师和 3D 爱好者提高生成力。借助 Meshy 创新的工具和技术，任何人都可以轻松创建令人惊叹的 3D 游戏资产。
+
+Meshy 的功能：
+
+- 通过文本生成 3D 模型
+- 通过文本或原画生成模型的贴图
+- 通过参考图像或文本自动生成高模（coming soon）
+
+目前在 Discord 开放体验：<https://discord.com/invite/KgD5yVM9Y4>
+
 ## ZBrush角色模型AI简化
 
 Character Creator的开发商联合Maxon合作开发了一系列新的强大的工具——Character Creator (CC) -to-ZBrush，旨在大大简化ZB角色模型摆姿势工作流程。
 
 在ZB中给高模自由摆姿势的工具
-https://www.reallusion.com/character-creator/zbrush/character-pose/
+<https://www.reallusion.com/character-creator/zbrush/character-pose/>
 
 ## blockadelabs 画画转场景
 
-【有了这个神器谁都可以做神笔马良】https://www.bilibili.com/video/BV1Nh4y1b7oP?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【有了这个神器谁都可以做神笔马良】<https://www.bilibili.com/video/BV1Nh4y1b7oP?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-地址：https://www.blockadelabs.com
+地址：<https://www.blockadelabs.com>

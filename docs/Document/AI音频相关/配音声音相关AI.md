@@ -34,16 +34,16 @@ sovits4.1的vec768l12比4.0的vec256l9的上限确实要高。
 
 网盘Sovits目录
 
-- 夸克网盘：https://pan.quark.cn/s/d2a2a09fba9a
-- 百度盘：https://pan.baidu.com/s/1UK6jUa_4xrscAjdhNVpzhQ?pwd=1234     提取码：1234
+- 夸克网盘：<https://pan.quark.cn/s/d2a2a09fba9a>
+- 百度盘：<https://pan.baidu.com/s/1UK6jUa_4xrscAjdhNVpzhQ?pwd=1234>     提取码：1234
 
 ## 可离线的文本转语音安卓软件：Multi TTS
 
-⑴官方发布声源：https://pan.quark.cn/s/8b8038aa84ec
+⑴官方发布声源：<https://pan.quark.cn/s/8b8038aa84ec>
 
-软件及音源包下载地址：https://www.123pan.com/s/hUDbVv-nehNH.html    提取码：52pj
+软件及音源包下载地址：<https://www.123pan.com/s/hUDbVv-nehNH.html>    提取码：52pj
 
-⑵酷安分享收集声源：https://www.123pan.com/s/4UKiVv-6rgfh.html
+⑵酷安分享收集声源：<https://www.123pan.com/s/4UKiVv-6rgfh.html>
 
 [MultiTTS语音包下载安卓版-MultiTTS语音引擎2023最新版v1.2.9 - 逗游网 (doyo.cn)](https://www.doyo.cn/app/419890.html)
 

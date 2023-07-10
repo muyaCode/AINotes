@@ -104,6 +104,18 @@ export default {
           link: "/Document/图像视频相关AI工具/AI做3D建模",
         },
         {
+          text: "设计师AI工具",
+          link: "/Document/图像视频相关AI工具/设计师AI工具",
+        },
+        {
+          text: "其他图片相关的AI工具",
+          link: "/Document/图像视频相关AI工具/其他图片相关的AI工具",
+        },
+        {
+          text: "",
+          link: "/Document/图像视频相关AI工具/",
+        },
+        {
           text: "",
           link: "/Document/图像视频相关AI工具/",
         },
@@ -134,8 +146,8 @@ export default {
           link: "/Document/Midjourney AI绘画工具/Midjourney工具的使用",
         },
         {
-          text: "Midjourney的Prompt",
-          link: "/Document/Midjourney AI绘画工具/Midjourney的Prompt",
+          text: "Midjourney的Prompt关键词",
+          link: "/Document/Midjourney AI绘画工具/Midjourney的Prompt关键词",
         },
       ]
     },

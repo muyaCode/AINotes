@@ -4,9 +4,9 @@
 
 注册好账号并登录：搜索并加入Midjourney频道，可以加公共频道，或创建自己的频道使用
 
-新手常见问题
+## 新手常见问题
 
-### Q1：[Discord](https://so.csdn.net/so/search?q=Discord&spm=1001.2101.3001.7020)是什么？
+### Q1：Discord是什么？
 
 A：一款专为社群设计的免费通讯社交软体，类似于LINE或Slack，但功能更为强大，自带机器人与各种程式功能，能够在上面发开自己工具，有网页版与手机版App。
 
@@ -38,7 +38,7 @@ A：不用，Midjourney并不是软件，也不用安装，它是一个架设在
 
 3、点击下方链接，加入 midjourney 服务器：
 
-https://discord.com/invite/midjourney
+<https://discord.com/invite/midjourney>
 
 ![midjourney 使用攻略,logo, 海报，网站 UI，AI 绘画又开挂了](https://www.dongyao.ren/wp-content/uploads/2023/03/image-18.png)
 
@@ -118,15 +118,25 @@ https://discord.com/invite/midjourney
 
 【一夜2000张！自制Midjourney批量工具】<https://www.bilibili.com/video/BV1Ua4y1u7i3?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-## Midjourney生成3D形象
+## Midjourney利用照片生成动漫虚拟3D头像
 
-【1分钟手把手Midjourney教程 |  5步搞定狂飙3D形象】https://www.bilibili.com/video/BV1is4y1T7HT?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【1分钟手把手Midjourney教程 |  5步搞定狂飙3D形象】<https://www.bilibili.com/video/BV1is4y1T7HT?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 - 1️⃣第一步：我们先找到喜欢的角色剧照
 - 2️⃣第二步：把我们找到剧照先上传，然后右键复制图片网址，粘贴在关键词前，然后尽可能用详细的语言去描述这个角色的五官，服装，特点等，以高启强角色为例，我对他的年龄，发型，场景，灯光，都进行了描述
 - 3️⃣第三步：我们就可以选择匹配度最高的一张图片,一次不理想可以通过优化关键词多生成几次
 - 4️⃣第四步：我们就可以把之前找到的剧照上传到insightface里，如果找不到机器人的小伙伴可以，三连我给你发机器人邀请链接
 - 5️⃣第五步：右键点击之前生成的图片选择APP-INSwapper，这样你就能得到一张像极了高启强的3D角色~~
+
+其他：
+
+快速生成UI/运营 3D IP，固定角色：【Midjourney AI 快速生成UI/运营 3D IP，固定角色】<https://www.bilibili.com/video/BV1fN411N7jC?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【Midjourney AI 快速生成UI/运营插画】<https://www.bilibili.com/video/BV1uM4y1d7mE?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+【信息差最赚钱！教你用AI做头像搞钱】https://www.bilibili.com/video/BV1CL411v774?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+【定制个人专属头像，AI绘画保姆级教程】https://www.bilibili.com/video/BV1Vs4y1d7sc?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
 ## 利用AI绘画工具和ChatGPT生成的虚拟数字人
 
@@ -201,7 +211,23 @@ D-ID 是一个 Web 应用，它使用实时人脸动画和高级文本到语音�
 
 使用你的AI图像与Midjourney或Stable Diffusion作为参考，并使用虚幻引擎5将它们变成3D场景。这是一个简单的教程，教你如何创建一个场景，可以用于介绍，游戏或任何其他应用程序。
 
-【这一招妙，简单快速，用UE5让你的Midjourney图片变成3D场景】https://www.bilibili.com/video/BV1rs4y167K6?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【这一招妙，简单快速，用UE5让你的Midjourney图片变成3D场景】<https://www.bilibili.com/video/BV1rs4y167K6?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+## 使用ChatGPT描绘出古诗中的场景，给Midjourney生成画面
+
+选定一首古诗，给CahtGPT描绘出场景：
+
+- 1.提问：“千山鸟飞绝，万径人踪灭。 孤舟装笠翁，独钓寒江雪。”这首诗能让你联想到什么画面？
+- 2.等描绘出场景后，再提问：将以上场景转为一系列精简的英文描述词
+- 3.再提问：我想将以上场景画下来，画面更契合哪种绘画风格?
+- 4.给出绘画风格后，再根据风格提问：用一系列形容词描述XX风格的氛围，形容词需是艺术专有名词，且形容词的操作层面的
+- 5.从氛围入手的描述词，提问：我想将诗中的画面画下来，除了以上描述的具体意向，还能从哪些纬度去强化这个氛围效果?给出三个维度
+- 6得出答案后，再提问：请用一些有画面感的词汇来精简描述以上所述，并把这些词汇翻译成英文
+- 7.然后把上面翻译的关键词描述词复制到Midjourney中生成图片
+
+## Midjourney+Spline 酸性金属3D图标设计
+
+【Midjourney+Spline 酸性金属3D图标设计】https://www.bilibili.com/video/BV1aM4y1v7id?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
 ## Midjourney的五大变现的可行方法
 

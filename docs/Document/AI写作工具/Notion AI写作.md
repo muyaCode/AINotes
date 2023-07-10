@@ -34,7 +34,7 @@ Notion 升级了，2022年 11 月，Notion 发布了一项名为 Notion AI 的�
 
 <iframe title="video" src="https://video.zhihu.com/video/1614273842003542016?player=%7B%22autoplay%22%3Afalse%2C%22shouldShowPageFullScreenButton%22%3Atrue%7D" allowfullscreen="" frameborder="0" class="css-uwwqev" id="ariabdj0u2dgn4g" style="width: 688px; height: 387px;"></iframe>
 
-# 前言
+## 前言
 
 写作如说话，想说与说明白中间隔着沟壑！
 
@@ -66,7 +66,7 @@ Notion 升级了，2022年 11 月，Notion 发布了一项名为 Notion AI 的�
 >
 > 我们的表达将更加清晰明了。
 
-# 如果你话少
+## 如果你话少
 
 就像读书时不擅长写作一样，写一篇规定字数的文章时，即使绞尽脑汁已经表达完毕，却还是凑不够字数。
 
@@ -86,7 +86,7 @@ Notion 升级了，2022年 11 月，Notion 发布了一项名为 Notion AI 的�
 
 **说话少的人也许存在表达不充分的问题，Make longer 试图让 AI 理解你想表达的思想，然后再用清晰的语言表达出来。**
 
-# 如果你话不流畅
+## 如果你话不流畅
 
 针对文字偏口语化，主谓宾不分或者不够流畅的情况，我们可以使用 Notion AI: improve writing 帮你改进句子为文章润色。
 
@@ -104,7 +104,7 @@ Notion 升级了，2022年 11 月，Notion 发布了一项名为 Notion AI 的�
 
 **原文字被转换后主谓宾更加明显，表达更加通俗易懂。不过喜欢原文字还是转换后文字由你自己决定。 Notion AI 只是让你多了一种选择，而不是强制你选择。**
 
-# 如果你话没重点
+## 如果你话没重点
 
 写文章跟说话一样，有的人说话说了老半天人家不知道想表达什么意思，同样的，写文章没重点，最后发现文章写得是很长，但是没有突出重点，让读者 get 不到点。
 
@@ -124,7 +124,7 @@ Notion AI 中的 Summarize 可以帮你做文章总结，让读者更容易明�
 
 > 目测总结得不错。
 
-# 福利小技巧
+## 福利小技巧
 
 有了 Notion AI 在写文章就好办了，只用关注创作内容本身就行。
 

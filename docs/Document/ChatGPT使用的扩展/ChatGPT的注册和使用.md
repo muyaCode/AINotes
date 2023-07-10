@@ -4,13 +4,13 @@
 
 ## 48个ChatGPT用例
 
-ChatGPT官网：https://beta.openai.com/examples
+ChatGPT官网：<https://beta.openai.com/examples>
 
 ## ChatGPT使用技巧，100+优质提问模版
 
 **awesome-chatgpt-prompts开源地址**：[f/awesome-chatgpt-prompts: This repo includes ChatGPT prompt curation to use ChatGPT better. (github.com)](https://github.com/f/awesome-chatgpt-prompts)
 
-**Awesome ChatGPT Prompts官方网站**：https://prompts.chat/
+**Awesome ChatGPT Prompts官方网站**：<https://prompts.chat/>
 
 **ChatGPT 中文调教指南**：[PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。 (github.com)](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 
@@ -163,7 +163,7 @@ promt参考提问：请为我创建一个多层次的思维导图，主题是“
 
 ### 学习英语
 
-【学会使用AI工具，拉开和同龄人差距】https://www.bilibili.com/video/BV1rz4y1B7sD?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【学会使用AI工具，拉开和同龄人差距】<https://www.bilibili.com/video/BV1rz4y1B7sD?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 练习英语口语
 
@@ -199,13 +199,74 @@ ChatGPT非常擅长信息的提炼和总结，它可以快速总结一篇文章�
 
 开源Markdown生成PPT工具：
 
+## 自媒体人设定位选题
 
+prompt：你+GPT角色+需求+格式
+
+举例: 职场女白领
+
+- 你的角色：我现在是一名职场女白领，之前有5年上市公司的管理经历想在小红书平台做一名女性成长博主
+- GPT角色：你作为一位小红书优质内容创作博主在小红书有500万粉丝，深得官方和用户的喜欢同时也是一位非常优秀的新媒体运营专家，有深厚的自媒体创作经历和运营经验，
+- 需求：可以给我提供7个博主的人设定位参考
+- 格式：要求以”定位名称：详细说明“的形式且清晰具体，体现专业度。
+
+**提问**：我现在是一名职场女白领，之前有5年上市公司的管理经历想在小红书平台做一名女性成长博主，你作为一位小红书优质内容创作博主在小红书有500万粉丝，深得官方和用户的喜欢同时也是一位非常优秀的新媒体运营专家，有深厚的自媒体创作经历和运营经验，可以给我提供7个博主的人设定位参考。要求以”定位名称：详细说明“的形式且清晰具体，体现专业度。
+
+ChatGPT的答案：
+
+- 职场生存导师
+- 职业时尚潮人
+- 职场心理教练
+- 职业创业导师
+- 职场营销专家
+- 职业生涯规划
+- 职场健康与健身
+
+prompt：你的需求+输出格式
+
+**提问**：现在我想要参考的博主人设定位有：“职场生存导师:以分享职场生存技巧、管理经验和职业发展建议为主要内容重点关注提升职业素养、解决职场问题和塑造成功形象等方面。你可以给我具体的小红书笔记选题吗?
+
+**提问**：现在你需要依据上面内容帮助我构建一个小红书笔记选题库，需要按照三级分类用一张表格呈现，这套方法主要是让chatGPT先给出框架
+
+### 标题篇
+
+prompt：你的需求+输出格式+输出要求
+
+**提问**：针对第一条非暴力沟通技巧的选题，生成5个小红书风格的标题让我获得更高的点击率
+
+**生成标题后再提问**：以第2条的风格为参考，帮我再生成5个标题。要求：满足用户的好奇心和点击欲望，加上emoji表情，每个标题在20个汉字以内。
+
+### 内容篇
+
+文章生成的思路：先喂案例-分析特点-给到反馈-再来输出
+
+选择好标题之后，我们直接喂给它一篇高质量小红书文章的例子，分析总结这篇文章的风格特点，然后我们把整个风格特点打包总结成一个指令命名为小红书风格：
+
+**提问**：总结得很到位，接下来，把上面你分析的小红书优质文案的风格特点，总结成一个指令，名称是”小红书风格“之后每当我需要你作为小红书文案创作者进行文案撰写，提出”小红书风格”你就根据这种风格特点撰写文案，可以吗?可以的话，请回复:"好的，如果我收到“小红书风格”相关的指令，我将根据上面我分析的小红书优质文案的风格特点进行文案创作。”
+
+**等ChatGPT回答后再提问**：好棒，这些标题我都可以用。现在你需要作为小红书内容创作者，我会发你一篇高质量的小红书文案范本。你需要根据范本分析总结出优质小红书文案的风格特点。
+小红书文案范本：
+XXXXXXXX
+
+**等分析完风格后再提问**：好的，你现在要作为小红书优质内容创作者，需要用”小红书风格“攒写文案，主题是”@别再失言了!职场必备的5个非暴力沟通技巧，化解冲突如破冰
+
+### 矩阵号运营
+
+## ChatGPT更新的功能
+
+**(Code lnterprete)代码解释器**：ChatGPT的代码解释器将深刻的改变我们同计算机的交互方式，可以接收用户上传的文本，数据，还有图片，然后向他提出要求，ChatGPT会用即时编程的方式来处理你的要求，然后再给出反馈。
+
+- 比如说，上传数据，要求对数据进行分析，然后按照你的要求来输出图表
+- 比如说，修改图片：
+  - 上传一张图片：要求把分辨率改为 1080*768，不要使图片变形，多余部分用黑色填充，加一个黑色能板，透明度设为30%，然后将格式修改为jpg
+  - 会把要求翻译成代码，然后会自己根据代码执行来改图片
+- 待定...
 
 ## ChatGPT插件
 
 ChatGPT 插件市场 于2023年3月24号推出
 
-【这22个ChatGPT插件将在4-5个月内影响每个人 AI应用合集】https://www.bilibili.com/video/BV1Ph411K7J4?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【这22个ChatGPT插件将在4-5个月内影响每个人 AI应用合集】<https://www.bilibili.com/video/BV1Ph411K7J4?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 - 00:00：Wolfram
 - 00:18：Zapier
@@ -232,9 +293,9 @@ ChatGPT 插件市场 于2023年3月24号推出
 
 科研插件：
 
-- txyz.ai：【ChatGPT的插件txyz.ai 科研人士值得拥有】https://www.bilibili.com/video/BV1EW4y1Q7oT?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+- txyz.ai：【ChatGPT的插件txyz.ai 科研人士值得拥有】<https://www.bilibili.com/video/BV1EW4y1Q7oT?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 - chatpdf
 
 全自动生成视频：Visla
 
-【全自动生成视频？Chatgpt一分钟做一条？人人自媒体时代】https://www.bilibili.com/video/BV18X4y1874b?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【全自动生成视频？Chatgpt一分钟做一条？人人自媒体时代】<https://www.bilibili.com/video/BV18X4y1874b?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
