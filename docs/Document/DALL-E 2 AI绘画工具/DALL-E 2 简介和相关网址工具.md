@@ -11,3 +11,5 @@ DALL-E 2 是一种基于语言的人工智能图像生成器，可以根据文�
 ## 相关网址
 
 官网：[DALL·E 2 (openai.com)](https://openai.com/dall-e-2)
+
+在newbing中的生成画像图像就是用DALL·E 2
