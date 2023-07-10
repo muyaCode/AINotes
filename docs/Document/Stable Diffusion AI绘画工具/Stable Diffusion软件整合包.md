@@ -40,6 +40,10 @@
 - 百度网盘：<http://mtw.so/6viaOM>  提取码：8m51
 - qq频道：<https://pd.qq.com/s/dsjf0fhhe>
 
+**未知整合包**：https://pan.baidu.com/s/1RmAKpCP0qbltlRfQJ-7AtA?pwd=xkwo 
+
+出处：[2023最新AI绘画Stable Diffusion，原创不用愁日赚1000+【软件+教程】-小K网 (xkwo.com)](https://www.xkwo.com/article-29679.html)
+
 ## 低成本Stable Diffusion API解决方案
 
 - **stablediffusion api**：<https://stablediffusionapi.com/>
@@ -192,8 +196,6 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
   - <https://docs.qq.com/doc/DY0lFeWZuVXRCdUJU>
   - <http://www.123114514.xyz/models/ckpt>（挺多私炉的）
 
-**SD软件安装包及数个大模型及LORA（120G）链接**：<https://pan.quark.cn/s/a7ae11c9f82f>
-
 - 【Stable Diffusion怎么做小说推文的出图讲解第一期】<https://www.bilibili.com/video/BV1Vs4y1w7kH?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 - 【Stable Diffusion怎么做小说推文的出图讲解第二期：抄作业大战】<https://www.bilibili.com/video/BV1Eu41147wv?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 - 【Stable Diffusion小说推文实战讲解第三期：如何利用GPT制作分镜，并批量高效率出图。】<https://www.bilibili.com/video/BV1W14y1D7QG?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
@@ -201,13 +203,9 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
 
 【Stable Diffusion+Midjourney强强联手出梦幻酷图】<https://www.bilibili.com/video/BV1aX4y1q7Rh?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-花开绘百世发布（适用于一些绘画元素的借鉴，偏敦煌风格）图包下载链接：<https://pan.quark.cn/s/090dfd74a8e3>
-
 将 2D 转为 3D 模型：
 
 设计类AI大模型：<https://civitai.com/user/laizhende/models>
-
-赛博修仙-御水之术图包下载：<https://pan.quark.cn/s/4f8dd25d6e0f>
 
 【AI绘画｜赛博修仙-御水之术】<https://www.bilibili.com/video/BV1Kh4y1o7Hs?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
@@ -216,8 +214,6 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
 - 基本步骤：mj跑底图-sd配合tile增加细节-ps修bug-sd配合tile放大到4k
 
 搜索 chocolae
-
-何似在人间 仙侠模型图包下载：https://pan.quark.cn/s/e514b63b216a
 
 使用教程：【Stable Diffusion 何似在人间 仙侠模型发布 （适合小说插画、背景）】https://www.bilibili.com/video/BV1Ph4y1X7ub?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
@@ -234,8 +230,6 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
 
 【【AI绘画】模型训练器发布！简单又不失专业的LoRA模型训练一键包】https://www.bilibili.com/video/BV1AL411q7Ub?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
-- 百度盘：<https://pan.baidu.com/s/1TBaoLkdJVjk_gPpqbUzZFw>  提取码：p8uy
-- 夸克：<https://pan.quark.cn/s/ec29b91df0c5>
 - AutoDL 云端使用教程：<https://www.bilibili.com/read/cv24050162>
 
 具体的训练操作步骤：【【AI绘画】最佳人物模型训练！保姆式LoRA模型训练教程 一键包发布】https://www.bilibili.com/video/BV1fs4y1x7p2?vd_source=36c9491a7fa2ab8a22ca060af01b7472
@@ -661,3 +655,24 @@ yadayoAI艺术平台：<https://yodayo.com/>
 ## 各个领域的中英文对照表
 
 室内/建筑关键词中英文对照表：[⁡﻿‌⁤⁡⁢‍⁤‍⁡⁣⁢⁤⁢⁣‍﻿﻿⁣⁣‬‌﻿‬⁢⁣‌‍‬‌⁡⁡⁣⁡⁢室内/建筑关键词中英文对照表 - 飞书云文档 (feishu.cn)](https://d36mqghu8a.feishu.cn/sheets/NnnwsdcCKh3dpgt88kCcQsc8nIe?sheet=oVqwGF)
+
+## 短视频变现渠道
+
+短视频赛道优势：美女是刚需，不管是线上还是线下，
+
+有美女的地方就会有流量，有流量的地方才有钱
+
+变现方式：
+
+壁纸cps：2.5-4毛下载/次
+
+音乐推广：100-5000/条
+
+教学收徒：199-1999/学员
+
+广告变现：500-2000/条
+
+男粉变现：单价8-15一个(大把人收，变现方式多种)
+
+设备要求：电脑，最低4G或8G，N卡，＋手机远程操作教程
+

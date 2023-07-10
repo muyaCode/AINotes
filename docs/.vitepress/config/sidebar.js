@@ -25,6 +25,17 @@ export default {
       ]
     },
     {
+      text: "AIGC类人工智能",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "AIGC类人工智能简介",
+          link: "/Document/AIGC类人工智能/AIGC类人工智能简介",
+        },
+      ]
+    },
+    {
       text: "问答类语言模型",
       collapsible: true, // 可折叠
       collapsed: true, // 初始不折叠
@@ -126,13 +137,13 @@ export default {
       ]
     },
     {
-      text: "AIGC类人工智能",
+      text: "🌕AI绘画工具",
       collapsible: true, // 可折叠
       collapsed: true, // 初始不折叠
       items: [
         {
-          text: "AIGC类人工智能简介",
-          link: "/Document/AIGC类人工智能/AIGC类人工智能简介",
+          text: "AI绘画工具",
+          link: "/Document/AI绘画工具/AI绘画工具",
         },
       ]
     },
