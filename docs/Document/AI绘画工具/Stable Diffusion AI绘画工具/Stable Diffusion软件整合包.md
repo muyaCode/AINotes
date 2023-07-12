@@ -2,6 +2,37 @@
 
 教程：[2023-03-20-2023最新AI绘画Stable Diffusion，原创不用愁日赚1000+【软件+教程】_免费高速下载|百度网盘-分享无限制 (baidu.com)](https://pan.baidu.com/s/1RmAKpCP0qbltlRfQJ-7AtA?pwd=xkwo#list/path=%2F)
 
+## Stable Diffusion 电脑配置推荐
+
+[SD推荐电脑配置 (qq.com)](https://docs.qq.com/sheet/DRU9ydUR3TmNWeWdE?tab=BB08J2)
+
+- *▢* 基础配置 / 5500元
+- *▢* 进阶配置 / 9000元
+- *▢* 性价比配置 / 10000元
+- *▢* 高级配置 / 14000元
+
+电脑配置需求
+
+操作系统：windows10以后
+
+CPU：不做强制性要求
+
+内存：推荐8G以上
+
+显卡：必须是Nvidia的独立显卡，显存最低4G，推荐20系以后
+
+A卡核显只能用CPU跑整合包，推荐放在固态硬盘中，提升模型加载速度
+
+**所需配置**
+
+推荐配置：拥有Nvidia独立显卡、RTX20系以后的显卡。仅生成图片推荐8G显存（4G是最低保障配置）训练推荐大于12G（越大越好）
+
+内存推荐16G及以上。硬盘推荐使用固态硬盘，否则你开软件要等个5-10分钟。
+
+CPU不做太多要求。
+
+A卡能不能用？能，但是性能损耗很大。可以在Linux系统上获得最佳效果，但是由于我本人没有A卡，所以我也不会做相关的教程
+
 ## Stable Diffusion软件整合包合集
 
 **开源项目Stable Diffusion WebUI**：
@@ -16,19 +47,18 @@
 
 **Stable Diffusion WebUI 启动器+整合包  完美支持苹果MAC OS   已经下载webUI的可以一键导入直接使用**：[爱兔(AITools) Stable Diffusion WebUl启动器 (easyartx.com)](https://www.easyartx.com/landing)
 
-**【秋菜aaaki】的Stable Diffusion整合包**：
+**【秋葉aaaki】的Stable Diffusion整合包**：
 
-- 【【AI绘画】Stable Diffusion整合包v4.2发布！全新加速 解压即用 防爆显存 三分钟入门AI绘画 ☆可更新 ☆训练 ☆汉化】<https://www.bilibili.com/video/BV1iM4y1y7oA?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
-
+- **整合包的安装和使用教程**：【【AI绘画】Stable Diffusion整合包v4.2发布！全新加速 解压即用 防爆显存 三分钟入门AI绘画 ☆可更新 ☆训练 ☆汉化】<https://www.bilibili.com/video/BV1iM4y1y7oA?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 - 百度盘：<https://pan.baidu.com/s/1MnyQH_gWgVdxU1S_Hjc5JQ>   提取码 t724
 - 夸克盘：<https://pan.quark.cn/s/3a32257a7323>   提取码：284q
+- 使用教程和模型：
 - 快速开始使用 → <https://www.bilibili.com/read/cv22661198>
 - 新手最全教程 → <https://www.bilibili.com/read/cv22159609>
 - 4月模型推荐 → <https://www.bilibili.com/video/BV1em4y1z7Dg>
 - 5-6月模型推荐 → <https://www.bilibili.com/video/BV1iM4y1y7oA>
 - 模型安装使用百科 → <https://www.bilibili.com/read/cv21362202>
 - 安装遇到问题可以前往我的爱发电 → <https://afdian.net/a/akibanzu>
-
 - 若启动器更新报毒，属正常现象。Windows Defender日常误报，推荐直接安装一个火绒让wd闭嘴。或者可以添加入信任区
 - 【报错解决】
   - 1.遇到报错请前往启动器的 “疑难解答” 页面进行扫描，绝大部分问题都会有解决方法。
@@ -182,6 +212,14 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
 
 **xtimesai**：<https://www.xtimesai.com>
 
+吐司在线生图的模型分享平台：
+
+吐司 tusi.art 是一家支持在线生图的模型分享平台，简单说就是国内版 C 站+在线跑图，电脑显卡配置不好的朋友们可以都来尝试尝试这个免费在线跑图！真的很香，各种插件也都有，高清修复、ControlNet、ADetailer 修脸器等等 
+
+生成图片需要消耗算力，每天登录都可以充满 100 算力。但很多人都意犹未尽，别急！可以来领取使用我的专属福利 注册链接：https://tusi.art  注册完账号后，在编辑资料里的邀请码栏填上“ 秋叶 ”，即可立即获得 100 算力【前提是必须新用户或者7天内注册的用户】 
+
+另外大家也可以邀请自己的朋友注册，每邀请 1 人还可以得到额外 200 算力 @吐司TusiArt
+
 ### 其他Model|模型资源
 
 使用注意：
@@ -306,7 +344,9 @@ BIRME - 调整多个图像的大小（在线和免费） (onlinephotosoft.com)
 
 2.重启Stable Diffusion，【文生图】tab中就可以看到插件了
 
-Stable Diffusion插件网站：[webui (webui) (huggingface.co)](https://huggingface.co/webui)
+Stable Diffusion插件模型huggingface网站：[webui (webui) (huggingface.co)](https://huggingface.co/webui)
+
+开源地址：[huggingface/transformers: 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX. (github.com)](https://github.com/huggingface/transformers)
 
 比C站助手好用的LORA触发词/大模型管理插件，插件地址：<https://github.com/a2569875/lora-prompt-tool>
 

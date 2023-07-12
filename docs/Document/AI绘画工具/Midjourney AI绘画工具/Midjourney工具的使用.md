@@ -138,6 +138,22 @@ A：不用，Midjourney并不是软件，也不用安装，它是一个架设在
 
 【定制个人专属头像，AI绘画保姆级教程】https://www.bilibili.com/video/BV1Vs4y1d7sc?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
+## 如何利用ChatGPT和Midjourney轻松创作绘本故事
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2949739744374b50b06a1bbb8b72dd2c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+这篇文章以「小镇美食家」为主题，使用 ChatGPT和Midjourney 等AI工具完成了绘本创作，并完整记录了创作的全流程。想学习绘本创作的小伙伴，可以按照这份教程来操作和练习！
+
+> **第一步：选择工具**。创作一个绘本故事，主要分成故事和画面两个部分，故事部分使用ChatGPT，绘画部分使用更容易上手的Midjourney 的 Niji 模式。
+>
+> **第二步：创作剧本**。使用 ChatGPT 创建故事，并通过 prompt 生成分镜和文字描述，并将分镜语言翻译为英文的Midjourney主体描述词，再进一步丰富故事细节。
+>
+> **第三步：跑图思路**。一篇整体的绘本故事，需要保证画风统一 (使用尽量简短的关键词来控制画风)、角色正确 (给主角一些外貌上的特征)、画面能与文案搭配 (人工优化，以及不要有复杂的语句)。
+>
+> **第四步：图文整合**。挑选合适的图并使用PS进行微调，再将文案融入图片中并进行排版。一个简单的绘本故事就创作完成啦！
+>
+> **第五步：如何更进一步**。也可以在绘制草图后，交由Stable Diffusion 「局部重绘」功能来完善细节 [如何利用ChatGPT和Midjourney轻松创作绘本故事 (qq.com)](https://mp.weixin.qq.com/s/DnJ4yKFbJd5hnAIHpiVvXQ)
+
 ## 利用AI绘画工具和ChatGPT生成的虚拟数字人
 
 可以通过AI工具把过世亲人的照片和音频训练成虚拟数字人

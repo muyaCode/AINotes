@@ -2,6 +2,10 @@
 
 ## AI项目资讯网址
 
+[ShowMeAI 日报➕周刊 (qq.com)](https://mp.weixin.qq.com/mp/homepage?__biz=Mzg2OTYyMTcwMw==&hid=2&sn=51f7bead52c41447cd0ecb3d57b884e7)
+
+[AI系列教程 (showmeai.tech)](https://www.showmeai.tech/tutorials/85)
+
 ## 热门开源项目
 
 ## Github Trending榜高赞与趣味项目速览-20230707

@@ -199,6 +199,64 @@ ChatGPT非常擅长信息的提炼和总结，它可以快速总结一篇文章�
 
 开源Markdown生成PPT工具：
 
+## 使用AI工具写一篇精彩的小说
+
+**目前最常用的3个主要工具**
+
+> *▢* **Sudowrite** - 主流写作工具
+>
+> *▢* **ChatGPT** (GPT-3.5/GPT-4) - 生成想法和短段落
+>
+> *▢* **Claude** (Claude Instant / Claude+ / Claude 100K) - 生成观点和简短段落
+
+**小说创作流程与Prompt优化**
+
+> *1*. **ChatGPT和Claude都可以提供丰富的、令人印象深刻的故事创意**
+>
+> ```
+> Write an idea for a fantasy novel
+> I really like this idea, but please ......
+> ```
+
+> *2*. **不论是提笔之前精准构思，还是随心创作的作者，都可以从AI中获取帮助，以下是常见的大纲类型**:
+>
+> - The 3-Act Structure 三幕结构
+> - The 5-Act Structure 五幕结构
+> - Save the Cat 救猫咪
+> - The Hero’s Journey 英雄之旅
+> - Romancing the Beat 浪漫节奏
+> - Dan Harmon’s Story Circle 丹·哈蒙故事圈
+>
+> ```
+> Using the following synopsis, create a detailed outline of the story, fleshing out additional details, and breaking it into parts using The 3-act structure: \[synopsis]
+> ```
+
+> *3*. **为AI提供完整大纲，并要求它为每部分编写故事节点，即每个场景中发生什么事情**
+>
+> ```
+> use the following outline and create story beats for each section of it. You can add characters, speaking scenes and locations to create a more vivid story: \[outline]
+> ```
+
+> *4*. **开始最有挑战的部分——小说写作，使用 Sudowrite / ChatGPT / Claude 工具来创建完整的章节和场景，并将其拼接在一些**
+>
+> ```
+> Ariella walks through town and sees a strange man giving a speech to the townsfolk. He speaks of ancient prophecies that foretell the balance between light and dark is shifting.
+> ```
+
+> *5*. **编辑和校对，修正故事中不流畅或者令人困惑的情节，校对语法和拼写错误等**
+
+**改善小说的5种方法**
+
+> *▢* 产生创意和Prompt，尤其是意想不到的情节转折等
+>
+> *▢* 与AI合作，成为共同创作的伙伴和有共鸣的伴侣
+>
+> *▢* 帮助润色句子，增强风格，提升流畅度
+>
+> *▢* 帮助克服写作瓶颈，有着源源不断的写作灵感
+>
+> *▢* 协助完成编辑和校对流程，尤其是语法和拼写检查  [**⋙ 来源**](https://tangledtech.com/artificial-intelligence-ai/how-to-write-a-novel-using-ai-chatgpt-sudowrite-claude)
+
 ## 自媒体人设定位选题
 
 prompt：你+GPT角色+需求+格式

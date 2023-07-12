@@ -9,6 +9,17 @@ export default {
       ],
     },
     {
+      text: "AIGC类人工智能",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "AIGC类人工智能简介",
+          link: "/Document/AIGC类人工智能/AIGC类人工智能简介",
+        },
+      ]
+    },
+    {
       text: "AI工具使用前置",
       collapsible: true, // 可折叠
       collapsed: true, // 初始不折叠
@@ -22,17 +33,6 @@ export default {
           link: "/Document/AI工具使用前置/使用工具前置",
         },
         
-      ]
-    },
-    {
-      text: "AIGC类人工智能",
-      collapsible: true, // 可折叠
-      collapsed: true, // 初始不折叠
-      items: [
-        {
-          text: "AIGC类人工智能简介",
-          link: "/Document/AIGC类人工智能/AIGC类人工智能简介",
-        },
       ]
     },
     {
@@ -127,12 +127,27 @@ export default {
           link: "/Document/图像视频相关AI工具/",
         },
         {
-          text: "",
-          link: "/Document/图像视频相关AI工具/",
-        },
-        {
-          text: "",
-          link: "/Document/图像视频相关AI工具/",
+          text: "视频和直播实时换脸AI",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "DeepFaceLive",
+              link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/DeepFaceLive",
+            },
+            {
+              text: "Roop",
+              link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/Roop",
+            },
+            {
+              text: "",
+              link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/",
+            },
+            {
+              text: "",
+              link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/",
+            },
+          ]
         },
       ]
     },
@@ -145,65 +160,69 @@ export default {
           text: "AI绘画工具",
           link: "/Document/AI绘画工具/AI绘画工具",
         },
-      ]
-    },
-    {
-      text: "Midjourney AI绘画工具",
-      collapsible: true, // 可折叠
-      collapsed: true, // 初始不折叠
-      items: [
         {
-          text: "Midjourney工具的使用",
-          link: "/Document/Midjourney AI绘画工具/Midjourney工具的使用",
+          text: "Midjourney AI绘画工具",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "Midjourney工具的使用",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/Midjourney工具的使用",
+            },
+            {
+              text: "Midjourney的Prompt关键词",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/Midjourney的Prompt关键词",
+            },
+          ]
         },
         {
-          text: "Midjourney的Prompt关键词",
-          link: "/Document/Midjourney AI绘画工具/Midjourney的Prompt关键词",
-        },
-      ]
-    },
-    {
-      text: "Stable Diffusion AI绘画工具",
-      collapsible: true, // 可折叠
-      collapsed: true, // 初始不折叠
-      items: [
-        {
-          text: "Stable Diffusion软件整合包",
-          link: "/Document/Stable Diffusion AI绘画工具/Stable Diffusion软件整合包",
-        },
-        {
-          text: "Stable Diffusion工具的使用",
-          link: "/Document/Stable Diffusion AI绘画工具/Stable Diffusion工具的使用",
-        },
-      ]
-    },
-    {
-      text: "DALL-E 2 AI绘画工具",
-      collapsible: true, // 可折叠
-      collapsed: true, // 初始不折叠
-      items: [
-        {
-          text: "DALL-E 2 简介和相关网址工具",
-          link: "/Document/DALL-E 2 AI绘画工具/DALL-E 2 简介和相关网址工具",
+          text: "Stable Diffusion AI绘画工具",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "Stable Diffusion软件整合包",
+              link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/Stable Diffusion软件整合包",
+            },
+            {
+              text: "Stable Diffusion工具的使用",
+              link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/Stable Diffusion工具的使用",
+            },
+            {
+              text: "Stable Diffusion插件手册",
+              link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/Stable Diffusion插件手册",
+            },
+          ]
         },
         {
-          text: "DALL-E 2使用教程",
-          link: "/Document/DALL-E 2 AI绘画工具/DALL-E 2使用教程",
+          text: "DALL-E 2 AI绘画工具",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "DALL-E 2 简介和相关网址工具",
+              link: "/Document/AI绘画工具/DALL-E 2 AI绘画工具/DALL-E 2 简介和相关网址工具",
+            },
+            {
+              text: "DALL-E 2使用教程",
+              link: "/Document/AI绘画工具/DALL-E 2 AI绘画工具/DALL-E 2使用教程",
+            },
+          ]
         },
-      ]
-    },
-    {
-      text: "Leonardo.AI绘画工具",
-      collapsible: true, // 可折叠
-      collapsed: true, // 初始不折叠
-      items: [
         {
-          text: "DALL-E 2 简介和相关网址工具",
-          link: "/Document/Leonardo.AI绘画工具/Leonardo.AI简介和相关网址工具",
-        },
-        {
-          text: "DALL-E 2使用教程",
-          link: "/Document/Leonardo.AI绘画工具/Leonardo.AI使用教程",
+          text: "Leonardo.AI绘画工具",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "DALL-E 2 简介和相关网址工具",
+              link: "/Document/AI绘画工具/Leonardo.AI绘画工具/Leonardo.AI简介和相关网址工具",
+            },
+            {
+              text: "DALL-E 2使用教程",
+              link: "/Document/AI绘画工具/Leonardo.AI绘画工具/Leonardo.AI使用教程",
+            },
+          ]
         },
       ]
     },
@@ -239,29 +258,6 @@ export default {
         {
           text: "",
           link: "/Document/AI音频相关/",
-        },
-      ]
-    },
-    {
-      text: "视频和直播实时换脸AI",
-      collapsible: true, // 可折叠
-      collapsed: true, // 初始不折叠
-      items: [
-        {
-          text: "DeepFaceLive",
-          link: "/Document/视频和直播实时换脸AI/DeepFaceLive",
-        },
-        {
-          text: "Roop",
-          link: "/Document/视频和直播实时换脸AI/Roop",
-        },
-        {
-          text: "",
-          link: "/Document/视频和直播实时换脸AI/",
-        },
-        {
-          text: "",
-          link: "/Document/视频和直播实时换脸AI/",
         },
       ]
     },
