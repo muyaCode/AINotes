@@ -1,7 +1,5 @@
 # DeepFaceLive
 
-AI换脸工具：swapface
-
 ## 简介
 
 ## 软件地址

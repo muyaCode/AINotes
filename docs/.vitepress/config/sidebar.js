@@ -123,8 +123,8 @@ export default {
           link: "/Document/图像视频相关AI工具/其他图片相关的AI工具",
         },
         {
-          text: "",
-          link: "/Document/图像视频相关AI工具/",
+          text: "AI制作电影",
+          link: "/Document/图像视频相关AI工具/AI制作电影",
         },
         {
           text: "视频和直播实时换脸AI",
@@ -140,8 +140,8 @@ export default {
               link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/Roop",
             },
             {
-              text: "",
-              link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/",
+              text: "Swapface",
+              link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/Swapface",
             },
             {
               text: "",

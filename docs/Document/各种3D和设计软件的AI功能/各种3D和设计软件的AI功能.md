@@ -120,3 +120,17 @@ github.com搜索Generative_AI
 【美图发布7款新品】<https://www.bilibili.com/video/BV1LX4y1t7Su?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 【美图AI大爆发，国产AI崛起！美图秀秀发布7款AI工具：AI绘图、AI视频剪辑、AI海报、AI模特、AI换装、AI数字人、AI助手】<https://www.bilibili.com/video/BV1rN411r76n?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+### AI绘图
+
+美图秀秀 App 的AI绘画区，目前已经包含了图生图、文生图、涂鸦生图、头像制作、线稿上色等功能。近期上线的「文生图」功能，能够将用户输入的自然语言文本转换为图像。
+
+> *1*. 图生图：导入一张照片，生成多款AI绘画
+>
+> *2*. 文生图：输入关键词，AI帮你画
+>
+> *3*. 涂鸦生图：随手涂鸦，秒变画家
+>
+> *4*. 头像制作：一键生成100张专属头像
+>
+> *5*. 线稿上色：上传线稿，AI帮你上色

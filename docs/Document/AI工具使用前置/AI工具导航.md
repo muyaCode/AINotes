@@ -1,8 +1,141 @@
 # AI工具导航
 
+## AI 创业方向
+
+**1. 医疗**。医疗保健领域的 AI 公司可以帮助医生使用最新技术识别和跟踪患者的病情，显著降低某些致命疾病的威胁，加速药物开发进程并降低医疗成本，从而增加人类的预期生命。
+
+**2. 能源**。长久以来，制造业一直在寻求降低能源消耗成本的解决方案。使用 AI 精准预测未来所需的能源数量，可以在节约投资与减少浪费方面发挥作用。
+
+**3. 在线学习 / 基于AI的学习类App**。班级里学业落后的学生，通常得不到老师足够多的注意力和帮助，而 AI 可以为学习者创建个性化课程和学习计划，也可以提升工作技能和职业生涯的发展。
+
+**4. 建筑设计**。建筑设计行业价值数十亿美元，政府、企业与个人在聘请专业建筑设计师时，往往需要支付高额的账单。使用 AI 进行建筑设计可以充分拓展想象力，并压缩所需时间和资金，是一种成功且可扩展的商业模式。
+
+**5. 音频内容专用搜索引擎**。文本和视频搜索领域，已经成为 Google、百度等互联网巨头的盘中餐，但音频播客领域的专用搜索引擎还是一片空白。当然的播客热潮，蕴藏着巨大的搜索需求，可能会催生一家使用语音搜索公司。
+
+**6. 市场营销**。营销领域提供的传统解决方案，正面临着大数据和 AI 驱动的智能系统的威胁。智能化营销的效果也越来越趋于稳定。
+
+**7. 招聘自动化**。找到合适的职位候选人并不是一件容易的事情，需要反复分析简历、匹配资历和经验等等。基于 AI 的招聘工具可以加速这一过程，帮助更轻松地找到和雇佣合适的人员。换言之，候选人的搜索结果将根据特定的工作角色量身定制。
+
+**8. 内容创作**。可以构建一个 AI 内容创建者，使用先进的深度学习快速地制作任何主题的高质量内容。内容创作拥有数十亿美元的市场，而拥有优秀内容创作者的 AI 公司将吞噬掉其中的一部分，大量自由创作者会面临着巨大的职业威胁。
+
+**9. 新零售**。AI 购物助手，可以根据客户定期给出想要/喜欢的物品以及预算，创建个性化的购买体验。
+
+## 大模型进展汇总
+
+4月20日，出门问问举办了 AIGC 战略发布会，发布了「序列猴子」大模型，以语言为核心的能力体系涵盖知识、对话、数学、逻辑、推理、规划等六个维度，能够同时支持文字生成、图片生成、3D内容生成、语音生成和语音识别等不同任务。
+
+出门问问依托「序列猴子」大模型，整合发布文字生成、AI绘画、配音、数字人等产品矩阵，可以直接在线体验：
+
+> *▢* **奇妙文：你的AI写作助理** ([wen.mobvoi.com/](https://wen.mobvoi.com))
+>
+> *▢* **言之画：你的AI绘画助理** ([paint.mobvoi.com/](https://paint.mobvoi.com))
+>
+> *▢* **魔音工坊：你的Al配音助理** ([www.moyin.com/](https://www.moyin.com))
+>
+> *▢* **奇妙元：你的AI数字分身** ([www.weta365.com/](https://www.weta365.com))
+>
+> *▢* **序列猴子：开放平台** ([openapi.mobvoi.com/](https://openapi.mobvoi.com)) 👉 [**更多测评**](https://mp.weixin.qq.comsazRrb1pSiXl3kCYyHo-xKQ)
+
+### 企业大模型产品
+
+4月17日，昆仑万维正式发布千亿级大语言模型「天工」，并启动邀请测试。
+
+「天工」由昆仑万维与国内领先的AI团队奇点智源联合研发，是国内首个对标ChatGPT的双千亿级大语言模型，也是昆仑万维继AI绘画产品「天工巧绘」后的又一款生成式AI产品。
+
+「天工」通过自然语言与用户进行问答式交互，AI生成能力可满足文案创作、知识问答、代码编程、逻辑推演、数理推算等多元化需求。即日起，获得邀请的用户可在「天工」官网登陆体验。[天工官网 (kunlun.com)](https://tiangong.kunlun.com/)
+
+## 华为发布多模态千亿级大模型 「盘古」3.0 版
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f9ed7b9bb205413eab3871643336a5ff~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+7 月 7 日，华为开发者大会 HDC Cloud 在东莞举行，会上正式发布了「盘古大模型 3.0」。大模型分为L0基础大模型、L1行业大模型、L2场景模型三层架构，将重塑千行百业，利用 AI 技术给各行业带来价值。华为还介绍了大模型在其他领域的系列落地进展，包括政务领域、金融行业、制造业、气象预测、开发新药等。
+
+华为还发布了基于大模型的代码生成工具「CodeArts」，具有三大核心能力：智能生成代码，智能问答和智能协同。盘古训练了 760 亿行精选代码，8500 万开源代码仓，1300 余万篇技术文档，目标是让它成为每个开发者的 AI 助手[【重磅】AI重塑千行百业，华为云盘古大模型3.0正式发布 (qq.com)](https://mp.weixin.qq.com/s/ZiA_q2AeVeLq0UdixYPL7Q)
+
+————————————————————————————————————————
+
+Claude 是一款类ChatGPT的聊天机器人，由前OpenAI研究员和工程师另组团队开发，能够检测和回避ChatGPT的潜在陷阱，如逻辑错误、不恰当内容、重复性、无聊等。
+
+近日，Anthropic公司宣布 Claude已经上线Slack平台，开放申请并免费使用。ShowMeAI社区伙伴们实测给出了几款聊天机器人的使用体验排名：
+
+> ChatGPT > NewBing > Claude > 通义千问 > 文心一言 > Bard
+
+*1*. 注册 Slack。打开网址 [slack.com/intl/zh-cn/](https://slack.comintlzh-cn) ，跟随系统提示即可顺利完成注册
+
+*2*. 将Claude添加到Slack。打开网址 [www.anthropic.com/index/claud…](https://www.anthropic.comindexclaude-now-in-slack) ，点击 Add to Slack
+
+*3*. 设置Slack工作区，允许Claude 访问Slack 工作区权限
+
+*4*. 开始使用，操作简单，几乎秒答，小白也能快速上手
+
+*More*. 如果想在Claude官网使用，论是在线使用，还是使用Claude API服务来开发自己的产品，都需要在这个页面提交申请并等待邮件回复 [www.anthropic.com/earlyaccess](https://www.anthropic.comearlyaccess)
+
+| 企业      | 产品          | 发布日期       | 当前阶段        | 申请/使用链接                                     |
+| --------- | ------------- | -------------- | --------------- | ------------------------------------------------- |
+| 昆仑万雄  | 天工 3.5      | 4月17日        | 邀请内测        | <http://tiangong.kunlun.com>                        |
+| Amazon    | Titan         | 4月14日        | 企业用户内测    | <https://awsamazon.com/cn/bedrock/titan/>           |
+| 知乎      | 知海图 AI     | 4月13日        | 少量内部测试    | 消息来源: 2023 知乎发现大会                       |
+| 字节飞书  | 智能助手MY AI | 4月11日        | 未开放          | 消息来源:飞书公众号                               |
+| 商汤      | 日日新        | 4月10日        | 企业用户内测    | <https://lm_experience.sensetime.com>               |
+| 360       | 360智脑       | 4月10日        | 企业用户内测    | <https://www.so.com/zt/invite.html#/>               |
+| Anthropic | Claude        | 4月7日         | 开放 Slack 注册 | <https://www.anthropiccom/index/caude-now-in-slack> |
+| 阿里      | 通义千问      | 4月7日         | 开放内测        | <https://tongyi.aliyun.com/>                        |
+| 百度      | 文心一言      | 3月16日        | 开放内测        | <https://yiyan.baidu.com/>                          |
+| OpenAl    | GPT-4         | 3月14日        | 公开测试        | <https://openai.com/product/gpt-4>                  |
+| Google    | Bard          | 2月8日         | 公开测试        | <http://bard.google.com/>                           |
+| OpenAl    | ChatGPT       | 2022年11月30日 | 开放注册        | <https://chatopenai.com/>                           |
+
+### 开源大模型
+
+| 机构          | 模型名称       | 开源时间        | 链接                                                         |
+| ------------- | -------------- | --------------- | ------------------------------------------------------------ |
+| 港中文(深圳)  | Phoenix等      | 2023年4月16日   | <https://github.com/FreedomIntelligence/LLMZoo>                |
+| AetherCortex  | Llama-X        | 2023年4月15日   | <https://github.com/AetherCortex/Lama-X>                       |
+| microsoft     | deepspeed-chat | 2023年4月14 日  | <https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-chat> |
+| 阿里巴巴      | Wombat         | 2023年4月13日   | <https://github.com/GanjinZero/RRHF>                           |
+| Databricks    | Dolly 2.0      | 2023年4月12日   | <https://huggingface.co/databricks/dolly-v2-12b>               |
+| Microsoft     | GPT-4-LLM      | 2023年4月6日    | <https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM>   |
+| Hugging Face  | StackLLaMA     | 2023年4月5日    | <https://huggingface.co/trl-lib/llama-7b-se-rl-peft>           |
+| UC Berkeley   | Koala          | 2023年4月3日    | <https://github.com/young-geng/EasyLM>                         |
+| UCSD/SYSU     | baize          | 2023年4月3日    | <https://github.com/project-baize/baize>                       |
+| UC Berkley 等 | Vicuna         | 2023年3月31日   | <https://github.com/lm-sys/FastChat>                           |
+| DeepMind      | Open Flamingo  | 2023年3月29日   | <https://github.com/mlfoundations/open_flamingo>               |
+| Nomic Al      | GPT4AI         | 2023年3月29日   | <https://github.com/nomic-ai/gpt4all>                          |
+| Cerebras      | Cerebras-GPT   | 2023年3月 28日  | <https://huggingface.co/cerebras/Cerebras-GPT-13B>             |
+| HKUST         | LMFlow         | 2023年3月 28日  | <https://github.com/OptimalScale/LMFlow>                       |
+| PhoebusSi     | Alpaca-CoT     | 2023年3月26日   | <https://github.com/PhoebusSi/Alpaca-CoT>                      |
+| 链家          | BELLE          | 2023年3月 25 日 | <https://github.com/LianjiaTech/BELLE>                         |
+| UIUC/OSU/HDU  | ChatDoctor     | 2023年3月24 日  | <https://github.com/KentOn-Li/ChatDoctor>                      |
+| 清华大学      | ChatGLM-6B     | 2023年3月15日   | <https://github.com/THUDM/ChatGLM-6B>                          |
+| Stanford      | Alpaca         | 2023年3月13日   | <https://github.com/tatsu-lab/stanford_alpaca>                 |
+| Together      | OpenChatKit    | 2023年3月10日   | <https://github.com/togethercomputer/OpenChatKit>              |
+| OpenAI        | Consistency    | 2023年3月3日    | <https://github.com/openai/consistency_models>                 |
+| Meta          | LLaMA          | 2023年2月24日   | <https://github.com/facebookresearch/llama>                    |
+| Nebuly        | ChatLLaMA      | 2023年2月 27日  | <https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama> |
+| 复旦大学      | MOSS           | 2023年2月 20日  | <https://moss.fastnlp.top/>                                    |
+|               |                |                 |                                                              |
+
+<https://github.com/SunLemuria/open_source_chatgpt_list>
+
+## 『Magician for Figma』Figma 的 AI 图标设计工具
+
+[magician.design/](https://magician.design/)
+
+Magician 是一款使用 AI 技术进行图标设计的工具，可以根据文本描述生成矢量图标（icon）或者图像（image），拓展想象力与创造力，节省搜索、挑选、制作icon或图片的时间。
+
 ## 藏AI相关的实用工具
 
 [ikaijua/Awesome-AITools: Collection of AI-related utilities. Welcome to submit issues and pull requests /收藏AI相关的实用工具，欢迎提交issues 或者pull requests (github.com)](https://github.com/ikaijua/Awesome-AITools)
+
+——————————————————————————————————————————————
+
+## 100个AI工具导航网站合集
+
+[全网最全100个AI工具导航网站合集 - 掘金 (juejin.cn)](https://juejin.cn/post/7232572368623059005)
+
+## AIGC 精品导航
+
+官网：[首页 - AIGC 精品导航 (kcodez.com)](http://ai.kcodez.com/)
 
 ## 未来百科
 

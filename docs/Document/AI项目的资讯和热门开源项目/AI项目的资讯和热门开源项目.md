@@ -133,3 +133,9 @@ OpenXLab在线Demo：<https://openxlab.org.cn/apps/detail/XingangPan/DragGAN>
 ## 天涯KK聊房价神贴
 
 <https://github.com/shengcaishizhan/kkndme_tianya>
+
+## Vertex AI 是谷歌云提供的机器学习平台服务 (ML PaaS)
+
+谷歌宣布基于 Vertex AI 的生成式人工智能服务全面上线。随着本次发布，谷歌大模型的服务已普遍可用，企业和组织现在可以将该平台的功能与自身应用进行集成。
+
+现在，开发者们可以在Vertex AI上使用多种新工具和模型，例如由下一代大型语言模型PaLM 2驱动的单词补全模型、用于文本的嵌入API和Model Garden中的其他基础模型。还可以利用Generative AI Studio中的可用工具来微调和部署自定义模型 [**⋙ the verge**](https://googles-generative-ai-support-in-vertex-ai-is-now-generally-available) | [**中文解读**](https://mp.weixin.qq.com/s/2kin5v_qLIvLh0-irDZGrw)

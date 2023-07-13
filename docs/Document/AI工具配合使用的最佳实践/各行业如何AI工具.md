@@ -8,3 +8,25 @@
 
 72小时用AI制作出来的游戏
 游戏链接：<https://ludenio.itch.io/generated-adventure>
+
+## AI工作流 | 全程使用AI工具设计一款桌游』飞越极限
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e23494855f904d0ea2e6a1525cb6c412~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+> 说明：只介绍项目落地过程中的工具组合与使用方法，不代表推荐产品，请谨慎消费
+
+创作者团队使用ChatGPT、New Bing、Segment Anything、Adobe Firefly等AI工具，开发了一款名为「飞越极限 (Flying Limit)」的 2-4 人策略桌游。
+
+在游戏中，玩家扮演奇幻世界中的飞行生物驯养师，通过操控飞行生物在赛道上竞速，并利用升级卡对自己的飞行生物进行强化或对对手造成干扰。
+
+游戏的所有元素均由AI打造，因此有着独特的游戏玩法和美术元素，风格与想象力也天马行空，构建了有着天马行空般想象力的奇幻世界。
+
+> *1*. chatgpt:：通过自然语言生成的游戏规则
+>
+> *2*. New Bing：通过自然语言绘制的卡牌和图案
+>
+> *3*. Segment Anything：对图案进行切割，来组成卡牌
+>
+> *4*. Adobe Firefly：对文字图案等内容进行排版和设计
+
+[**⋙ 过程与效果展示**](https://mp.weixin.qq.com/s/iqZPbyJwQo8jIC3L4hOJtw)

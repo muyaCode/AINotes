@@ -320,7 +320,7 @@ XXXXXXXX
   - 会把要求翻译成代码，然后会自己根据代码执行来改图片
 - 待定...
 
-## ChatGPT插件
+## ChatGPT插件|扩展
 
 ChatGPT 插件市场 于2023年3月24号推出
 
@@ -357,3 +357,27 @@ ChatGPT 插件市场 于2023年3月24号推出
 全自动生成视频：Visla
 
 【全自动生成视频？Chatgpt一分钟做一条？人人自媒体时代】<https://www.bilibili.com/video/BV18X4y1874b?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+### VoiceWave - Voice Control
+
+ChatGPT 语音扩展插件，安装好之后，在 ChatGPT 的回答上就会出现一个声音的图标。这样就能够用语音和 GPT 对话了。非常适合通过 ChatGPT 学习外语的朋友。
+
+### 3. ChatPDF
+
+网址：[www.chatpdf.com](https://www.chatpdf.com)
+
+打开即可使用，你把想要它能够帮你总结PDF文件扔给它，它会自动解析并生成一些关键性问题。然后你可以针对这些关键内容，或者你想问的问题进行提问。它都能按照文章内容给你解答。有一个沟通技巧，就是让它总结的时候，一段一段给出回复。比如："请用10段文字总结这篇文章，每段xx字，先发第一段。"
+
+备注：免费版本有限制，120页PDF、不高于10M，每天3个PDF文件，一天最多提50个问题。但基本够用。
+
+### 4. Whispe：免费生成音频字幕
+
+这是一款免费生成音频字幕的工具。跟剪映相比，好处在于免费且你不需要联网，在本地可以给音频添加字幕。不用担心视频泄露。
+
+网址：[github.com/Const-me/Wh…](https://github.com/Const-me/Whisper)
+
+### 5. ChatGPT的开源客户端
+
+ChatGPT桌面版，根据ChatGPT地址上套了一个壳，可以像本地应用一样打开使用，比较方便。另外他还支持导出聊天记录
+
+网址：[github.com/lencx/ChatG…](https://github.com/lencx/ChatGPT)

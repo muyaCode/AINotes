@@ -13,6 +13,180 @@
 - 【【SD教程】用Colab一键免费搭建AI画图神器Stable Diffusion，无限出图，白嫖google GPU，无电脑配置和显卡要求】<https://www.bilibili.com/video/BV17o4y1c7Cj?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 - 【stable diffusion最清晰的保姆级上手教程 -  AI绘画 NovelAi webUI】<https://www.bilibili.com/video/BV1rM4y1k7Dv?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
+## Stable Diffusion 如何写出更优雅的 Prompt
+
+### 一、Prompt 要素
+
+就像我们写作文一样，写 Prompt 也需要具备一些特定的格式，从而得到更好的出图质量
+
+总的会分为以下几个方面：
+
+- 画质
+- 画风
+- 主体
+- 主体属性
+- 主体特征：衣着、姿势
+- 场景特征
+- 环境特征
+- 画面视角
+- 反面提示词
+
+#### 1.画质
+
+如果我们没有任何画质的 prompt ，那么得出的效果就会很糊 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d3cb08f63ab64c199814af05fa152e2b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+添加画质的 prompt 就可以很好的解决这个问题，画质也分为了两大类
+
+- **通用型**：best quality, ultra-detailed, masterpiece, hires, 8k
+- **特定型**：比如 extremely detailed CG unity 8k wallpaper（超精细的8K Unity游戏CG），unreal engine rendered（虚幻引擎渲染）
+
+我们可以使用通用型举例，
+
+如果加上高画质的 prompt，那么出图的质量就会大大提升 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/96ddf569a255416192196bb069360898~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 2.画风
+
+画风就包括很多了，常见的
+
+- 插画风：Painting、Illustration、drawing
+- 二次元：Anime、Comic、Game CG
+- 写实风：Photorealistic、Realistic
+- 漫画风：comic
+- Q版：chibi
+- 等等
+
+同样来举个例子看看效果： ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/72c3d2db3ab2487ba2fb9d73b40b849a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+当我们使用相同的种子，
+
+只是画风不同的时候效果也非常不错 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5530787a0ec449ef800eec425d8f019e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 3.主体
+
+主体就是整个画面的主体是谁，这个就比较简单了，人、物可以
+
+比如来一个帅哥！ ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8fae06b85cbc4e03af6164c55007b9c4~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 4.主体属性
+
+主要是描述主题的一些特征，如果是人，那么他的高矮胖瘦，五官等等，主要会根据下面几个方面编写：
+
+- 人物类型：人、职业...
+- 身材
+- 头发
+- 五官
+
+举个例子：画一个萝莉(loli)，比较瘦(thin)，穿着大衣(wear overcoat clothes),短马尾(short ponytail)，红色的头发(red hair)，得意的笑(smirk)，狐狸耳朵（fox ears），爱心眼(heart-shaped pupils)，有一个尾巴(tail) ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c10d646a32134658942a486db42b0778~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 5.主体特征：衣着和姿势
+
+衣着和姿势 种类就非常多了。后面我们会提供一个大全供查看
+
+我们也是举个例子：在上一个 prompt 的基础上添加
+
+- 兜帽：hood
+- 卫衣：hoodie
+- 腰包：fanny pack
+- 牛仔裙：denim skirt
+- 高跟长靴：high heel boots ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/30f3c5b055314ff5bc7f19186a5a5735~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 6.场景特征
+
+场景特征决定了主体所处的背景。
+
+比如：室内还是室外、大场景、小细节等等。
+
+比如我希望我们的主体的背景是在 海边日落(beautiful purple sunset at beach) ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ae638e7cab174598935f04d53e830c93~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 7.环境特征
+
+描述周围的环境是什么样。天气、季节、灯光、色调等。
+
+同样举个例子：在前面的 prompt 后加上
+
+- 电影光效：cinematic lighting
+- 多云：cloudy
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f241ad81cbae47fdafb945f1b4114a67~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 8.画面视角
+
+描述整个画面的角度是什么样的，比如：
+
+- 距离
+- 人物比例
+- 观察视角
+
+同样举个例子 在前面的 prompt 的基础上添加 从左侧视角观察(view of left side) ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9109bb78738c4f0b85b37dfe22d4ea7a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 9.反向提示词
+
+反向提示词则是我们不希望出现在画面上的，一般可以分为：
+
+- 低质量的：如low quality、low res
+- 单色灰度：如monochrome、grayscale
+- 样貌身形：如bad proportions、ugly
+- 四肢问题：如missing hands、extra fingers
+- NSFW：no suitable for work
+
+#### 10.回顾
+
+在重新回顾一下：
+
+从第一张图，只有一个简单的 girl prompt ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/204f48c3f9d64328b8b5bd5bc4010f93~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+经过一系列的 prompt 的追加，
+
+我们可以非常轻易的画出我们想要的画面 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/acbe9de294db43ec803e6d48fdb155a3~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 11. 完整的 prompt 如下
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/154af0898dd3483d914707be625a2a27~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+正向：
+
+```Bash
+best quality, ultra-detailed, masterpiece, hires, 8k,stand up,
+pixel art,
+girl,
+loli,thin,short ponytail,red hair,smirk,fox ears,heart-shaped pupils,tail,
+hood,hoodie,fanny pack,denim skirt,denim skirt,
+beautiful purple sunset at beach,
+cinematic lighting,cloudy,
+view of left side
+```
+
+反向：
+
+```Bash
+(((NSFW))), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, (ugly:1.331), (duplicate:1.331), (morbid:1.21), (mutilated:1.21), (tranny:1.331), mutated hands, (poorly drawn hands:1.5), blurry, (bad anatomy:1.21), (bad proportions:1.331), extra limbs, (disfigured:1.331), (missing arms:1.331), (extra legs:1.331), (fused fingers:1.61051), (too many fingers:1.61051), (unclear eyes:1.331), lowers, bad hands, missing fingers, extra digit,bad hands, missing fingers, (((extra arms and legs))),
+```
+
+### 二、去哪找提示词
+
+#### 1.专属提示词网站
+
+考虑到大家的需求和网络状况，
+
+**我为大家提供了main飞的 SD 提示词网站，可以直接使用**
+
+[sd.firstool.online/](https://sd.firstool.online) ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f5d3a02a30c643afa4e88a89b12ad5ed~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 2.直接翻译
+
+根据自己描述的中文直接通过翻译软件进行翻译，然后把词条放在 prompt 中就行
+
+翻译网站：[fanyi.baidu.com/](https://fanyi.baidu.com)
+
+#### 3.抄作业
+
+参考一些模型网站的例图与提示词记录网站的成品
+
+- OpenArt：[openart.ai/](https://openart.ai)
+- ArtHubAi：[arthub.ai/](https://arthub.ai)
+- [www.aigodlike.com/](https://www.aigodlike.com)
+- [civitai.com/](https://civitai.com)
+
 ## Stable Diffusion设计相关
 
 【StableDiffusion创意合成·ControlNet.的运用-巧匠】<https://www.bilibili.com/video/BV1cu411a7DP?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
@@ -82,6 +256,32 @@ ebsynth+单帧脚本+controlnet
 
 4.剪辑软件准备
 
+## 『用Stable Difussion (SD) 完美还原了金庸小说场景』飞雪连天射白鹿，笑书神侠倚碧鸳，都可以安排了~
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/80a84cfc7acd46da9b7585e995580e7c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+Reddit 用户@Blade2019Runner 最近分享了他是如何利用 Stable Diffusion 画出了《天龙八部》系列插画的过程。原帖和评论区非常精彩，以下是核心流程的简化表述：
+
+> 利用 ControlNet 获取构图 → **「PS叠放素材 → SD局部重绘 (inpaint)→ PS叠放素材 → SD局部重绘 (inpaint) → ……」**
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c01c2f4bce22434a80c4e7b5c0a4686e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**1、 使用 Blender 绘制人物基础模型**
+
+> 这一步并不要求高超的建模技巧，使用的3D基础模型也可以在资源网站轻松获得，主要目的是为后续流程能更好地获取角色的动作。导入 Blender 后，为角色设定好造型并截图，就可以进入第2步。
+
+**2、使用 ContorlNet 获取构图**
+
+> 利用 Controlnet 的OpenPose、Canny、Depth三个应用模型，分别获得了姿势、线稿、景深，从而分别控制画面中的不同部分。
+
+**3、PS 素材叠放 和 SD局部重绘**
+
+> 将从互联网上找到的「与期望近似的素材」，利用PhotoShop贴在SD生成的图片上，将原图中不理想的元素覆盖，然后使用SD进行局部重绘。
+
+**2+3步反复进行，最终得到理想效果**  
+
+[**⋙ reddit 原帖**](https://StableDiffusion/comments/13067z7/use_sd_to_graphic_my_beloved_swordsman_novel/) | [**专业解读**](https://mp.weixin.qq.com/s/ouAhsM8i4kYuY8dEjHPzYg)
+
 ## Stable Diffusion采样方法
 
 视频：【stablediffusion采样方法完整教程】<https://www.bilibili.com/video/BV1iW4y1D7RW?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
@@ -131,6 +331,126 @@ ebsynth+单帧脚本+controlnet
 【全网首发Stable Diffusion绘制创意二维码|人人都可以制作属于你的艺术二维码】<https://www.bilibili.com/video/BV1Jm4y1v76C?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 【Stable Diffusion可识别二维码生成】<https://www.bilibili.com/video/BV1tm4y1q7WW?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+# Stable Diffusion 艺术化二维码
+
+Checkpoint + LoRA + QR Code ControlNet 组合实现出来的，下面是几张图片案例：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f6703d4d35db4a50aab0210fcfc91ac4~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+这是原作者的文章：[《AI 生成可扫码图像 — 新 ControlNet 模型展示》](https://mp.weixin.qq.com/s/i4WR5ULH1ZZYl8Watf3EPw)
+
+不过，文章内并没有讲述艺术化二维码的具体过程，也没有现成的 `QR Code ControlNet` 可供使用（可能出于某些原因没有公布吧，瞎猜的~），从网上收集了一些资料，使用现有的 ControlNet 模型也能够实现同样的效果，下面来看看具体实现步骤。
+
+## 二、实战
+
+需要先下载 2 个 ControlNet 模型：
+
+- SD15_brightness：[huggingface.co/ioclab/ioc-…](https://huggingface.co/ioclab/ioc-controlnet/tree/main/models)
+- SD15_tile：[huggingface.co/lllyasviel/…](https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main)
+
+下载后存放到 `stable-diffusion-webui\extensions\sd-webui-controlnet\models` 目录下。
+
+> 注：建议将 ControlNet 插件升级到最新版本，支持更多预处理器，还有更方便好用的 UI。
+
+## 1、生成二维码
+
+我们先准备一张二维码图片，可以通过以下任意一个网址生成：
+
+- 草料二维码：[cli.im/](https://cli.im/)
+- `QR.io`：[qr.io/](https://qr.io/)
+
+## 2、灰度处理
+
+1. 上传二维码
+2. ControlNet Unit 0：打钩启用（Enable）
+3. 预处理器（Preprocessor）：`inpaint_global_harmonious`
+4. 模型（Model）：`control_v1p_sd15_brightness`
+5. 权重（Control Weight）：`0.4`
+6. 开始与停止步骤（Starting Control Step、Ending Control Step）：`0` 和 `1`
+
+> 注：如果你找不到 `inpaint_global_harmonious` 预处理器，把 ControlNet 插件升级到最新就有了。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/449574f31ee04b26967a4988e2d00ade~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+## 3、细节处理
+
+1. 上传二维码
+2. ControlNet Unit 1：打钩启用（Enable）
+3. 预处理器（Preprocessor）：`inpaint_global_harmonious`
+4. 模型（Model）：`control_v11f1e_sd15_tile`
+5. 权重（Control Weight）：`0.6`
+6. 开始与停止步骤（Starting Control Step、Ending Control Step）：`0.35` 和 `0.75`
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/02084e8043304f779debd98415ead5d4~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+> 注：如果你页面上没有多个 ControlNet 单元，可以到 Settings 中，找到 Multiple ControlNets 进行设置，详见：[《AI - AI 绘画的精准控图(ControlNet)》](https://mp.weixin.qq.com/s/-POx-c_fcMTtYU-6dWOaVg)
+
+## 4、配置描述
+
+根据你希望在二维码画面中出现的东西进行配置，比如我希望在画面中出现一个战火中的高达，我的参数配置如下：
+
+1. 正向提示词（Prompt）：`masterpiece, best quality, mecha, no humans, black armor, blue eyes, science fiction, fire, laser canon beam, war, conflict, destroyed city background`
+2. 反向提示词（Negative prompt）：`UnrealisticDream, FastNegativeEmbedding`
+3. 采样方法（Sampling method）：`Euler a`
+4. 采样步数（Sampling steps）：`26`
+5. CFG 比例（CFG Scale）：`6.5`
+6. 随机种子（Seed）：`1234843297`
+
+> 注：如果你不知道这些配置含义是什么，可以查阅这篇文章：[《AI - stable-diffusion(AI 绘画)的搭建与使用》](https://mp.weixin.qq.com/s/6AFd-4hyJQ6N7AVuJW4WIw)
+
+配置完描述后，点击 `Generate` 按钮，等待图片生成即可：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2caee1411ce1453b8713721f0c6f4ce5~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+至此，艺术化后的二维码就生成好了，而且是可以被正常扫码识别出来的哦~
+
+## 三、资料
+
+在上述实战中，出现了 1 个新的 ControlNet 预处理器和 2 个新的 ControlNet 模型，它们的作用分别是什么呢？
+
+### 1、预处理器 inpaint_global_harmonious
+
+`inpaint_global_harmonious` 主要用于局部（遮罩部分）重绘，在原生基于图生图的重绘模式上加入了 ControlNet 的控制，从而让 inpaint 能够更加准确的预测重绘细节。但是注意，和普通局部重绘不同，ControlNet 的 inpaint 模型除了重绘遮罩部分外，遮罩以外的地方也会发生微小变化（重绘），这样做带来的好处是它能够更好地将重绘区域与整体画面融合，让整体出图更加和谐统一。当然你也能将 ControlNet 引导权重调节到最大，此时 ControlNet-inpaint 模型将尽可能得保持遮罩区域以外的画面不发生变化。
+
+![传统图生图 inpaint 效果](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/54b691dd28434199ab2852b9e91c300e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+上图是传统图生图的局部重绘，原图蒙版重绘部分往往会出现与周围环境不相容的独立景物，无法统一整体布局。
+
+![ControlNet inpaint 效果](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6c481f0bff754b989ced51d10e47c6bf~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+可以看到，对比传统图生图的局部重绘，ControlNet 的 inpaint 模型能在统一整体效果的前提下，补全蒙版部分的内容，同时遮罩外部分的轮廓和细节也得到了较好的保留。
+
+> 上述介绍源自：[www.jianshu.com/p/2e433f71f…](https://www.jianshu.com/p/2e433f71f544)
+
+### 2、模型 control_v1p_sd15_brightness
+
+该模型为稳定扩散带来亮度控制，允许用户对灰度图像着色或对生成的图像重新着色。
+
+> 上述介绍源自： [aigc.ioclab.com/sd-showcase…](https://aigc.ioclab.com/sd-showcase/brightness-controlnet.html)
+> [huggingface.co/ioclab/cont…](https://huggingface.co/ioclab/control_v1p_sd15_brightness)
+
+### 3、模型 control_v11f1e_sd15_tile
+
+tile 模型原本是为了放大图片而设计的，具体来讲需要先将原图分割为一块一块的小区域(叫做 Tile 或瓦块)，然后分别对每个瓦块进行图生图放大，最后集合所有放大后的瓦块，拼成完整的大图。之所以采用局部放大后拼接的模式是为了减少显存占用。但是这样放大图片也有弊端，那就是必须要求每个小图在图生图时重绘幅度不能太大，因为本质上每个小图使用的也是全图提示词，当重回幅度过高时，老版本 tile 模型很可能会在每个小图里生成全图提示词所描绘的全部内容。
+
+ControlNet1.1 版本后的 Tile 模型更加强大，它具有两种特性：
+
+- 忽略图像中的细节并生成新的细节。
+- 如果局部瓦片语义和提示不匹配，则忽略全局提示，并根据局部上下文引导扩散。
+
+因为该模型可以生成新的细节并忽略现有的图像细节，所以我们可以使用该模型去除不良细节并添加细化的细节。例如，消除由图像大小调整引起的模糊。
+
+> 上述介绍源自： [www.jianshu.com/p/2e433f71f…](https://www.jianshu.com/p/2e433f71f544)
+> [github.com/lllyasviel/…](https://github.com/lllyasviel/ControlNet-v1-1-nightly)
+
+## 四、分析
+
+我将实战中两个 ControlNet 单元依次生成的图片拆开，得到如下过程图：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/da641be2682b4f1081c39fda73737157~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+结合上述资料中对两个 ControlNet 模型的介绍，可以大致理解为 `control_v1p_sd15_brightness` 在二维码图片的基础上进行重新着色，但会丢失二维码信息，`control_v11f1e_sd15_tile` 则在此基础上，对二维码信息细节进行补充。至于预处理器 `inpaint_global_harmonious`，因为此场景下二维码并不需要进行 inpaint 处理，所以把预处理器设为 none 也是可以的，对结果并不影响。
 
 ## 日夜天气变化
 

@@ -1,5 +1,15 @@
 # 配音声音相关AI
 
+如 Amper Music、AIVA、OpenAI Jukebox、Google MusicLM等
+
+*▢* **角色配音**：在眼下的角色配音领域，AIGC早已出现了不少的现成的用例，表现出了极高的应用潜力；这很大程度上得益于TTS (语音合成) 技术的飞速发展
+
+*▢* **音效**：某二次元头部大厂的相关负责人表示，正在实验通过AIGC生成多种不同风格Demo的形式，为音效师提供创作灵感和原型，进而加速创作过程
+
+*▢* **配乐**：暂时无法满足精品游戏的高端需求，但为低成本的小游戏、超休闲游戏等提供了无限的游戏配乐创作空间
+
+————————————————————————————————————————
+
 【AI竟然比我唱歌好听？【RVC】AI音频变声器全攻略，手把手训练你的专属模型！】<https://www.bilibili.com/video/BV1f14y1d7kV?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 Git项目网址：<https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/releases>
