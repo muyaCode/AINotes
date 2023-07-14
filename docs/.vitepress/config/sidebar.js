@@ -25,6 +25,10 @@ export default {
       collapsed: true, // 初始不折叠
       items: [
         {
+          text: "人工智能全景认知入门",
+          link: "/Document/AI工具使用前置/人工智能全景认知入门",
+        },
+        {
           text: "AI工具导航",
           link: "/Document/AI工具使用前置/AI工具导航",
         },
@@ -32,7 +36,10 @@ export default {
           text: "使用工具前置",
           link: "/Document/AI工具使用前置/使用工具前置",
         },
-        
+        {
+          text: "",
+          link: "/Document/AI工具使用前置/",
+        },
       ]
     },
     {
@@ -73,6 +80,10 @@ export default {
           link: "/Document/ChatGPT使用的扩展/ChatGPT的使用领域",
         },
         {
+          text: "ChatGPT插件",
+          link: "/Document/ChatGPT使用的扩展/ChatGPT插件",
+        },
+        {
           text: "",
           link: "/Document/ChatGPT使用的扩展/",
         },
@@ -90,6 +101,21 @@ export default {
         {
           text: "Edge浏览器的功能和使用",
           link: "/Document/NewBing/Edge浏览器的功能和使用",
+        },
+      ]
+    },
+    {
+      text: "AI代码工具",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "AI代码工具合集",
+          link: "/Document/AI代码工具/AI代码工具合集",
+        },
+        {
+          text: "",
+          link: "/Document/AI代码工具/",
         },
       ]
     },
@@ -121,6 +147,10 @@ export default {
         {
           text: "其他图片相关的AI工具",
           link: "/Document/图像视频相关AI工具/其他图片相关的AI工具",
+        },
+        {
+          text: "文本生成视频AI模型",
+          link: "/Document/图像视频相关AI工具/文本生成视频AI模型",
         },
         {
           text: "AI制作电影",
@@ -279,8 +309,8 @@ export default {
           link: "/Document/AI写作工具/RWKV-Runner AI文章写作和续写工具",
         },
         {
-          text: "",
-          link: "/Document/AI写作工具/",
+          text: "其他AI写作工具",
+          link: "/Document/AI写作工具/其他AI写作工具",
         },
         {
           text: "",
@@ -300,6 +330,33 @@ export default {
         {
           text: "",
           link: "/Document/各种3D和设计软件的AI功能/",
+        },
+      ]
+    },
+    {
+      text: "AI设计相关工具",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "AI设计相关工具",
+          link: "/Document/AI设计相关工具/AI设计相关工具",
+        },
+        {
+          text: "AI配色工具",
+          link: "/Document/AI设计相关工具/AI配色工具",
+        },
+        {
+          text: "",
+          link: "/Document/AI设计相关工具/",
+        },
+        {
+          text: "",
+          link: "/Document/AI设计相关工具/",
+        },
+        {
+          text: "",
+          link: "/Document/AI设计相关工具/",
         },
       ]
     },
@@ -369,13 +426,28 @@ export default {
       ]
     },
     {
+      text: "AI办公工具",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "AI办公工具",
+          link: "/Document/AI办公工具/AI办公工具",
+        },
+      ]
+    },
+    {
       text: "AI项目的资讯和热门开源项目",
       collapsible: true, // 可折叠
       collapsed: true, // 初始不折叠
       items: [
         {
-          text: "AI项目的资讯和热门开源项目",
-          link: "/Document/AI项目的资讯和热门开源项目/AI项目的资讯和热门开源项目",
+          text: "AI发展和项目的资讯",
+          link: "/Document/AI项目的资讯和热门开源项目/AI发展和项目的资讯",
+        },
+        {
+          text: "热门AI开源项目",
+          link: "/Document/AI项目的资讯和热门开源项目/热门AI开源项目",
         },
       ]
     },

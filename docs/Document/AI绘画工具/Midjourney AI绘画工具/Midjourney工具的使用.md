@@ -2,6 +2,10 @@
 
 **Midjourney 学习导航**：[🧭 Midjourney 学习导航 | Learning Prompt](https://learningprompt.wiki/docs/midjourney-learning-path)
 
+[Midjourney｜活动海报落地设计流程 (qq.com)](https://mp.weixin.qq.com/s/pDR54zUCdwzcyG7tU2IcEg)
+
+[我嫌ai出图效率太低，又研究了一下进阶玩法！ (qq.com)](https://mp.weixin.qq.com/s/dLkoNpXAI51U9uc9IWhphA)
+
 —————————————————————————————————————————————
 
 在社交软件discord中使用Midjourney：[discord.gg](https://discord.gg/midjourney)
@@ -128,6 +132,96 @@ A：不用，Midjourney并不是软件，也不用安装，它是一个架设在
 
 [**⋙ 内测申请**](https://mp.weixin.qq.com/s/RYE2XUMKYSsXVsOjHaaMhg) | [**使用指南**](https://mp.weixin.qq.com/s/4NefHvl7A-o-hVm1PZr5Gw) | [**官方新手引导**](https://docs.qq.com/doc/DR2ZDUUZyWnJITE9y)
 
+## UI/UX 设计师如何用好 Midjourney？我总结了5个方面！
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/811ec41b142645e6b689f188edc51354~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5723a8417b3d4fb49fa2021dde8aff7e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+这是一份非常详备的 AIGC + UI/UX 工作手册，不仅分门别类地给出了常见的设计关键词，还提供了非常详细的 Prompt 和效果展示图。
+
+这份文档绝对值得收藏和翻阅，帮助快速生成想要的设计效果图、设计元素、指定配色、指定设计师风格等等。以下是文档的核心内容和关键词：
+
+> *1*. **界面载体**
+>
+> - **电脑端**：website、webui
+> - **手机端**：mobile app ui
+> - **平板端**：tablet、iPadOS
+> - **手表端**：watchos
+> - **大屏端**：data dashboard
+> - **车载端**：carhmidesign
+
+> *2*. **界面类型**
+>
+> - **App图标**：appicon
+> - **Banner**：banner
+> - **启动页**：launch page
+> - **吉祥物**：mascot
+> - **状态插图**：flatillustration
+> - **徽标**：logo for
+
+> *3*. **添加元素**
+>
+> - **出行相关产品** ：3d car model
+> - **直播相关产品**：gift box、neon realistic
+> - **会员相关产品**：medaldesign
+
+> *4*. **选定配色**
+>
+> **指定色调**
+>
+> - 金银色调：gold and silver tone
+> - 白粉色调：white and pink tone
+> - 黄黑色调：yellow and black tone
+> - 红黑色调：red and black tone
+> - 霓虹色调：neon shades
+> - 景泰蓝：Cloisonne
+> - 低纯度色调：the low-purity tone
+> - 高纯度色调：the high-purity tone
+> - 单色调：monotone
+> - 谈色调：muted tone
+>
+> **描述氛围感**
+>
+> - 梦幻般柔和：Dreamy Pastel
+> - 丰富多彩的：Coloful
+> - 优雅尊贵的：Graceful and noble
+> - 白色干净：White and clean
+> - 电影色彩：Kinemacolor
+> - 夏日色：Summer color
+
+> *5*. **设计风格**
+>
+> **UI领域设计师**
+>
+> - Leo Natsume
+> - Zhenya Rynzhuk
+> - Nguyen Le
+> - Salim Dabanca
+> - Jide Lambo
+> - Daniel Korpai
+> - Mike Locke
+> - Gary Simon
+>
+> **跨领域设计师**
+>
+> - leoh Ming Pei / 贝律铭
+> - ghibli studio / 吉卜力工作室
+> - Hayao Miyazaki / 宫崎骏
+> - Kazimir Malevich / 蒙德里安
+> - Junji lto / 伊藤润二
+> - Makoto Niitsu / 新海诚
+> - RonWayne / 罗恩韦恩
+> - TanYin / 唐伯虎
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/300c260eb1c74247a5eaee3152701bc6~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+文档给出的提示词也非常详细！以第一部分「**界面载体**」的「电脑端」「手机端」为例，文档给出了说明、提示词和效果图：
+
+> ***电脑端***：An e-commerce **website** selling aromatherapy products with a minimalist design featuringa white background, deep green and forest color scheme, and illustrations of plants andleaves for a relaxed and soothing atmosphere, **ui website design**
+
+> ***手机端***：**An e-commerce app** selling plant essential oils with minimalist design, interface designand deep green healing color scheme, **ios app ui** [**⋙ @优设**](https://www.uisdc.com/midjourney-ui)
+
 ## 自制Midjourney批量工具，一夜出图2000张
 
 飞书文档教程：[老陆AI知识库目录 - 飞书云文档 (feishu.cn)](https://evnr5jw9no.feishu.cn/wiki/GEWowFtKkiFd3LkqsKUci9HAn8c)
@@ -238,6 +332,37 @@ D-ID 是一个 Web 应用，它使用实时人脸动画和高级文本到语音�
 打开D-ID网站，注册并登录：<https://www.d-id.com/>
 
 选择上传Midjourney生成的人物画像，输入ChatGPT生成的文字和上传百度AI合成的音频，会自动的3D视频。（上传的是祖孙两人的音频对话，所以需要上传制作两个人物对应的文字/音频/人物头像）
+
+## 利用ChatGPT + Midjoureny 制作自己卡通头像
+
+### 第一种：生成抽象风格的头像
+
+- 先在ChatGPT中，描述一下头像的说明，生成Midjourney的提示词
+
+> 我希望你充当Midjourney人工智能计划的提示生成器。你的工作是提供详细和创造性的描述，这些描述将激发来自人工智能的独特而有趣的图像。请根据我的描述生成英文的提示词。
+>  我的描述：一个25岁左右的大眼睛亚洲美女，脸带着微笑，身穿黑色碎花抹胸连衣裙，简单的珍珠项链和耳环，卷发刘海利落，在淡黄色的富丽堂皇的宫殿背景下 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6140b2a366754064838f6fdae05c7fcd~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+- 提取相关描述词，然后再和一些参数整合，最后的mj的提示词如下：
+
+> /imagine Around 25 years old, a stunning Asian beauty with big eyes and a smiling face. She is wearing a black floral strapless dress, accompanied by simple pearl necklace and earrings. Her curly hair falls gracefully, with stylish bangs. The scene is set against the backdrop of a grand and opulent palace, bathed in a soft yellow hue. --niji 5 --s 750
+
+- 稍等片刻，就生成了四个漂亮的动画风格的女生头像，可以选择一个自己喜欢的，如果四中都没有中意的，可以点右侧的「🔄」键，再次生成。 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/61e7e50086244205a002eeff1d050de7~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp) 如果有满意的，就是使用下面的U键，进行放大，如前面介绍的，我就是放大了第四张图片。
+
+### 第二种：生成自己头像的卡通风格
+
+在第一种介绍中，我们生成的头像相貌是随机的，如果你希望生成的卡通头像，跟自己有几分神似，有一定的辩识度。那么我们就需要使用『垫图』的方式来操作。
+
+- 首先，上传自己的大头照，最好有清晰的面部信息。我以刘亦菲为例。 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1f0c7ba8fc874e229982d7d23ece57a0~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+- 直接插入MJ的对话框，上传，然后右键获得这张照片的链接
+- 然后，把链接地址和下面这段话组合，生成MJ的提示词，如下：
+
+> /imagine [图片链接] The woman with big and beautiful eyes smiled, wearing a black floral bra dress, simple pearl necklace and earrings, curled hair with neat bangs, and a magnificent palace in light yellow background,3d Pixar character style, ip by pop mart，soft colors, soft lighting, high detail, art station, art, ip, blind box, 8k, best quality, 3d, c4d, blender，--iw 1，--ar 1:1
+
+- 稍等片刻，就有4个候选的的卡通风格大头照生成，如上面介绍的方式一种，选择一个自己喜欢的，就可以保存下来制作卡通头像了。 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8f7ecd59950c4d5fa727e5299f0c4603~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### 总结
+
+这样，我们利用ChatGPT生成和优化MJ的提示词，然后在MJ里面进行照片生成，就完成了我们的泡泡玛特风格的卡通头像制作，我们看到，提示词里面还有很多参数调整，来实现自己心目中的形象。手动实践起来吧。
 
 ## 用UE5让你的Midjourney图片变成3D场景
 

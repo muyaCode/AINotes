@@ -1,5 +1,41 @@
 # AI工具导航
 
+| 公司     | 产品              | 日期     | 阶段                 | 链接                                                         |
+| -------- | ----------------- | -------- | -------------------- | ------------------------------------------------------------ |
+| 2022年   |                   |          |                      |                                                              |
+| OpenAI   | ChatGPT           | 11月30日 | 开放注册             | [chat.openai.com/](https://link.juejin.cn?target=https%3A%2F%2Fchat.openai.com%2F) |
+| 2023年   |                   |          |                      |                                                              |
+| Google   | Bard              | 2月8日   | 公开测试             | [bard.google.com/](https://link.juejin.cn?target=http%3A%2F%2Fbard.google.com%2F) |
+| 复旦大学 | MOSS              | 2月20日  | 公开测试(目前升级中) | [moss.fastnlp.top/](https://link.juejin.cn?target=https%3A%2F%2Fmoss.fastnlp.top%2F) |
+| 清华大学 | ChatGLB-6B        | 3月15日  | 已开源               | [github.com/THUDM/ChatG…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FTHUDM%2FChatGLM-6B) |
+| 百度     | 文心一言          | 3月16日  | 企业用户内测         | [yiyan.baidu.com/](https://link.juejin.cn?target=https%3A%2F%2Fyiyan.baidu.com%2F) |
+| 阿里     | 通义千问          | 4月7日   | 企业用户内测         | [tongyi.aliyun.com/](https://link.juejin.cn?target=https%3A%2F%2Ftongyi.aliyun.com%2F) |
+| 360      | 360 智脑          | 4月10日  | 企业用户内测         | [www.360dmodel.com/](https://link.juejin.cn?target=http%3A%2F%2Fwww.360dmodel.com%2F) |
+| 商汤     | 商量 SenseChat    | 4月10日  | 即将邀请内测         | [www.sensecore.cn/](https://link.juejin.cn?target=https%3A%2F%2Fwww.sensecore.cn%2F) |
+| 昆仑万维 | 天工3.5           | 4月17日  | 即将邀请内测         | [tiangong.kunlun.com](https://link.juejin.cn?target=http%3A%2F%2Ftiangong.kunlun.com%2F) |
+| 科大讯飞 | 1+N认知智能大模型 | 5月6日   | 即将发布             |                                                              |
+| 网友有道 | 子曰              | 近期     | 即将发布             | 消息来源：网易新闻                                           |
+| 京东     | 言犀              | 今年     | 未开放               | 消息来源：京东集团副总裁何晓冬                               |
+| 腾讯     | //                | //       | 未开放               | 消息来源：腾讯集团高级执行副总裁汤道生                       |
+
+AI+**艺术**：造梦日记、MidJourney、Stable Diffusion、Adobe、Stability、Remove
+
+AI+**聊天**：ChatGPT、Discord、文心一言、Google Bard、星火、Character.Al
+
+AI+**社区**：Kaggle、Hugging Face、H20、Github、Replicate、OpenCV
+
+AI+**创造**：Heygen、RunwayML、Jasper、WriteSonic
+
+AI+**设计**：Figma、Canva
+
+AI+**框架**：PyTorch、Llamalndex、Auto GPT、Cafe、TensorFlow、LangChain、Keras、Google generativeAI+Developers、Fixie
+
+AI+**硬件**：AMD、Nvidia、Hiascend
+
+AI+**效率**：阿里通义、Notion、Zoom、Voice Al、Slack
+
+AI+**研究**：Anthropic、Cohere、Al21、OpenAl
+
 ## AI 创业方向
 
 **1. 医疗**。医疗保健领域的 AI 公司可以帮助医生使用最新技术识别和跟踪患者的病情，显著降低某些致命疾病的威胁，加速药物开发进程并降低医疗成本，从而增加人类的预期生命。
@@ -44,6 +80,14 @@
 
 「天工」通过自然语言与用户进行问答式交互，AI生成能力可满足文案创作、知识问答、代码编程、逻辑推演、数理推算等多元化需求。即日起，获得邀请的用户可在「天工」官网登陆体验。[天工官网 (kunlun.com)](https://tiangong.kunlun.com/)
 
+## 火山引擎发布「火山方舟」，字节迈出大模型赛道第一步
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0c3f6309e0be45c1834781446ad0386a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+6月28日，在2023火山引擎 V-Tech 体验创新科技峰会上，火山引擎发布大模型服务平台「火山方舟」，面向企业提供模型精调、评测、推理等全方位的平台服务(MaaS，即 Model-as-a-Service)。
+
+目前「火山方舟」集成了百川智能、出门问问、复旦大学MOSS、IDEA研究院、澜舟科技、MiniMax、智谱AI等多家AI科技公司及科研院所的大模型，并已对外启动邀测
+
 ## 华为发布多模态千亿级大模型 「盘古」3.0 版
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f9ed7b9bb205413eab3871643336a5ff~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
@@ -51,6 +95,24 @@
 7 月 7 日，华为开发者大会 HDC Cloud 在东莞举行，会上正式发布了「盘古大模型 3.0」。大模型分为L0基础大模型、L1行业大模型、L2场景模型三层架构，将重塑千行百业，利用 AI 技术给各行业带来价值。华为还介绍了大模型在其他领域的系列落地进展，包括政务领域、金融行业、制造业、气象预测、开发新药等。
 
 华为还发布了基于大模型的代码生成工具「CodeArts」，具有三大核心能力：智能生成代码，智能问答和智能协同。盘古训练了 760 亿行精选代码，8500 万开源代码仓，1300 余万篇技术文档，目标是让它成为每个开发者的 AI 助手[【重磅】AI重塑千行百业，华为云盘古大模型3.0正式发布 (qq.com)](https://mp.weixin.qq.com/s/ZiA_q2AeVeLq0UdixYPL7Q)
+
+## 阿里「通义听悟」推出浏览器插件，实时翻译/转写/摘要音视频
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a7b089736dd2423f91184f65c416df98~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+阿里「通义听悟」推出了**浏览器插件**，可以在浏览器中一键启动这个大模型工具，帮助实时翻译和记录音视频内容，生成字幕和内容摘要！体验非常便捷和炫酷~
+
+将插件添加至 Chrome 或 Edge 浏览器后，在一个非空白页面点击插件按钮，注册登录后即可开始使用。结束后，前往**网页版** ([tingwu.aliyun.com](https://tingwu.aliyun.com/)) 查看结果，包括翻译、转录、概要、章节速览等内容 [**⋙ Chrome插件**](https://chrome.google.com/webstore/detail/%E9%80%9A%E4%B9%89%E5%90%AC%E6%82%9F-%E5%B7%A5%E4%BD%9C%E5%AD%A6%E4%B9%A0ai%E5%8A%A9%E6%89%8B/omlgpaciclcjgbligehccipcikleeiea) | [**Edge插件**](https://microsoftedge.microsoft.com/addons/detail/%E9%80%9A%E4%B9%89%E5%90%AC%E6%82%9F-%E5%B7%A5%E4%BD%9C%E5%AD%A6%E4%B9%A0ai%E5%8A%A9%E6%89%8B/hbfhdcdeikaehendoojplfpjcfifnlme) | [**使用教程**](https://tingwu.aliyun.com/helpcenter/9ba338)
+
+## 🤖 字节「火山语音」推出AI多角色演播方案，超拟人的有声小说
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/42cd22dc976544b093047b748decee01~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+7月5日，字节旗下的火山语音团队推出「AI多角色演播方案」，通过NLP技术智能理解文本内容，实现多个角色自动配音，千人千「声」，会「哭」会「笑」，形成媲美真人的多角色演播效果。
+
+这是首个AI有声小说领域的高质量综合解决方案，包含 60+ 款优质音色，还结合有声创作流程，同时满足规模化、差异化、精品化的内容定制需求。
+
+官网给出的示例非常好玩儿！可以前往体验 [**⋙ @火山语音团队**](https://mp.weixin.qq.com/s/kX5kK7uK1CNeSmuj0YA34g)
 
 ————————————————————————————————————————
 

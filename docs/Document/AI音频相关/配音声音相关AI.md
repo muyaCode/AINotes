@@ -20,6 +20,16 @@ Git项目网址：<https://github.com/RVC-Project/Retrieval-based-Voice-Conversi
 
 便利服務——云桌面服務器链接：<http://mtw.so/5EkzAu>
 
+## 『TTSMaker』免费文本转语音的 AI 工具
+
+[**TTSMaker**](https://ttsmaker.com/)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/26962d5c5722450bb82d150ecd746a7f~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+TTSMaker 是一款免费的文本转语音工具，提供语音合成服务，支持多种语言，包括英语、法语、德语、西班牙语、阿拉伯语、中文、日语、韩语、越南语等，以及多种语音风格。
+
+可以用它大声朗读文本和电子书，或**下载音频文件**用于商业用途（完全免费），每周限制 20000 个字符（部分声音可支持无限制不限量使用）
+
 ## AI语音技术
 
 【我把自己做成了AI声库，以后不用张嘴说话了？】<https://www.bilibili.com/video/BV1j14y1m7jS?vd_source=36c9491a7fa2ab8a22ca060af01b7472>

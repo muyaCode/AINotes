@@ -2,6 +2,14 @@
 
 教程：[2023-03-20-2023最新AI绘画Stable Diffusion，原创不用愁日赚1000+【软件+教程】_免费高速下载|百度网盘-分享无限制 (baidu.com)](https://pan.baidu.com/s/1RmAKpCP0qbltlRfQJ-7AtA?pwd=xkwo#list/path=/)
 
+## 『Stability AI 发布大语言模型StableLM』继SD之后又一大招，剑锋直指GPT-4
+
+4月19日，Stability AI 又开源了大模型 StableLM，与 ChatGPT 类似，是一套文本生成AI模型，可以生成代码、笑话、歌词、故事等内容，旨在与OpenAI的GPT-4等系统竞争。StableLM 的 alpha 版本目前可以在GitHub和Hugging Spaces上获得。
+
+Stability AI 是一家创业公司，之前开发的生成AI艺术工具 Stable Diffusion 刮起了艺术领域的腥风血雨。公司计划在未来几个月内发布更多的StableLM模型，提供更多的应用场景和示例，并与其他开发者和研究者以改进和扩展这些模型，探索它们的潜在用途。
+
+> 注意！ StableLM基础模型可以商用，但必须遵守CC BY-SA-4.0许可证的条款；微调模型是不可以的。 [**官方博客**](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models) | [**GitHub**](https://github.com/stability-AI/stableLM/) | [**HuggingFace**](https://huggingface.co/spaces/stabilityai/stablelm-tuned-alpha-chat)
+
 ## Stable Diffusion 电脑配置推荐
 
 [SD推荐电脑配置 (qq.com)](https://docs.qq.com/sheet/DRU9ydUR3TmNWeWdE?tab=BB08J2)
@@ -23,7 +31,7 @@ CPU：不做强制性要求
 
 A卡核显只能用CPU跑整合包，推荐放在固态硬盘中，提升模型加载速度
 
-**所需配置**
+**所需配置**：
 
 推荐配置：拥有Nvidia独立显卡、RTX20系以后的显卡。仅生成图片推荐8G显存（4G是最低保障配置）训练推荐大于12G（越大越好）
 
@@ -37,9 +45,10 @@ A卡能不能用？能，但是性能损耗很大。可以在Linux系统上获�
 
 **开源项目Stable Diffusion WebUI**：
 
-- **Stable Diffusion官方开源库**：[CompVis/stable-diffusion: A latent text-to-image diffusion model (github.com)](https://github.com/CompVis/stable-diffusion)
+- **Stable Diffusion官方开源库地址**：[CompVis/stable-diffusion: A latent text-to-image diffusion model (github.com)](https://github.com/CompVis/stable-diffusion)
 - **Stable Diffusion官方开源项目**：[CompVis - Computer Vision and Learning LMU Munich (github.com)](https://github.com/CompVis)
 - **GitHub搜索Stable Diffusion相关**：[Repository search results · GitHub](https://github.com/search?q=Stable+Diffusion&type=repositories&s=stars&o=desc)
+- 官方项目并不适合我们这些新手直接使用，好在有一些基于 `stable-diffusion` 封装的 `webui` 开源项目，可以通过界面交互的方式来使用 `stable-diffusion`，极大的降低了使用门槛，以下是几个比较火的 `webui` 项目：
 - **Stable Diffusion web UI**：[AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI (github.com)](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - **stable diffusion webui colab**：[camenduru/stable-diffusion-webui-colab: stable diffusion webui colab (github.com)](https://github.com/camenduru/stable-diffusion-webui-colab)
 - **基于Stable Diffusion模型的高分辨率图像合成**：[Stability-AI/stablediffusion: High-Resolution Image Synthesis with Latent Diffusion Models (github.com)](https://github.com/Stability-AI/stablediffusion)
@@ -180,6 +189,222 @@ lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits
 ——————————————————————————————————————
 [AI 绘画工具 Stable Diffusion 本地安装使用 - 掘金 (juejin.cn)](https://juejin.cn/post/7246960365736345660)
 
+## 以AUTOMATIC1111/stable-diffusion-webui项目搭建
+
+### 1、下载项目
+
+`stable-diffusion-webui` 没有发布可执行程序（比如：`.exe`），我们需要通过 `git` 的方式将整个工程源码拉下来运行：
+
+```shell
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+```
+
+> 注：这个开源项目目前的更新频率很快，会不定期的修复一些 bug 或加入一些新功能，所以建议可以时常 `git pull` 拉取最新代码。
+
+### 2、Python 环境
+
+`stable-diffusion-webui` 主要是使用 Python 开发的，所以运行这个工程，需要安装一下 Python 环境并配置好环境变量，因为 Python 环境的安装很简单，这里就不多说了，环境配置完成之后，可以通过以下命令查看 Python 的版本号，验证环境是否正常：
+
+```shell
+python --version
+```
+
+> 注意：官方推荐安装 `Python 3.10.6` 版本
+
+另外，建议使用 `Anaconda` 管理多个 Python 环境，详见
+
+- 官方的 conda 环境安装说明：[Install and Run on NVidia GPUs · AUTOMATIC1111/stable-diffusion-webui Wiki (github.com)](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs#alternative-installation-on-windows-using-conda)
+- anaconda 常用命令：[anaconda常用命令_anaconda命令_ligous的博客-CSDN博客](https://blog.csdn.net/ligous/article/details/124209700)
+
+### 3、CUDA 环境
+
+默认 `stable-diffusion-webui` 运行使用的是 GPU 算力，也就是说需要用到 Nvidia 显卡（配置越高，绘图越快）。这里我们需要安装 CUDA 驱动，先确定一下电脑能安装的 CUDA 版本，桌面右下角->右键 NVIDIA 设置图标->NVIDIA 控制面板：
+
+![img](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/81d586d7aeac4a638b430f89a39eb10e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+可以看到我的电脑的显示的是 `NVIDIA CUDA 11.6.134 driver`，所以我的电脑要安装的 CUDA 版本不能超过 11.6。
+
+> 注意：高版本显卡是可以安装低版本的 CUDA 驱动的，比如我也可以安装经典的 10.2 版本，但是安装 11.6 版本可以获得更高的 GPU 运行效率，所以一般来说推荐安装显卡支持的最高 CUDA 版本。
+
+在下面的网址中找到对应的 CUDA 版本进行安装：
+
+- CUDA 官方归档：[developer.nvidia.com/cuda-toolkit-archive](https://developer.nvidia.com/cuda-toolkit-archive)
+
+![img](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a4765e3b177c4e999a3f1becab8a1f46~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+直接选择 "精简" 安装就可以了，安装完成之后，可以使用如下命令查看 CUDA 版本，来验证 CUDA 是否安装成功：
+
+```shell
+nvcc --version
+```
+
+![img](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5866442a218f4ac8a54fe2b293e6629e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+> 注：如果你没有 Nvidia 显卡，也可以通过给 `stable-diffusion-webui` 指定运行参数 `--use-cpu sd`，让其使用 CPU 算力运行，但是非常不建议你这么做，CPU 算力跟 GPU 算力相比简直天差地别，可能 GPU 只需要 10 秒就能绘制完成，而 CPU 却要 10 分钟，这不是开玩笑的。另外，如果你的显卡内存不多，建议 4G 的显卡加上 `--medvram` 启动参数，2G 的显卡加上 `--lowvram` 启动参数。怎么配置启动参数我们后面说。
+
+### 4、启动项目
+
+在安装配置好运行环境之后，直接运行工程下的 `webui-user.bat` 文件即可（如果是类 Unix 系统，则运行 `webui-user.sh`）。
+
+首次启动会自动下载一些 Python 依赖库（具体哪些库请看工程下的 `requirements.txt`） ，以及项目需要用到的配置和模型文件（比如：`v1-5-pruned-emaonly.safetensors`，将近 4 个 G~），初始化一次之后，下次启动就快了。
+
+```shell
+Launching Web UI with arguments:
+...
+Running on local URL:  http://127.0.0.1:7860
+To create a public link, set `share=True` in `launch()`.
+```
+
+看到这个提示就说明成功运行起来了，打开网址就可以看到程序的运行界面了：
+
+![img](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/73bbbc2e939a4cd08e36e8144c42c02c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+> 温馨提示：该项目是英文页面，可以使用浏览器的翻译功能转成中文来使用~
+
+## 二、使用
+
+`stable-diffusion-webui` 的功能很多，主要有如下 2 个：
+
+- 文生图（`text2img`）：根据提示词（Prompt）的描述生成相应的图片。
+- 图生图（`img2img`）：将一张图片根据提示词（Prompt）描述的特点生成另一张新的图片。
+
+> 注：本文只讲解文生图（`text2img`）功能，图生图（`img2img`）后续有机会再出文章，喜欢的请多多点赞关注支持一下 😃。
+
+### 1、文生图（`text2img`）
+
+在开始使用文生图之前，有必要了解以下几个参数的含义：
+
+| 参数            | 说明                                                         |
+| --------------- | ------------------------------------------------------------ |
+| Prompt          | 提示词（正向）                                               |
+| Negative prompt | 消极的提示词（反向）                                         |
+| Width & Height  | 要生成的图片尺寸。尺寸越大，越耗性能，耗时越久。             |
+| CFG scale       | AI 对描述参数（Prompt）的倾向程度。值越小生成的图片越偏离你的描述，但越符合逻辑；值越大则生成的图片越符合你的描述，但可能不符合逻辑。 |
+| Sampling method | 采样方法。有很多种，但只是采样算法上有差别，没有好坏之分，选用适合的即可。 |
+| Sampling steps  | 采样步长。太小的话采样的随机性会很高，太大的话采样的效率会很低，拒绝概率高(可以理解为没有采样到,采样的结果被舍弃了)。 |
+| Seed            | 随机数种子。生成每张图片时的随机种子，这个种子是用来作为确定扩散初始状态的基础。不懂的话，用随机的即可。 |
+
+> 以上对参数的解析源自以下文章：
+>
+> - [NovelAI模型各参数解析以及对应关系 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/574063064)
+> - [AI杀疯了｜文字生成图片详解 (baidu.com)](https://baijiahao.baidu.com/s?id=1758865024644276830&wfr=spider&for=pc)
+
+接下来我们来生成一张赛博朋克风格的猫咪图片，配置以下参数后，点击 "Generate" 即可：
+
+```less
+Prompt：a cute cat, cyberpunk art, by Adam Marczyński, cyber steampunk 8 k 3 d, kerem beyit, very cute robot zen, beeple |
+
+Negative prompt：(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, flowers, human, man, woman
+
+CFG scale：6.5
+
+Sampling method：Euler a
+
+Sampling steps：26
+
+Seed：1791574510
+```
+
+> 注：提示词（Prompt）越多，AI 绘图结果会更加精准，另外，目前中文提示词的效果不好，还得使用英文提示词。
+
+![赛博朋克猫咪](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0aaa3893e81d4d78b56d41ccb7db208c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+### 2、模型文件
+
+眼尖的你可能发现了，上面截图里左上角 `Stable Diffusion checkpoint` 的值怎么跟之前截图里的不一样？这是因为我换了一个模型文件，还记得前面提到那个将近 4 个 G 大小的模型文件（`v1-5-pruned-emaonly.safetensors`）吗？那是 `stable-diffusion-webui` 的默认模型文件，用这个模型文件生成出来的图片比较丑，因此我换了另一个模型文件。模型文件下载的网站几个，比较出名的就是 `civitai`，这上面共享的都是别人训练好的模型。
+
+> 模型文件下载地址：
+>
+> - `civitai`：[Civitai | Stable Diffusion models, embeddings, LoRAs and more](https://civitai.com/)
+> - 默认的 `v1-5-pruned-emaonly`：[runwayml/stable-diffusion-v1-5 at main (huggingface.co)](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main)
+
+![img](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0239a1eca2ad444da2d1da06d42d5210~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+根据你要生成的图片风格（比如：动漫、风景），挑选合适的模型查看，前面那个文生图的例子，使用的就是这个 `Deliberate` 模型，直接点击 "Download Latest" 即可下载该模型文件。
+
+![img](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a18aa06e91474da19af8cd217d0b6eae~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+> 注：模型文件有 2 种格式，分别是 `.ckpt`（Model PickleTensor） 和 `.safetensors`（Model SafeTensor），据说 `.safetensors` 更安全，这两种格式 `stable-diffusion-webui` 都支持，随意下载一种即可。
+
+将下载好的模型文件放到 `stable-diffusion-webui\models\Stable-diffusion` 目录下：
+
+![img](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ab9f11797164f329b8844da82e204c0~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+放置好模型文件之后，需要重启一下 `stable-diffusion-webui`（执行 `webui-user.bat`）才能识别到。
+
+![img](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/84397776eb28476f928d6c9bfcfc1e41~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+这些模型文件一般会附带一组效果图，点击任意一张，就可以看到生成该效果图的一些参数配置：
+
+![img](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/173697a92bc74fdd8db0cc923b3ece30~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+把这些参数配置到 `stable-diffusion-webui` 中，点击 "Generate" 就可以生成类似效果的图片了。
+
+> 注：因为 AI 绘图带有随机性质，所以生成出来的图片跟效果图不一定完全一样。
+
+文生图功能有很多东西可以发掘，你可以用它来生成世界上独一无二的图片，而要用好文生图功能，提示词（Prompt）是必须掌握的重中之重，它是有语法规则的，在此推荐两篇对 Prompt 详细说明的文章：
+
+- 全网 Stable Diffusion Prompt 运用技巧：[【AI绘画】全网 Stable Diffusion Prompt运用技巧（自用） - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv19903784)
+- Prompt 工具網站：[4 個 AI 繪圖「 Prompt 工具網站」推薦！讓你輕鬆輸入精準指令掌控 AI｜Accucrazy 肖準行銷 - Accucrazy 肖準行銷](https://www.accucrazy.com/prompt-tools-ai/)
+
+## 三、工程配置
+
+前面说到，`stable-diffusion-webui` 是可以配置启动参数的，这是官方的 wiki：
+
+- 配置参数文档：[Command Line Arguments and Settings · AUTOMATIC1111/stable-diffusion-webui Wiki (github.com)](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings)
+
+### 1、常用参数
+
+这里列几个常用的参数说明一下：
+
+| 参数                            | 说明                                                         |
+| ------------------------------- | ------------------------------------------------------------ |
+| --listen                        | 默认启动绑定的 ip 是 `127.0.0.1`，只能是你自己电脑可以访问 webui，如果你想让同个局域网的人都可以访问的话，可以配置该参数（会自动绑定 `0.0.0.0` ip）。 |
+| --port xxx                      | 默认端口是 `7860`，如果想换个端口，可以配置该参数，例如：`--port 8888`。 |
+| --gradio-auth username:password | 如果你希望给 webui 设置登录密码，可以配置该参数，例如：`--gradio-auth GitLqr:123456`。 |
+| --use-cpu                       | 默认使用 GPU 算力（需要 Nvidia 显卡），如果没显卡，可以配置该参数，改用 CPU 算力。 |
+| --medvram                       | 为低显存（比如：4G）启用模型优化，会牺牲一点速度。           |
+| --lowvram                       | 为极低显存（比如：2G）启用模型优化，会牺牲很多速度。         |
+| --autolaunch                    | 启动时自动打开浏览器访问 webui。                             |
+
+要配置这些参数很简单，打开 `webui-user.bat`，把你需要配置的参数添加到 `COMMANDLINE_ARGS` 后面即可：
+
+```shell
+@echo off
+
+set PYTHON=
+set GIT=
+set VENV_DIR=
+set COMMANDLINE_ARGS=--listen --port 8888 --gradio-auth GitLqr:123456 --autolaunch
+
+call webui.bat
+```
+
+![img](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5abe6c44e5ee4ac995d700dd3b18284b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+### 2、API 接口服务
+
+除了上述几个常用的参数外，还有一个特别的参数 `--api`，可以在启动 `stable-diffusion-webui` 的同时，启动一个接口服务，在 `COMMANDLINE_ARGS` 后面追加上 `--api`：
+
+```shell
+@echo off
+
+set PYTHON=
+set GIT=
+set VENV_DIR=
+set COMMANDLINE_ARGS=--listen --port 8888 --gradio-auth GitLqr:123456 --autolaunch --api
+
+call webui.bat
+```
+
+重启后在 url 后面加上 `/docs` 即可看到 api 请求说明文档：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a0e2eda7f5ab4714b749ca90260c8799~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+这样我们就可以通过编写程序的方式，使用文生图、图生图等功能了，关于接口传参格式等要求，参见官方 wiki：
+
+- 官方 api 说明文档：[API · AUTOMATIC1111/stable-diffusion-webui Wiki (github.com)](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/API#api-guide-by-kilvoctu)
+
 ## Linux上如何使用Stable Diffusion WebUI
 
 ### 前提条件
@@ -280,7 +505,7 @@ bash webui.sh
 
    > RuntimeError: Couldn't install torch.
    >
-   > Command: "/home/Ann/stable-diffusion-webui/venv/bin/python3" -m  pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url [download.pytorch.org/whl/cu117](https:///download.pytorch.org/whl/cu117)
+   > Command: "/home/Ann/stable-diffusion-webui/venv/bin/python3" -m  pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url [download.pytorch.org/whl/cu117](https://download.pytorch.org/whl/cu117)
    >
    > Error code: 2
 
@@ -288,7 +513,7 @@ bash webui.sh
 
    把`command`后边那块复制下来，改一改：
 
-   > pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --trusted-host mirrors.aliyun.com  --extra-index-url [download.pytorch.org/whl/cu117](https:///download.pytorch.org/whl/cu117) -i `别的源的地址`
+   > pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --trusted-host mirrors.aliyun.com  --extra-index-url [download.pytorch.org/whl/cu117](https://download.pytorch.org/whl/cu117) -i `别的源的地址`
 
 2. Preparing metadata (setup.py) ... error
 
@@ -333,11 +558,10 @@ bash webui.sh
 
 ![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/032bfd063bc84870a4a57df3384f3fc2~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
-在开始我们需要安装下 [Home Brew](https:///brew.sh/), 可以直接复制下面代码到终端并执行
+在开始我们需要安装下 [Home Brew](https://brew.sh/), 可以直接复制下面代码到终端并执行
 
 ```sh
-sh
-复制代码/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ### 二、安装所需依赖
@@ -345,22 +569,20 @@ sh
 下面我们需要使用 `brew` 安装一些所需要的依赖包: `make` `protobuf` `rust` `python@3.10` `git` `wget`, 可以直接复制下面代码到终端并执行
 
 ```sh
-sh
-复制代码brew install cmake protobuf rust python@3.10 git wget
+brew install cmake protobuf rust python@3.10 git wget
 ```
 
 ### 三、拉取 Stable Diffusion Web UI 存储库
 
-这里我们需要拉取下 `Stable Diffusion` 的一个 [WEB UI](https:///github.com/AUTOMATIC1111/stable-diffusion-webui) 仓库代码
+这里我们需要拉取下 `Stable Diffusion` 的一个 [WEB UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 仓库代码
 
 ```sh
-sh
-复制代码git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
 ```
 
 ### 四、下载模型
 
-在这里我们需要提前下载好一个基本的 [模型](https:///huggingface.co/CompVis/stable-diffusion-v-1-4-original), 点击 [这里](https:///huggingface.co/CompVis/stable-diffusion-v-1-4-original) 进入下载页
+在这里我们需要提前下载好一个基本的 [模型](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original), 点击 [这里](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) 进入下载页
 
 ![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/44d2f05cf9574d069574cd10cdf4c422~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -373,7 +595,7 @@ sh
 进入项目, 执行 `webui.sh` 脚本
 
 ```sh
-sh复制代码cd stable-diffusion-webui
+cd stable-diffusion-webui
 ./webui.sh
 ```
 
@@ -388,7 +610,7 @@ sh复制代码cd stable-diffusion-webui
 修改内容如下:
 
 ```diff
-diff复制代码# 第13行
+# 第13行
 + export COMMANDLINE_ARGS="--medvram --opt-split-attention --skip-torch-cuda-test --no-half --use-cpu all"
 ```
 
@@ -397,8 +619,7 @@ diff复制代码# 第13行
 最后重新运行 `webui.sh` 脚本:
 
 ```sh
-sh
-复制代码./webui.sh
+./webui.sh
 ```
 
 等待片刻, 这里如果成功运行的话, 最后会给出一个 `WEB UI` 界面的 `访问地址`
@@ -437,7 +658,7 @@ sh
 
 #### 7.1 安装汉化包
 
-汉化包我们选择 [stable-diffusion-webui-chinese](https:///github.com/VinsonLaro/stable-diffusion-webui-chinese), 在项目文档中介绍了两种安装方式, 这里我们选择第一种方式进行安装:
+汉化包我们选择 [stable-diffusion-webui-chinese](https://github.com/VinsonLaro/stable-diffusion-webui-chinese), 在项目文档中介绍了两种安装方式, 这里我们选择第一种方式进行安装:
 
 ![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/beca9c4340e544db8f3a02bfe657c734~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -469,11 +690,11 @@ sh
 
 #### 8.1 模型下载
 
-模型下载源这里推荐 [C 站](https:///civitai.com), 在这上面我们可以下载各种风格的模型
+模型下载源这里推荐 [C 站](https://civitai.com), 在这上面我们可以下载各种风格的模型
 
 ![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2537e46071c446daa580a19524b0b5fa~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
-这里我选择 [toonyou](https:///civitai.com/models/30240/toonyou) 模型, 并进行了下载
+这里我选择 [toonyou](https://civitai.com/models/30240/toonyou) 模型, 并进行了下载
 
 ![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6c0716506b574dd192dcd731f02a4439~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -499,9 +720,9 @@ sh
 
 ### 九、参考
 
-- [轻松安装Stable Diffusion WebUI | MacOS M1&2, Intel CPU可用 | 完整指南和教程](https:///www.youtube.com/watch%3Fv%3D4vtLrafPd5c)
-- [MacOS:轻松安装Stable Diffusion WebUI | M1, M2, Intel | 完整指南和教程](https:///updayday.notion.site/MacOS-Stable-Diffusion-WebUI-M1-M2-Intel-61a0fd82ea0e451d9ead16beafc3a28b)
-- [免费搭建一套可自由更换模型的stable-diffusion](https:///mp.weixin.qq.com/s/gxfWc2tVS2ruoPZhcc1Qsw)
+- [轻松安装Stable Diffusion WebUI | MacOS M1&2, Intel CPU可用 | 完整指南和教程](https://www.youtube.com/watch%3Fv%3D4vtLrafPd5c)
+- [MacOS:轻松安装Stable Diffusion WebUI | M1, M2, Intel | 完整指南和教程](https://updayday.notion.site/MacOS-Stable-Diffusion-WebUI-M1-M2-Intel-61a0fd82ea0e451d9ead16beafc3a28b)
+- [免费搭建一套可自由更换模型的stable-diffusion](https://mp.weixin.qq.com/s/gxfWc2tVS2ruoPZhcc1Qsw)
 
 ## 低成本Stable Diffusion API解决方案
 
@@ -565,6 +786,15 @@ sh
 - Colab长时间不用会自己断开
 - ……
 
+**绘图消耗的计算成本相对于自己装机或者购买显卡来说超级低，适合新入门尝鲜。**
+
+- 首先，**访问一键部署脚本**。跳转谷歌 🌍[Google Colab](https://colab.research.google.com/drive/1lekLF7iib6M1R-NCylS0VMTF4wve-XuV)，并运行脚本中的第1步。
+- 然后，在第2步中选择 SD 模型处填入 **ChilloutMix** ，点击运行。
+- 接着，**设置 LoRA** (默认内置选项，或填写他人的 LoRA 模型下载地址)，点击运行。
+- 继续，依次点击运行即可后续几步，直到显示**绘图环境安装成功。**
+- **开始绘图**，按照作者教程填写 prompt 信息，选择 LoRA 模型，就可以生成图片啦。
+- **参数优化**，如果觉得默认设置生成的图片分辨率低，可以按照图示调整参数。
+
 [无显卡也能AI作画 | Colab + Stable Diffusion WebUI - 掘金 (juejin.cn)](https://juejin.cn/post/7217750296171233339)
 
 ## 阿里云Serverless部署StableDiffusion
@@ -574,6 +804,8 @@ sh
 [阿里云 AIGC 白嫖 FC 搭建 stable diffusion - 掘金 (juejin.cn)](https://juejin.cn/post/7221142199391961147)
 
 [阿里云 PAI 免费试用搭建 stable-diffusion-WebUI - 掘金 (juejin.cn)](https://juejin.cn/post/7221884988492398651)
+
+[白嫖党 YYDS: 阿里云快速搭建 Stable Diffusion - 掘金 (juejin.cn)](https://juejin.cn/post/7246401806677442617)
 
 ————————————————————————————————————————
 
@@ -818,6 +1050,29 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
 | 未完待续，长期更新...   |                                                              |                                                              |                                                  |
 |                         |                                                              |                                                              |                                                  |
 
+## ControlNet 目前最全面的资源合集
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/368370213be142838bbc7264da857472~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+最近 ControlNet 势头很猛，补齐了 stable diffusion 条件控制这块短板，实现了人体姿势、图像边缘、深度图、语义色块图、法线图等多种方式对生成的图像进行精确控制，往无缝融入生产工作流又迈进了一大步。
+
+**程序代码**：
+
+> - **官方github**：[lllyasviel/ControlNet: Let us control diffusion models! (github.com)](https://github.com/lllyasviel/ControlNet)
+> - **网页试玩demo**：[ControlNet - a Hugging Face Space by hysts](https://huggingface.co/spaces/hysts/ControlNet)
+> - **ControlNet stable diffusion webui automatic111插件**：[Mikubill/sd-webui-controlnet: WebUI extension for ControlNet (github.com)](https://github.com/Mikubill/sd-webui-controlnet)
+> - **ControlNet video 代码（runway gen1视频编辑平替）**：[camenduru/fffilonis-controlnet-video (github.com)](https://github.com/camenduru/fffilonis-controlnet-video)
+> - **ControlNet video 网页试玩**：[ControlNet-Video - a Hugging Face Space by fffiloni](https://huggingface.co/spaces/fffiloni/ControlNet-Video)
+> - **新功能上线说明（无需文字引导，纯图片猜测生成）**：[ControlNet 今日上线压轴新功能：猜测模式/非提示模式 (qq.com)](https://mp.weixin.qq.com/s/10W6bIhPQJ4aQafv_MaW9A)
+
+**案例教程**：
+
+> - **ControlNet SD webui 111插件安装**：[【AI绘画爱好者的福音插件】ControlNet安装与使用归纳教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1jM411c7ev/?vd_source=5f0c99b3deddffe219938763769b15ac)](<https://www.bilibili.com/video/BV1jM411c7ev>)
+> - **如果无法自动安装请看这个**：[stable diffusion webui无法安装扩展插件的解决方法_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1RD4y1A7Cb/?vd_source=5f0c99b3deddffe219938763769b15ac)
+> - **初学者使用指南**：[ControlNet 工作流程初学者指南 (qq.com)](https://mp.weixin.qq.com/s/wAC_Mr_YarV3seoM_0dLQA)
+> - **如何与应用场景结合**：[精确控制 AI 图像生成的破冰方案，ControlNet 和 T2I-Adapter (qq.com)](https://mp.weixin.qq.com/s/ylVbqeeZc7XUHmrIrNmw9Q)
+> - **生成清晰的艺术字体案例**：[ww.reddit.com](https://ww.reddit.com/r/StableDiffusion/comments/119j8qr/clear_text_using_controlnet/)
+
 ## Stable Diffusion模型
 
 - [【AI绘画】全网Stable Diffusion WebUI Model模型资源汇总（自用） - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv20039815)
@@ -890,6 +1145,8 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
 
 使用教程：【Stable Diffusion 何似在人间 仙侠模型发布 （适合小说插画、背景）】<https://www.bilibili.com/video/BV1Ph4y1X7ub?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
+4月AI绘画模型推荐榜：<https://mp.weixin.qq.com/s/ODdA6WsnbdTZkb-7OEZULw>
+
 ## 模型用处
 
 [AI绘图StableDiffusion最强大模型盘点 - 诸神乱战 (qq.com)](https://mp.weixin.qq.com/s/bZ-_GyH8fUYTqfURPhA3pA)
@@ -923,6 +1180,13 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
 | povSkinTexture_povSkinTextureDreamlike | 真人模型，很少用                               |
 | realisticVisionV13_v13                 | 真人模型，很少用                               |
 | realisticVisionV20_v20                 | 真人模型，很少用                               |
+
+SDXL 0.9 demo：<https://github.com/lifeisboringsoprogramming/sd-webui-xldemo-txt2img>
+
+SDXL Model huggingface :
+
+- <https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9>
+- <https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9>
 
 ## 模型训练器
 
@@ -958,6 +1222,8 @@ LoRA训练文章四部曲链接：
 - Bytorch官网学习：<https://pytorch.org/tutorials/>
 - Tag批量修改插件原网址：<https://github.com/starik222/BooruDatasetTagManager>
 - 插件和课件百度网盘链接：<https://pan.baidu.com/s/1nVcKpS6OL0VOvyq8zEs8gg?pwd=wrfn>    提取码：wrfn
+
+[炼丹！训练 stable diffusion 来生成LoRA定制模型 - 掘金 (juejin.cn)](https://juejin.cn/post/7215496238627209272)
 
 ### LoRA训练 Part1 图片准备与批量裁切
 
@@ -1005,11 +1271,11 @@ LORA可以让我们轻松画出特定的人物，物品，特殊的笔触和特�
 
 ### Lora模型究竟是什么？
 
-**专业的解释**
+**专业的解释**：
 
 LoRA的全称是[LoRA: Low-Rank Adaptation of Large Language Models](https://link.zhihu.com/%3Ftarget%3Dhttps%3A//arxiv.org/abs/2106.09685)，可以理解为stable diffusion（SD)模型的一种插件，和hyper-network，controlNet一样，都是在不修改SD模型的前提下，利用少量数据训练出一种画风/IP/人物，实现定制化需求，所需的训练资源比训练SD模要小很多，非常适合社区使用者和个人开发者。LoRA最初应用于NLP领域，用于微调GPT-3等模型（也就是ChatGPT的前生）。由于GPT参数量超过千亿，训练成本太高，因此LoRA采用了一个办法，仅训练低秩矩阵（low rank matrics），使用时将LoRA模型的参数注入（inject）SD模型，从而改变SD模型的生成风格，或者为SD模型添加新的人物/IP。
 
-**通俗的解释**
+**通俗的解释**：
 
 Lora可以**复刻人物和物品的特征，固定人物动作，改变照片画风**
 
@@ -1035,23 +1301,23 @@ Lora可以**复刻人物和物品的特征，固定人物动作，改变照片�
 
 炼丹分为以下几步：
 
-**1.下载整合包**
+1.下载整合包
 
-**2.准备工作**
+2.准备工作
 
-**3.开始训练**
+3.开始训练
 
-**4 .测试Lora**
+4.测试Lora
 
-**5.优化Lora**
+5.优化Lora
 
 ## 四、炼丹前的准备（**下载整合包**）
 
 在炼Lora之前，需要大家先确认一下自己的电脑配置：
 
-**1.电脑配置需要N卡，并且6G显存以上**
+1.电脑配置需要N卡，并且6G显存以上
 
-**2.A卡和Mac系统，或者电脑配置不太行的小伙伴建议用云平台**
+2.A卡和Mac系统，或者电脑配置不太行的小伙伴建议用云平台
 
 我这里用的是B站up主朱尼酱的整合包：
 
@@ -1077,7 +1343,7 @@ Lora可以**复刻人物和物品的特征，固定人物动作，改变照片�
 
 跟画图一样，炼Lora之前也要先选一个大模型，确定Lora的画风
 
-**这里训练的萌宠，我选择的是“cheeseDaddys_35”大模型**
+**这里训练的萌宠，我选择的是“cheeseDaddys_35”大模型**：
 
 真人模型=》选用“chilloutmix”的大模型
 
@@ -1105,7 +1371,7 @@ Lora可以**复刻人物和物品的特征，固定人物动作，改变照片�
 
 除此之外还可以自定义去炼平面设计图或者建筑之类的
 
-**我这里选择的是产品**
+**我这里选择的是产品**：
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/24217c23b53643c1a2a91947fa2b76d1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -1119,11 +1385,11 @@ Lora可以**复刻人物和物品的特征，固定人物动作，改变照片�
 
 我们的素材需要满足几个点：
 
-**1.上传20~30张照片**
+**1.上传20~30张照片**：
 
-**2.素材要高清！！！**
+**2.素材要高清！！！**：
 
-**3.多角度照片**
+**3.多角度照片**：
 
 这里我就以炼萌宠Lora为例子，上传萌宠的照片
 
@@ -1133,14 +1399,14 @@ Lora可以**复刻人物和物品的特征，固定人物动作，改变照片�
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ed98bdfdbd5c4683bc53a44021971f00~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
-**一般情况下，下面的参数默认就可以了**
+**一般情况下，下面的参数默认就可以了**：
 
 需要调整参数的话，最好是需要了解参数的含义，如果乱调的话，可能会训练失败。
 
 > 不要选择太高的分辨率，容易爆显存
-
+>
 > 另外，如果训练真人Lora，可以勾选最右边的“脸部加强训练”
-
+>
 > 勾选了之后就会再多裁剪出来一组只有脸的照片，这样AI能学到更多的脸部细节
 
 ## 七、耐心等待的训练过程
@@ -1167,7 +1433,7 @@ Lora可以**复刻人物和物品的特征，固定人物动作，改变照片�
 
 Loss可以用来参考模型的好坏
 
-**一个好的模型Loss值在0.07~0.09之间**
+**一个好的模型Loss值在0.07~0.09之间**：
 
 > 注意：具体好不好还是要在Stable Diffusion实际测试才知道
 

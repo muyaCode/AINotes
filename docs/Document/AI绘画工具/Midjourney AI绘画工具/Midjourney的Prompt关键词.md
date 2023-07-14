@@ -2,6 +2,26 @@
 
 【MidJourney20个精彩Prompt】<https://www.bilibili.com/video/BV1tX4y1X71r?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
+## HayoAI = Product Hunt + Midjourney社区 + Discord + 聊天机器人+ FlowGPT』
+
+[**⋙ HayoAI官网**](https://www.hayo.com/) | [**解读**](https://web.okjike.com/originalPost/644def2dc567913bb5028b3e)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/72af9b4ad8534875acab5ffae5509da2~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+Hayo 是一个强大的应用 (尤其是客户端)，集合了 AI 聊天、艺术创作、工具推荐、新闻以及科技创新交流，有点类似于以下几大应用的结合体！完成度非常高，体验流畅，想做的事情有点大，大家快去下载体验！！
+
+> **HayoAI = Product Hunt + Midjourney社区 + Discord + 聊天机器人+ FlowGPT**
+
+> *1*. **Product Hunt**。HayoAI 收集了1700+ AI工具 ，有详细的介绍、点赞排名和标签分类，允许工具官方发布信息和用户交流
+>
+> *2*. **Midjourney社区**。指令模块类似一个 AIGC 内容社区，可以浏览和直接使用内容的 Prompt，目前主要是 Stable Diffusion
+>
+> *3*. **Discord**。 针对部分工具有单独的聊天室，比如可以直接在 Stable Diffusion 社区内输入 Prompt 进行作画，目前可以免费生成15张/小时，50张/天
+>
+> *4*. **聊天机器人**。支持包含 ChatGPT 在内的5个AI模型对话，而且可以在指令工厂里的 Prompt 页面直接跳转到聊天室使用，不用魔法上就可以用
+>
+> *5*. **FlowGPT**。内置 300+ Prompt，也可以创建自己的 Prompt 
+
 ## 『MidJourney 完全手册』海量提示词 + 效果分类对比 + 多维度设置教程，详细且完备
 
  [**GitHub地址**](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
@@ -12,7 +32,7 @@ MidJourney Styles and Keywords Reference 是一个 GitHub 项目，按照分类�
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59d1f75a5cb541e19ddf43c1b23ff4b6~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
-### **Styles 风格**
+### Styles 风格
 
 > Rainbow of Midjourney Colors
 >
@@ -58,9 +78,9 @@ MidJourney Styles and Keywords Reference 是一个 GitHub 项目，按照分类�
 >
 > Intangibles 无形资产
 
-### **Comparison Pages 比较页面**
+### Comparison Pages 比较页面
 
-**▣ Prompt Writing 提示写作**
+**▣ Prompt Writing 提示写作**：
 
 > Prompt Formatting 提示格式
 >
@@ -74,7 +94,7 @@ MidJourney Styles and Keywords Reference 是一个 GitHub 项目，按照分类�
 >
 > Compound Word Format 复合词格式
 
-**▣ Prompt Parameters 提示参数**
+**▣ Prompt Parameters 提示参数**：
 
 > stylize Parameter 设置参数样式
 >
@@ -88,13 +108,13 @@ MidJourney Styles and Keywords Reference 是一个 GitHub 项目，按照分类�
 >
 > Image Weight 图像权重
 
-**▣ Image Resolution and Upscaling 图像分辨率和缩放**
+**▣ Image Resolution and Upscaling 图像分辨率和缩放**：
 
 > Image Resolutions 图像分辨率
 >
 > Image Upscaling 图像缩放比例
 
-**▣ Cross Analysis Pages 交叉分析页面**
+**▣ Cross Analysis Pages 交叉分析页面**：
 
 > Quality/Stylize 质量/风格
 >
@@ -102,7 +122,7 @@ MidJourney Styles and Keywords Reference 是一个 GitHub 项目，按照分类�
 >
 > Chaos/Quality 混沌/质量
 
-**▣ Remix and Remaster 混合和重制**
+**▣ Remix and Remaster 混合和重制**：
 
 > Remaster 重制
 >
@@ -186,13 +206,15 @@ AI灵感绘图的操作页面显示，输入文字后可以生成摄影、卡通
 
 ## Midjourney关键词网站
 
-Lexica：https://lexica.art
+Lexica：<https://lexica.art>
 
-kalos：https://lib.kalos.art/
+kalos：<https://lib.kalos.art/>
 
-noonshot：https://prompt.noonshot.com
+noonshot：<https://prompt.noonshot.com>
 
 ## 3300+提示词，AI作画艺术家/风格/细节的最全词表
+
+[**⋙ AI 作画艺术家 / 风格 / 细节词表 - 飞书云文档 (feishu.cn)**](https://nolibox.feishu.cn/wiki/wikcnMKUh12BCPdvB2ILPyBEgwd?table=tbljP76F2t8UGLHH&view=vewWF6ax8K)
 
 这是AI绘画工具「画宇亩 (Nolibox Creator) 」帮助中心的一份学习文档，提供了与AI绘画相关的3300+提示词，分为了四类：
 
@@ -202,7 +224,7 @@ noonshot：https://prompt.noonshot.com
 >
 > *▢* **细节词 (380)** ：包含中英文细节词、所属类别、效果示例图
 >
-> *▢* **负面词/去除内容 (130)** ：包含中英文关键词、所属一二级分类 [**⋙ AI 作画艺术家 / 风格 / 细节词表 - 飞书云文档 (feishu.cn)**⁢‬﻿⁡﻿‍⁡‌‬‬‌‬‍⁤⁡⁣⁡﻿‬⁣⁣‍‍⁣‌⁢‍⁣﻿﻿‬⁡⁣‌‬](https://nolibox.feishu.cn/wiki/wikcnMKUh12BCPdvB2ILPyBEgwd?table=tbljP76F2t8UGLHH&view=vewWF6ax8K)
+> *▢* **负面词/去除内容 (130)** ：包含中英文关键词、所属一二级分类
 
 ## 使用Midjourney制作表情包，【教程】+【案例】+【提示词工具】分享
 
@@ -228,54 +250,54 @@ noonshot：https://prompt.noonshot.com
 8. **PromptHero**：支持提示词搜索 [prompthero.com/](https:/prompthero.com/)
 9. **FlowGPT**：ChatGPT prompts 和 AI prompts 社区 [flowgpt.com/](https:/flowgpt.com/)
 
-🌊🌊🌊 提示词生成 
+🌊🌊🌊 提示词生成
 
-▶ ChatGPT Shortcut：ChatGPT 提示词网站，提供了非常多使用模板，简单修改即可指定输出  [ChatGPT Shortcut - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！标签筛选...](https://newzone.top/chatgpt) 
+▶ ChatGPT Shortcut：ChatGPT 提示词网站，提供了非常多使用模板，简单修改即可指定输出  [ChatGPT Shortcut - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！标签筛选...](https://newzone.top/chatgpt)
 
-▶ IMI Prompt：支持多种风格和形式的详细的MJ关键词生成器  [IMI Prompt: Midjourney Prompt Generator v5](https://www.imiprompt.com/) 
+▶ IMI Prompt：支持多种风格和形式的详细的MJ关键词生成器  [IMI Prompt: Midjourney Prompt Generator v5](https://www.imiprompt.com/)
 
-▶ MidJourney Prompt Helper：类型多样的promot书写工具，点击按钮就能生成提示词修饰部分  [MidJourney Prompt Tool](https://prompt.noonshot.com/) 
+▶ MidJourney Prompt Helper：类型多样的promot书写工具，点击按钮就能生成提示词修饰部分  [MidJourney Prompt Tool](https://prompt.noonshot.com/)
 
-▶ Ai-Art：中文版本的关键词生成器  https://www.ai-art.com.cn/?prompt/ 
+▶ Ai-Art：中文版本的关键词生成器  <https://www.ai-art.com.cn/?prompt/>
 
-▶ Prompt Extend：让 AI 帮你自动拓展 Prompt  [https://huggingface.co/spaces/daspartho/prompt-ext...](https://huggingface.co/spaces/daspartho/prompt-extend) 
+▶ Prompt Extend：让 AI 帮你自动拓展 Prompt  [https://huggingface.co/spaces/daspartho/prompt-ext...](https://huggingface.co/spaces/daspartho/prompt-extend)
 
-▶ AcceleratorI Prompt：AI词汇加速器 ，加速 Prompt 书写，通过按钮帮助优化和填充提示词  [AI词汇加速器 AcceleratorI Prompt](https://ai.dawnmark.cn/) 
+▶ AcceleratorI Prompt：AI词汇加速器 ，加速 Prompt 书写，通过按钮帮助优化和填充提示词  [AI词汇加速器 AcceleratorI Prompt](https://ai.dawnmark.cn/)
 
-▶ promptoMANIA：提示词生成器  https://promptomania.com/generic-prompt-builder/ 
+▶ promptoMANIA：提示词生成器  <https://promptomania.com/generic-prompt-builder/>
 
-▶ NovelAI Tag 生成器  [NovelAI tag在线生成器](https://wolfchen.top/tag/) 
+▶ NovelAI Tag 生成器  [NovelAI tag在线生成器](https://wolfchen.top/tag/)
 
 ▶ ChatFlow：抽取 ClickPrompt 核心能力构建的新框架，是一个围绕 ChatGPT 构建的简易工作流引擎 [ClickPrompt - Streamline your prompt design](https://www.clickprompt.org/zh-CN/click-flow/)  
 
-🌊🌊🌊 根据图片生成Prompt 
+🌊🌊🌊 根据图片生成Prompt
 
-▶ img2prompt：根据图片提取prompt  [methexis-inc/img2prompt – Run with an API on Repli...](https://replicate.com/methexis-inc/img2prompt) 
+▶ img2prompt：根据图片提取prompt  [methexis-inc/img2prompt – Run with an API on Repli...](https://replicate.com/methexis-inc/img2prompt)
 
-▶ CLIP-Interrogator：根据给定的图片生成prompt  [https://huggingface.co/spaces/pharma/CLIP-Interrog...](https://huggingface.co/spaces/pharma/CLIP-Interrogator) 
+▶ CLIP-Interrogator：根据给定的图片生成prompt  [https://huggingface.co/spaces/pharma/CLIP-Interrog...](https://huggingface.co/spaces/pharma/CLIP-Interrogator)
 
-▶ image to prompt ：通过图片反向输出   https://imagetoprompt.com/   
+▶ image to prompt ：通过图片反向输出   <https://imagetoprompt.com/>
 
-🌊🌊🌊 提示词库 
+🌊🌊🌊 提示词库
 
-▶ Public Prompts：免费的 prompt 合集  [Public Prompts](https://publicprompts.art/) 
+▶ Public Prompts：免费的 prompt 合集  [Public Prompts](https://publicprompts.art/)
 
-▶ Prompt Hunt：提供了大量AI绘画提示词 [Prompt Hunt - Your home for exploring, creating, a...](https://www.prompthunt.com/) 
+▶ Prompt Hunt：提供了大量AI绘画提示词 [Prompt Hunt - Your home for exploring, creating, a...](https://www.prompthunt.com/)
 
-▶ 魔咒百科词典  https://aitag.top/ 
+▶ 魔咒百科词典  <https://aitag.top/>
 
-▶ KREA：SD 提示词库  https://search.krea.ai/  
+▶ KREA：SD 提示词库  <https://search.krea.ai/>  
 
-🌊🌊🌊 社区 
+🌊🌊🌊 社区
 
-▶ ClickPrompt：轻松查看、分享和一键运行模型，创建Prompt并与其他人分享  [ClickPrompt - Streamline your prompt design](https://www.clickprompt.org/zh-CN/) 
+▶ ClickPrompt：轻松查看、分享和一键运行模型，创建Prompt并与其他人分享  [ClickPrompt - Streamline your prompt design](https://www.clickprompt.org/zh-CN/)
 
 ▶ FlowGPT：ChatGPT prompts 和 AI prompts 社区  [FlowGPT | the best ChatGPT prompts&AI prompts comm...](https://flowgpt.com/)  
 
 🌊🌊🌊  
 
-▶ PromptBase：Prompt交易市场，可以搜索、购买、使用、销售各种Prompt模板  [PromptBase | Prompt Marketplace: DALL·E, Midjourne...](https://promptbase.com/) 
+▶ PromptBase：Prompt交易市场，可以搜索、购买、使用、销售各种Prompt模板  [PromptBase | Prompt Marketplace: DALL·E, Midjourne...](https://promptbase.com/)
 
-▶ PromptHero：支持提示词搜索  [Just a moment...](https://prompthero.com/) 
+▶ PromptHero：支持提示词搜索  [Just a moment...](https://prompthero.com/)
 
 ▶ pictionAIry：玩游戏也能练习 Prompt 书写  [pictionAIry – The AI Image Guessing Game!](https://pictionairy.com/)

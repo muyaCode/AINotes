@@ -1,5 +1,7 @@
 # Stable Diffusion工具的使用
 
+![Stable Diffusion界面解读](.\assets\Stable Diffusion界面解读.jpg)
+
 **AI辅助设计高阶训练工作流 从零到一系统教程（￥599.90）**：[AI辅助设计高阶训练工作流 从零到一系统教程-设计小教室 (designdid.top)](https://www.designdid.top/series/XL101039)
 
 推荐两个B站UP主：
@@ -12,6 +14,124 @@
 - Nenly同学的 **零基础学会Stable Diffusion课程**：【B站第一套系统的AI绘画课！零基础学会Stable Diffusion，这绝对是你看过的最容易上手的AI绘画教程 | SD WebUI 保姆级攻略】<https://www.bilibili.com/video/BV1As4y127HW?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 - 【【SD教程】用Colab一键免费搭建AI画图神器Stable Diffusion，无限出图，白嫖google GPU，无电脑配置和显卡要求】<https://www.bilibili.com/video/BV17o4y1c7Cj?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 - 【stable diffusion最清晰的保姆级上手教程 -  AI绘画 NovelAi webUI】<https://www.bilibili.com/video/BV1rM4y1k7Dv?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+[AI绘画学习笔记- 文集 哔哩哔哩专栏 (bilibili.com)](https://www.bilibili.com/read/readlist/rl714930)
+
+[耗时80小时！超详细的胎教级Stable Diffusion使用教程，看这一篇就够！ (qq.com)](https://mp.weixin.qq.com/s/eFi-xoVDQomzCBr5kO9nHA)
+
+### 🔔 **一、为什么要学Stable Diffusion，它究竟有多强大？**
+
+> *1*. Stable Diffusion能干嘛
+>
+> *2*. Stable Diffusion是什么
+
+### 🔔 **二、三分钟教你装好Stable Diffusion**
+
+> *1*. 什么电脑能带动SD，A卡和Mac系统也不慌
+>
+> *2*. 低配置电脑也能玩Stable Diffusion
+>
+> *3*. 一键式安装SD本地部署，解压即用，小白的福音
+
+### 🔔 **三、小白快速上手Stable Diffusion**
+
+> *1*. 用对模型，照片风格才对味儿
+>
+> *2*. 写好关键词，让你事半功倍
+>
+> *3*. 两分钟打造你的专属模特
+>
+> *4*. 为什么你生成的图就是跟别人不一样
+>
+> *5*. 一分钟生成自己的二次元造型
+>
+> *6*. 随便画几笔，你就是“神笔马良”
+>
+> *7*. 怎么给二次元老婆换衣服
+>
+> *8*. 两步拯救超糊照片
+>
+> *9*. 三秒教你获取大佬的咒语
+>
+> *10*. 一招让你自由指定女神的姿势
+>
+> *11*. 插画师的福音，线稿秒上色
+>
+> *12*. 小白也能进行室内设计
+
+### 🔔 **四、Stable diffusion知识补充**
+
+> *1*. VAE
+>
+> *2*. 迭代步数
+>
+> *3*. 采样方法
+>
+> *4*. 面部修复+高分辨率修复
+>
+> *5*. 图片分辨率（图片大小）
+>
+> *6*. 生成多图
+>
+> *7*. 用脚本进行照片对比
+
+### 🔔**五、大神的模型从哪来**
+
+> *1*. 模型在哪下载
+>
+> *2*. 模型下载到哪里
+>
+> *3*. 如何分辨模型
+
+## 手把手教你用 Stable Diffusion 写好提示词
+
+[手把手教你用Stable Diffusion写好提示词 (qq.com)](https://mp.weixin.qq.com/s/sEQpP5S7W_gsCUf3i7OZiQ)
+
+Stable Diffusion 技术把 AI 图像生成提高到了一个全新高度，文生图 (Text to image) 生成质量很大程度上取决于你的提示词 Prompt 好不好。
+
+本文从「**如何写好提示词**」出发，从提示词构成、调整规则和 chatGPT 辅助工具等角度，对文生图的提示词输入进行归纳总结。
+
+### 🔔 **一 背景介绍**
+
+### 🔔 **二 如何写好提示词？**
+
+> **1 正面提示词**
+>
+> (1) 主体 subject
+>
+> (2) 媒介 medium
+>
+> (3) 风格 style
+>
+> (4) 画家 artist
+>
+> (5) website
+>
+> (6) 分辨率 resolution
+>
+> (7) 额外细节 additional details
+>
+> (8) 色调 color
+>
+> (9) 光影 lighting
+
+> **2 负面提示词**
+>
+> (1) 移除物体 removing things
+>
+> (2) 修改图片 modifying images
+>
+> (3) 关键词切换 keyword switching
+>
+> (4) 修改风格 modifying styles
+
+> **3 微调提示词**
+>
+> (1) 关键词权重
+>
+> (2) ()和[]语法
+>
+> (3) 关键词混合
 
 ## Stable Diffusion 如何写出更优雅的 Prompt
 
@@ -332,7 +452,7 @@ Reddit 用户@Blade2019Runner 最近分享了他是如何利用 Stable Diffusion
 
 【Stable Diffusion可识别二维码生成】<https://www.bilibili.com/video/BV1tm4y1q7WW?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-# Stable Diffusion 艺术化二维码
+## Stable Diffusion 艺术化二维码
 
 Checkpoint + LoRA + QR Code ControlNet 组合实现出来的，下面是几张图片案例：
 
@@ -342,7 +462,7 @@ Checkpoint + LoRA + QR Code ControlNet 组合实现出来的，下面是几张�
 
 不过，文章内并没有讲述艺术化二维码的具体过程，也没有现成的 `QR Code ControlNet` 可供使用（可能出于某些原因没有公布吧，瞎猜的~），从网上收集了一些资料，使用现有的 ControlNet 模型也能够实现同样的效果，下面来看看具体实现步骤。
 
-## 二、实战
+### 二、实战
 
 需要先下载 2 个 ControlNet 模型：
 
@@ -353,14 +473,14 @@ Checkpoint + LoRA + QR Code ControlNet 组合实现出来的，下面是几张�
 
 > 注：建议将 ControlNet 插件升级到最新版本，支持更多预处理器，还有更方便好用的 UI。
 
-## 1、生成二维码
+#### 1、生成二维码
 
 我们先准备一张二维码图片，可以通过以下任意一个网址生成：
 
 - 草料二维码：[cli.im/](https://cli.im/)
 - `QR.io`：[qr.io/](https://qr.io/)
 
-## 2、灰度处理
+#### 2、灰度处理
 
 1. 上传二维码
 2. ControlNet Unit 0：打钩启用（Enable）
@@ -373,7 +493,7 @@ Checkpoint + LoRA + QR Code ControlNet 组合实现出来的，下面是几张�
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/449574f31ee04b26967a4988e2d00ade~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
-## 3、细节处理
+#### 3、细节处理
 
 1. 上传二维码
 2. ControlNet Unit 1：打钩启用（Enable）
@@ -386,7 +506,7 @@ Checkpoint + LoRA + QR Code ControlNet 组合实现出来的，下面是几张�
 
 > 注：如果你页面上没有多个 ControlNet 单元，可以到 Settings 中，找到 Multiple ControlNets 进行设置，详见：[《AI - AI 绘画的精准控图(ControlNet)》](https://mp.weixin.qq.com/s/-POx-c_fcMTtYU-6dWOaVg)
 
-## 4、配置描述
+#### 4、配置描述
 
 根据你希望在二维码画面中出现的东西进行配置，比如我希望在画面中出现一个战火中的高达，我的参数配置如下：
 
@@ -405,11 +525,11 @@ Checkpoint + LoRA + QR Code ControlNet 组合实现出来的，下面是几张�
 
 至此，艺术化后的二维码就生成好了，而且是可以被正常扫码识别出来的哦~
 
-## 三、资料
+### 三、资料
 
 在上述实战中，出现了 1 个新的 ControlNet 预处理器和 2 个新的 ControlNet 模型，它们的作用分别是什么呢？
 
-### 1、预处理器 inpaint_global_harmonious
+#### 1、预处理器 inpaint_global_harmonious
 
 `inpaint_global_harmonious` 主要用于局部（遮罩部分）重绘，在原生基于图生图的重绘模式上加入了 ControlNet 的控制，从而让 inpaint 能够更加准确的预测重绘细节。但是注意，和普通局部重绘不同，ControlNet 的 inpaint 模型除了重绘遮罩部分外，遮罩以外的地方也会发生微小变化（重绘），这样做带来的好处是它能够更好地将重绘区域与整体画面融合，让整体出图更加和谐统一。当然你也能将 ControlNet 引导权重调节到最大，此时 ControlNet-inpaint 模型将尽可能得保持遮罩区域以外的画面不发生变化。
 
@@ -423,14 +543,14 @@ Checkpoint + LoRA + QR Code ControlNet 组合实现出来的，下面是几张�
 
 > 上述介绍源自：[www.jianshu.com/p/2e433f71f…](https://www.jianshu.com/p/2e433f71f544)
 
-### 2、模型 control_v1p_sd15_brightness
+#### 2、模型 control_v1p_sd15_brightness
 
 该模型为稳定扩散带来亮度控制，允许用户对灰度图像着色或对生成的图像重新着色。
 
 > 上述介绍源自： [aigc.ioclab.com/sd-showcase…](https://aigc.ioclab.com/sd-showcase/brightness-controlnet.html)
 > [huggingface.co/ioclab/cont…](https://huggingface.co/ioclab/control_v1p_sd15_brightness)
 
-### 3、模型 control_v11f1e_sd15_tile
+#### 3、模型 control_v11f1e_sd15_tile
 
 tile 模型原本是为了放大图片而设计的，具体来讲需要先将原图分割为一块一块的小区域(叫做 Tile 或瓦块)，然后分别对每个瓦块进行图生图放大，最后集合所有放大后的瓦块，拼成完整的大图。之所以采用局部放大后拼接的模式是为了减少显存占用。但是这样放大图片也有弊端，那就是必须要求每个小图在图生图时重绘幅度不能太大，因为本质上每个小图使用的也是全图提示词，当重回幅度过高时，老版本 tile 模型很可能会在每个小图里生成全图提示词所描绘的全部内容。
 
@@ -444,13 +564,51 @@ ControlNet1.1 版本后的 Tile 模型更加强大，它具有两种特性：
 > 上述介绍源自： [www.jianshu.com/p/2e433f71f…](https://www.jianshu.com/p/2e433f71f544)
 > [github.com/lllyasviel/…](https://github.com/lllyasviel/ControlNet-v1-1-nightly)
 
-## 四、分析
+### 四、分析
 
 我将实战中两个 ControlNet 单元依次生成的图片拆开，得到如下过程图：
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/da641be2682b4f1081c39fda73737157~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
 结合上述资料中对两个 ControlNet 模型的介绍，可以大致理解为 `control_v1p_sd15_brightness` 在二维码图片的基础上进行重新着色，但会丢失二维码信息，`control_v11f1e_sd15_tile` 则在此基础上，对二维码信息细节进行补充。至于预处理器 `inpaint_global_harmonious`，因为此场景下二维码并不需要进行 inpaint 处理，所以把预处理器设为 none 也是可以的，对结果并不影响。
+
+## 🤖 AI二维码制作方式大盘点，还有提升成功率的几个窍门！
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ab0b30add1d84e56aba77f086765278b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+AI二维码已经风靡一段时间，除了让人眼前一亮的图片，更有向 AR 等方向发展的趋势 (如本文开篇)！非常酷炫！今天盘点目前可用的几个产品，这应该是最全的汇总啦！一起玩儿来~
+
+> *▢* 这轮风潮起自 @倪豪 的一篇公众号文章，项目名为「QR Code ControlNet」，展示了将AI绘图与二维码结合后的各种酷炫场景。作者发布了文档，但是尚未开源项目或发布产品在线体验链接。
+>
+> *▢* 文档：[aigc.ioclab.com](https://aigc.ioclab.com/)
+
+> *▢* 名称：StableDiffusion + ControlNET
+>
+> *▢* 教程：[mp.weixin.qq.com/s/9AgkkJy81…](https://mp.weixin.qq.com/s/9AgkkJy81jJ2wO-xa3Fcgg)
+
+> *▢* 名称：**Hysli.io AI**
+>
+> *▢* 网址：[hysli.io](https://hysli.io/)
+
+> *▢* 名称：**Quick QR Art**
+>
+> *▢* 链接：[quickqr.art](https://quickqr.art/)
+>
+> *▢* 教程：[mp.weixin.qq.com/s/wkFabH72I…](https://mp.weixin.qq.com/s/wkFabH72Iuj0BGNtCW3hsA)
+
+> *▢* 名称：**DionTimmer / controlnet_qrcode**
+>
+> *▢* 链接：[huggingface.co/DionTimmer/…](https://huggingface.co/DionTimmer/controlnet_qrcode)
+
+
+
+以下是在 ShowMeAI 社区在使用过程中总结的一些注意事项！可以明显提高成功率！
+
+> *▢* **对原始二维码的要求**：完整，最好中间没有图标，容错率低，尺寸要尽量大一些，最好黑白色
+>
+> *▢* 如果AI生成的二维码不能被识别，那原始二维码需要经过「**草料二维码 ([cli.im)**」](https://cli.im) 等网站的再次加工 (解码-生成)，满足上方的要求
+>
+> *▢* **草料二维码网站设置参数建议**：容错 30%，尺寸 500x500px，二维码美化-码边距-4个色块
 
 ## 日夜天气变化
 

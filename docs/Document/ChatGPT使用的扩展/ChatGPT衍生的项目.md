@@ -1,5 +1,532 @@
 # ChatGPT衍生的项目
 
+## 🤖 『探索AIGC在网易严选中的应用』覆盖商品、品牌、营销等多个领域
+
+**展望未来**  👉 [**详细内容**](https://mp.weixin.qq.com/s/GargWzAGH7QyRanIgZxiCQ)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2b507ecb22c4de9acda09dd098ef6db~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+这是网易严选创新设计中心IDC在月初分享的一篇应用探索，在 ShowMeAI社区内的热度一直很高。所以详细分析下文章内容，并汇总下网易在这波AIGC浪潮里的分享。
+
+随着技术不断发展为设计领域带来了许多变化和机遇，网易严选设计中心在3月初召集设计同学成立了AIGC小组。本文将从可行性和推广性的角度出发，详细介绍AIGC在商品、品牌、营销和体验等多个领域的应用与探索。
+
+**AI在网易严选实际设计业务中的应用探索**
+
+> 1）设计调研 Research
+>
+> 2）设计脑暴&提案 Ideation & Proposal
+>
+> 1. 拍摄和素材Photography & Stock Images
+>    - 严选品牌调性图
+>    - 商品氛围图素材
+>    - 材质特写
+>    - 商用版权图片
+>    - 服饰模特换装
+>
+> 4）包装设计 Package Design
+>
+> 5）工业造型设计 Indurstrial Design
+>
+> 6）商品图案设计 Graphic Design
+>
+> 7） IP设计 Branding & IP Design
+
+**AI对严选设计团队的帮助**
+
+> 1）辅助创意提案，提升提案效率
+>
+> 2）辅助拍摄，提供丰富的素材
+
+**短期聚焦：AI辅助拍摄和素材降本提效**
+
+> 1）尝试用AI生成摄影素材，提升拍摄效率
+>
+> 2）复用到更广泛的商品类目，观察生成效果
+>
+> 3）精简内容制作流程，沉淀方法论
+
+**可突破时间的限制，全新的设计模式已经出现**
+
+## 🤖 『出门问问发布 AIGC 产品矩阵』体验还行，就是有点贵
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/672be54e902e4f3db1186952182feb3f~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+4月20日，出门问问举办了 AIGC 战略发布会，发布了「序列猴子」大模型，以语言为核心的能力体系涵盖知识、对话、数学、逻辑、推理、规划等六个维度，能够同时支持文字生成、图片生成、3D内容生成、语音生成和语音识别等不同任务。
+
+出门问问依托「序列猴子」大模型，整合发布文字生成、AI绘画、配音、数字人等产品矩阵，可以直接在线体验：
+
+> *▢* **奇妙文：你的AI写作助理** ([wen.mobvoi.com/](https://wen.mobvoi.com/))
+>
+> *▢* **言之画：你的AI绘画助理** ([paint.mobvoi.com/](https://paint.mobvoi.com/))
+>
+> *▢* **魔音工坊：你的Al配音助理** ([www.moyin.com/](https://www.moyin.com/))
+>
+> *▢* **奇妙元：你的AI数字分身** ([www.weta365.com/](https://www.weta365.com/))
+>
+> *▢* **序列猴子：开放平台** ([openapi.mobvoi.com/](https://openapi.mobvoi.com/)) 
+>
+> 👉 [**更多测评**](https://mp.weixin.qq.com/s/azRrb1pSiXl3kCYyHo-xKQ)
+
+## 🤖 『科大讯飞将发布「星火认知大模型」』内测申请已开放 (通过有窍门儿)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ff40f4c3ed3d43b79c53e09b02de20fa~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+科大讯飞公众号宣布，2023年5月6日14:00举办「星火认知大模型」成果发布会，并将同步发布讯飞AI学习机、讯飞听见、讯飞智能办公本、讯飞智慧驾舱、讯飞开放平台等5项应用成果。 [**预约线上发布会**](https://mp.weixin.qq.com/s/9uYus4226lrkD57_JyxZkQ)
+
+ShowMeAI社群亲测，填写调研问卷可以光速通过内测申请！记得！一定要接来自安徽合肥的官方调研电话，然后就拿到了内测名额！
+
+> 调研问卷地址：[xinghuo.xfyun.cn/](https://xinghuo.xfyun.cn/)
+
+## 🤖 『超对称联手复旦发布「BBT-2」大模型』可编程、金融、文生图
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8c6eb84a5c3943e5b3b354d582646904~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**BBT-2** (BigBang Tansformer-2，乾元2) 是超对称技术公司、复旦大学知识工场实验室联合发布的120亿参数的通用大模型。项目团队以其为基础训练出了代码、金融、图文等专业模型。
+
+根据官方数据，其中的代码大模型在CSDN的自动编程评测标准上能达到C3，和GPT-3.5处于同一等级「条件自动编程」。据悉，BBT系列模型其中3个即将开源到GitHub、UCloud和官网，开箱可用。 [**在线Demo**](https://www.ssymmetry.com/) | [**更多测评**](https://mp.weixin.qq.com/s/OZquNIN1nnM8W3CQlSRm9g)
+
+## 🤖 『ChatGPT这把火是怎么烧起来？』我们分析了GitHub近20,000个开源项目
+
+ChatGPT 毫无疑问是当红炸子鸡，彷佛一夜之间，全世界都在讨论 GPT、LLM、AIGC 这些火热的概念。**那这把火到底是怎么烧起来？它目前有哪些主要的关注方向？未来可能还会怎么发展呢？**
+
+@陈希章 对 GitHub 上近两万个项目进行了数据分析。作者在持续更新这个系列，首批部分关键洞察如下：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/39fbc9841d304235a38cfc64e56c2ac7~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+2022年12月，ChatGPT 相关项目明显增加，并在2023年实现彻底爆发，3月2日更是创建了单日最多的 497 个项目。目前 17K 名作者创建了 19.4K 个项目，获得约 530K Star，80K fork，530K watch。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2fd90a4e7dd4a28a9bbfd3a790b9276~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+Star总数Top 10项目中，Prompt Engineering 最是热门，毕竟是当务之急！Star增长速度最快的项目，榜首是微软的 visual-chatgpt，更有多个很有意思的新项目榜上有名。
+
+创建 ChatGPT 活跃项目的作者榜Top 20中，除去地理位置未知的5个作者，**中国的账号是7个，占到将近 50%的比例（7/15）。** 使用最多语言的前6名是 **Python、TypeScript、HTML、JavaScript、Rust、Go**。
+
+> 作者在 🌍[**原文**](https://mp.weixin.qq.com/s/BSLnp3Jx6Fs53SvQrDxHtw) 表示后续会继续进行数据分析并公开数据集。我们一起期待更火热的洞察吧~
+
+## 『4月份爆火的 Auto-GPT 的系列整理』目前最详细清晰
+
+随着 Auto-GPT、Baby AGI 以及斯坦福大学关于 AI Agents 的社会实验的出现，AI 代理/智能代理瞬间成为了 AI 领域的全球热点。本文从 Web 端、长期记忆、垂直领域服务、反面案例等等角度，整理了截止目前最具代表性的 AI 代理产品。
+
+### ⭕ **Auto-GPT**
+
+> *1*. **Auto-GPT**
+>
+> 作为首批独立运行的 GPT-4 实例之一，Auto-GPT 重新定义了 AI 技术的边界，核心在于基于最少的人工输入/提示，利用 GPT-4 的推理能力解决更广泛、更复杂的问题
+>
+> [github.com/Significant…](https://github.com/Significant-Gravitas/Auto-GPT)
+
+### ⭕ **Baby AGI**
+
+> *2*. **Baby AGI**
+>
+> 受 AGI 的定义启发，Untapped Capital 的合伙人 Yohei Nakajima 基于 GPT-4、Pinecone 和 LangChain搭建了一个名为 Baby AGI 的任务驱动的自动化代理
+>
+> [github.com/yoheinakaji…](https://github.com/yoheinakajima/babyagi)
+
+### ⭕ **Web Version｜Web 端版本**
+
+> *3*. **AgentGPT**
+>
+> 功能最基础的网页版 AutoGPT，界面清爽，易于使用，可一键存储/复制所生成的结果，也可选择使用自己的 API key
+>
+> [agentgpt.reworkd.ai/](https://agentgpt.reworkd.ai/)
+
+> *4*. **Godmode**
+>
+> 需要人为添加任务并确认每个步骤的网页版 AutoGPT，可人为控制变量
+>
+> [godmode.space/](https://godmode.space/)
+
+> *5*. **Cognosys**
+>
+> 目前最火的 Web 端 Auto GPT，由 Homam Tradeit 与 Sully Omarr 共同开发。输入项目名称，设定目标，输入或自动生成三项任务，即可让代理自动完成目标
+>
+> [www.cognosys.ai/](https://www.cognosys.ai/)
+
+### ⭕ **Long-Term Memory｜长期记忆**
+
+> *6*. **MemoryGPT**
+>
+> MemoryGPT 是记忆力更长久的 ChatGPT，这个特点让它可以解决更复杂更具体的问题，同时也可以更个性化
+>
+> [memorygpt.io/](https://memorygpt.io/)
+
+> *7*. **Teenage AGI**
+>
+> 一个真正拥有长期记忆，记住初始目标并自动规划完成复杂任务的 AI agent
+>
+> [github.com/seanpixel/T…](https://github.com/seanpixel/Teenage-AGI)
+
+### ⭕ **More Professional Service｜更专业的服务**
+
+> *8*. **Coding Assistant by Mckay Wrigley**
+>
+> 开发者Mckay 通过 AI agents 进一步实现了与经过身份验证的用户搭建应用程序，当前可以构建和设计 Web 应用程序、创建具有工作数据库的后端、处理身份验证、部署到 Vercel等
+>
+> [twitter.com/mckaywrigle…](https://twitter.com/mckaywrigley/status/1646596881420783619)
+
+> *9*. **e2b (english2bits)**
+>
+> 基于开发文档，利用 AI agents 自动搭建软件。目前云托管版本还在开发，使用还需本地部署
+>
+> [www.e2b.dev/](https://www.e2b.dev/)
+
+### ⭕ **Bad cases tigger｜反面案例**
+
+> *10*. **ChaosGPT**
+>
+> 一个对人类充满敌意并且想要统治世界的 Auto-GPT，虽然产品本身展现的意图是负面的，但让大家可以更直观地了解到 AI 的威胁性并（也许可以）提前做好应对准备，目前已经被推特关闭
+>
+> [twitter.com/chaos_gpt](https://twitter.com/chaos_gpt) [**⋙ 来源**](https://mp.weixin.qq.com/s/Ntk36JzSCmmkJTXkKfMKrA)
+
+## 『Chat应用汇总 (1-在线应用)』国内优秀的产品和开发者
+
+🧰 【Chat 效率工具清单】生产力工具与行业应用大全 🕘 持续更新至2023年4月27日
+
+💬 【Chat ➕ XX】工具的图文详细介绍 👉 [【Chat效率工具汇总】日常工作自动化，幸福感提升N倍 | 星球热帖](https://mp.weixin.qq.com/s/v8eiaCo5-uqWFVVufkAsnQ)
+
+🌊🌊🌊 免费使用
+
+▶【Chat ➕ pdf】chatPDF：支持不同语言之间互动的文件阅读助手，可以快速从上传的研究论文、书籍、手册等文件中提取、定位和汇总文件信息，并以聊天的方式给出答案   <https://www.chatpdf.com/>
+
+▶【Chat ➕ pdf】ChatDOC：同上，目前免费额度更高  [ChatDOC - Chat with your documents](https://chatdoc.com/)
+
+▶【Chat ➕ PPT】ChatPPT：可以通过自然语言指令与Chat模式进行PPT文档创作（公测申请中，需要排队）   [https://chat-ppt.com](https://chat-ppt.com/)
+
+▶【Chat ➕ Excel】ChatExcel：用对话的形式实现复杂的 Excel 操作（Chat-to-Excel），并支持一键导出成标准 Excel 表格   [酷表ChatExcel](https://chatexcel.com/)
+
+▶【Chat ➕ 论文】ChatPaper：根据关键词自动下载arxiv最新论文，并生成摘要，帮助快速判断哪些论文需要精读 [ChatPaper](https://chatpaper.org/)
+
+▶【 Chat ➕ 文档】Chatbase：基于给定文档 (如.pdf、txt、.doc和.docx) 构建和自定义聊天机器人  [Chatbase | ChatGPT for your website](https://www.chatbase.co/)
+
+🌊🌊🌊 付费使用
+
+▶【Chat ➕ 音视频】BibiGPT：一键总结 YouTube / Bilibili 、网页、播客、会议、本地音视频等音视频内容，并支持输出端的个性化设置  [BibiGPT · AI 音视频内容一键总结](https://b.jimmylv.cn/)
+
+▶【Chat ➕ 网页】ChatWebpage：通过Al分析网站，提供网站基本信息 (如联系方式) 和高级话题(如SEO和分析)的准确答案（需要付费使用）  [ChatWebpage | chatwebpage.com](https://chatwebpage.com/)
+
+▶【Chat ➕ Notion】ChatThing： [Chat Thing | Custom ChatGTP bots using your data](https://chatthing.ai/)
+
+🌊🌊🌊 社区反馈暂时无法正常使用
+
+▶【Chat ➕ SQL】SQLChat：  <https://www.sqlchat.ai/>
+
+
+
+## 🤖 『ChatFlow』打造个性化 ChatGPT 流程，构建自动化
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2031a1d48fe64c3192ddaf0aa519f0bb~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+🌍[**ClickPrompt**](https://www.clickprompt.org/zh-CN/) 是一款专为 Prompt 编写者设计的工具 ，它支持多种基于 Prompt 的 AI 应用，例如 Stable Diffusion、ChatGPT 和 GitHub Copilot 等。使用 ClickPrompt，可以轻松地查看、分享和一键运行这些模型，同时提供在线的 Prompt 生成器，使用户能够根据自己的需求轻松创建符合要求的 Prompt，并与其他人分享。
+
+🌍[**ChatFlow**](https://www.clickprompt.org/zh-CN/click-flow/) 是抽取 ClickPrompt 核心能力构建的新框架，是一个围绕 ChatGPT 构建的简易工作流引擎，将做事的套路工具化，结合 AI 进行自动化。目前包括 **ClickPrompt Workflow、软件系统设计、Domain Driven Design、REPL Code Kotlin、模糊的需求到代码骨架、写作**等几项自动化工作流。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f7c5ebf671f4428f95bd7eacf6ef015d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+以写作为例，作者构建了一个逐步运行的工作流，将写作流程拆解为思路扩展、继续思考、合适的标题、设计大纲、编写内容、写总结等6个步骤，并给出了更具体的提示方向，一步步引导最终的内容生成。
+
+### ChatPDF
+
+ChatPDF是一款强大的PDF阅读和问答工具，支持不同语言间的互动，原理是分析时创建PDF段落的语义 索引，回答问题时找到最相关段落并利用OpenAl的API生成答案，每天可免费处理3个PDF (最多120 页)。
+
+> [www.chatpdf.com/](https://www.chatpdf.com/)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a27cf483deb84a309ca902c86a1b96db~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### ChatDOC
+
+**ChatDOC** 是一个基于 ChatGPT 的文件阅读助手，支持中英文，可以快速从上传研究论文、书籍、手册等文件中提取、定位和汇总文件信息，并通过聊天的方式在几秒钟内给出问题的答案。ChatDOC 目前免费，文件大小限制为 200 页，最多可以上传 5 个文档。在即将更新的版本中，还支持跨多个文档的综合查询和问答。一把子期待了！
+
+> [chatdoc.com/](https://chatdoc.com/)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b1c62437b2164592ae431908c74cd2dd~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### ChatPPT
+
+ChatPPT是面向PPT使用者提供的AI生成PPT产品，基于ChatGPT与韦尼克模型，面向PPT用户提供可通过自然语言指令与Chat模式进行PPT文档创作的AI创作服务。目前有在线体验版、**Office插件版**两类，可在官网申请加入公测。
+
+> [chat-ppt.com](https://chat-ppt.com/)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/faea8328085a4a148af3ce6063997f64~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### ChatExcel
+
+ChatExcel 由北京大学深圳研究生院/信息工程学院3位硕博生独立开发，主打用对话的形式实现复杂的 Excel 操作（Chat-to-Excel），并支持一键导出成标准 Excel 表格。目前已开放Demo供大家试玩，不用注册、网页上就能用、不限使用次数，相当利好懒人和 Excel 小白。
+
+> [chatexcel.com/](https://chatexcel.com/)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/07839833d05845038c7ef2f32580cf3b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### ChatWebpage
+
+ChatWebpage是一款智能网站分析与问答工具，通过Al分析网站，提供网站相关问题的准确答案，输入网址即可开始聊天。可回答关于网站的各类问题，包括基本信息 (如联系方式) 和高级话题(如SEO和分析)。
+
+> [chatwebpage.com/](https://chatwebpage.com/)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f12d258ac3d24db6b374f77f300aaa9c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### ChatVox
+
+ChatVox 让你能够与任何视频或音频文件进行互动，只需输入YouTube或播客链接，就可以像与ChatGPT聊天一样与视频展开对话。国内开发者的产品，官方介绍本地功能正在火速开发中，期待ing
+
+> [chatvox.aitodo.co/](https://chatvox.aitodo.co/)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a6c71b3eba014627913bbbddfd61ac11~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### SciChat
+
+SciChat是一款基于前沿语言大模型的AI聊天机器人，能快速响应任何你感兴趣的话题，由科研创新服务平台SciRadar 打造。SciChat 目前每人每日拥有10,000字符的免费使用额度。
+
+> [www.sciradar.com/](https://www.sciradar.com/)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/09e8e5a7f8034b73bc54d21910cd198a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### FlowUs AI
+
+Flowus的AI写作功能是针对各种内容类型的。它可以帮助你写文章、论文、报告、甚至新闻稿等内容。除了根据用户输入的关键词、主题和目的进行信息筛选和整理之外，该功能还可以帮助用户自动生成标题、文章大纲、段落、句子等内容，帮助用户更快速、更准确地完成文章的创作。
+
+> [flowus.cn/](https://flowus.cn/)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c059b04725114f6bbf45f7db117aa993~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### 风声雨声
+
+风声雨声包含书籍翻译、书籍阅读、知名作者书籍推荐3个功能，支持epub、pdf、word、srt、txt 在内的多种最常见的文件格式，基于 GPT-3.5完成多种语言的书籍翻译、书籍信息快速提取与问答、推荐作者书籍等。
+
+> [fsys.app/](https://fsys.app/)
+
+## 『Chat Chat 开源啦』解锁你的下一级 AI 对话体验
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/219c5b4432da422b87e8b9b3380cf729~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+Chat Chat 可以使用 OpenAI、微软 Azure、Claude、Cohere、Hugging Face 等多个 API，让你的 AI 对话体验更加丰富。
+
+此外，Chat Chat 还支持 Plugins，可以搜索内容和总结网页；并且支持分享记录，支持云端存储记录和个人设置等 [**⋙ GitHub**](https://github.com/okisdev/ChatChat) | [**官网**](https://chat.okisdev.com/)
+
+## 在国内做ChatGPT的镜像API
+
+根据中国互联网管理规定，未经批准的外国网站在中国大陆是无法直接访问的。**如果您想在中国搭建一个外国镜像网站，需要先获得相关的审批和许可，并遵守中国的互联网管理法规。**
+
+**遵守相关法律法规，包括但不限于不传播违法信息、不从事非法活动等。**
+
+此外，还需要考虑网站内容和技术方面的问题，如网站安全性、用户隐私保护、服务器稳定性等。需要注意的是，**即使网站已备案，也要根据当地的互联网管理规定进行合规运营。**
+
+### 一、ChatGPT的API官方调用方法
+
+```ini
+ini复制代码import openai
+completion = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[("role": "user","content": "Tell the world about the ChatGPT API in the style of a pirate."1]
+print(completion)
+```
+
+因为一些特殊原因，ChatGPT的API在国内是不可访问的。如果想要访问的话需要一些魔法。
+
+### 二、ChatGPT的API国内访问方法
+
+> 用过Python的小伙伴应该都知道，python第三方库官方源是最难用，往往最好用的是国内的镜像网站，比如清华镜像源，淘宝镜像源等。同理CSDN上也有很多github的加速计划，让我们能快速访问指定的github项目地址。
+
+**所以，理论来讲我们也可以备案后申请做国内chatapi的镜像**。例如此镜像：[ai.bo-e.com/](https://ai.bo-e.com/)
+
+话不多说，直接开始说方法。这里只讲一下api的访问方法，具体的服务都可以在这个基础上开展。
+
+#### 2.1 租一个海外服务器
+
+这个是最稳妥的方法，国内的阿里云，腾讯云，华为云都有海外服务器租赁服务。办法
+
+海外服务器有自己独特的优势，就是服务器网络在海外，可以**无魔法**直接访问chatgpt的api，而且我们还可以在国内访问这些服务器**不必担心被墙**。
+
+> 但是服务器的访问速度不好说，我一开始买的印度的服务器访问速度感人，xshell都有点卡，换成韩国的才好一点。当然我只是按量租了一个1核2G，带宽很小的用来实验，可能好一点的服务器网络也会好一点。
+
+##### fastapi部署代码
+
+```python
+python复制代码from fastapi import FastAPI
+import openai
+import os
+import time
+from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_headers=["*"],
+)
+
+class TextData(BaseModel):
+    model: str
+    key: str
+    text: str
+
+@app.post("/chatapi")
+def chatapi(text_data: TextData):
+    model = text_data.model
+    key = text_data.key
+    text = text_data.text
+    openai.api_key = key # 这里放入你的key，我这>里隐藏了
+    completion = openai.ChatCompletion.create(
+        model=model,
+        messages=[{"role": "user", "content": text}])
+
+    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"request---",text)
+    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"result---", completion["choices"][0]["message"]["content"])
+    return completion
+
+if __name__ == '__main__':
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+```
+
+> 执行此py文件，即可通过服务器ip:8000端口访问。
+
+#### 2.2 使用ssr代理
+
+如果自己手上有一个代理，那可以在自己已有的国内服务器上做一个全局代理。**这个非常适合我这种已有代理，已有国内服务器并且不想花冤枉钱再租一个国外服务器的选手。**
+
+一般的代理在windows系统都挺好用的，但是很少有在linux服务器的使用方法。恰好，我的服务器要是换系统的话要花一笔冤枉钱，没办法，只能探索在linux部署ssr代理的方法了。
+
+##### 2.2.1 linux部署代理方法
+
+参考[github.com/TyrantLucif…](https://github.com/TyrantLucifer/ssr-command-client/blob/master/README_CH.md)
+
+> 这个教程比较模糊，根据我的实际经验，按照以下步骤操作即可，
+
+1. 有自己的ssr代理链接。 2.`shadowsocksr-cli --add-url SUBSCRIBE_URL`
+
+> 增加ssr订阅链接，SUBSCRIBE_URL为订阅链接地址 注：如果订阅链接中有&符号，请用""将链接括起来
+
+1. `shadowsocksr-cli --list-url`
+
+> 打印当前已有订阅链接
+
+1. `shadowsocksr-cli -l`
+
+> 打印当前节点列表
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/595db55d8e0e4a048ab8bdc25bad260b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?) >选择connect为对钩，delay延迟比较低的节点。
+
+5.`shadowsocksr-cli -s SSR_NODE_ID`
+
+> 启动Shadowsocks代理，SSR_NODE_ID为节点ID，可从打印列表中获得；如果不指定 -p 参数，那么默认代理启动在本地1080端口
+
+```
+shadowsocksr-cli -p PORT 
+```
+
+> 指定端口，通常与 -s --start 一起使用
+
+一般来说就是用默认端口即可。
+
+##### 2.2.2 Linux终端设置代理方法
+
+- 终端设置代理`export ALL_PROXY=socks5://127.0.0.1:1080`
+- 查看代理是否设置成功`curl http://ip-api.com/json/?lang=zh-CN`
+- 取消终端代理`unset ALL_PROXY`
+- 如果想要更加方便的使用快捷命令，将以下内容添加到你家目录中的`.bashrc`中，然后执行`source ~/.bashrc`
+
+```ini
+ini复制代码alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1080"
+alias unsetproxy="unset ALL_PROXY"
+alias ip="curl http://ip-api.com/json/?lang=zh-CN"
+```
+
+这样以下几个命令就会实现如下功能：
+
+```
+复制代码setproxy 开启代理
+unsetproxy 关闭代理
+ip 查看ip归属地
+```
+
+然后就是setproxy。
+
+ip即可实验是否建立成功。
+
+##### 2.2.3 报错处理
+
+如果中途报错，可以参考以下我找到的处理方法。 [tcprelay.py[行：272\] - [_create_encryptor] - 错误：在端口 60000 创建加密器失败 ·问题 #69 ·暴君路西法/ssr-command…](https://github.com/TyrantLucifer/ssr-command-client/issues/69)
+
+具体方法就是装两个库即可。
+
+```arduino
+arduino复制代码yum install epel-release -y 
+yum install libsodium -y
+```
+
+##### 2.2.4 fastapi部署代码（仅加了一个代理方法）
+
+```python
+python复制代码from fastapi import FastAPI
+import openai
+import os
+import time
+from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
+
+os.environ["HTTP_PROXY"] = "socks5h://127.0.0.1:1080"
+os.environ["HTTPS_PROXY"] = "socks5h://127.0.0.1:1080"
+
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_headers=["*"],
+)
+
+class TextData(BaseModel):
+    model: str
+    key: str
+    text: str
+
+@app.post("/chatapi")
+def chatapi(text_data: TextData):
+    model = text_data.model
+    key = text_data.key
+    text = text_data.text
+    openai.api_key = key
+    # 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  # 这里放入你的key，我这>里隐藏了
+    completion = openai.ChatCompletion.create(
+        model=model,
+        messages=[{"role": "user", "content": text}])
+
+    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"request---",text)
+    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),"result---", completion["choices"][0]["message"]["content"])
+    return completion
+
+# 001bgq1w3n1QTZ2vQ54w3UhF151bgq1H
+if __name__ == '__main__':
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+```
+
+#### 2.3 自建代理方法
+
+还有一种情况，也是以后我要做的就是找几个小伙伴合租一个海外服务器自建代理。 [yukaiji/buildVpn: 图文教程搭建一个vpn (github.com)](https://github.com/yukaiji/buildVpn)
+
+然后通过阿里云的severless部署api进一步降低成本。有心动的小伙伴可以联系下。
+
+> 注意，售卖代理违法，请不要走上违法犯罪的道路上。
+
+### 三、ChatGPT的镜像web
+
+github有个开源的chatgpt镜像web。可以做个参考
+
+[github.com/yuezk/chatg…](https://github.com/yuezk/chatgpt-mirror.git)
+
+> 目前这个我还没来得及部署。但是各位狱友，如果在国内的服务器内想要做一个chatgpt镜像，一定一定一定要备案啊。
+
+我自己也根据我的api做了一个简陋的镜像。 [Chat API (zhijianpark.top)](https://zhijianpark.top/)
+
+还有一个我正在备案，仍处于被封状态的域名。[非法阻断156 (chatapi.work)](https://chatapi.work/)
+
+## GPT-4
+
 GPT-4 内部技术的解密文档 ***GPT-4 Architecture,Infrastructure,Training Dataset, Costs,Vision, MoE***，披露了GPT-4 的架构、基础设施、训练数据集、成本、视觉 和 MoE 等关键信息。
 
 过去几个月都陆续有一些关于 GPT-4 架构的猜测和爆料，这篇则是最为详细的解密 [**⋙ 阅读原文**](https:/www.semianalysis.com/p/gpt-4-architecture-infrastructure) | [**全文翻译(中文版)**](https:/mp.weixin.qq.com/s/AIwinPksV_u-RQfcoCD7nw)
@@ -32,6 +559,18 @@ GPT-4 内部技术的解密文档 ***GPT-4 Architecture,Infrastructure,Training 
 >
 > 需要魔法，每天免费使用30次
 
+ChatGPT 最有实力的竞争对手 Claude 也开放 API 申请了，很大方，不仅会给免费的 API，官网也可以直接使用进行问答。
+
+> 申请地址：[www.anthropic.com/product](https://www.anthropic.com/product)
+
+## 『一站式 AI 科研辅助工具 SCISpace』科研界的 ChatGPT
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/99e571870a014ecd91a6f35e66104dd6~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+[**SCISpace**](https://typeset.io/) 是一款专门为学术研究构建的平台，已经帮助全世界各地 100 多万名研究人员撰写了高质量的研究论文，并影响了学术出版的格局。
+
+SCISpace 对撰写论文需要的多项工具进行了深度集成，包括文本编辑、语法纠错、格式排版、插入数据、代码、媒体、注释和剽窃检测等工具。**因此，作者可以基于 SCISpace 构建一个从编写、审查到格式的端到端完整工作流，并于全世界的专家进行有效合作。**
+
 ## BibiGPT 哔哔终结者
 
 [**BibiGPT**](https://b.jimmylv.cn/) **是一个基于gpt-3.5-turbo的**一键总结 B 站、油管、播客、本地文件的视频、音频内容网站。
@@ -43,8 +582,6 @@ BibiGPT还提供了部分设置，允许用户自定义输出内容格式。
 BibiGPT的输出总结有**笔记视图**和**思维导图视图**，还允许**将总结一键导入Notion，快速整理笔记**。哇！这两个功能实在太爱了有木有！！！
 
 ![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/29071e9c35db47a3bd7e78375cf245a2~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
-
-
 
 ## ChatGPT Shortcut
 
@@ -72,31 +609,7 @@ ChatMind 是一个 AI 辅助工具，可以像操作 ChatGPT 一样，输入文�
 
 此外，ChatMind 还支持与 AI 对话生成表格、处理表格数据、生成文字段落、，并提供了可以参考的写作模板，帮助更快地完成工作。
 
-试了一下，对于给定具体一个书名的输入提示，ChatMind 生成的大纲跟实际内容对不上。不过，围绕某个话题给出的思维导图，还是很靠谱的，逻辑非常清晰。如图是根据“2023年读50本书”的目标给出的规划，还行！[ChatMind.Tech](https://www.chatmind.tech/)
-
-## DebugCode.AI』免费的 AI 代码调试工具
-
-![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b25d155d75a146109fd5a68f14836083~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
-
-DebugCode.AI 是一款强大且免费的 AI 代码调试工具，基于OpenAI API 智能分析和修复代码中的错误。你只需要粘贴代码、输入问题、然后点击 Debug 按钮，就可以得到一个修复方案！非常地简单和便捷，向手动调试的时代说再见！
-
-官网：[debugcode.ai](https://debugcode.ai/)
-
-## 『codeium AI代码工具』Copilot平替，个人永久免费使用，支持常用的编辑器
-
-![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8c4c680aaf56410c9ae75b7caef6bad9~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
-
-Codeium 是一个在线代码编辑器和编程辅助工具，可以理解为免费版的 GitHub Copilot。
-
-Codeium 可以帮助开发者在不熟悉的语言或代码库进行修改，寻找和使用API，并且支持单元测试的自动生成，支持多种语言的自动补全，还提供了一个基于自然语言的全局查询能力。[Playground | Codeium · Free AI Code Completion & Chat](https://codeium.com/playground)
-
-## 『亚马逊AI编程助手CodeWhisperer正式可用』面向个人开发者免费开放
-
-![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ddc6e65be9cd4e0aa0b808d498a15f0d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
-
-亚马逊云科技宣布，实时AI编程助手Amazon CodeWhisperer正式可用，同时推出的还有供所有开发人员免费使用的个人版（CodeWhisperer Individual）。
-
-CodeWhisperer帮助开发者基于注释生成代码，追踪开源参考，扫描查找漏洞。此外，还可以帮助开发者创建代码胜任如下场景，比如常规、耗时的无差别任务，或是在使用不熟悉的API或SDK时构建示例代码等。[Amazon offers free access to its AI coding assistant to undercut Microsoft - The Verge](https://www.theverge.com/2023/4/13/23681796/amazon-ai-coding-assistant-codewhisperer-microsoft)
+试了一下，对于给定具体一个书名的输入提示，ChatMind 生成的大纲跟实际内容对不上。不过，围绕某个话题给出的思维导图，还是很靠谱的，逻辑非常清晰。如图是根据“2023年读50本书”的目标给出的规划，还行！[ChatMind.Tech](https://www.chatmind.tech/)：<https://www.theverge.com/2023/4/13/23681796/amazon-ai-coding-assistant-codewhisperer-microsoft>
 
 ## HuggingChat
 
@@ -140,10 +653,8 @@ HuggingFace相当于人工智能领域届的GitHub，基本上开源AI模型的D
 >
 > *▢* 线上 Demo：[huggingface.co/spaces/GMFT…](https://huggingface.co/spaces/GMFTBY/PandaGPT)
 
-
-
 作者：ShowMeAI
-链接：https://juejin.cn/post/7241510305367998501
+链接：<https://juejin.cn/post/7241510305367998501>
 来源：稀土掘金
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。来自剑桥、NAIST 和腾讯 AI Lab 的研究者推出了一款名为 PandaGPT 的跨模态语言模型，展示了在人工智能领域的创新尝试。
 
@@ -156,6 +667,14 @@ HuggingFace相当于人工智能领域届的GitHub，基本上开源AI模型的D
 > *▢* 论文：[2305.16355\] PandaGPT: One Model To Instruction-Follow Them All (arxiv.org)](https://arxiv.org/abs/2305.16355)
 >
 > *▢* 线上 Demo：[PandaGPT - a Hugging Face Space by GMFTBY](https://huggingface.co/spaces/GMFTBY/PandaGPT)
+
+## 🤖 『谷歌 Bard 新增辅助编程功能』帮助编写、调试和解释代码
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52c1797dc1014a3598b40bf511d53dee~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+Google 在其官方博客中发布，Bard 新增了辅助编程功能，完成代码生成、代码调试和代码片段解释等任务。
+
+Bard 不仅可以使用 C++、Go、Java、JavaScript、Python、TypeScript 等20多种编程语言，还可以使用 Google Sheets函数，并直接导出到Google Colab中进行测试代码，与谷歌已有产品进行了融合。 [**Google Bolg**](https://blog.google/technology/ai/code-with-bard/amp/)
 
 ## 开源大语言模型
 
@@ -219,8 +738,8 @@ GPT模型现在真的是日新月异，很多是基于基础模型，结合问�
 
 ### References
 
-- https://mp.weixin.qq.com/s/7CW4p8RgAF3jYGmgefB_eg
-- https://mp.weixin.qq.com/s/M-ToNk8SABoP2JG0xLUBxQ
+- <https://mp.weixin.qq.com/s/7CW4p8RgAF3jYGmgefB_eg>
+- <https://mp.weixin.qq.com/s/M-ToNk8SABoP2JG0xLUBxQ>
 
 ## 用fastgpt打造专属知识库
 
@@ -230,7 +749,7 @@ GPT模型现在真的是日新月异，很多是基于基础模型，结合问�
 
 开源地址：<https://github.com/c121914yu/FastGPT>
 
-【用fastgpt打造专属知识库，可自行部署到服务器或集群】https://www.bilibili.com/video/BV1wu411e75C?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+【用fastgpt打造专属知识库，可自行部署到服务器或集群】<https://www.bilibili.com/video/BV1wu411e75C?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 ## Albus自动生成图文知识图谱
 
@@ -373,11 +892,7 @@ CodeWhisperer官网注册链接：<https://aws.amazon.com/cn/codewhisperer/?trk=
 
 ## chatgpt engineer AI编程工具
 
-
-
 ## Github Copilot
-
-
 
 ## ChatGPT实时语音聊天
 
@@ -397,7 +912,7 @@ QQ机器人版本：<https://github.com/MuBai-He/ChatWaifu-marai>
 
 ## GPT4All：ChatGPT本地私有化部署,终生免费
 
-# GPT4All是什么
+### GPT4All是什么
 
 根据官方网站GPT4All的描述，它是一个免费使用、本地运行的、注重隐私的聊天机器人。不需要GPU或互联网。
 
@@ -405,7 +920,7 @@ GTP4All是一个生态系统，用于训练和部署在消费级CPU上本地运�
 
 我们的GPT4All模型是一个4GB的文件，您可以下载并连接到GPT4All开源生态系统软件中。Nomic AI提供高质量和安全的软件生态系统，努力实现个人和组织轻松训练和本地实施自己的大型语言模型。
 
-# 它是如何工作的？
+### 它是如何工作的？
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d0edccfe4c94488a938806a5c6af8561~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -420,7 +935,7 @@ GTP4All是一个生态系统，用于训练和部署在消费级CPU上本地运�
 
 所以我们需要的是嵌入式向量。嵌入式向量是一条信息的数值表示，例如文本、文档、图像、音频等。该表示捕捉了被嵌入的语义含义，这正是我们所需要的。对于这个项目，我们无法依赖于重型GPU模型：因此，我们将下载Alpaca原生模型，并使用Langchain中的LlamaCppEmbeddings。不用担心！每一步都有详细的解释。
 
-# Let’s start coding
+### Let’s start coding
 
 **创建虚拟环境**
 
@@ -486,7 +1001,7 @@ GPT4All模型。在Nomic AI网站上描述的过程非常复杂，并且需要�
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c471d7c9ddb847acb3d4f827f17db80b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
-正如简介中简要描述的，我们还需要嵌入模型，这是一个可以在我们的CPU上运行而不会崩溃的模型。点击这里的链接【[huggingface.co/Pi3141/alpa…](https://link.juejin.cn?target=https%3A%2F%2Fhuggingface.co%2FPi3141%2Falpaca-native-7B-ggml%2Fblob%2F397e872bf4c83f4c642317a5bf65ce84a105786e%2Fggml-model-q4_0.bin%E3%80%91%E4%B8%8B%E8%BD%BD%E5%B7%B2%E7%BB%8F%E8%BD%AC%E6%8D%A2%E4%B8%BA4%E4%BD%8D%E5%B9%B6%E5%87%86%E5%A4%87%E5%A5%BD%E7%94%A8%E4%BD%9C%E5%B5%8C%E5%85%A5%E6%A8%A1%E5%9E%8B%E7%9A%84alpaca-native-7B-ggml%E6%A8%A1%E5%9E%8B%E3%80%82)
+正如简介中简要描述的，我们还需要嵌入模型，这是一个可以在我们的CPU上运行而不会崩溃的模型。点击这里的链接【[huggingface.co/Pi3141/alpa…](https://huggingface.co/Pi3141/alpaca-native-7B-ggml/blob/397e872bf4c83f4c642317a5bf65ce84a105786e/ggml-model-q4_0.bin%E3%80%91%E4%B8%8B%E8%BD%BD%E5%B7%B2%E7%BB%8F%E8%BD%AC%E6%8D%A2%E4%B8%BA4%E4%BD%8D%E5%B9%B6%E5%87%86%E5%A4%87%E5%A5%BD%E7%94%A8%E4%BD%9C%E5%B5%8C%E5%85%A5%E6%A8%A1%E5%9E%8B%E7%9A%84alpaca-native-7B-ggml%E6%A8%A1%E5%9E%8B%E3%80%82)
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/00c538205a9d4112a8e7dc0d69150a8b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -506,7 +1021,7 @@ pip install llama-cpp-python
 
 **为了避免问题，你必须使用预编译的wheel。**
 
-访问[github.com/abetlen/lla…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fabetlen%2Fllama-cpp-python%2Freleases)
+访问[github.com/abetlen/lla…](https://github.com/abetlen/llama-cpp-python/releases)
 
 找到适用于你架构和Python版本的预编译的wheel版本，你必须选择0.1.49版本，因为更高的版本不兼容。
 
@@ -516,7 +1031,7 @@ pip install llama-cpp-python
 
 所以我的文件是llama_cpp_python-0.1.49-cp310-cp310-win_amd64.whl
 
-这个问题在GitHub存储库中有记录【[github.com/fabiomatric…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Ffabiomatricardi%2FGPT4All_Medium%2Fissues%2F2%E3%80%91%E3%80%82)
+这个问题在GitHub存储库中有记录【[github.com/fabiomatric…](https://github.com/fabiomatricardi/GPT4All_Medium/issues/2%E3%80%91%E3%80%82)
 
 下载完成后，你需要将这两个模型文件放到models目录中，如下所示。
 
@@ -524,7 +1039,7 @@ pip install llama-cpp-python
 
 目录结构和放置模型文件的位置
 
-# 与GPT4All的基本交互
+### 与GPT4All的基本交互
 
 由于我们想要对GPT模型的交互进行控制，我们需要创建一个Python文件（我们称之为pygpt4all_test.py），导入依赖项并给模型发送指令。你会发现这很容易。
 
@@ -562,7 +1077,7 @@ python3 pygpt4all_test.py
 
 注意（更新于2023.05.23）：如果你遇到与pygpt4all相关的错误，请查看故障排除部分，其中提供了由Rajneesh Aggarwal或Oscar Jeong给出的解决方案。
 
-# LangChain在GPT4All上的模板
+### LangChain在GPT4All上的模板
 
 LangChain框架是一个非常强大的库。它提供了组件，以一种易于使用的方式与语言模型进行交互，并且还提供了Chains。可以将Chains视为以特定方式组装这些组件，以最好地完成特定的用例。它们旨在成为一个更高级的接口，使人们能够轻松地开始使用特定的用例。这些Chains也可以进行定制。
 
@@ -647,7 +1162,7 @@ python3 my_langchain.py
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d45a22fb86ef42c4a4c84951d16b96e7~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
-# 使用LangChain和GPT4All回答关于文件的问题
+### 使用LangChain和GPT4All回答关于文件的问题
 
 在这里，我们开始了令人惊奇的部分，因为我们将使用GPT4All作为一个聊天机器人来回答我们的问题。
 
@@ -1012,9 +1527,7 @@ question = "What is a PLC and what is the difference with a PC"
 question = input("Your question: ")
 ```
 
- 
-
-# 结论
+### 结论
 
 现在是你进行实验的时候了。对与你的文档相关的所有主题提出不同的问题，并观察结果。在 Prompt 和模板方面，肯定还有很大的改进空间：你可以在这里找到一些灵感。而且 Langchain 的文档真的很棒（我都能够理解！）。
 
@@ -1036,8 +1549,37 @@ question = input("Your question: ")
 
 开源地址：<https://github.com/Vision-CAIR/MiniGPT-4>
 
-项目地址：
-[minigpt-4.github.io/](https://minigpt-4.github.io/)
+项目体验地址：[minigpt-4.github.io/](https://minigpt-4.github.io/)
+
+项目作者认为，GPT-4 所实现的多模态能力，在以前的视觉 - 语言模型中很少见，因此认为，GPT-4 先进的多模态生成能力，主要原因在于利用了更先进的大型语言模型。
+
+为了验证这一想法，团队成员将一个冻结的视觉编码器与一个冻结的 Vicuna 进行对齐，造出了 MiniGPT-4。
+
+![图片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d5c46385ffca4c789f60f48052bfdd0b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+在研究中，他们发现 MiniGPT-4 具有许多类似于 GPT-4 的能力，如详细的图像描述生成、从手写草稿创建网站等。
+
+不仅如此，他们还在研究中还收获了意想不到的惊喜，除了能实现上述功能之外，MiniGPT-4 还能根据图像创作故事和诗歌，为图像中显示的问题提供解决方案，教用户如何根据食物照片做饭等。
+
+下面给大家看几个示例。
+
+拍一张菜品图片，让 AI 自动帮你生成菜谱：
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/087a97b98f584fb584042f71817a3a5d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+让 AI 描述图像内容：
+
+![图片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a09c44f3d6ba4bf89a58ca5a228fbd18~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+通过商品图，直接生成广告文案：
+
+![图片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/01c9004daa7c4311a2997d746e79dc43~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+根据实验结果表明，GPT-4 这些先进的能力，理论上可以归因于它使用了更先进的大语言模型。
+
+也就是说，未来在图像、声音、视频等领域，基于这些大语言模型所造出来的应用，其实际效果都不会太差。
+
+这个项目证实了大语言模型在图像领域的可行性，接下来应该会有不少开发者入场，将 GPT-4 的能力进一步往音频、视频等领域延伸，进而让我们得以看到更多有趣、令人惊艳的 AI 应用。
 
 ## 闻达-Wenda 大语言模型调用平台，搭建专属知识库
 
@@ -1063,7 +1605,7 @@ LangChain是一个开源的框架，允许与AI一起工作的开发人员将大
 
 【5分钟学会搭建本地知识库聊天机器人(基于GPT4+Llamaindex+LangChain)】<https://www.bilibili.com/video/BV18o4y1N7Dm?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-## 『LangChain 中文入门教程』GitHub 1.3K Star，内容巨完整！
+## 『LangChain 中文入门教程』GitHub 1.3K Star，内容巨完整
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2b4477066554e4eb909981262629f9d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
