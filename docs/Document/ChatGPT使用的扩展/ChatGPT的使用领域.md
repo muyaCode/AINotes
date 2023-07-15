@@ -2,11 +2,7 @@
 
 ## AI医生
 
-
-
 ## AI律师
-
-
 
 ## 开源、工具和 AI 成为最常见的主题
 
@@ -19,7 +15,65 @@
 - 2% 气候、能源或可持续发展
 - 1% 航空航天
 
-## 🤖 『GPT将影响80%的工作，高薪影响更大』OpenAI最新论文！
+## AI 是否能替代传统职业』一场关于 ChatGPT 技术的实验
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8ef4a98e24dd45bd8da437c866b6949b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+随着 ChatGPT 和其他公共AI工具的崛起，人们对于这些工具是否能减少或完全取代传统职业的能力展开了激烈的争论。为了验证这一问题，🌍[**WIRED**](https://www.wired.com/video/watch/ai-tries-20-jobs) 邀请了20位来自不同领域的人士，尝试使用 AI 技术复制他们的工作。AI能够做到多接近？
+
+> Cheyanne Adler (网红)
+>
+> KK Apple (文案撰写师)
+>
+> Akshay Bhardwaj (厨师)
+>
+> Mike Bratton (配音演员)
+>
+> Calvin Cato (喜剧演员)
+>
+> ulian Chokkattu (作家)
+>
+> David Jacobson (律师)
+>
+> Dr. Karan Rai Khosla (医生)
+>
+> Lea Kichler (平面设计师)
+>
+> Rachel Lander (软件工程师)
+>
+> Lovie (DJ)
+>
+> Lynette Marrero (调酒师)
+>
+> Marlene Peralta (新闻主播)
+>
+> Jaime Salcedo (消防员)
+>
+> Hyejin Shin (翻译)
+>
+> Dr. Darcy Sterling (心理治疗师)
+>
+> Ebonny Fowler (健身教练)
+>
+> Jasno Swarez (音乐制作人)
+>
+> Laura Sweeney (编剧)
+>
+> Susan Voyticky (马戏表演者)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e7f87cb370e41fba753a14547b85e85~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+医生对ChatGPT给出的病证诊断并不满意，平面设计师表示生成的4个“素食版”麦当劳LOGO修改起来都需要一点工作量，喜剧演员表示给出来的梗也太烂了，调酒师根据给出的食谱调出了一杯味道奇怪的鸡尾酒……
+
+在所有 20 位体验者中，对结果表示基本认可的有三位：**软件工程师**用 AI 快速生成了一个人类可看的网站，**文案撰写师**觉得跟我自己写的文案真挺像啊，DJ基本认可了AI生成的音乐播放列表。
+
+**最有危机感**的是两位：**印度厨师**觉得10道菜谱有8道挺好，还富有想象力，dangerously close啦！**韩语翻译**挑了几个🤏小错误，敬语不对什么的.
+
+**最稳的是消防员，他甚至没有输入 prompt 就离开了**。
+
+> 中英双语字幕版可以看 🌍[**微博@宝玉xp**](https://weibo.com/1727858283/My8EP1HNF)。
+
+## 🤖 『GPT将影响80%的工作，高薪影响更大』OpenAI最新论文
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/22939f3e271a4b98929eb090793efb1e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -33,7 +87,7 @@ OpenAI 一篇 🌍[2303.10130\] GPTs are GPTs: An Early Look at the Labor Market
 
 ### 👨‍💻 程序员和工程师
 
-**程序员无法被直接取代，但可能被间接取代**
+**程序员无法被直接取代，但可能被间接取代**：
 
 日常程序员最麻烦的工作并非写程序，而是琢磨解决各类西巴问题。现在写代码最强的 GPT-4 也无法直接完成程序员的如下工作：
 
@@ -64,7 +118,7 @@ OpenAI 一篇 🌍[2303.10130\] GPTs are GPTs: An Early Look at the Labor Market
 > *▢* 分析问题、解决问题并找到优雅的解决方案，仍然是人类程序员的优势领域
 >
 > *▢* 良好的软件工程实践比以往更有价值，可以为AI工具提供一个良好的系统设计和软件架构环境
-
+>
 > *2*. **找到满足需求的工具：以不同的方式将AI工具合并到工作流，力图单元测试、生成测试数据、编写文档等**
 >
 > *▢* GitHub Copilot和其他AI编码助手可以增强编程能力，提供编程建议
@@ -72,7 +126,7 @@ OpenAI 一篇 🌍[2303.10130\] GPTs are GPTs: An Early Look at the Labor Market
 > *▢* ChatGPT和谷歌 Bard 更像是对话式AI程序员，可以用来回答有关API相关问题，生成代码片段
 >
 > *▢* 保持开放的心态多多尝试，并使用生成式AI工具快速启动小项目并创建原型
-
+>
 > *3*. **清晰准确的对话至关重要：使用AI编程助手时，需要详细说明需要什么并多次迭代**
 >
 > *▢* 编写注释说明想要的代码，有助于快速生成所需的结果
@@ -82,14 +136,14 @@ OpenAI 一篇 🌍[2303.10130\] GPTs are GPTs: An Early Look at the Labor Market
 > *▢* 把一个问题分解成多个步骤，并解决每个步骤来解决整个问题
 >
 > *▢* 学习人工智能和机器学习的基本概念，了解大语言模型的工作原理及其优缺点，也是很有价值的
-
+>
 > *4*. **保持批判性并了解风险：软件工程师应该对大语言模型的输出保持批判态度**
 >
 > *▢* 大模型的输出会产生「幻觉」、不准确甚至包含漏洞的代码 [**⋙ @IEEE Spectrum**](https://spectrum.ieee.org/ai-programming)
 
 ### 👨‍🎨 设计师
 
-**高级的设计师无法被直接取代，工具人级的设计师会被取代**
+**高级的设计师无法被直接取代，工具人级的设计师会被取代**：
 
 目前 AI 无法完成品牌设计、产品 UI 设计等「工程级」设计工作，并且对使用者的专业积累和理解有较高要求，所以还是存在门槛。
 
@@ -97,7 +151,7 @@ OpenAI 一篇 🌍[2303.10130\] GPTs are GPTs: An Early Look at the Labor Market
 
 ### 📈 产品策划与运营
 
-**高级产品经理无法被直接取代，不够有天分的产品助理会被直接取代**
+**高级产品经理无法被直接取代，不够有天分的产品助理会被直接取代**：
 
 目前 AI 无法完成「工程级」方案策划，也不具备感知业务细微之处的能力，但 AI 能极大提高产品经理的效率，并在以下方面优于产品助理：
 
@@ -119,7 +173,7 @@ OpenAI 一篇 🌍[2303.10130\] GPTs are GPTs: An Early Look at the Labor Market
 
 ### 🤵‍♀️管理人员
 
-**管理人员无法被 AI 替代，但裁撤他们的理由很多，不用非要用 AI**
+**管理人员无法被 AI 替代，但裁撤他们的理由很多，不用非要用 AI**：
 
 不同管理人员提供的价值是不一样的，有的带来业务或者人，有的整合和调度资源，有的是个花瓶但有人气。以上都不是这一代 AI 能解决的。但好的管理人员依然可以通过 AI 提高自己的工作绩效。
 
@@ -133,9 +187,7 @@ AI 对老板的影响很大，需要格外注意：
 >
 > *3*. 老板的业务如果被人工智能降维打击，他的公司就要关掉了
 >
-> *4*. 如果老板的公司关掉了，那么公司里所有职位都要被裁撤了 👉https://quail.ink/lyric/p/human-replacement-plan-guide-using-ai-replace-colleagues-workplace
-
-
+> *4*. 如果老板的公司关掉了，那么公司里所有职位都要被裁撤了 👉<https://quail.ink/lyric/p/human-replacement-plan-guide-using-ai-replace-colleagues-workplace>
 
 ## 『ChatGPT引发的10大职业危机』绝非危言耸听，坏消息甚至会比目前能想象的要更糟
 

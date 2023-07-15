@@ -9,3 +9,9 @@
 > 🌍[**试玩地址1**](https://huggingface.co/spaces/damo-vilab/modelscope-text-to-video-synthesis) | 🌍[**试玩地址2**](https://modelscope.cn/studios/damo/text-to-video-synthesis/summary)
 >
 > 试玩Demo显示too busy时，可以多刷新几次
+
+## Lumen5：视频生成的AI工具  
+
+![image7.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9c7b714f2a7742b98a0d5de75363eb7c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+你可以使用免费在线视频制作平台 Lumen5 上的各种其他应用程序轻松制作视频。它提供了精彩的主题和多种格式，可用于许多社交网络，它使用用户输入的文字记录和照片创建完整的电影序列。除此之外，该应用程序还提供一键式生成独特的照片、音频文件和视频片段选择，以用于你完成的电影。

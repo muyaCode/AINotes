@@ -6,13 +6,65 @@
 
 ## 使用教程
 
+ChatGPT 在成为越来越多人的日常生产力工具，今天分享8个实用的小窍门，帮助快速释放 ChatGPT 的潜力，提升工作效率。
+
+> *1*. **找到更好的方法来表达**
+>
+> ```
+> 给我 5 种不同的表达方式：[输入文字]
+> ```
+>
+> *2*. **找到更强的词**
+>
+> ```
+> 给我 5 种有效的方法来填空：ChatGPT 是 [输入文字] 写作助手
+> ```
+>
+> *3*. **重写文本**
+>
+> ```
+> 重写下面的文字，听起来更随意，句子更清晰：[输入文字]
+> ```
+>
+> *4*. **评价**
+>
+> ```
+> 使用AIDA框架评论这篇文章：[输入文字]
+> ```
+>
+> *5*. **校对**
+>
+> ```
+> 校对拼写和语法：[输入文字]
+> ```
+>
+> *6*. **归结内容**
+>
+> ```
+> 将以下句子的内容和信息归结为5个要点：[输入文字]
+> ```
+>
+> *7*. **模仿你自己的写作风格**
+>
+> ```
+> 你是我的个人内容生成器。 我将提供写作示例，你来效仿它：[输入文字]
+> ```
+>
+> *8*. **使用要点写作**
+>
+> ```
+> 将这些要点变成一个简短的连贯段落(语气：随意)：[输入文字]
+> ```
+
+
+
 [200万人排队用的Notion AI：完全颠覆了写作方式 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/609322316)
 
 Notion 升级了，2022年 11 月，Notion 发布了一项名为 Notion AI 的人工智能功能，现已面向所有用户开放。此功能在 AI 的帮助下简化了组织个人笔记的过程。
 
 据Notion介绍，自Notion AI发布以来，已有超过200万用户注册使用。在测试期间，大多数用户并没有使用 Notion AI 来撰写博客文章或电子邮件，而是用于组织和使个人写作更加连贯和可读。Notion AI 的界面提供了多种选项，用于自定义输出内容的长度、更改描述以及检查语法和拼写错误。许多用户发现 Notion AI 有助于提高他们个人内容的质量。
 
-**在 4 月 5 日之前，Notion 将向所有用户提供 20 次与 Notion AI 的免费交互**。之后，该服务的价格为每月 10 美元，年度订阅可享受 20% 的折扣。商业和企业用户也将被收取每月 10 美元的费用。
+**在 4 月 5 日之前，Notion 将向所有用户提供 20 次与 Notion AI 的免费交互**之后，该服务的价格为每月 10 美元，年度订阅可享受 20% 的折扣。商业和企业用户也将被收取每月 10 美元的费用。
 
 除了上面提供的免费20次体验外，还送5美元的学分，做任务可以获取更多学分，看上图，可以用来抵扣费用。
 
@@ -28,11 +80,11 @@ Notion 升级了，2022年 11 月，Notion 发布了一项名为 Notion AI 的�
 
 下面分享一下我的成果：
 
-<iframe title="video" src="https://video.zhihu.com/video/1614273747183144960?player=%7B%22autoplay%22%3Afalse%2C%22shouldShowPageFullScreenButton%22%3Atrue%7D" allowfullscreen="" frameborder="0" class="css-uwwqev" id="ariahmbkza0bubc" style="width: 688px; height: 387px;"></iframe>
+<iframe title="video" src="https://video.zhihu.com/video/1614273747183144960?player=%7B%22autoplay%22:false%2C%22shouldShowPageFullScreenButton%22:true%7D" allowfullscreen="" frameborder="0" class="css-uwwqev" id="ariahmbkza0bubc" style="width: 688px; height: 387px;"></iframe>
 
-<iframe title="video" src="https://video.zhihu.com/video/1614273816187588608?player=%7B%22autoplay%22%3Afalse%2C%22shouldShowPageFullScreenButton%22%3Atrue%7D" allowfullscreen="" frameborder="0" class="css-uwwqev" id="aria3fvu41pgrv2" style="width: 688px; height: 387px;"></iframe>
+<iframe title="video" src="https://video.zhihu.com/video/1614273816187588608?player=%7B%22autoplay%22:false%2C%22shouldShowPageFullScreenButton%22:true%7D" allowfullscreen="" frameborder="0" class="css-uwwqev" id="aria3fvu41pgrv2" style="width: 688px; height: 387px;"></iframe>
 
-<iframe title="video" src="https://video.zhihu.com/video/1614273842003542016?player=%7B%22autoplay%22%3Afalse%2C%22shouldShowPageFullScreenButton%22%3Atrue%7D" allowfullscreen="" frameborder="0" class="css-uwwqev" id="ariabdj0u2dgn4g" style="width: 688px; height: 387px;"></iframe>
+<iframe title="video" src="https://video.zhihu.com/video/1614273842003542016?player=%7B%22autoplay%22:false%2C%22shouldShowPageFullScreenButton%22:true%7D" allowfullscreen="" frameborder="0" class="css-uwwqev" id="ariabdj0u2dgn4g" style="width: 688px; height: 387px;"></iframe>
 
 ## 前言
 
@@ -72,7 +124,7 @@ Notion 升级了，2022年 11 月，Notion 发布了一项名为 Notion AI 的�
 
 以如下文字为例，展示 Notion AI 如何帮你解决字数不够问题：
 
-> 欢迎关注公众号：**编程黑板报**，一起探索和讨论遇到的技术和生活问题，希望可以帮到你。 稀土掘金主页: [https://juejin.cn/user/272334612863431/posts](https://link.zhihu.com/?target=https%3A//juejin.cn/user/272334612863431/posts)
+> 欢迎关注公众号：**编程黑板报**，一起探索和讨论遇到的技术和生活问题，希望可以帮到你。 稀土掘金主页: [https://juejin.cn/user/272334612863431/posts](https://juejin.cn/user/272334612863431/posts)
 
 **1. 使用 Notion AI 选中上面文本，点击 Make longer 菜单**
 
@@ -168,7 +220,7 @@ Notion原本就是国际领先的在线文档编辑和管理工具，深受广�
 
 1、推荐使用chrome浏览器，搜索地址：**<https://www.notion.so/product/ai**，或者直接输入**notion.ai**可以自动跳转到这个官方介绍页面。>
 
-![img](https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0507%2Fd12c5b16j00ruakzq0005c0008n0088m.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
+![img](https://nimg.ws.126.net/?url=http://dingyue.ws.126.net//2023//0507//d12c5b16j00ruakzq0005c0008n0088m.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
 
 这里大家可以初步了解下NotionAI的功能介绍，也可以点击右上角的login或try notion free按钮进入注册页。
 
@@ -176,23 +228,23 @@ Notion原本就是国际领先的在线文档编辑和管理工具，深受广�
 
 如果有Google或Apple帐号的，可以直接关联登录，比较快捷。
 
-![img](https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0507%2F7ed70e3ej00ruakzq0005c0008h008tm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
+![img](https://nimg.ws.126.net/?url=http://dingyue.ws.126.net//2023//0507//7ed70e3ej00ruakzq0005c0008h008tm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
 
 如果没有的，可以使用邮箱注册，支持国内邮箱。输入后点击红色按钮会自动获取一个注册码（一串英文字符）发送到你的注册邮箱，输入后进入填写个人信息页面。
 
 3、填写完昵称、设置完密码就可以进入下一步——选择使用Notion的方式。如果是个人使用，选择中间的for personal use就行。
 
-![img](https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0507%2Fd96e5c7aj00ruakzq0009c000al008tm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
+![img](https://nimg.ws.126.net/?url=http://dingyue.ws.126.net//2023//0507//d96e5c7aj00ruakzq0009c000al008tm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
 
 4、然后进入个人职业角色选择页面，Notion会根据你的选择为你做定制化使用体验，其中第三项是复选，可以多选。当然这一步也可以跳过，直接进入Notion首页。
 
-![img](https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0507%2F11217ba7j00ruakzq0005c0007y008gm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
+![img](https://nimg.ws.126.net/?url=http://dingyue.ws.126.net//2023//0507//11217ba7j00ruakzq0005c0007y008gm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
 
 5、如何使用Notion功能？这里先介绍两种方式，其他有待你去发现：
 
 a）你可以新建一个文档页面，在输入标题的时候下面提示信息会直接引导你使用AI写作，点击即可AI直接写作；
 
-![img](https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0507%2F2e9c126dj00ruakzq0008c000bq009nm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
+![img](https://nimg.ws.126.net/?url=http://dingyue.ws.126.net//2023//0507//2e9c126dj00ruakzq0008c000bq009nm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
 
 b）当然在写文章时，也可以使用快捷键——“空格键”或者输入斜杠“/”调出AI工具面板，根据你的需求选择具体AI工具使用。
 
@@ -204,7 +256,7 @@ Notion AI比NewBing好的地方就是支持移动端，便于大家随时随地�
 
 具体使用体验和PC端略有不同，暂时还不支持空格和“/”键调起方式，入口固定在文章编辑页-底栏工具的第一位，直接点击即可调出面板使用。
 
-![img](https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0507%2Fab5a5659j00ruakzq0018c000dt00dvm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
+![img](https://nimg.ws.126.net/?url=http://dingyue.ws.126.net//2023//0507//ab5a5659j00ruakzq0018c000dt00dvm.jpg&thumbnail=660x2147483647&quality=80&type=jpg)
 
 **03.NotionAI六大核心能力介绍**
 
@@ -241,3 +293,120 @@ Notion AI的提问类似于chatgpt的聊天功能。你直接在文章书写时�
 不过目前每个帐户仅有20次免费使用AI的额度。由于实时在线服务需要强大的算力，服务器成本很高（据说ChatGPT每全量更新一次算法需要耗费1000万美金），所以AI功能付费也是可以理解的。且现在价格还比较公道，每月5美元和国内的会员价持平。毕竟功能都强悍到这样了，国内还没有限制，要啥自行车啊！
 
 可以说，Notion AI继续着ChatGPT的步伐把我们进一步推进到了人工智能时代。当然惊喜之余，也要正确看待和使用它，不能让工具直接替代你的思考和行动，而是用来提升你的学习和工作效率。
+
+## 『Notion AI』 在工作和生活中，使用 Notion AI 提升效率的经验和案例（Part 1）
+
+很多朋友开始使用 Notion AI，但不太知道怎么用。作者 Bear Liu 在 🌏[**Twitter Thread**](https://twitter.com/bearbig/status/1631473533686804481) 记录了实际工作和生活中使用Notion AI提升效率的经验和案例。
+
+> 作者 Bear Liu 不定期更新中。**关注 ShowMeAI，可以收到后续更新的及时同步哦** 👀
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/083f1eeeca434b2ab85d4089bd578e0e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**1 / 修改邮件或Slack的措辞**
+
+书面沟通是职场的重要环节。很多时候除了具体要传达的信息之外，还要注意措辞和语气。我现在就用 Notion AI 帮我修改措辞。比如请同事帮忙或是跟选项进项目，用Friendly的措辞，还有其他的选项比如 confident，casual 等。
+
+> 方法：写下草稿，然后呼出AI，选 Change tone。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a335f1cdb45348deac445352944f4eaa~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**2 / 将视频或是播客总结为带有时间戳的shownote**
+
+这个需要先将视频或是播客音频转为带有时间戳的字幕文本（有很多可选工具，我用的是讯飞听见字幕），贴到Notion，让AI总结为笔记。
+
+> 命令：Summarize an outline of the video transcript, including timestamps
+>
+> （我用10分钟视频测试，只能识别7分钟）
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3ecd2e55a78948a0875afe02009676f6~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**3 / 接上条，翻译带时间轴的字幕也很简单**
+
+直接选中要翻译的字幕，呼出AI，选择翻译成中文或其他文字即可。翻译质量比起一些字幕软件自带的翻译要强得多。当然，把中文视频的字幕翻译成英文也是一样。
+
+> 虽然把我的Bear Academy翻译成了“熊猫学院”，但其他翻译基本没啥大问题，很不错)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5b192847a7b8473b8659c411c773af32~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**4 / 将语音备忘录的文字整理通顺**
+
+我会用语音软件记录下自己的灵感和一些文字想法，然后就可以用AI将这些文字整理成通顺的文字并分段。
+
+Prompt：将文字整理成一篇语气通顺的文章，尽量保留原文内容，分出多个自然段方便阅读。
+
+> 说明：还是需要自己最终修改一下，但已经很省事了。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d76932da16254113b50dab3671cb4dc5~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**5 / 将文字按推特的thread格式输出**
+
+这是我刚刚想到的一种用法，特别适合自己已经写出的长文，直接裁剪成适合推特的140字格式。刚刚就用前一个例子试了一下，很不错。
+
+> 命令：按twitter的thread的形式输出
+
+**6 / 翻译内容**
+
+内容创作者可以使用Notion AI将中文帖子翻译成英文，反之亦然。通过这样做，可以拥有两种语言的内容，并在不同的渠道上分享。
+
+> 做法：选中文本，呼出AI选择翻译语言就行。
+
+说明：我对比过Notion AI和ChatGPT的翻译，差别不大，对于绝大多数人，任选一种都OK。两者都比DeepL强太多。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d8074b640c0643ceb5277280b4fd8f28~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+7 / 开始发现 Notion AI 的强大了：可以调用自己已经保存的信息，在这个基础上工作，这就和 ChatGPT 那种你还得输入的方式不同，对于创作者更有价值。接下来我分享几个我的测试实例：
+
+**总结自己的视频（播客或是文章）内容**
+
+> 前提是你已经将语音转成文字存到了Notion。我让它用中文总结我的这个英文视频
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d5de8f3edfea4032bedd354ff9b82647~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+8 / 我在读完一本书后，会把读书的摘记和笔记都存到一篇Notion文档里。刚刚试了一下，对于文学类的书，我让 Notion 把《失落的卫星》里我**做了摘记的段落，选出最有故事感的五条**
+
+> 它选出来的还真不错！这也可以举一反三。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/39201281dd764a73a75395abf462b873~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**9 / 真正厉害的，是运用 AI 对于非虚构类书的操作**比如这本《数字极简主义》Digital Minimalism，我读的是英文有声书，读完后简单记了几条摘记，也没啥条理。
+
+我选中这些文字，然后让 AI 帮忙，以选中内容写了一篇 Youtube 视频的脚本。
+
+> 注意，笔记是英文的，脚本直接是中文的！
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4feefac967eb4b9fb4fbbc2d921a49d8~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+10 / 更厉害的来了：我的原始摘记里有一个原书里关于阿米什人的例子，我觉得很有意思，值得深入聊聊。**于是我让 AI 帮忙以“阿米什人”为主题，写一个视频的中文脚本**
+
+于是得到了这样的结果。很有价值。
+
+> 但还是要注意，需要真人进行验证和校对，因为现在AI的尿性，会有可能在输出内容中渗出瞎编的成份。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/598cc4a1e47f4b7680225f7af7a88ebe~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+11 / 继续拓展刚刚那个主题：**让 AI 对比一下Amish人和程序员（或者是设计师，可以换成你的目标读者）的生活与工作方式，并生成一个表格**，于是就有了这个。
+
+这个对于科技博客做产品比较，简直不要太好用。
+
+> 上述这些功能，在ChatGPT里都有。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/71c6868fb29b4573b3d174b089ec8395~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**12 / 给同事写评语**
+
+这属于扩写内容的范畴，也是运用AI语言能力的长项。你可以写几行基本的描述，然后让 Notion AI 帮忙加上一些修饰，成为一篇通顺的文字发出。
+
+> 图上这个例子，我是先随便写了一些具体这位同事的事件，然后让AI整理成语气通顺的内容，再改写成 bullet points 便于查看。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/31234fad4ce54a13b0835a0a48a2be09~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**13 / 大招来了：如何用Notion AI 分析YouTube视频，将视频知识保存为你的数据库，并给出具体的行动建议**
+
+> 几乎都不用写prompt！
+
+1. 找到你想要保存的视频，复制链接。这里以一个健身的视频为例。
+2. 在[downsub.com](https://t.co/Gx9nZc1ysE) 贴上链接，下载视频字幕，下载为TXT格式。以代码格式贴到Notion（主要是为了容易看，要直接贴成文本也行）
+3. 直接呼出AI，在默认的选项里用Summarize和Find actions，就可以总结，并找出可以行动的建议。
+4. 再用AI的默认选项，点一下就直接翻译成中文。 这种方式基本适用于所有YouTube视频，如果是其他语言，下载成txt后，用AI先翻译一下就行，反正也就点一下
+
+> 全免费（当然，Notion AI要出钱）！

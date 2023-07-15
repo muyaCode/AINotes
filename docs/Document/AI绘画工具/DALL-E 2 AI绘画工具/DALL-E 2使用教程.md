@@ -34,7 +34,7 @@ DALL-E 每次提供的免费积分在 30 天后到期，所以你无法储存积
 
 ![img](https://pic1.zhimg.com/80/v2-314969851dae1eede62451712731c534_720w.webp)
 
-4、这边需要输入的电话号码进行验证，并通过短信发送代码进行验证。这里我用了虚拟号码来接收验证码，这里是网址：[Receive SMS online for free](https://link.zhihu.com/?target=https%3A//smstome.com/)
+4、这边需要输入的电话号码进行验证，并通过短信发送代码进行验证。这里我用了虚拟号码来接收验证码，这里是网址：[Receive SMS online for free](https://smstome.com/)
 
 ![img](https://pic2.zhimg.com/80/v2-2d915b485c5aa2002a10c1424cc30371_720w.webp)
 

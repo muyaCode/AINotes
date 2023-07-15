@@ -1,5 +1,15 @@
 # NewBing的介绍和依托
 
+## 介绍
+
+2023年2 月初，微软推出了新版 Bing，其突出特点是其 AI 聊天机器人，该机器人由ChatGPT背后的相同技术提供支持。
+
+据微软称，在首次宣布时，公众被告知新的 Bing 具有聊天功能，该功能由下一代 OpenAI 大型语言模型版本提供支持，使其“比ChatGPT 更强大”。
+
+借助新的 Bing，您可以向 AI 聊天机器人提问，并获得详细的、类似人类的回答，并附有脚注，这些脚注链接回原始来源和最新信息。
+
+聊天机器人还可以帮助您满足创意需求，例如写诗、故事、歌曲，甚至可以 在同一平台内 使用Bing 的 Image Creator从文本生成图像。
+
 ## 『Bing Unchained』Use new Bing in Chrome
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0127afccd03c40b09eb3d40053041cf3~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)

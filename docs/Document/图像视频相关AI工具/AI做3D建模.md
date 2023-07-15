@@ -1,5 +1,13 @@
 # AI做3D建模
 
+## Point-E：创建 3D 模型  
+
+
+
+![image10.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8b1fe0ea67df4445a02ea9c313189cdf~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+Point-E也是 OpenAI 的产品。Point-E 使用提示来帮助用户创建 3D 模型，为了提供结果，它结合了“文本到图像”和“图像到 3D 模型”算法。最终结果中包含一个带有坐标的 3D 模型，用户可以在 3D 坐标系中对其进行旋转和重新定向。使用 Point-E 不需要注册或登录要求。
+
 ## Tafi输入文字生成3D模型
 
 著名3D软件厂商Tafi发布了，通过文本可直接生成3D角色模型的AI平台。目前，该平台处于申请测试阶段。（地址：<https://maketafi.com/ai#>）

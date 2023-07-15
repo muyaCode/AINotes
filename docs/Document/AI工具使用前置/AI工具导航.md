@@ -1,18 +1,64 @@
 # AI工具导航
 
+各类AI工具：[未来百科AI工具 的个人主页 - 文章 - 掘金 (juejin.cn)](https://juejin.cn/user/3245414058301261/posts)
+
+## AI相关网站
+
+AI+**艺术**：造梦日记、MidJourney、Stable Diffusion、Adobe、Stability、Remove
+
+AI+**聊天**：ChatGPT、Discord、文心一言、Google Bard、星火、Character.Al
+
+AI+**社区**：Kaggle、Hugging Face、H20、Github、Replicate、OpenCV
+
+AI+**创造**：Heygen、RunwayML、Jasper、WriteSonic
+
+AI+**设计**：Figma、Canva
+
+AI+**框架**：PyTorch、Llamalndex、Auto GPT、Cafe、TensorFlow、LangChain、Keras、Google generativeAI+Developers、Fixie
+
+AI+**硬件**：AMD、Nvidia、Hiascend
+
+AI+**效率**：阿里通义、Notion、Zoom、Voice Al、Slack
+
+AI+**研究**：Anthropic、Cohere、Al21、OpenAl
+
+————————————————————————————————————————
+
+**「阿里云」推出AI绘画创作模型「通义万相」**：有文生图、风格迁移、相似图生成三大能力 [wanxiang.aliyun.com](https://wanxiang.aliyun.com/)
+
+**「华为云」推出大模型「盘古大模型3.0」**：是一个面向行业的大模型系列，包括 5+N+X 三层架构
+
+**「天眼查+华为云」共同发布大模型数字产品「天眼妹」**：基于可信数据和可信算法，是面向个人端的天眼可信商业助理
+
+**「上海AI实验室」发布「书生通用大模型体系」**：包含多模态、浦语、天际三个基座模型，同时推出了首个面向大模型研发与应用的全链条开源体系
+
+**「第四范式」推出「式说大模型」**：提出了AIGS 技术战略，以生成式AI重构企业软件，提升软件的用户体验及开发效率
+
+**「商汤科技」宣布升级「商汤日日新大模型」**：并公布了该体系下的一系列大模型产品更新和落地成果
+
+**「中国移动」发布「九天」1+N大模型**：通用智能的AI大平台，定位为新型AI基础设施，承载面向国民经济主体的通用智能大模型、行业大模型等
+
+**「中国电信」发布「TeleChat** **大模型」**：并展示了大模型赋能数据中台、智能客服和智慧政务三个方向的产品
+
+**「中国电子云」推出城市级大模型平台「星智2.0」**：旨在构建城市级算法、模型、服务、生态一体化持续运营体系
+
+**「网易有道」推出虚拟人口语教练「子曰」**：这是网易有道自研的国内首个教育大模型，中文作文指导与批改、英语习题精讲等系列应用成果将于7月26日发布 [**⋙ @2023世界人工智能大会官网**](https://online2023.worldaic.com.cn/home)
+
+——————————————————————————————————————————
+
 | 公司     | 产品              | 日期     | 阶段                 | 链接                                                         |
 | -------- | ----------------- | -------- | -------------------- | ------------------------------------------------------------ |
 | 2022年   |                   |          |                      |                                                              |
-| OpenAI   | ChatGPT           | 11月30日 | 开放注册             | [chat.openai.com/](https://link.juejin.cn?target=https%3A%2F%2Fchat.openai.com%2F) |
+| OpenAI   | ChatGPT           | 11月30日 | 开放注册             | [chat.openai.com/](https://chat.openai.com/) |
 | 2023年   |                   |          |                      |                                                              |
-| Google   | Bard              | 2月8日   | 公开测试             | [bard.google.com/](https://link.juejin.cn?target=http%3A%2F%2Fbard.google.com%2F) |
-| 复旦大学 | MOSS              | 2月20日  | 公开测试(目前升级中) | [moss.fastnlp.top/](https://link.juejin.cn?target=https%3A%2F%2Fmoss.fastnlp.top%2F) |
-| 清华大学 | ChatGLB-6B        | 3月15日  | 已开源               | [github.com/THUDM/ChatG…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FTHUDM%2FChatGLM-6B) |
-| 百度     | 文心一言          | 3月16日  | 企业用户内测         | [yiyan.baidu.com/](https://link.juejin.cn?target=https%3A%2F%2Fyiyan.baidu.com%2F) |
-| 阿里     | 通义千问          | 4月7日   | 企业用户内测         | [tongyi.aliyun.com/](https://link.juejin.cn?target=https%3A%2F%2Ftongyi.aliyun.com%2F) |
-| 360      | 360 智脑          | 4月10日  | 企业用户内测         | [www.360dmodel.com/](https://link.juejin.cn?target=http%3A%2F%2Fwww.360dmodel.com%2F) |
-| 商汤     | 商量 SenseChat    | 4月10日  | 即将邀请内测         | [www.sensecore.cn/](https://link.juejin.cn?target=https%3A%2F%2Fwww.sensecore.cn%2F) |
-| 昆仑万维 | 天工3.5           | 4月17日  | 即将邀请内测         | [tiangong.kunlun.com](https://link.juejin.cn?target=http%3A%2F%2Ftiangong.kunlun.com%2F) |
+| Google   | Bard              | 2月8日   | 公开测试             | [bard.google.com/](https://bard.google.com/) |
+| 复旦大学 | MOSS              | 2月20日  | 公开测试(目前升级中) | [moss.fastnlp.top/](https://moss.fastnlp.top/) |
+| 清华大学 | ChatGLB-6B        | 3月15日  | 已开源               | [github.com/THUDM/ChatG…](https://github.com/THUDM/ChatGLM-6B) |
+| 百度     | 文心一言          | 3月16日  | 企业用户内测         | [yiyan.baidu.com/](https://yiyan.baidu.com/) |
+| 阿里     | 通义千问          | 4月7日   | 企业用户内测         | [tongyi.aliyun.com/](https://tongyi.aliyun.com/) |
+| 360      | 360 智脑          | 4月10日  | 企业用户内测         | [www.360dmodel.com/](https://www.360dmodel.com/) |
+| 商汤     | 商量 SenseChat    | 4月10日  | 即将邀请内测         | [www.sensecore.cn/](https://www.sensecore.cn/) |
+| 昆仑万维 | 天工3.5           | 4月17日  | 即将邀请内测         | [tiangong.kunlun.com](https://tiangong.kunlun.com/) |
 | 科大讯飞 | 1+N认知智能大模型 | 5月6日   | 即将发布             |                                                              |
 | 网友有道 | 子曰              | 近期     | 即将发布             | 消息来源：网易新闻                                           |
 | 京东     | 言犀              | 今年     | 未开放               | 消息来源：京东集团副总裁何晓冬                               |
@@ -672,13 +718,13 @@ AI Tools Directory是一个热门的AI工具导航网站。在一个地方发现
 
 **GPT Demo**
 
-[http://GptDemo.Net](https://link.zhihu.com/?target=http%3A//GptDemo.Net) 是一个GPT工具导航网站，提供大量最好的基于GPT技术的人工智能工具。每天更新最新和最具创新性的人工智能工具，使用户能够快速轻松地找到他们正在寻找的AI工具。
+[http://GptDemo.Net](https://GptDemo.Net) 是一个GPT工具导航网站，提供大量最好的基于GPT技术的人工智能工具。每天更新最新和最具创新性的人工智能工具，使用户能够快速轻松地找到他们正在寻找的AI工具。
 
 网址链接：[https://www.gptdemo.net/](https://www.gptdemo.net/)
 
-**[http://AIDirectory.org](https://link.zhihu.com/?target=http%3A//AIDirectory.org)**
+**[http://AIDirectory.org](https://AIDirectory.org)**
 
-[http://AIDirectory.org](https://link.zhihu.com/?target=http%3A//AIDirectory.org)是网络上最全面的人工智能 （AI） 和机器学习公司导航网站，涵盖所有行业。
+[http://AIDirectory.org](https://AIDirectory.org)是网络上最全面的人工智能 （AI） 和机器学习公司导航网站，涵盖所有行业。
 
 网址链接：[https://www.aidirectory.org/](https://www.aidirectory.org/)
 
@@ -688,7 +734,7 @@ AI Tool Directory可帮助用户找到满足其需求的最佳 AI 工具。并�
 
 网址链接：[https://aitooldirectory.com/](https://aitooldirectory.com/)
 
-**NextPedia**
+**NextPedia**：
 
 NextPedia 是领先和最全面的 AI 工具导航网站，拥有70个类别的1000多种 AI 工具。从AI文案和图像生成到ChatGPT等等。
 
@@ -702,7 +748,7 @@ Amaete AI是一个AI工具导航网站。通过订阅更新和新闻，发现最
 
 **AISpotter**
 
-[http://AISpotter.io](https://link.zhihu.com/?target=http%3A//AISpotter.io) 提供了一个易于使用的平台，可帮助用户跟踪最新的人工智能（AI）新闻。该网站提供来自不同来源的全面人工智能新闻和资源，特别关注人工智能行业更新。帮助用户随时了解不断发展的 AI 环境。通过 [http://AISpotter.io](https://link.zhihu.com/?target=http%3A//AISpotter.io)，用户可以快速方便地访问最新的新闻和资源。
+[http://AISpotter.io](https://AISpotter.io) 提供了一个易于使用的平台，可帮助用户跟踪最新的人工智能（AI）新闻。该网站提供来自不同来源的全面人工智能新闻和资源，特别关注人工智能行业更新。帮助用户随时了解不断发展的 AI 环境。通过 [http://AISpotter.io](https://AISpotter.io)，用户可以快速方便地访问最新的新闻和资源。
 
 网址链接：[https://aispotter.io/](https://aispotter.io/)
 
@@ -778,9 +824,9 @@ AI Tool Guru是最大的AI工具产品在线导航目录，每天更新新的免
 
 网址链接：[https://aitoolguru.com/](https://aitoolguru.com/)
 
-**[http://ToolsAI.net](https://link.zhihu.com/?target=http%3A//ToolsAI.net)**
+**[http://ToolsAI.net](https://ToolsAI.net)**
 
-[http://ToolsAI.net](https://link.zhihu.com/?target=http%3A//ToolsAI.net) 是最大的人工智能AI工具和平台导航目录，每天更新。网站为用户提供了比较AI工具，阅读博客文章等功能。
+[http://ToolsAI.net](https://ToolsAI.net) 是最大的人工智能AI工具和平台导航目录，每天更新。网站为用户提供了比较AI工具，阅读博客文章等功能。
 
 网址链接：[https://toolsai.net/](https://toolsai.net/)
 
@@ -940,9 +986,9 @@ ToolScout是另一个AI工具导航目录，发现每天更新的数百种人工
 
 网址链接：[https://toolscout.ai/](https://toolscout.ai/)
 
-**[http://DiscoverTools.io](https://link.zhihu.com/?target=http%3A//DiscoverTools.io)**
+**[http://DiscoverTools.io](https://DiscoverTools.io)**
 
-[http://DiscoverTools.io](https://link.zhihu.com/?target=http%3A//DiscoverTools.io)是一个AI工具导航网站。通过 AI 工具目录发现市场上最好的 AI 工具。并且为寻求适合其需求的 AI 工具的企业提供全面的评论和建议。
+[http://DiscoverTools.io](https://DiscoverTools.io)是一个AI工具导航网站。通过 AI 工具目录发现市场上最好的 AI 工具。并且为寻求适合其需求的 AI 工具的企业提供全面的评论和建议。
 
 网址链接：[https://discovertools.io/](https://discovertools.io/)
 

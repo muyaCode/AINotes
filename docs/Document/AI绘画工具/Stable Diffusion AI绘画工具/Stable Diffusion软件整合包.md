@@ -1,8 +1,16 @@
 # Stable Diffusion软件整合包
 
+## 简介
+
+Stable Diffusion一种文本到图像的潜在扩散模型，使用户能够根据给定的文本输入在几秒钟内生成图像。它还用于诸如内涂、外涂和生成图像到图像转换等过程。
+
 教程：[2023-03-20-2023最新AI绘画Stable Diffusion，原创不用愁日赚1000+【软件+教程】_免费高速下载|百度网盘-分享无限制 (baidu.com)](https://pan.baidu.com/s/1RmAKpCP0qbltlRfQJ-7AtA?pwd=xkwo#list/path=/)
 
 ## 『Stability AI 发布大语言模型StableLM』继SD之后又一大招，剑锋直指GPT-4
+
+Stability AI官网：[Stability AI](https://stability.ai/)
+
+[Platform (stability.ai)](https://platform.stability.ai/)
 
 4月19日，Stability AI 又开源了大模型 StableLM，与 ChatGPT 类似，是一套文本生成AI模型，可以生成代码、笑话、歌词、故事等内容，旨在与OpenAI的GPT-4等系统竞争。StableLM 的 alpha 版本目前可以在GitHub和Hugging Spaces上获得。
 
@@ -43,6 +51,8 @@ A卡能不能用？能，但是性能损耗很大。可以在Linux系统上获�
 
 ## Stable Diffusion软件整合包合集
 
+stable-diffusion是一个开源项目， 可以从github直接获取到，但是直接从开源项目启动，需要比较强的python基础知识以及计算机基础知识，考虑到不是每个人都是程序员，所以更推荐用大佬的一键整合包，这样子你只需要装个显卡驱动，然后解压一键整合包安装部分依赖的程序就可以简易部署，省下很多时间，我了解到比较好用的整合包：
+
 **开源项目Stable Diffusion WebUI**：
 
 - **Stable Diffusion官方开源库地址**：[CompVis/stable-diffusion: A latent text-to-image diffusion model (github.com)](https://github.com/CompVis/stable-diffusion)
@@ -79,11 +89,15 @@ A卡能不能用？能，但是性能损耗很大。可以在Linux系统上获�
 - 百度网盘：<http://mtw.so/6viaOM>  提取码：8m51
 - qq频道：<https://pd.qq.com/s/dsjf0fhhe>
 
+星空整合包：[AI绘画 Stable Diffusion 整合包更新 新增ControlNet和像素化插件_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV16j411A7BL/?vd_source=5f0c99b3deddffe219938763769b15ac)
+
 **未知整合包**：<https://pan.baidu.com/s/1RmAKpCP0qbltlRfQJ-7AtA?pwd=xkwo>
 
 出处：[2023最新AI绘画Stable Diffusion，原创不用愁日赚1000+【软件+教程】-小K网 (xkwo.com)](https://www.xkwo.com/article-29679.html)
 
 ## 本地运行部署项目：以【秋葉aaaki】的整合包为例
+
+参考：[手把手教你本地部署Stable Diffusion AI绘画 - 掘金 (juejin.cn)](https://juejin.cn/post/7239279470250885175)
 
 教程：<https://www.bilibili.com/video/BV1fa4y1G71W/>
 
@@ -552,7 +566,13 @@ bash webui.sh
 
    出现这个问题，回去看一下你的launch.py改对了么？确定给launch.py所有的github地址前边都加上[ghproxy.com/](https://ghproxy.com/) 即可。
 
+## 全端搭建教程
+
+[使用 ChatGPT、Stable Diffusion、React 和 NodeJS 🤯 构建一个网站LOGO - 掘金 (juejin.cn)](https://juejin.cn/post/7214288126222204988)
+
 ## 在 Mac OS 上安装 Stable Diffusion
+
+[使用Mochi Diffusion在Apple芯片Mac上使用Stable Diffusion - 掘金 (juejin.cn)](https://juejin.cn/post/7241884241616339002)
 
 ### 一、安装 Home Brew
 
@@ -720,7 +740,7 @@ cd stable-diffusion-webui
 
 ### 九、参考
 
-- [轻松安装Stable Diffusion WebUI | MacOS M1&2, Intel CPU可用 | 完整指南和教程](https://www.youtube.com/watch%3Fv%3D4vtLrafPd5c)
+- [轻松安装Stable Diffusion WebUI | MacOS M1&2, Intel CPU可用 | 完整指南和教程](https://www.youtube.com/watch?v=4vtLrafPd5c)
 - [MacOS:轻松安装Stable Diffusion WebUI | M1, M2, Intel | 完整指南和教程](https://updayday.notion.site/MacOS-Stable-Diffusion-WebUI-M1-M2-Intel-61a0fd82ea0e451d9ead16beafc3a28b)
 - [免费搭建一套可自由更换模型的stable-diffusion](https://mp.weixin.qq.com/s/gxfWc2tVS2ruoPZhcc1Qsw)
 
@@ -966,11 +986,25 @@ cd stable-diffusion-webui
 
 大家有兴趣也可以试一试，相信会打开一个新世界的大门
 
+## 『腾讯云 Serverless Stable Diffusion 开放免费试用申请』人人都能开箱即用啦！
+
+⋙ 申请地址：[cloud.tencent.com/apply/p/3vy…](https://cloud.tencent.com/apply/p/3vynfzu3l8e)
+
+[**⋙ 腾讯云官方发布**](https://mp.weixin.qq.com/s/bZ3F-e2UpW1fHVBSR5EUvQ)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1010f22002da40c7a8bb742a0715e250~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+在过去的一段时间里，Stable Diffusion 在人物生成、场景生成、媒资生成、设计素材生成、游戏材质生成等领域，都展现出了极大的潜力与令人惊艳的效果。
+
+除了自己动手在本地、服务器上搭建 Stable Diffusion 服务外，基于腾讯云函数 SCF 的云上 Stable Diffusion 应用将于近日发布，并已开启试用申请！部署完成后，你将直接得到一个可访问的 WebUI 链接 / API 地址！再也不用担心自己小电脑带不起来啦！
+
 ## 在亚马逊 SageMaker 进行 Stable Diffusion 模型服务部署
 
 [如何在亚马逊 SageMaker 进行 Stable Diffusion 模型在线服务部署 - 掘金 (juejin.cn)](https://juejin.cn/post/7221497108008255548)
 
 [AI 绘画基于 Kaggle 10 分钟搭建 Stable Diffusion（保姆级教程） - 掘金 (juejin.cn)](https://juejin.cn/post/7247306840199135287)
+
+[StableDiffusion（Kaggle版）笔记分享 - 掘金 (juejin.cn)](https://juejin.cn/post/7248072694334226469)
 
 ## 【ChatGLM-6B+StableDiffusion+网络搜索】本地部署绘图
 
@@ -1084,16 +1118,18 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
 
 - 官网：[Civitai | Stable Diffusion models, embeddings, LoRAs and more](http://civitai.com/)
 - github开源地址：[civitai/civitai: A repository of models, textual inversions, and more (github.com)](https://github.com/civitai/civitai)
+- 这个网站汇集了全球的AI绘画模型、包括Checkpoint、LoRA、Controlnet、Hypernetwork等等，每个模型都对应的示例，在此感谢各位开源作者，造福社区。注意，该网站需魔法访问。
 
 **LiblibAI模型网站(国内首家原创AI模型分享网站)**：<https://www.liblibai.com/>
 
+- 目前该网站正在打造类似国内的“C站”，主流的大模型都有，还包含很多国内作者贡献的“国风感”模型。在国内可以快速访问、下载模型。每个模型一般都有网友的“返图”，直接参考其中的Prompts。
+
 - 真人模型搜索关键词：
-
   - AWPortrait V1.1（Checkpoint）
-
+  
   - 墨幽人造人V1010（Checkpoint）
   - Instant photo 拍立得（Lora）
-
+  
 - 小王子Discord城堡社群链接：<https://discord.gg/9sJRDU6nbu>
 
 - 视频教程：【【Stable Diffusion】七月模型推荐 超写实潮流时尚大片 不怕坏手】<https://www.bilibili.com/video/BV15m4y1Y7Rs?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
@@ -1110,7 +1146,19 @@ LLaMA-Adapter V2：[Gradio (opengvlab.com)](http://llama-adapter.opengvlab.com/)
 
 另外大家也可以邀请自己的朋友注册，每邀请 1 人还可以得到额外 200 算力 @吐司TusiArt
 
+**Hugging Face**：
+
+“抱脸”，把它理解为**AI领域的GitHub**，拥有全世界的AI开源项目。当然也包括了SD的项目，经常去上面逛一逛、搜一搜，会有很多意外的收获！
+
+学习地址：[huggingface.co/models](https://huggingface.co/models)
+
 ### 其他Model|模型资源
+
+**社群免费图文版SD资料库**：
+
+该资料库复覆盖的范围很广，包括部署、基本的操作、模型、插件、等，可以把它当成一个资料库来查阅。
+
+学习地址：[tob-design.yuque.com/kxcufk/sd](https://tob-design.yuque.com/kxcufk/sd)
 
 使用注意：
 
@@ -1225,6 +1273,8 @@ LoRA训练文章四部曲链接：
 
 [炼丹！训练 stable diffusion 来生成LoRA定制模型 - 掘金 (juejin.cn)](https://juejin.cn/post/7215496238627209272)
 
+[AI绘画：Stable Diffusion 终极炼丹宝典：从入门到精通(feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/KqEMdhJigoFY8fxc9TPcwMninKf)
+
 ### LoRA训练 Part1 图片准备与批量裁切
 
 1.收集整理你想训练的人物模型的人脸画像五官清晰的各种角度的图片20-50张，然后把这些图片批量裁切，成分辨率512乘以512的图片
@@ -1273,7 +1323,7 @@ LORA可以让我们轻松画出特定的人物，物品，特殊的笔触和特�
 
 **专业的解释**：
 
-LoRA的全称是[LoRA: Low-Rank Adaptation of Large Language Models](https://link.zhihu.com/%3Ftarget%3Dhttps%3A//arxiv.org/abs/2106.09685)，可以理解为stable diffusion（SD)模型的一种插件，和hyper-network，controlNet一样，都是在不修改SD模型的前提下，利用少量数据训练出一种画风/IP/人物，实现定制化需求，所需的训练资源比训练SD模要小很多，非常适合社区使用者和个人开发者。LoRA最初应用于NLP领域，用于微调GPT-3等模型（也就是ChatGPT的前生）。由于GPT参数量超过千亿，训练成本太高，因此LoRA采用了一个办法，仅训练低秩矩阵（low rank matrics），使用时将LoRA模型的参数注入（inject）SD模型，从而改变SD模型的生成风格，或者为SD模型添加新的人物/IP。
+LoRA的全称是[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)，可以理解为stable diffusion（SD)模型的一种插件，和hyper-network，controlNet一样，都是在不修改SD模型的前提下，利用少量数据训练出一种画风/IP/人物，实现定制化需求，所需的训练资源比训练SD模要小很多，非常适合社区使用者和个人开发者。LoRA最初应用于NLP领域，用于微调GPT-3等模型（也就是ChatGPT的前生）。由于GPT参数量超过千亿，训练成本太高，因此LoRA采用了一个办法，仅训练低秩矩阵（low rank matrics），使用时将LoRA模型的参数注入（inject）SD模型，从而改变SD模型的生成风格，或者为SD模型添加新的人物/IP。
 
 **通俗的解释**：
 
@@ -1563,7 +1613,7 @@ StableDiffusion关键词分类查询：[StableDiffusion的关键词分类查询]
 
 ControlNet资料汇总：[pan.quark.cn/s/47bc8c798…](https://pan.quark.cn/s/47bc8c79892a)
 
-AI资料网盘汇总（不定期更新）：[AI专区网盘资源汇总](https://y3if3fk7ce.feishu.cn/sheets/BIeAsn8IvhX3HUtcf84cFViinu3%3Ftable%3DtblTLSqLLvUznxAZ%26view%3DvewP2B92zv)
+AI资料网盘汇总（不定期更新）：[AI专区网盘资源汇总](https://y3if3fk7ce.feishu.cn/sheets/BIeAsn8IvhX3HUtcf84cFViinu3?table=tblTLSqLLvUznxAZ&view=vewP2B92zv)
 
 AIGC从入门到精通教程汇总：[AIGC从入门到精通教程汇总](https://y3if3fk7ce.feishu.cn/docx/QBqwdyde7omVf4x69paconlgnAc)
 

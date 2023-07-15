@@ -65,6 +65,870 @@ ChatGPT +审稿
 - 数据安全
 - 职业影响
 
+## ChatGPT ApiKey 私有部署教程和代理原理讲解
+
+由于 OpenAI 的 API 并不对中国开放，所以想通过 API Key 的方式开发一些自己的小项目，但都 ping 不通。这时该怎么办呢？，架一个代理服务就可以了。
+
+### 代理服务的原理
+
+代理的原理极其简单。
+
+如果用户 A 无法直接与服务 Y 相连，但是可以和服务 X 相连。
+
+服务 X 可以和服务 Y 相连。
+
+那我们就可以把服务 X 作为代理服务。
+
+![Pasted image 20230329123220.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/01d5faa5f4f7410497dc1fb5afb70276~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+有点像中转站的概念。
+
+用户 A 的请求全部发往服务 X，服务 X 代替用户 A 请求服务 Y。即可解决 A 和 Y 之间不能直连的问题。
+
+代理还有很多好处，比如可以**隐藏 A 的 IP 地址**。这样对 Y 来说，请求的人就是 X。
+
+代理还可以设置缓存，减少请求次数，提高响应速度等等。
+
+往细了分，还可以分为正向代理和反向代理。
+
+它俩的区别主要是位置和搭建者不同。
+
+正向代理离客户端近，通常由使用者搭建。
+
+![Pasted image 20230329123316.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b9786b0668a14a7286d4b9c0894cc97c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+反向代理离服务器近，通常由服务器维护者搭建。
+
+![Pasted image 20230329123357.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5459b12bdf704a66a0aaf10ba7ebd906~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+我们常用的各种上网工具、VPN 等，都是正向代理。它能帮我们隐藏 IP，连接一些原本连接不到的网络。
+
+反向代理主要是为了优化服务器性能的，比如可以做负载均衡和流量转发。保证服务器的高可用和高并发。
+
+好，我相信概念和原理各位小伙伴应该都懂了。
+
+### 代理服务的实现
+
+接下来讲讲怎么实现代理。
+
+每种编程语言都有代理库。
+
+以 nodejs 举例，可以使用 node-http-proxy。仓库地址：[http-party/node-http-proxy: A full-featured http proxy for node.js (github.com)](https://github.com/http-party/node-http-proxy)
+
+这个库非常容易使用，示例代码如下：
+
+```javascript
+var http = require('http'),
+    httpProxy = require('http-proxy');
+//
+// Create your proxy server and set the target in the options.
+//
+httpProxy.createProxyServer({target:'http://localhost:9000'}).listen(8000); // See (†)
+
+
+//
+// Create your target server
+//
+http.createServer(function (req, res) {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.write('request successfully proxied!' + '\n' + JSON.stringify(req.headers, true, 2));
+  res.end();
+}).listen(9000);
+```
+
+这段代码的意思是同时启动两个服务，一个是 8000 端口，一个是 9000 端口。
+
+9000 端口是真实的服务地址，8000 端口就是一个代理服务。
+
+我们所有对 8000 的访问，都会被转发到 9000 端口上面。
+
+是不是非常简单和方便？
+
+### 如何部署
+
+只是实现了代理服务还不够，接下来就是如何把代理程序弄到代理服务器上。
+
+我们需要有一台服务器，既要保证在大陆直接能 ping 通，又要保证这台服务器能 ping 通 OpenAI 的服务。
+
+我们可以选择美国、英国、日本、韩国这些地区的服务器。
+
+注意，香港地区的服务器也被封锁了，不能用。
+
+国内有很多服务商，像阿里云、腾讯云、华为云、百度云等等都可以选择海外服务器使用。
+
+另外像 Cloudflare、Azure 这些对大陆开放的服务商也可以用。
+
+每种服务的申请方式、配置和费用等规则各不相同，过程可能比较折腾。感兴趣的同学可以自己去尝试一下，我就不过多讲解了。
+
+### 不需要写一行代码就能实现的私有部署
+
+因为有很多群友不断向 Noah 反馈这个问题，所以 IChatI 上线了一个新的功能模块：白泽。
+
+通过白泽，几秒钟就可以架设出一个自己的私有部署。
+
+整个操作过程就两步，保证傻子都能学会。
+
+第一步进入白泽：[www.ichati.cn/deploy](https://www.ichati.cn/deploy)
+
+在输入框中输入私钥。
+
+![Pasted image 20230329114342.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/39b7914dd9124bac9494dc60f2415c8d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+第二步，点击开始部署。
+
+稍等 1-2 秒，部署就会成功进入到项目列表。
+
+![Pasted image 20230329114515.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4089f6c5e096443a85a55e14539f33b4~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+现在私有部署就完成了。
+
+我们来测试一下。
+
+拿 List Models 举例吧，它的作用是列出所有模型。
+
+![Pasted image 20230329114621.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a4ef00022d24459e8037aba993aef616~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+我们只需要复制项目的 URL，加上 OpenAI 的 URL。
+
+可以看到，私有部署的 API 调用成功。
+
+![Pasted image 20230329114807.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/683912c5b78940449659c0f32b69dc1c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+注意这个 URL 是不可以分享的哦，因为这是私有部署。随便告诉其他人容易导致被蹭 API Key 的额度。
+
+## 用ChatGPT4.0做Avatar虚拟人直播
+
+### 1 实现思路
+
+ChatGPT4.0虚拟人直播，首先得要有2个最基本的能力：ChatGPT4.0接口和虚拟人交互能力，这两块我们后面具体讲。整个流程如下图所示：
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b56c0310aae743f89d7c3662cf4cf10d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+1.需要有具备文字驱动能力的虚拟人。具体来说，需要将文字转为语音，然后虚拟人能根据语音对口型。这里推荐使用即构Avatar，即构Avatar可以捏脸定制，同时具备文字驱动口型能力。 2. 直播推流。抖音、快手可以用直播伴侣实时截屏推流。 3. 获取实时弹幕/评论。虚拟人根据观众发的弹幕或者评论文本数据发送给ChatGPT，可以去github找开源代码。这里提供一个最简单的思路：在网页版注入JS代码，js实时读取网页上的弹幕。 4. 调用ChatGPT。将实时弹幕/评论数据发送给ChatGPT并获取回复。 5. 虚拟人播报ChatGPT的回复。
+
+### 2 ChatGPT接入
+
+目前openAI提供的接口是ChatGPT3.5，可以直接调用。bing在最新版Edge浏览器提供ChatGPT4.0体验，有一些开源库对其做了二次封装，只需提供Cookie即可体验。这里我们把两种方式都讲解。
+
+#### 2.1 ChatGPT 4.0 接入
+
+首先注册bing账号： 1.前往[www.microsoft.com/zh-cn/edge/…](https://www.microsoft.com/zh-cn/edge/download?ch%5C&form=MA13FJ) 下载最新的Edge浏览器。 2. 开启VPN，注册用户或使用已有账号登录，点击右上角「设置」图标，将所在区域设置如下 3. 打开Edge，输入网址[www.bing.com/search?form…](https://www.bing.com/search?form=MY0291%5C&OCID=MY0291%5C&q=Bing%2BAI%5C&showconv=1) ![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3b124d64d33b421da67f9333ed10e276~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+接下来在代码里面封装ChatGPT4.0接口，先安装第三方基于Edge浏览器的库：
+
+```bash
+npm i @waylaidwanderer/chatgpt-api
+```
+
+接下来二次封装
+
+```bash
+import { BingAIClient } from '@waylaidwanderer/chatgpt-api';
+export class BingGPT {
+    /*
+    * http_proxy, apiKey
+    **/
+    constructor(http_proxy, userCookie) {
+        this.api = this.init(http_proxy, userCookie); 
+    }
+    init(http_proxy, userCookie) {
+       console.log(http_proxy, userCookie)
+        const options = {
+            // Necessary for some people in different countries, e.g. China (https://cn.bing.com)
+            host: 'https://www.bing.com',
+            // "_U" cookie from bing.com
+            userToken: userCookie,
+            // If the above doesn't work, provide all your cookies as a string instead
+            cookies: '',
+            // A proxy string like "http://<ip>:<port>"
+            proxy: http_proxy,
+            // (Optional) Set to true to enable `console.debug()` logging
+            debug: false,
+        };
+
+        return new BingAIClient(options);
+    }
+    //调用chatpgt 
+    chat(text, cb) {
+        var res=""
+        var that = this;
+        console.log("正在向bing发送提问", text ) 
+        this.api.sendMessage(text, { 
+            toneStyle: 'balanced',
+            onProgress: (token) => { 
+                if(token.length==2 && token.charCodeAt(0)==55357&&token.charCodeAt(1)==56842){
+                    cb(true, res);
+                } 
+                res+=token;
+            }
+        });  
+    }
+} 
+```
+
+注意到，除了需要提供vpn地址以外，还需要提供cookie数据。cookie可以在Edge浏览器中按F12打开开发工具，点击应用程序Tab，从左侧Cookie中找到_U的value即为想要的cookie，如下图所示：
+
+![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2a6bf630712e41e8a156e14d7bbc7928~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+#### 2.2 ChatGPT 3.5接入
+
+因为ChatGPT4.0基于浏览器，非官方提供的API，整体会有些不太稳定。而OpenAI官方提供了ChatGPT3.5，相比之下更稳定。
+
+首先要有OpenAI的ChatGPT账号，在这里我们不细讲，不了解的同学可以参考我另一篇文章，链接: [《当我把ChatGPT拉进群聊里，我的朋友都玩疯了》](https://t.csdn.cn/mrdSc?source=juejinarticle66)接下来只需安装ChatGPT库：
+
+```bash
+npm install chatgpt
+```
+
+注意要使用nodejs 18.0以上版本安装，因为国内的IP无法使用ChatGPT，因此必须要有VPN代理。再安装一个代理库：
+
+```bash
+npm install https-proxy-agent node-fetch
+```
+
+接下来，二次封装一下：
+
+```bash
+import { ChatGPTAPI } from "chatgpt";
+import proxy from "https-proxy-agent";
+import nodeFetch from "node-fetch";
+
+export class ChatGPT {
+ 
+    constructor(http_proxy, apiKey) {
+        this.api = this.init(http_proxy, apiKey);
+        this.conversationId = null;
+        this.ParentMessageId = null;
+    }
+    init(http_proxy, apiKey) {
+        console.log(http_proxy, apiKey)
+        return new ChatGPTAPI({
+            apiKey: apiKey,
+            fetch: (url, options = {}) => {
+                const defaultOptions = {
+                    agent: proxy(http_proxy),
+                };
+
+                const mergedOptions = {
+                    ...defaultOptions,
+                    ...options,
+                };
+
+                return nodeFetch(url, mergedOptions);
+            },
+        });
+    }
+    //调用chatpgt 
+    chat(text, cb) {
+        let that = this
+        console.log("正在向ChatGPT发送提问:", text)
+        that.api.sendMessage(text, {
+            conversationId: that.ConversationId,
+            parentMessageId: that.ParentMessageId
+        }).then(
+            function (res) {
+                that.ConversationId = res.conversationId
+                that.ParentMessageId = res.id
+                cb && cb(true, res.text)
+            }
+        ).catch(function (err) {
+            console.log(err)
+            cb && cb(false, err);
+        });
+    }
+} 
+```
+
+注意到除了需要提供VPN地址，还需要提供apiKey。登录OpenAI后，打开链接[platform.openai.com/account/api…](https://platform.openai.com/account/api-keys) 即可获取apiKey，如下图所示 ![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/21284ea8a02541f9a6cb989df56cdbe1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### 3 虚拟人接入
+
+虚拟人提供商有很多，由于目前我们不仅仅需要有虚拟形象，还需要虚拟人能够说话（ChatGPT提供逻辑思维能力）。因此，我们这里直接选用 [即构Avatar](https://doc-zh.zego.im/article/14875?source=juejinarticle66)，它内置了文本驱动能力，可以很方便将ChatGPT的回复文字内容直接读出来，并有口型匹配。非常适合我们这个场景。
+
+官方提供了非常详细的教程：[官方教程地址](https://doc-zh.zego.im/article/14876?source=juejinarticle66)，本文简单讲解一些关键实现，具体完整代码可以参考文末资源附件。
+
+设置虚拟人形象：
+
+```bash
+private void setCharacter(User user) {
+    String sex = ZegoCharacterHelper.MODEL_ID_MALE;
+    if (!user.isMan) sex = ZegoCharacterHelper.MODEL_ID_FEMALE;
+
+    // 创建 helper 简化调用
+    // base.bundle 是头模, human.bundle 是全身人模
+    mCharacterHelper = new ZegoCharacterHelper(FileUtils.getPhonePath(mApp, "human.bundle", "assets"));
+    mCharacterHelper.setExtendPackagePath(FileUtils.getPhonePath(mApp, "Packages", "assets"));
+    // 设置形象配置
+    mCharacterHelper.setDefaultAvatar(sex);
+    // 角色上屏, 必须在 UI 线程, 必须设置过avatar形象后才可调用(用 setDefaultAvatar 或者 setAvatarJson 都可以)
+    mCharacterHelper.setCharacterView(user.avatarView, () -> {
+    });
+    mCharacterHelper.setViewport(ZegoAvatarViewState.half);
+    //设置头发、衣服等
+    mCharacterHelper.setPackage("ZEGO_Girl_Hair_0001");
+    mCharacterHelper.setPackage("ZEGO_Girl_Tshirt_0001_0002");
+    mCharacterHelper.setPackage("facepaint5");
+    mCharacterHelper.setPackage("irises2"); 
+    
+    initTextApi();
+    updateUser(user); 
+}
+```
+
+可以看到，只需简单几行代码即可定制虚拟人“皮肤”，使用非常友好。在文字驱动虚拟人说话方面就更简单：
+
+```bash
+public void playText(String text) {
+    if (mTextApi == null) return;
+    mTextApi.playTextExpression(text); 
+}
+```
+
+当然了，这里展示的是最关键代码。要想使用即构avatar还需要做一些权鉴认证、引擎初始化等工作，直接复用本文文末提供的代码附件即可。 需要注意的是，官方提供的Demo源码中只有基础资源。换句话说，还有很多非常酷炫的“皮肤”可以使用。但是因为资源太大，不方便打包。如果读者有更多资源需求，可以直接去官网找客服索要。
+
+下面列出一些官方能提供的虚拟形象“皮肤”示例： ![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f8ed71860e1e41fd89e43949ce14135f~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp) ![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/82ea14cb8132495f914d122957d0ee47~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b9ee4a37f2014a4ba82f646019529b37~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+还有很多捏脸能力，这里不一一描述，感兴趣的同学可以直接去官网 [（点击这里）](https://doc-zh.zego.im/article/14973?source=juejinarticle66)去下载体验app，直接感受一下即构Avatar的强大。
+
+### 4 基于即构SDK实现虚拟直播
+
+对于B站、抖音、快手等第三方平台，想要做虚拟直播得借助官方提供的推流工具，如直播伴侣等。但官方没有提供实时获取直播间评论（或弹幕）的接口，当然了，你可以用一些技术手段来获取，这里不过多讲解。接下来我们讲解不用第三方平台，自己简单几行代码实现搭建直播平台。
+
+#### 4.1 搭建虚拟人直播平台思路
+
+搭建虚拟直播平台有2个思路：
+
+1.主播实时传输手机画面，观众实时接收主播发送的内容（图像），即构实时音视频RTC 该方案实现 [可查看](https://www.zego.im/product/realtime-video?source=juejinarticle66)，RTC+Avatar方案[可查看](https://www.zego.im/solution/metalive?source=juejinarticle66)。 我之前基于抖音平台做的虚拟人直播Demo， B站、快手等第三方直播平台的实现原理类似。 ![在这里插入图片描述](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eadd10e88a07446c9ce5ca00648950df~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+2.基于即构ZIM，实时传输文字（文字）
+
+虚拟人直播与其他直播有一个差别是虚拟人是在用户端上使用固定算法渲染出来的，而不是主播实时拍摄的画面。因此我们完全不需要主播实时传输画面（图像），只需通过广播文字内容（相当于群组聊天），观众接收到文字内容后实时渲染虚拟人表情即可。这样可以大大节省带宽成本。
+
+即构ZIM提供全面的IM能力，支持单聊/群聊/房间聊天，可根据实际业务自由组合IM能力。群聊消息稳定可靠、延迟低，全球任何一个地区都有接入服务的节点保障消息到达。 [了解更多](https://www.zego.im/product/InstantMessage?source=juejinarticle66)
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/571fd5b1466c4593b7047ed2c924c4c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+#### 4.2 具体实现
+
+从上面两个方案可以看到，对于虚拟直播间来说，使用文字实时传输到每个端上，再本地渲染虚拟人画面，可以做到最低成本。 具体来说，一个直播间可以通过一个房间(room)来管理，在即构IM的房间内，可以使用弹幕功能来实现收发文字。相比发送聊天消息，发送弹幕消息不会被存储，更适合直播间评论功能。用户创建直播间时，底层代码创建的是一个房间，并自动加入ChatGPT这个群成员。ChatGPT在群里接收到数据时，调用ChatGPT接口，得到文字回复后，再转发到群里。每个观众接收到ChatGPT回复的文字后，自动渲染虚拟人播报文字内容。
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5deebbff6fb04b6aacb019346723b0d3~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+
+同样的，这里我们只展示关键代码。创建房间、加入房间、收到实时评论（弹幕）。 创建房间、加入房间：
+
+```bash
+//创建房间
+public void createRoom(String masterId, String roomId, String roomName, CB cb) {
+    
+    ZIMRoomInfo groupInfo = new ZIMRoomInfo();
+    groupInfo.roomID = roomId;
+    groupInfo.roomName = roomName;
+
+    zim.createRoom(groupInfo, new ZIMRoomCreatedCallback() {
+        @Override
+        public void onRoomCreated(ZIMRoomFullInfo roomInfo, ZIMError errorInfo) {
+            if (errorInfo.code == ZIMErrorCode.SUCCESS) {
+
+                inviteJoinRoom(masterId, roomId, CHATGPT_ID, cb);//这里把chagpt的用户id硬编码
+            } else {
+                cb.complete(false, "房号已存在，请更换一个房间号！");
+            }
+        }
+    });
+}
+
+//加入房间
+public void joinRoom(String roomId, CB cb) {
+    zim.joinRoom(roomId, new ZIMRoomJoinedCallback() {
+        @Override
+        public void onRoomJoined(ZIMRoomFullInfo roomInfo, ZIMError errorInfo) {
+            Log.e(TAG, ">>" + errorInfo.code);
+            if (errorInfo.code == ZIMErrorCode.ROOM_DOES_NOT_EXIST) {
+                cb.complete(false, "房间不存在！");
+            } else if (errorInfo.code == ZIMErrorCode.SUCCESS || errorInfo.code == ZIMErrorCode.THE_ROOM_ALREADY_EXISTS) {
+                cb.complete(true, roomInfo.baseInfo.roomName);
+            }
+        }
+    });
+}
+```
+
+接收到消息
+
+```bash
+//接收到文字消息
+@Override
+public void onRcvMsg(Msg msg) { 
+    switch (msg.proto) {//判断消息类型
+        case ChatGPT: {//来自ChatGPT的消息，语音播报文字
+            mZegoMngr.getAvatarMngr().playText(msg.msg);
+            sendDM(msg.msg.replace("\n", ""), 0);
+            break;
+        }
+        case DanMu: {//收到弹幕消息，直接在屏幕上展示
+            sendDM(msg.msg, msg.extInt);
+            break;
+        }
+        case DismissRoom: {//收到解散房间消息，退出房间
+            mZegoMngr.getZIMMngr().leaveRoom(msg.msg, new CB() {
+                @Override
+                public void complete(boolean succ, String msg) {
+                    ShowUtils.alert(RoomActivity.this, "提示", "房间已解散！", new ShowUtils.OnClickOkListener() {
+                        @Override
+                        public void onOk() {
+                            back();
+                        }
+                    });
+                }
+            });
+            break;
+        }
+    }
+}
+```
+
+### 5 开源-Github源码
+
+1. ChatGPT调用代码（nodejs）[github.com/RTCWang/Cha…](https://github.com/RTCWang/ChatGPT-Avatar-live?source=juejinarticle66)
+2. 直播客户端客户端（android）[github.com/RTCWang/Cha…](https://github.com/RTCWang/ChatGPT-Avatar-live?source=juejinarticle66)
+
+### 6 ChatGPT虚拟人直播Demo 使用工具
+
+1. 直播产品：RTC SDK [Android Java实时音视频实现流程 - 开发者中心](https://doc-zh.zego.im/article/7627?source=juejinarticle66)
+2. 语聊房：ZIM SDK [Android即时通讯SDK实现基本消息收发功能 - 开发者中心](https://doc-zh.zego.im/article/11568?source=juejinarticle66)
+3. GPT4.0: [New bing](https://www.csdn.net/)
+4. GPT3.5: [ChatGPT](https://chat.openai.com/)
+
+## 用ChatGPT做直播技术选型
+
+在同质化竞争如此激烈的今天，虽然各厂商都有自己的差异化优势，但开发者在选型时并没有识别或对比出差异，要想实现直播产品稳定使用的目的，在直播选型的时候有个好的开始是非常必要的。相信很多企业或团队在选型时面临过以下问题
+
+- 各家厂商直播SDK差异都有哪些？
+- 什么样的直播SDK才适合自己的企业或团队？
+- 直播SDK接入之后的落地情况怎么样？
+
+下面结合企业立场来推导直播SDK产品选型的核心要素，以市面上几家厂商为例便于大家更全面的对比权衡，希望对面临选型的开发者有所帮助。
+
+实例选型分析过程如下图所示：
+
+![图片1.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9c4b13b00d8c42d4a144a6bbb92df529~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?)
+
+### 一、自研还是第三方服务？
+
+对于开发者来说，开发一款产品首先面临的第一个选择就是：自研还是使用第三方音视频服务？目前大部分专注于业务的公司都会使用第三方音视频服务，少部分大厂后期会选择自主研发。特别一些技术门槛高、行业专业度高的模块还是会采购第三方音视频服务，例：强互动性的多人实时连麦。
+
+自主研发与使用第三方音视频服务优缺点如下：
+
+|                      | 第三方音视频服务                                             | 自主研发                                                     |
+| -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 团队建设成本/难度    | 低                                                           | 高                                                           |
+| 业务上线周期         | 接入sdk可快速上线                                            | 搭建音视频技术体系长则3～5年，最短周期也需半年               |
+| 音视频体验           | 业务实现效果较优，经过大量市场用户验证                       | 短期内效果一般，很难跟第三方SDK对比，头部客户例抖音前期也是使用第三方厂商 |
+| 团队使用业务变化能力 | 高，多年技术积累、多种场景解决方案                           | 差，需不断学习新技术、学习周期长                             |
+| 业务差异化新需求     | 中，可通过选型成熟的厂商提供场景解决方案或专业定制化方案解决。例：即构、腾讯云团队 | 高，可按需定制、个性化调整                                   |
+| 投入费用             | 低，根据实际业务规模按需付费                                 | 高，研发人力、运营维护成本                                   |
+
+综上，若处于业务早期初创开发团队，要求快速上线、专注业务、同时业务方向不稳定，同时业务方向为社交娱乐、远程办公、在线教育等常规类应用，建议选择第三方音视频SDK快速集成。
+
+第三方直播SDK服务的价值在于：为开发者提供实现音视频能力的一站式技术方案，目的在于可以降低 App 开发的技术门槛、人力和研发成本、提升开发效率。
+
+下面我将针对“如何选型一款好的直播SDK”展开聊聊，分享选型的方法和避坑经验。
+
+### 二、如何选型？
+
+音视频技术可以赋能上百种应用场景，开发者该如何选择最友好的音视频厂商成为一大课题，开发者需要了解实时音视频技术选型中的坑，以便提高开发集成效率。可从以下6个方向进行综合考虑。
+
+**选大厂还是垂直领域的音视频厂商？**
+
+云计算大厂一般都提供laas到paas、saas的整体服务，在销售laas服务时搭配音视频服务。产品生态较丰富，不仅音视频能力，还有CDN、推送、测试等服务，提供一整套从laas到paas的服务，开发者可一站式采购较为省事。
+
+垂直厂商因经验积累、技术专注、研发实力全部all in在音视频赛道。故优势在于：更聚焦通讯和视频云，更注重PaaS平台本身的服务，提供更专业的一体化产品与服务。比如：垂直厂商即构去年发布了Express SDK3.0&星图，由实时通讯RTC全面升级成实时互动RTI，实现了能力与服务的新跨越。画质、音质增益更显著，终端客户体验全面升级、场景适用更多元丰富...
+
+RTI代表一切实时互动场景下所需的产品和技术能力综合，包含RTC+IM+直播+Avatar+AI+状态同步等，更强调互动。适用于元宇宙、社交娱乐、办公会议、电商直播、游戏竞技等场景，满足开发者快速搭建对应场景的音视频应用，实现业务快速增长。
+
+云计算大厂跟垂直音视频厂商各有优势，开发者可结合实际业务需求从技术、产品、服务等多个维度综合考虑。
+
+### 三、好的**SDK**的衡量标准？
+
+基于多年的音视频开发经验以及结合身边开发者的反馈，音视频SDK的产品核心功能是选型的关键，以下有一份功能自检清单。
+
+**一个好的** **SDK** **的衡量标准有以下几点：产品功能生态完整性，技术指标相对强弱，解决方案成熟度，成功案例/合作客户数等。**
+
+### 四、产品功能生态的完整性
+
+第一步开发者需明确：需应用在什么业务场景？核心实现什么能力？
+
+音视频在各行各业的应用越来越广泛，成为互联网产品的标配。有大家熟知的消费互联网领域，近几年疫情带来的远程交流协作的需求，使实时音视频在产业互联网场景加速渗透。比如：远程交流、协作，企业数字化与工业数字化场景...
+
+随着音视频技术迅速发展，除基础音视频能力外各大厂商推出多种新颖玩法。下面列举主流场景中所需的音视频能力要求，按基础、进阶、特色三个维度进行分类，便于开发者查阅。
+
+**社交娱乐场景**
+
+消费互联网领域是音视频技术渗透最广泛的场景，音视频功能成为社交娱乐产品的标配。
+
+社交娱乐领域的场景含：语聊房、在线KTV、秀场直播、社交小游戏等，将社交娱乐所需功能分为：基础功能、进阶功能、特色功能。市面上的SDK基本都覆盖了基础功能，随着社交娱乐场景的发展，对互动/玩法上衍生了更多要求。如在线K歌场景需正版曲库，秀场直播场景更看重主播与用户之间的互动，实时消息，送礼物，VIP用户权益等。
+
+|          | **产品功能**  | **功能描述**                                                 | **业务场景**                                                 |
+| -------- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 基础功能 | 音视频通话    | 用户加入同一个房间，并进行音视频通话。                       | 1v1 视频通话、多人视频会议                                   |
+|          | 音视频直播    | 同一个房间，包含主播及观众，主播可以进行音视频直播，该房间内的观众可以观看直播。 | 秀场直播、游戏直播、电商直播                                 |
+| 进阶功能 | 直播连麦      | 一个房间内，可以出现多个主播，进行同屏连麦直播。             | 多主播跨区连麦、多人 KTV合唱、[多人连麦直播](https://doc-zh.zego.im/article/11202) |
+|          | 房间实时消息  | 实时消息主要提供纯文本消息的收发功能，可向同一房间内的其他用户发送广播消息和弹幕消息，或者对某些指定用户发送自定义消息，并可以根据需要自行实现点赞、送礼物、答题等互动功能。 | 秀场直播、语聊房                                             |
+| 特色功能 | 变声          | 通过改变用户的音调，使输出的声音在感官上与原始声音不同。如男声变女声、机器人音效、外国人音效等。 | 匿名社交、游戏娱乐、角色扮演                                 |
+|          | 音乐版权/音效 | 支持通过获取正版曲库资源，播放背景音乐，并展示变声混响多种趣味效果。 | 在线KTV                                                      |
+|          | 美颜美型      | 基于 AI 视觉服务，提供美白、磨皮、锐化、红润等基础的美颜功能，支持大眼、瘦脸、小嘴、亮眼、白牙、瘦鼻等美型效果，打造独特自然的直播效果。 | 秀场直播、音视频通话、社交小游戏                             |
+|          | 送礼物        | 支持用户向房间内主播或其他指定用户赠送礼物。                 | 秀场直播、社交小游戏                                         |
+|          | 小游戏        | 提供直播间内的实时PVP、语音互动、桌游、秀场互动等多种小游戏类型，助力客户提高产品活跃、留存、使用时长及营收能力 | 社交+小游戏                                                  |
+
+**在线教育场景**
+
+在线教育领域的场景含：职业教育、K12教育、素质教育、学历考试等，在线教育场景因比较成熟，各细分场景的功能要求也比较相似，围绕着老师与学生在教学过程中的互动，丰富课堂内容提升教学质量。如屏幕共享、超级白板等功能。
+
+|          | SDK 或服务   | 功能描述                                                     | 业务场景                              |
+| -------- | ------------ | ------------------------------------------------------------ | ------------------------------------- |
+| 基础功能 | 实时音频     | 为课堂里的教师和学生提供实时的音视频互动功能。               | 职业教育、K12教育、素质教育、学历考试 |
+|          | 实时音视频   | 提供高清流畅、多平台互通、低延迟、高并发的音视频服务。       | 职业教育、K12教育、素质教育、学历考试 |
+|          | 屏幕共享     | 教师能与学生之间共享课件，丰富课堂教学内容。                 | 职业教育、K12教育、素质教育、学历考试 |
+|          | 文件共享     | 能将主流的文件格式类型转码为平台无关的格式，并无损还原原文档内容、格式、布局、动画。 | 职业教育、K12教育、素质教育、学历考试 |
+| 进阶功能 | 超级白板     | 能提供实时的白板互动，做到音画同步，提高课堂教学质量。       | 职业教育、K12教育、素质教育、学历考试 |
+|          | 云端录制回放 | 快速实现音视频通话及会议直播的录制功能，支持录制回放         | 职业教育、K12教育、素质教育、学历考试 |
+|          | 即时通讯IM   | 丰富的 API 接口，快速实现单聊、群聊、房间、系统通知能力      | 职业教育、K12教育、素质教育、学历考试 |
+| 特色功能 | AI美声美颜   | 基于领先的 AI 算法，提供包括美颜、美型、美妆、滤镜、贴纸、智能分割、人脸检测等功能，实现美颜实时渲染，打造自然美颜效果 | 职业教育、K12教育、素质教育、学历考试 |
+|          | 百万大房间   | 房间内支持百万用户同时观看直播，秒级平滑扩容                 | 职业教育、K12教育、素质教育、学历考试 |
+
+**元宇宙场景**
+
+随着互动技术矩阵逐渐完善，沉浸式体验升级，音视频向元宇宙进阶。
+
+虚拟形象、虚拟直播、虚拟语聊等元宇宙新场景，对实时音视频互动也提出了更高要求，要求更低的延迟和音视频交互质量，为用户提供更沉浸式的使用体验。
+
+随着互动技术矩阵逐渐完善，沉浸式体验升级，音视频向元宇宙进阶。
+
+虚拟形象、虚拟直播、虚拟语聊等元宇宙新场景，对实时音视频互动也提出了更高要求，要求更低的延迟和音视频交互质量，为用户提供更沉浸式的使用体验。
+
+|          | **主要功能**       | **功能描述**                                                 | **业务场景**                                                 |
+| -------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 基础功能 | 音视频通话         | 预留灵活、友好的扩展接口，快速接入即构实时音视频服务。让音视频无处不在，满足用户在元宇宙里实时交流 | 虚拟直播、虚拟语聊、虚拟K歌、虚拟会议                        |
+|          | 实时音视频         | 超低延时下，观众实时接收主播的音视频流，直播流畅不卡顿。     | 虚拟直播、虚拟语聊、虚拟K歌、虚拟会议                        |
+| 进阶功能 | 实时消息互动       | 通过房间实时消息功能，实时展示房间内的消息，例如发消息、进退房提示、互动通知等。 | 虚拟语聊                                                     |
+|          | 实时录制           | 快速实现音视频通话及会议直播的录制功能，支持录制回放         | 虚拟会议                                                     |
+|          | 超低延迟合唱       | 超低延迟合唱体验，端到端延迟低于 70 ms，达到人体无感官延迟水平，全球用户均可享受真正实时的体验 | 虚拟K歌                                                      |
+|          | 音乐音效           | 200万+首词库版权，覆盖热门歌曲，快速实现 k 歌业务。通过获取正版曲库资源，播放背景音乐，并展示变声混响多种趣味效果。 | 虚拟K歌                                                      |
+|          | 送礼物             | 支持用户向房间内主播或其他指定用户赠送礼物。                 | 虚拟直播、虚拟语聊、虚拟K歌                                  |
+|          | 范围语音           | 让声音具有距离感，超出限定范围则无法听到声音                 | 虚拟K歌、虚拟语聊房、虚拟会议、虚拟演唱会、虚拟发布会        |
+| 特色功能 | 焦点语音           | 最高50人同时开麦，支持焦点语音，提供优质稳定的基础体验       | 虚拟语聊                                                     |
+|          | Avatar 虚拟形象    | 自定义捏脸换装，塑造个性化形象。快速生成专属形象，提供200+素材，支持表情随动和肢体随动手势识别等AI能力。 | 虚拟人、虚拟K歌、虚拟语聊房、虚拟会议、虚拟演唱会、虚拟发布会 |
+|          | 3D场景             | 无需Unity开发经验，半天快速实现3D虚拟场景的渲染。丰富的场景拓展能力，支持快速搭建虚拟场景。 | 虚拟K歌、虚拟语聊房、虚拟会议、虚拟演唱会、虚拟发布会        |
+|          | 3D空间音效         | 支持20+模拟真实 K 歌体验，进行 3D 空间音效渲染，声音将会随距离的增加而衰减，直至超出所设置的范围，则不再有声音。 | 虚拟K歌、虚拟语聊房、虚拟会议、虚拟演唱会、虚拟发布会        |
+|          | 万人实时状态同步   | 提供多人同屏下，人物位移、动作、场景交互等状态的实时同步，支持万人量级高并发的场景，保障稳定的帧数据同步服务。 | 虚拟发布会、虚拟会议                                         |
+|          | 人物控制与场景交互 | 提供摇杆控制人物在场景中自由移动。提供丰富多样的预置人物动作库，提供第一视角、第三视角等多种视角切换能力。提供人与人，人与场景的互动能力。 | 虚拟K歌、虚拟语聊房、虚拟会议、虚拟演唱会、虚拟发布会        |
+
+### **五、技术指标强弱**
+
+技术指标的强弱直接影响后续的开发成本和用户体验，所以在做音视频选型时需关注三类特性指标，体验指标、底层技术指标、其他指标。
+
+不同应用场景对核心特性指标的要求不同，主要体现在用户对实时性、互动性两大消费习惯。培训直播要求双向互动，延时秒级即可。互动直播PK连麦则超过两个用户间的互动，时延要求更严格毫秒级别。
+
+图例：音视频应用场景对实时性和互动性的要求
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/683e3959ccfd4fb78dfc3cf59f1c6126~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+核心特性指标：
+
+- 体验指标：端到端延迟、流畅度、音画质量、首帧耗时
+- 底层技术指标：抗丢包率、3A处理、网络传输、CPU内存占有率
+- 其他指标：包体积大小、单房间容量
+
+以音视频厂商声网、即构为例，指标数值来自各厂家官网链接
+
+|                  | 特性       | 即构                                                         | 声网                                                         |
+| ---------------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **体验指标**     | 端到端延迟 | 平均300ms                                                    | 端到端 小于400ms                                             |
+|                  | 流畅度     | 优秀                                                         | 优秀                                                         |
+|                  | 音画质量   | 音频采样率：16 kHz ～ 48 kHz，支持单、双声道。 SDK 采集支持 4K 分辨率、1 fps ～ 60 fps 帧率。 | 音频采样率：16 kHz ～ 48 kHz 支持单、双声道 SDK 采集支持 1080p 分辨率，60 fps 帧率，自采集支持 4K |
+|                  | 首帧耗时   | 基本无感知                                                   | 基本无感知                                                   |
+| **底层技术指标** | 抗丢包率   | 视频上下行抗丢包率70%，音频上下行丢包80%                     | 音频上下行抗丢包率 80%                                       |
+|                  | 3A处理     | 支持                                                         | 支持                                                         |
+|                  | 网络传输   | 全球 部署500 多个核心节点，音视频传输依托于自研的MSDN基础网络、即构MSDN融合了多个云商，相比自建网络和单一云商架构，可用性更高；支持千万级并发，单房间百万级并发，并且能够实时探测线路质量，针对线路故障可以秒级响应和自动恢复，相比人工干预更稳定，保证服务的可靠性。 | FPA 全链路“端”+“云”协同加速，提供更优秀的整体加速性能与稳定性。 |
+| **其他指标**     | SDK 包体积 | 2.98-11.52 MB                                                | 4.61 ～ 13.94 MB                                             |
+|                  | 单房间容量 | 单房间可以支持50路音视频互动，根据需要可以配置更多，纯语音万人互动 | 音视频最高支持17人连麦互动                                   |
+
+通过调研发现，用户最不能接受实时音视频的三个质量问题是**延迟大、卡顿明显、画质差**。我们测评了即构、声网的端到端延迟、流畅度和清晰度，对比分析如下：
+
+**流畅度、清晰度：** 在同一网络和同一设备下测试，在视频**画质**方面，个人主观感知**清晰度**是差不多的，**延时**层面均感受不到明显延迟，而在和wifi隔一段距离的弱网情况下，受限网络各服务商的**清晰度**和**流畅度**都略有下降，在整体感观上即构表现好一些。
+
+### 六、解决方案成熟度
+
+技术选型的关键点还在于：解决方案的成熟度，方案越成熟后续开发越省力，对开发者越友好。成熟度主要从以下三个方向：方案拓展性、场景覆盖、头部客户。
+
+- 方案易用性和拓展性：接入流程是否简单？拓展性是否够强？生态化是否好？是否提供全面友好的第三方开发者支持？
+- 场景覆盖：是否可以全场景覆盖，是否按场景提供核心功能，音视频质量是否根据不同场景进行优化
+- 头部客户：是否有行业头部大客户？是否有企业级APP接入实战经验？是否提供全流程服务？
+
+**6.1 方案易用性和拓展性**
+
+方案接入流程的快慢决定着业务是否可快速上线抢占市场，这就要求SDK的模块设计简洁清晰、有完备的注释、和不同规格的说明。市面上的音视频SDK接入流程通常有以下3步，1.获取APP ID，2.集成SDK，3.实现音视频功能。如下图：
+
+厂商通用接入流程：
+
+![微信图片_20230224103405.jpg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d5c10581de0549ed9ec5bb3660bf7076~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?)
+
+即构和声网的详细接入流程
+
+| 序号 | 具体步骤           | 即构                                                         | 声网                                                         |
+| ---- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1    | 准备阶段           | 注册开发者账号获取appid+appSign                              | 注册开发者账号获取appid+app证书+token                        |
+| 2    | 集成SDK            | 集成依赖包                                                   | 集成依赖包                                                   |
+| 3    | 初始化本地引擎对象 | 通过appid+appSign创建本地RTC引擎对                           | 通过appid创建本地RTC引擎对象                                 |
+| 4    | 推本地流           | 1.loginRoom登陆房间 2.startPreview开始本地预览 3.startPublishStream开始推本端流 | 1.setupLocalVideo设置本地视图 2.joinChannel加入频道          |
+| 5    | 拉远端流           | 1.loginRoom登陆房间 2.startPreview开始本地预览 3.starPlayStream开始拉远端流 | 1.joinChannel加入频道 2.setupRemoteVideo设置远端试图         |
+| 6    | 停推本端音视频     | 1. mutePublishStreamVidio/mutePublishStreamAudio 2. stopPublishStream 3. enableCamera/muteMicrophone | 1.muteLocalVideoStream/muteLocalAudioStream 2.enableVideo/enableAudio |
+| 7    | 退出频道/房间      | logoutRoom                                                   | leaveChannel                                                 |
+| 8    | 销毁引擎           | destroyEngine                                                | RtcEngine.destroy()                                          |
+
+声网&即构音视频通话时序图如下
+
+PS:图片来自各厂商官网
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/57b003e994344733a9fc08cd5bbb0191~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0742c7c108e243eaac2cd71d737c200f~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+通过实战接入了即构跟声网sdk,两家厂商接入流程差异不大各有优势，总结如下：
+
+- **证书鉴权方面：** agroa在加入频道时，必须要携带token进行验证；而zego如果需要token校验的话，在ZegoRoomConfig进行配置即可，这样的处理更加人性化，方便开发者快速集成和测试
+- **音视频** **流** **概念上：** zego和agroa本身其实都具有流的概念，只是zego会把流的概念也抛给客户，而agroa是将流的概念以一种隐式的概念存在于API中，不直接向用户抛出流的概念，概念上agroa的SDK会比较人性化，比较好理解。而清楚了即构流概念后，对音视频场景的搭建在技术架构的理解上更加透彻。
+- **推拉** **流** **概念上：** agroa加入频道时默认自动推拉流，因为没有抛出流的概念，在同一个频道的其他用户都会被以uid作为唯一标识拉流，而zego登陆房间后进行手动拉流，抛出流的概念直接对单条流进行控制；在逻辑上扩展性更高，在完成复杂业务逻辑时也更加方便。
+
+厂商的产品架构决定了其方案的拓展性，拓展性强的方案可以提升开发效率，节约开发成本。开发者在选型需关注厂商的产品架构，上下游生态链。目前领先的实时互动云服务厂商声网和即构有都有较完整的产品架构和健全的上下游生态链，通过提供丰富的实时互动API、功能组件及插件等，帮助开发者及企业客户轻松搭建各类实时互动场景应用。
+
+如以下产品架构图看，声网和即构以RTC Paas为核心业务，并逐步拓展构建音视频产品矩阵。第三方生态建设上看，即构提供：AI 视觉、内容审核、第三方云厂商、语音转文字、正版版权音乐等服务，声网通过云市场提供：视频特效、语音转文字、内容审核等插件。
+
+**即构和声网的产品架构图**
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fa074814707d44fcbb686f30f0d3e3f8~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bce19259fbe34bb3b5f96eb06b8466f8~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+**6.2 场景覆盖和头部用户**
+
+解决方案成熟度还需考虑应用场景拓展和头部客户覆盖，随着音视频的迅猛发展，实时音视频已在各行各业有所应用。同时也对音视频厂商提出了更高的要求，如何降低搭建场景化应用的门槛，助力开发者快速搭建实时互动场景的应用。
+
+以即构为例，即构提供灵活、即接即用的模块化产品组合，以及快速、可视化、低代码的接入方案，开发者/企业可根据实际业务场景需求进行灵活组合。正因如此，即构赋能泛娱乐、在线教育、视频会议、游戏竞技、远程医疗、物联网IOT、线上金融、政企服务等二十余行业赛道的100多种场景。
+
+**声网行业场景覆盖**
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2d8a9b3bbd1a478aad3d47408a47d16b~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+**即构行业场景覆盖**
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0fa794caad014a1b8ebabd72053a04af~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0fac8bb3ef4148349a7f5c1aac2fe240~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+**社交娱乐场景**
+
+|              | 腾讯云                                                       | 即构                                                         | 声网                                           |
+| ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
+| 场景解决方案 | 语聊房、秀场直播、Web互动直播、语音电台、在线K歌、相亲房、小程序直播 | 语聊房、秀场直播、在线KTV、社交+小游戏、视频相亲、在线健身、互动播客、FM电台 | 在线K歌房、直播、社交、游戏、电商、声动语聊    |
+| 场景优势     | 支持跨房间PK、超低延迟、智能美颜                             | 支持连麦、玩乐、直播等娱乐玩法。 超低延迟、数量最多的正版曲库、行业首家支持实时合唱、美颜美声 | 实时连麦、百万人大频道、高品质音视频、无感切屏 |
+| 客户案例     | 他趣、全民K歌、唱吧、微光                                    | 映客直播、咪咕、Soul、TT语音、喜马拉雅、乐逗游戏             | MOMO、Meet me                                  |
+
+**在线教育场景**
+
+|              | 腾讯云                                 | 即构                                                         | 声网                                                       |
+| ------------ | -------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| 场景解决方案 | 互动大班课、互动小班课、AI课程         | 1V1在线教学、AI课堂、双师课堂、超级小班、小班课、在线自习室、互动大班课等。 | 职业&成人教育、素质教育、K12教育、教育信息化               |
+| 场景优势     | 支持屏幕共享、互动白板、录制回放等功能 | 丰富的课堂形式，齐全的应用插件。 百万大房间、屏幕共享、文件共享、互动白板、录制回放 | 支持互动白板、屏幕共享、实时消息、实时录制、口语测评等功能 |
+| 客户案例     | 智学网、腾讯教育、新东方               | 好未来、作业帮、掌门1对1、英语流利说                         | 新东方                                                     |
+
+随着实时音视频的发展，人们对于实时互动的要求越来越高，不再满足于基本的交流通讯。音视频技术的发展演变使得实时互动在实时性、沉浸式上的表现不断提升，为元宇宙带来了更多想象空间。
+
+**元宇宙** **虚拟世界场景**
+
+通过官网对比各厂商的元宇宙解决方案，即构的元宇宙布局更深入，投入大量技术资源自研Avatar虚拟形象、Meta World虚拟世界两大虚拟产品，结合即构强大的音视频技术，可帮助开发者快速落地多人元宇宙场景。
+
+|              | 腾讯云                                                       | 即构                                                         | 声网                                                         |
+| ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 场景解决方案 | 虚拟会议、虚拟展览、虚拟演唱会、虚拟人电商直播、虚拟赛事、虚拟互动游戏 | 虚拟直播、虚拟K歌房、虚拟语聊房、虚拟会议、虚拟演唱会        | 元语聊、元直播、互动游戏                                     |
+| 场景优势     | 虚拟多人场景、弹幕互动、动捕驱动、虚拟展览场景选择           | 自研Avatar虚拟形象、Meta World虚拟世界等虚拟产品。 提供Q版、二次元、动漫、拟人等多元化风格虚拟形象，以及丰富的服装、妆容素材库。 零门槛渲染3D场景，半天可快速实现虚拟场景，灵活自然的人物控制与场景交互。 还提供3D空间音效、范围语音、万人实时状态同步等特色的音视频功能，以及丰富易用的标准化组件。 | 3D 场景+虚拟形象、3D空间音频、媒体播放器组件、捏脸与换妆编辑组件、实时面部捕抓。 |
+| 客户案例     | 官网暂未查询到                                               | 小西米语音（语聊房使用了即构最新发布的Q版风格Avatar虚拟形象，让用户可以自定义自己的风格形象） | 官网暂未查询到                                               |
+
+即构元宇宙解决方案（来自即构官网[www.zego.im/](https://www.zego.im/)）
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/71f862ab01464626989eb9844ee45549~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0466f3d4515e4bf6b0349aac0846f756~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+
+### 七、使用成本
+
+因各大厂商直播SDK计费模式较多且差异不大，下边列举部分直播SDK厂商的报价供参考，大家可根据业务需求进行选择。同时提供厂商官方地址，有任何价格相关疑问可直接咨询官方。
+
+阿里云
+
+官网地址：[helpcdn.aliyun.com](https://helpcdn.aliyun.com/)
+
+CDN直播
+
+1、按量后付费模式
+
+1.1 按使用流量计费
+
+按不同区域使用的流量阶梯价格计费，当月分别超额累进（以自然月为一个累计周期，下个月自动清零重新累积）。定价受区域和带宽阶梯影响。
+
+| 流量阶梯（计费单位：元/GB） | 中国内地-CN | 北美-NA | 欧洲-EU | 亚太1区-AP1 | 亚太2区-AP2 | 亚太3区-AP3 | 中东非洲-MEAA | 南美-SA |
+| --------------------------- | ----------- | ------- | ------- | ----------- | ----------- | ----------- | ------------- | ------- |
+| 0~10 TB（含）               | 0.528       | 0.92    | 0.92    | 1.58        | 1.7         | 1.7         | 2.62          | 2.62    |
+| 10 TB~50 TB（含）           | 0.506       | 0.92    | 0.92    | 1.58        | 1.7         | 1.7         | 2.62          | 2.62    |
+| 50 TB~100 TB（含）          | 0.462       | 0.78    | 0.78    | 1.32        | 1.44        | 1.44        | 2.36          | 2.36    |
+| 100 TB~1 PB（含）           | 0.396       | 0.4     | 0.4     | 1.04        | 1.32        | 1.24        | 1.96          | 1.84    |
+| 大于1 PB                    | 0.33        | 0.32    | 0.32    | 0.92        | 1.18        | 1.18        | 1.84          | 1.7     |
+
+1.2 按峰值带宽计费
+
+以当日您直播观看区域所在节点，直播加速服务分别产生的带宽最高值（单位Mbps）为结算标准。定价受区域和带宽阶梯影响。
+
+| 带宽阶梯（计费单位：元/Mbps/天） | 中国内地-CN | 北美-NA | 欧洲-EU | 亚太1区-AP1 | 亚太2区-AP2 | 亚太3区-AP3 | 中东非洲-MEAA | 南美-SA |
+| -------------------------------- | ----------- | ------- | ------- | ----------- | ----------- | ----------- | ------------- | ------- |
+| 0~500 Mbps（含）                 | 1.32        | 3.28    | 3.28    | 6.56        | 7.88        | 7.88        | 11.82         | 10.64   |
+| 500 Mbps~5 Gbps（含）            | 1.276       | 3.02    | 3.02    | 6.3         | 7.62        | 7.62        | 11.54         | 10.36   |
+| 5 Gbps~20 Gbps（含）             | 1.232       | 2.76    | 2.76    | 6.04        | 7.34        | 7.34        | 11.28         | 10.1    |
+| 大于20Gbps                       | 1.188       | 2.62    | 2.62    | 5.9         | 7.22        | 7.22        | 11.16         | 9.98    |
+
+**即构** **科技**
+
+官网网址：<[www.zego.im/](https://www.zego.im/)>
+
+免费额度：每月免费使用10000分钟，不超过完全免费，超过部分单独计算：
+
+**优惠活动：常规优惠为官网报价的5%-15%，赶上大促部分产品折扣力度非常大低至1折起，亲测购买音视频产品组合套餐包更划算。👉****[即构产品页面](https://www.zego.im/activity/2100005)**
+
+值得一提的是，即构的官网自助服务流程体验最好，也是目前唯一开通自助服务全流程的音视频厂商，实现了开发者SDK集成闭环流程，从服务配置到账户充值以及账号查询，皆可在即构官网在线自助完成，大大提升开发者开发效率。比如服务配置环节，自助开通秒级生效。账户充值支持使用微信、支付宝、网银等在线充值。合同签署可线上完成。
+
+1.实时音视频 RTC
+
+用量统计方式：按照用户实际拉取音视频流的时长来统计实时音视频服务的用量。
+
+| 计费档位        | 计费类型 | 档位说明                                 | 价格（元/千分钟） |
+| --------------- | -------- | ---------------------------------------- | ----------------- |
+| 高音质纯音频    | 时长     | 纯音频                                   | 7                 |
+| 标清视频（SD）  | 时长     | 分辨率 ≤ 360P（ 480 x 360 ）             | 12                |
+| 高清视频（HD）  | 时长     | 360P ＜ 分辨率 ≤ 720P（ 1280 × 720 ）    | 25                |
+| 超清视频（HD+） | 时长     | 720P ＜ 分辨率 ≤ 1080P（ 1920 × 1080 ）  | 98                |
+| 超清视频（2K）  | 时长     | 1080P ＜ 分辨率 ≤ 1440P（ 2560 × 1440 ） | 112               |
+
+为便于开发者更好的理解计费模式，即构官网贴上对应产品的计费示例：
+
+**计费示例：** 即构实时音视频RTC
+
+以多路视频互动房间为例 [doc-zh.zego.im/article/866…](https://doc-zh.zego.im/article/8666)
+
+2.CDN直播
+
+用量统计方式：CDN 目前默认为后付费按量计费，并提供两种计费类型：带宽计费和流量计费，您可根据自身业务形态，选择适合的计费模式。
+
+| 服务定价        |          |            |              |
+| --------------- | -------- | ---------- | ------------ |
+| 计费档位        | 计费类型 | 档位说明   | 价格         |
+| (0Mbps,500Mbps] | 带宽     | 月峰值带宽 | 26元/Mbps/月 |
+| (500Mbps,2Gbps] | 带宽     | 月峰值带宽 | 24元/Mbps/月 |
+| (2Gbps,∞]       | 带宽     | 月峰值带宽 | 22元/Mbps/月 |
+| 不区分阶梯用量  | 流量     | 拉流累计   | 0.5元/GB     |
+
+**计费示例**
+
+即构CDN直播 ：[doc-zh.zego.im/article/140…](https://doc-zh.zego.im/article/14091)
+
+音视频产品根据延迟性分为实时音视频RTC、低延迟直播和CDN直播，直播场景中直播连麦/PK玩法对互动同步性要求高，一般使用实时音视频RTC能力。音视频厂商实时音视频RTC长距离端对端传输时延平均 300ms～400ms左右，即构实时音视频RTC做到了端到端时延最低79ms，媲美现实的音视频体验。
+
+直播场景中观众大规模并发一般使用CDN直播，格子各厂商CDN直播延迟较大在3S左右、抗弱网能力差容易卡顿。
+
+基于此，即构推出超低延迟直播产品，延续了实时音视频的质量优势，复用了即构的海量数据分发网络和自研传输协议，最高可抗80%丢包，并实现了600ms的延迟，适用于电商直播、网络较差的出海音视频等场景。
+
+3.超低延迟直播
+
+用量统计方式：目前默认为后付费按量计费，按照用户实际拉取音视频流的时长来统计超低延迟直播服务的用量。
+
+服务定价
+
+| 计费档位        | 计费类型 | 档位说明                                | 价格（元/千分钟） |
+| --------------- | -------- | --------------------------------------- | ----------------- |
+| 高音质纯音频    | 时长     | 纯音频                                  | 4                 |
+| 标清视频（SD）  | 时长     | 分辨率 ≤ 360P（ 480 x 360 ）            | 7                 |
+| 高清视频（HD）  | 时长     | 360P ＜ 分辨率 ≤ 720P（ 1280 × 720 ）   | 14.5              |
+| 超清视频（HD+） | 时长     | 720P ＜ 分辨率 ≤ 1080P（ 1920 × 1080 ） | 57                |
+
+**计费示例：**
+
+即构超低延迟直播 [doc-zh.zego.im/article/147…](https://doc-zh.zego.im/article/14712)
+
+**声网**
+
+官网网址：[www.agora.io/](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwin1rWUiJT7AhXVwhYFHZldDyYYABAAGgJ0bA&ohost=www.google.com&cid=CAASJORoUusqE73CtHgOUT7593sQ74DRW8At_64_IFyaHNbAc3s3JA&sig=AOD64_1AOzAPI_rFsi_q66wOQA8VpPGtGg&q&adurl&ved=2ahUKEwjYya-UiJT7AhVMmFYBHcOwAdgQ0Qx6BAgIEAE&nis=8)
+
+1.融合CDN直播
+
+流量阶梯单价：下表列出各个流量阶梯下每个地区的流量单价，价格单位：元/GB。
+
+| 服务定价                 |          |      |      |           |           |        |          |      |
+| ------------------------ | -------- | ---- | ---- | --------- | --------- | ------ | -------- | ---- |
+| 月度总流量 (GB)          | 中国内地 | 北美 | 欧洲 | 亚太 1 区 | 亚太 2 区 | 大洋洲 | 中东非洲 | 南美 |
+| 0 - 10,000               | 0.25     | 0.48 | 0.48 | 0.48      | 0.73      | 0.96   | 0.73     | 0.73 |
+| 10,000 (含）- 50,000     | 0.23     | 0.46 | 0.46 | 0.46      | 0.69      | 0.92   | 0.69     | 0.69 |
+| 50,000 (含）- 100,000    | 0.21     | 0.42 | 0.42 | 0.42      | 0.63      | 0.84   | 0.63     | 0.63 |
+| 100,000 (含）- 1,000,000 | 0.19     | 0.38 | 0.38 | 0.38      | 0.57      | 0.76   | 0.57     | 0.57 |
+| 大于 1,000,000           | 0.16     | 0.32 | 0.32 | 0.32      | 0.48      | 0.64   | 0.48     | 0.48 |
+
+2.实时音视频
+
+声网音视频时长用量的单价如下：
+
+| 用量类型              | 计费类型 | 档位说明                                                     | 单价（元/千分钟） |
+| --------------------- | -------- | ------------------------------------------------------------ | ----------------- |
+| 音频                  | 时长     | 纯音频                                                       | 7                 |
+| 高清视频（HD）        | 时长     | 集合分辨率 ≤ 921,600（1280 × 720）                           | 28                |
+| 全高清视频（Full HD） | 时长     | 921,600（1280 × 720）＜ 集合分辨率 ≤ 2,073,600（1920 × 1080） | 63                |
+| 2K 视频               | 时长     | 2,073,600 (1920 × 1080) ＜ 集合分辨率 ≤ 3,686,400 （2560 × 1440） | 112               |
+| 2K+ 视频              | 时长     | 3,686,400 （2560 × 1440）＜ 集合分辨率 ≤ 8,847,360 （4096 × 2160） | 252               |
+
+**网易云信**
+
+官网地址：[netease.im](https://netease.im)
+
+直播服务计费项由两部分组成：日峰值带宽费+增值服务费（可选）
+
+1.普通直播
+
+| 服务定价                                                     |            |                    |
+| ------------------------------------------------------------ | ---------- | ------------------ |
+| 普通直播                                                     | 日峰值带宽 | 0.6 元 / Mbps / 日 |
+| 计费规则：当日使用普通直播服务产生的上下行带宽之和峰值计费（单位：Mbps），如有海外需求可咨询客户经理计费周期：按日计费举例：当日峰值带宽为 900 Mbps ，则对应日带宽计费为 900 * 0.6 = 540 元 |            |                    |
+
+2.实时音视频
+
+计费单价根据单个用户订阅的集合分辨率来计算，集合分辨率指用户订阅的所有视频流的分辨率之和。更多计费单价相关介绍请参考[资费说明](https://yunxin.163.com/pay%23pay2)。
+
+| 媒体        | 计费模式 | 规格                                                   | 单价         |
+| ----------- | -------- | ------------------------------------------------------ | ------------ |
+| 音频        | 时长     | 标准语音规格                                           | 5.9元/千分钟 |
+| 视频SD单价  | 时长     | 集合分辨率 ≤ 307,200(640 × 480)                        | 15元/千分钟  |
+| 视频HD单价  | 时长     | 307,200(640 × 480) ＜ 集合分辨率 ≤ 921,600(1280 × 720) | 25元/千分钟  |
+| 视频HD+单价 | 时长     | 集合分辨率 > 921,600(1280 × 720)                       | 90元/千分钟  |
+
+### 结语
+
+用ChatGPT的回答来结束这篇文章吧。ChatGPT建议为了选型适合的实时音视频/直播SDK，开发者首先：需明确业务应用的需求，确定功能和性能指标的需求。其次调研市场上可用的直播SDK并进行功能、性能等特性的评估对比，最好能亲自使用测试用例进行验证确保所选音视频SDK满足其需求。
+
+文中提到的厂商都有免费试用额度供开发者测试，感兴趣的可自行到官网咨询。
+
+即构：[www.zego.im/](https://www.zego.im/)
+
+声网：[docs.agora.io/](https://docs.agora.io/)
+
+腾讯云：[cloud.tencent.com/](https://cloud.tencent.com/)
+
 ## 11 款超实用 AI 生成内容检测工具
 
 [AIGC 时代，分享 11 款超实用 AI 生成内容检测工具 - 掘金 (juejin.cn)](https://juejin.cn/post/7221551421833084984)
@@ -265,23 +1129,23 @@ ChatGPT +审稿
 
 镜头3：特写镜头，展示老板正在烘焙咖啡豆，手拿着一个小铲子轻轻搅拌着咖啡豆，眉头微皱，表情专注。镜头细节：烤箱里的咖啡豆开始变色，散发着诱人的咖啡香。
 
-[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107506646160261130/lvguofei_Close-up_shot_showing_the_boss_baking_coffee_beans_gen_6380fc80-06c4-4490-8937-ea895ea605cc.png%3Fwidth%3D1224%26height%3D686)
+[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107506646160261130/lvguofei_Close-up_shot_showing_the_boss_baking_coffee_beans_gen_6380fc80-06c4-4490-8937-ea895ea605cc.png?width=1224&height=686)
 
 镜头4：中景镜头，展示客人坐在一张桌子前，老板走过来为客人倒咖啡，客人面露微笑，举起咖啡杯感慨道：“这咖啡真是太浓郁了。”镜头细节：桌子上放着一本书，客人拿起来翻看着。
 
-[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107506739101827234/lvguofei_Mid_shot_showing_the_guest_sitting_at_a_table._The_bos_aadb811f-d9dc-4de7-84d9-c3f29e37abf3.png%3Fwidth%3D1224%26height%3D686)
+[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107506739101827234/lvguofei_Mid_shot_showing_the_guest_sitting_at_a_table._The_bos_aadb811f-d9dc-4de7-84d9-c3f29e37abf3.png?width=1224&height=686)
 
 镜头5：特写镜头，展示老板和客人聊天的场景，老板讲述着从台湾带来的故事，客人听得津津有味，时不时点点头。镜头细节：柜台上的猫不知不觉地移动了位置，趴在了客人的桌子边上。
 
-[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107507923699126374/lvguofei_Close_up_footage_showing_the_boss_chatting_with_the_gu_b9cb3785-bd1f-4a7f-85c1-5afb028dd764.png%3Fwidth%3D1224%26height%3D686)
+[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107507923699126374/lvguofei_Close_up_footage_showing_the_boss_chatting_with_the_gu_b9cb3785-bd1f-4a7f-85c1-5afb028dd764.png?width=1224&height=686)
 
 镜头6：远景镜头，展示咖啡厅的门口，老板和客人一起走出门口，客人挥手告别，老板微笑着回应。镜头细节：门口的黑板上写着“早上9点开门，晚上6点关门，没有例外”。
 
-[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107507320549810186/lvguofei_Long_shot_showing_the_entrance_of_the_coffee_shop._The_98f3bd5f-a706-4fdc-a5d2-172b6168bd58.png%3Fwidth%3D1224%26height%3D686)
+[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107507320549810186/lvguofei_Long_shot_showing_the_entrance_of_the_coffee_shop._The_98f3bd5f-a706-4fdc-a5d2-172b6168bd58.png?width=1224&height=686)
 
 镜头7：特写镜头，展示老板一个人在咖啡厅内，他站在柜台前，看着桌子上的一张照片，表情有些沉重。镜头细节：照片上是老板和女友在一起的合影，女友面带微笑，老板的表情有些沉重。
 
-[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107507423016665188/lvguofei_Close-up_shot_showing_the_boss_standing_alone_in_the_c_5b49cab7-dc1c-4b2d-8958-5bdd1284bec8.png%3Fwidth%3D1224%26height%3D686)
+[media.discordapp.net/attachments…](https://media.discordapp.net/attachments/1106592355689173076/1107507423016665188/lvguofei_Close-up_shot_showing_the_boss_standing_alone_in_the_c_5b49cab7-dc1c-4b2d-8958-5bdd1284bec8.png?width=1224&height=686)
 
 ###### 示例二
 

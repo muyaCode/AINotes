@@ -2,6 +2,8 @@
 
 ## 简介
 
+DragGAN 是一款基于生成对抗网络（GANs）技术的图片编辑项目。追根溯源，其实还是 NVIDIA 的 StyleGAN 的衍生项目。
+
 "Diffusion" 和 "GAN（生成对抗网络）"都是生成模型，它们用于从某些数据分布中生成新的样本。但是，它们在理论和实践上都有一些重要的区别。
 
 GAN，或者说生成对抗网络，是由两个网络组成的模型：生成器和鉴别器。生成器试图创建与真实数据类似的假数据，而鉴别器的任务是尝试区分真实数据和生成的假数据。GAN的主要目标是使生成器产生的数据能够在鉴别器中被判断为真实的。
@@ -46,3 +48,115 @@ OpenXLab在线Demo：<https://openxlab.org.cn/apps/detail/XingangPan/DragGAN>
 - 【stable diffusion 一个Ai插件让女神成为话痨，美照秒变虚拟主播！一步到位很简单】 <https://www.bilibili.com/video/BV1bm4y1h7aL/?share_source=copy_web&vd_source=2ad4a8ecd1ccf53fc3a0f15f431c7969>
 - 【史上最牛Ai中文提示词插件——stable diffusion爽爆中文实时提示词！多国语言丝滑互转！】 <https://www.bilibili.com/video/BV1ez4y1a7vY/?share_source=copy_web&vd_source=2ad4a8ecd1ccf53fc3a0f15f431c7969>
 - 让AI海啸般疯狂输出人设图！——stable diffusion游戏、动漫人物转面设计图一招搞定！<https://www.bilibili.com/video/BV1em4y1y7wP/?spm_id_from=333.999.0.0>
+
+
+
+> **复刻方案一**
+>
+> *▢* GitHub：[github.com/endo-yuki-t…](https://github.com/endo-yuki-t/UserControllableLT)
+>
+> *▢* Colab：[github.com/camenduru/U…](https://github.com/camenduru/UserControllableLT-colab)
+
+> **复刻方案二**
+>
+> *▢* GitHub：[github.com/Zeqiang-Lai…](https://github.com/Zeqiang-Lai/DragGAN)
+>
+> *▢* Colab：[colab.research.google.com/github/Zeqi…](https://colab.research.google.com/github/Zeqiang-Lai/DragGAN/blob/master/colab.ipynb)
+
+> **复刻方案三**
+>
+> *▢* GitHub：[github.com/JiauZhang/D…](https://github.com/JiauZhang/DragGAN)
+
+## 部署要求
+
+- 支持 Linux 和 Windows，建议使用 Linux
+- 内存 12 GB 以上
+- 1–8 NVIDIA 高端 GPU
+- Python >= 3.8，PyTorch >= 1.9.0
+- CUDA toolkit >= 11.1
+
+## 安装部署
+
+安装过程，真是一把鼻涕一把泪，到处都是坑，先是在阿里 PAI 平台栽跟头，折腾好久才发现是基础环境问题，后来又在安装方法上翻了车，官方的安装指导也是各种报错。
+
+一路艰难摸索过来，现在将实测可行的一套部署方法带给大家。
+
+这里我们选择 AutoDL 云平台，使用 Python 3.8，CUDA 11.8 的镜像，这个镜像的环境就已经满足项目要求了。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bf8543cf9ace48da8da92bf99cb8a55e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### 下载源码
+
+```bash
+git clone https://github.com/XingangPan/DragGAN.git
+```
+
+### 安装依赖
+
+```bash
+cd DragGAN
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+如果出现下面的报错，代表这个 pip 源里没有对应的版本。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/48a5bc6ecbbf4c058dbb3b5d7ada1068~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+修改 `requirements.txt` 文件，去除特定版本依赖，再次执行即可。
+
+```shell
+torch>=2.0.0
+scipy
+Ninja==1.10.2
+gradio>=3.35.2
+imageio-ffmpeg>=0.4.3
+huggingface_hub
+hf_transfer
+pyopengl
+imgui
+glfw==2.6.1
+pillow>=9.4.0
+torchvision>=0.15.2
+imageio>=2.9.0
+```
+
+### 下载模型
+
+```bash
+sh scripts/download_model.sh
+```
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/37b31a5f020a4efa80f4515e66ce7def~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### 运行
+
+这里选择运行 WebUI，看到 URL 就代表启动成功了。
+
+```bash
+# 运行 WebUI
+python visualizer_drag_gradio.py
+```
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a296ae859edc47259387f198357c0dfe~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+## 效果展示
+
+使用上非常简单，鼠标在图中点点就行，红点是起始点，蓝点是目标点，实现图像的拖拽效果。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/03e5bf2218764e999ca4a79120ae2378~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4eb66eeab5eb43419a8b34ebe9220257~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c63521dde9714e70985bc05946559d49~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f820b830e126425e8e095c0a846617e8~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+还可以控制区域图像，避免整体图像跟着变化。
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4df03900a95a42b2af0a41940bf59555~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0de59377adbf43cd9f18032904669ff5~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+很多人都以为这个项目能直接选一张照片，就能像 PS 一样进行 P 图了，其实并不是，至少目前还不支持，上面你看到的这些图片都是经过训练而生成的模型，所以本质上，你是在操作一个模型，而非图片！
+
+如果你想操作自己的图片，那么按官网说的，你需要使用到 [PTI](https://danielroich/PTI) 项目，将你自定义的图片训练成 StyleGAN 模型。

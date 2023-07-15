@@ -1,3 +1,15 @@
+## 『网站 | Shell』目前最好的口语练习ChatGPT，在线外教网站可危险了
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f3850236028f4f189caf6916ee82e43a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+Shell是一款基于ChatGPT的AI英语口语聊天工具，有4款机器人可以选择，语音非常接近真人，理解能力超强。
+
+点击底部录制按钮后，可以立马得到语音回复。点击 Text 可以看到文字，点击 Translate 可以将回复翻译成英文。学习英语口语的利器！[**官网**](https://app.myshell.ai/invite/e9898f)
+
+
+
+
+
 【【线上兼职】2个月的时间，我靠这6个AI工具挣了一年生活费，躺床上有手机就能做的副业！！】<https://www.bilibili.com/video/BV1rL411X7Tp?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 三三搜帧：
 

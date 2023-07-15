@@ -4,6 +4,14 @@
 
 【Adobe新出的4款AI黑科技，简直是要颠覆设计行业的节奏啊~】<https://www.bilibili.com/video/BV1hN41167Ep?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
+## 『Adobe视频剪辑工具Premiere Pro再放大招』 可以使用文本剪辑视频
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7af49e6488d04e97aa4a1904a9e39853~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+4月13日，在2023年NAB大会前夕，Adobe宣布了一系列创新功能，其中就包括 Adobe Premiere Pro引入了基于文本的编辑、自动色调映射等功能。
+
+基于文本的编辑，开辟了处理视频的新方法：只需要浏览文本、搜索关键词并将其添加到时间轴中，就可以对视频进行剪辑，极大地节省了寻找视频剪辑素材的时间；并且，还可以在视频即将完成编辑时，自动生成文本，用于快速生成字幕。 [**官方博客**](https://blog.adobe.com/en/publish/2023/04/13/nab-2023-introducing-text-based-editing-premiere-pro-properties-panel-after-effects-more)
+
 ## PhotoShop的AI功能
 
 Photoshop AI：<https://www.adobe.com/products/photoshop/generative-fill.html>
@@ -76,6 +84,22 @@ sunshine大模型链接：<https://pan.baidu.com/s/1XEIX2FEw4Kc55SmqerveuA?pwd=d
 
 Adobe Firefly: <https://www.adobe.com/sensei/generative-ai/firefly.html>
 
+是 **Adobe 推出的创意生成式AI模型集**， 将Adobe创意及数字体验应用的强大功能与人工智能结合，帮助设计师提升设计的效率，突破创意的边界。
+
+首批与 Firefly 整合的应用程序将会是 Adobe Experience Manager、Adobe Photoshop 和 Adobe Illustrator。
+
+### 『Adobe Firefly首轮内测报告』文生图不如MJ，期待即将开放的图像编辑功能
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f8b2a348b7d467499fdf1f4f1fb1251~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+Adobe Firefly 开始发放内测，据博主 Simon_阿文 最新体验，目前只开放了图1的两个版块，宣传视频里的80%的功能还没开放。
+
+初体验比较喜欢的是文字生成,，提供的预设就很够用了，而且生成的是PNG，可以自动去除图片背景。
+
+至于文生图嘛，生成质量大概是 MJ v3~v4 之间的水平，参数设置就是把镜头语言、打光、色调等关键词做成面板。
+
+**比较期待即将开放的几个版块，毕竟图像编辑才是 Adobe 真正擅长的领域，而且他们知道设计师想要什么**。 ([**来源**](https://weibo.com/1757693565/MzzpV1OmY))
+
 ## Illustrator AI
 
 Illustrator AI:  <https://www.adobe.com/products/illustrator/generative-recolor.html>
@@ -98,6 +122,16 @@ keyzhen插件官网：[K帧 - 致力于打造高效专业的AfterEffect插件 ke
 - 6.对每列首图进行K帧
 
 ## Blender
+
+### Infinigen：无限生成逼真3D世界
+
+论文地址：[[2306.09310\] Infinite Photorealistic Worlds using Procedural Generation (arxiv.org)](https://arxiv.org/abs/2306.09310)
+
+项目主页：[Home | Infinigen](https://infinigen.org/)
+
+GitHub地址：https://github.com/princeton-vl/infinigen
+
+[零AI含量！纯随机数学无限生成逼真3D世界火了，普林斯顿华人一作｜CVPR‘23 - 掘金 (juejin.cn)](https://juejin.cn/post/7246330395272659003)
 
 ### BlenderGPT
 

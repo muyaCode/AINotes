@@ -2,7 +2,9 @@
 
 【MidJourney20个精彩Prompt】<https://www.bilibili.com/video/BV1tX4y1X71r?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
-## HayoAI = Product Hunt + Midjourney社区 + Discord + 聊天机器人+ FlowGPT』
+[willwulfken/MidJourney-Styles-and-Keywords-Reference: A reference containing Styles and Keywords that you can use with MidJourney AI. There are also pages showing resolution comparison, image weights, and much more! (github.com)](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
+
+## 『HayoAI = Product Hunt + Midjourney社区 + Discord + 聊天机器人+ FlowGPT』搭配使用流程
 
 [**⋙ HayoAI官网**](https://www.hayo.com/) | [**解读**](https://web.okjike.com/originalPost/644def2dc567913bb5028b3e)
 
@@ -10,7 +12,7 @@
 
 Hayo 是一个强大的应用 (尤其是客户端)，集合了 AI 聊天、艺术创作、工具推荐、新闻以及科技创新交流，有点类似于以下几大应用的结合体！完成度非常高，体验流畅，想做的事情有点大，大家快去下载体验！！
 
-> **HayoAI = Product Hunt + Midjourney社区 + Discord + 聊天机器人+ FlowGPT**
+**HayoAI = Product Hunt + Midjourney社区 + Discord + 聊天机器人+ FlowGPT**：
 
 > *1*. **Product Hunt**。HayoAI 收集了1700+ AI工具 ，有详细的介绍、点赞排名和标签分类，允许工具官方发布信息和用户交流
 >
@@ -20,7 +22,7 @@ Hayo 是一个强大的应用 (尤其是客户端)，集合了 AI 聊天、艺�
 >
 > *4*. **聊天机器人**。支持包含 ChatGPT 在内的5个AI模型对话，而且可以在指令工厂里的 Prompt 页面直接跳转到聊天室使用，不用魔法上就可以用
 >
-> *5*. **FlowGPT**。内置 300+ Prompt，也可以创建自己的 Prompt 
+> *5*. **FlowGPT**。内置 300+ Prompt，也可以创建自己的 Prompt
 
 ## 『MidJourney 完全手册』海量提示词 + 效果分类对比 + 多维度设置教程，详细且完备
 
@@ -184,6 +186,8 @@ AI对中国元素的理解，一部分可以通过拼音实现，一部分需要
 
 ## Midjourney经验分享，控制动漫角色统一性的5种技巧
 
+[Midjourney｜动漫角色统一性使用技巧 (qq.com)](https://mp.weixin.qq.com/s/S2ZBHfP2HPMYEHp20Xcnhw)
+
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d1848ca1f0b8498a9cb22a106518675c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
 使用 ChatGPT 和 Midjourney 绘制漫画，操作便捷且效果酷炫，非常受欢迎。但是 Midjourney 的随机性会导致同一个漫画集种的人物、场景不一致，形成了细节bug。
@@ -194,7 +198,7 @@ AI对中国元素的理解，一部分可以通过拼音实现，一部分需要
 > 2. **seed值**：使用seed+原有Prompt，保持原来的prompt大体不变，简单调整部分描述，在结尾加上--seed 数字
 > 3. **连续画面法**：前缀 + 关键词组 + 图像比例 9:1 6
 > 4. **公式法**：国外大佬给出的公式，固定部分prompt控制画面风格，改变部分人物或者场景的描述，达到保证人物样子风格不变，但人物外形、动作和地点有微调的效果
-> 5. **LoRA模型训练**：采用Stable Diffusion来炼制一个专门的LoRA模型，也是最终极的方法 [Midjourney｜动漫角色统一性使用技巧 (qq.com)](https://mp.weixin.qq.com/s/S2ZBHfP2HPMYEHp20Xcnhw)
+> 5. **LoRA模型训练**：采用Stable Diffusion来炼制一个专门的LoRA模型，也是最终极的方法
 
 ## 🤖 视觉中国推出AI灵感绘图、画面扩展功能
 

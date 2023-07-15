@@ -62,7 +62,7 @@ AI声源：
 
 在线训练链接：<https://www.autodl.com/home；>
 
-
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 [**⋙ 完整教程@数字生命卡兹克**](https://mp.weixin.qq.com/s/bBqGwsDgStTGTQs_ha03xg)
 
@@ -141,7 +141,7 @@ Meta近日在HuggingFace开源了一款新的音乐生成模型MusicGen，可以
 - 案例五：拿女音色B和C的素材进行融合出一个新的音色F
 - 案例六：音色A从来没有说过外语（英语、日语等等），但需要现在马上说一段外语音频
 
-效果可参考出处：[【rvc教程】AI变声/AI音色训练_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ek4y1W7Xv/?vd_source=5f0c99b3deddffe219938763769b15ac)  极为逼真，值得尝试。当然，我也只是作为分享。 **在此感谢三位UP主：花儿不哭/唯有如梦/干易/掉脑袋切切_bling 的视频** 
+效果可参考出处：[【rvc教程】AI变声/AI音色训练_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ek4y1W7Xv/?vd_source=5f0c99b3deddffe219938763769b15ac)  极为逼真，值得尝试。
 
 下载资源： 文件目录如下：
 
@@ -277,4 +277,474 @@ AI 语音技术的进步已经带来了许多令人兴奋的结果，而 RVC 则
 2. 音频和影片后期制作：RVC 技术还可以用于音频和影片后期制作。例如，在电影和电视剧中，演员的声音可能需要进行修剪或处理，RVC 技术可以帮助制作人员快速、高效地完成这些任务。
 3. 音乐创作：RVC 技术可以用于音乐创作，例如合成电子音乐或增强现有音乐。使用这种技术，音乐家可以从其他艺术家的声音中获得灵感，并将其应用到自己的创作中。
 
+## 基于人工智能声音克隆框架PaddleSpeech克隆出精致细腻声音
+
 虽然这技术对于娱乐、语音合成等方面有著极大的应用价值。然而，这种技术也引发了许多道德等问题，例如滥用、欺骗、侵犯隐私等问题，需要你我共同关注，使用该技术时也要特别注意这些问题，请小心别踩线。
+
+工智能AI技术可以让我们基于PaddleSpeech克隆出精致细腻的国师原声，普通人也可以玩转搞笑配音。
+
+### 数据集准备和清洗
+
+我们的目的是克隆国师的声音，那么就必须要有国师的声音样本，这里的声音样本和[使用so-vits-svc4.0克隆歌声一样](https://v3u.cn/a_id_310)，需要相对“干净”的素材，所谓干净，即没有背景杂音和空白片段的音频素材，也可以使用国师采访的原视频音轨。
+
+需要注意的是，原视频中女记者的提问音轨需要删除掉，否则会影响模型的推理效果。
+
+随后，将训练集数据进行切分，主要是为了防止爆显存问题，可以手动切为长度在5秒到15秒的音轨切片，也可以使用三方库进行切分：
+
+```bash
+git clone https://github.com/openvpi/audio-slicer.git
+```
+
+随后编写脚本：
+
+```ini
+import librosa  # Optional. Use any library you like to read audio files.  
+import soundfile  # Optional. Use any library you like to write audio files.  
+  
+from slicer2 import Slicer  
+  
+audio, sr = librosa.load('国师采访.wav', sr=None, mono=False)  # Load an audio file with librosa.  
+slicer = Slicer(  
+    sr=sr,  
+    threshold=-40,  
+    min_length=5000,  
+    min_interval=300,  
+    hop_size=10,  
+    max_sil_kept=500  
+)  
+chunks = slicer.slice(audio)  
+for i, chunk in enumerate(chunks):  
+    if len(chunk.shape) > 1:  
+        chunk = chunk.T  # Swap axes if the audio is stereo.  
+    soundfile.write(f'master_voice/{i}.wav', chunk, sr)  # Save sliced audio files with soundfile.
+```
+
+注意这里min_length的单位是毫秒。
+
+由于原始视频并未有背景音乐，所以分拆之前我们不用拆分前景音和背景音，如果你的素材有背景音乐，可以考虑使用spleeter来进行分离，具体请参照：[人工智能AI库Spleeter免费人声和背景音乐分离实践(Python3.10)](https://v3u.cn/a_id_305)，这里不再赘述。
+
+如果对原视频的存在的杂音不太满意，可以通过noisereduce库进行降噪处理：
+
+```python
+from scipy.io import wavfile  
+import noisereduce as nr  
+# load data  
+rate, data = wavfile.read("1.wav")  
+# perform noise reduction  
+reduced_noise = nr.reduce_noise(y=data, sr=rate)  
+wavfile.write("1_reduced_noise.wav", rate, reduced_noise)
+```
+
+训练集数量最好不要低于20个，虽然音频训练更适合小样本，但数量不够也会影响模型质量。
+
+最后我们就得到了一组数据集：
+
+```yaml
+D:\work\speech\master_voice>dir  
+ 驱动器 D 中的卷是 新加卷  
+ 卷的序列号是 9824-5798  
+  
+ D:\work\speech\master_voice 的目录  
+  
+2023/06/13  17:05    <DIR>          .  
+2023/06/13  20:42    <DIR>          ..  
+2023/06/13  16:42           909,880 01.wav  
+2023/06/13  16:43         2,125,880 02.wav  
+2023/06/13  16:44         1,908,280 03.wav  
+2023/06/13  16:45         2,113,080 04.wav  
+2023/06/13  16:47         2,714,680 05.wav  
+2023/06/13  16:48         1,857,080 06.wav  
+2023/06/13  16:49         1,729,080 07.wav  
+2023/06/13  16:50         2,241,080 08.wav  
+2023/06/13  16:50         1,959,480 09.wav  
+2023/06/13  16:51         1,921,080 10.wav  
+2023/06/13  16:52         1,921,080 11.wav  
+2023/06/13  16:52         1,677,880 12.wav  
+2023/06/13  17:00         1,754,680 13.wav  
+2023/06/13  17:01         2,202,680 14.wav  
+2023/06/13  17:01         2,023,480 15.wav  
+2023/06/13  17:02         1,793,080 16.wav  
+2023/06/13  17:03         2,586,680 17.wav  
+2023/06/13  17:04         2,189,880 18.wav  
+2023/06/13  17:04         2,573,880 19.wav  
+2023/06/13  17:05         2,010,680 20.wav  
+              20 个文件     40,213,600 字节  
+               2 个目录 399,953,739,776 可用字节
+```
+
+当然，如果懒得准备训练集，也可以下载我切分好的，大家丰俭由己，各取所需：
+
+```bash
+链接：https://pan.baidu.com/s/1t5hE1LLktIPoyF70_GsH0Q?pwd=3dc6   
+提取码：3dc6
+```
+
+至此，数据集就准备好了。
+
+### 云端训练和推理
+
+数据集准备好了，我们就可以进行训练了，在此之前，需要配置PaddlePaddle框架，但这一次，我们选择在云端直接进行训练，如果想要本地部署，请移步：[声音好听,颜值能打,基于PaddleGAN给人工智能AI语音模型配上动态画面(Python3.10)](https://v3u.cn/a_id_313)。
+
+首先进入Paddle的云端项目地址：
+
+```ruby
+https://aistudio.baidu.com/aistudio/projectdetail/6384839
+```
+
+随后点击启动环境，注意这里尽量选择显存大一点的算力环境：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e5318b751a24f14aa10bf1679bd901e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+这里的机器有点类似Google的colab，原则上免费，通过消耗算力卡来进行使用。
+
+成功启动环境之后，需要安装依赖：
+
+```ini
+# 安装实验所需环境  
+!bash env.sh  
+!pip install typeguard==2.13
+```
+
+由于机器是共享的，一旦环境关闭，再次进入还需要再次进行安装操作。
+
+安装好paddle依赖后，在左侧找到文件 untitled.streamlit.py ，双击文件开启，随后点击web按钮，进入web页面。
+
+接着在web页面中，点击Browse files按钮，将之前切分好的数据集上传到服务器内部。
+
+接着点击检验数据按钮，进行数据集的校验。
+
+最后输入模型的名称以及训练轮数，然后点击训练即可：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/494cb57f77974be797a7eccbccc7189b~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+以TeslaV100为例子，20个文件的数据集200轮训练大概只需要五分钟就可以训练完毕。
+
+模型默认保存在项目的checkpoints目录中，文件名称为master。
+
+点击导出模型即可覆盖老的模型：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1d3c5434c9c941cbbf131ffb6f5378e9~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+最后就是线上推理：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/16198b63cb2943f5b55af004b8c68c76~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+这里预制了三种声码器【PWGan】【WaveRnn】【HifiGan】, 三种声码器效果和生成时间有比较大的差距，这里推荐折中的PWGan声码器，因为毕竟是线上环境，每停留一个小时都会消耗算力点数。
+
+合成完毕后，就可以拿到国师的克隆语音了。
+
+### 结语
+
+线上环境配置起来相对简单，但要记住，完成克隆语音任务后，需要及时关闭环境，防止算力点数的非必要消耗
+
+## 批量生成,本地推理，人工智能声音克隆框架PaddleSpeech本地批量克隆实践(Python3.10)
+
+云端炼丹固然是极好的，但不能否认的是，成本要比本地高得多，同时考虑到深度学习的训练相对于推理来说成本也更高，这主要是因为它需要大量的数据、计算资源和时间等资源，并且对超参数的调整也要求较高，更适合在云端进行。
+
+在推理阶段，模型的权重和参数不再调整。相反，模型根据输入数据的特征进行计算，并输出预测结果。推理阶段通常需要较少的计算资源和时间，所以训练我们可以放在云端，而批量推理环节完全可以挪到本地，这样更适合批量的声音克隆场景。
+
+### 本地配置PaddleSpeech
+
+首先需要在本地安装PaddlePaddle框架，关于PaddlePaddle的本地配置，请移步：[声音好听,颜值能打,基于PaddleGAN给人工智能AI语音模型配上动态画面(Python3.10)-刘悦 (v3u.cn)](https://v3u.cn/a_id_313)
+
+安装好PaddlePaddle之后，运行命令本地安装PaddleSpeech：
+
+```bash
+pip3 install paddlespeech
+```
+
+由于paddlespeech的依赖库中包括webrtcvad，如果本地环境没有安装过Microsoft Visual C++ 14.0，大概率会报这个错误：
+
+```dart
+building 'Crypto.Random.OSRNG.winrandom' extension  
+error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual  
+C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
+```
+
+此时需要安装一下Microsoft Visual C++ 14.0的开发者工具，最好不要使用微软的线上安装包，推荐使用离线安装包，下载地址：
+
+```bash
+链接：https://pan.baidu.com/s/1VSRHAMuDkhzQo7nM4JihEA?pwd=or7x   
+提取码：or7x
+```
+
+安装完C++ 14.0即可完成PaddleSpeech的安装：
+
+```python
+D:\work\speech\master_voice>python  
+Python 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)] on win32  
+Type "help", "copyright", "credits" or "license" for more information.  
+>>> import paddlespeech  
+>>>
+```
+
+### 下载音色模型和声码器
+
+音色模型就是之前我们在：[声音克隆,精致细腻,人工智能AI打造国师“一镜到底”鬼畜视频,基于PaddleSpeech(Python3.10)](https://v3u.cn/a_id_316)中训练的国师的音色模型，下载地址：
+
+```bash
+链接：https://pan.baidu.com/s/1nKOPlI7P_u_a5UGdHX76fA?pwd=ygqp   
+提取码：ygqp
+```
+
+随后下载声码器，这里推荐下载【PWGan】和【WaveRnn】两款声码器，不推荐【HifiGan】，因为【HifiGan】的效果实在太糟糕，PWGan的效果差强人意，WaveRnn质量最高，但推理时间也最慢。
+
+下载地址：
+
+```bash
+链接：https://pan.baidu.com/s/1KHIZS5CrydtANXm6CszdYQ?pwd=6lsk   
+提取码：6lsk
+```
+
+下载之后，分别解压到同一个目录即可。
+
+### 本地推理
+
+接下来我们就可以编写推理脚本了。
+
+首先导入需要的模块：
+
+```python
+from pathlib import Path  
+import soundfile as sf  
+import os  
+from paddlespeech.t2s.exps.syn_utils import get_am_output  
+from paddlespeech.t2s.exps.syn_utils import get_frontend  
+from paddlespeech.t2s.exps.syn_utils import get_predictor  
+from paddlespeech.t2s.exps.syn_utils import get_voc_output  
+  
+# 音色模型的路径  
+am_inference_dir = "./master"  
+  
+# 声码器的路径  
+voc_inference_dir_pwgan = "./pwgan"   
+  
+# 声码器的路径  
+voc_inference_dir_wavernn = "./wavernn"   
+  
+  
+  
+# 克隆音频生成的路径  
+wav_output_dir = "./output"  
+  
+# 选择设备[gpu / cpu]，默认选择gpu，   
+device = "gpu"
+```
+
+这里定义好模型和声码器的路径，同时定义输出路径，默认采用gpu进行推理，速度更快。
+
+随后定义后要语音生成的文本：
+
+```json
+text_dict = {  
+    "1": "我原来想拿中石油的offer",  
+    "2": "是不是很大胆",  
+    "3": "中石油",  
+    "4": "国企天花板",  
+    "5": "就是中石油",  
+    "6": "出差可以逛太古里",  
+    "7": "太爽了",  
+    "8": "我最早准备面试的时候",  
+    "9": "跟所有同学说的只面中石油",  
+    "10": "所有的同学，包括亲戚，朋友，他们所有人很兴奋",  
+    "11": "我女朋友也很兴奋",  
+    "12": "中石油",  
+    "13": "一直说的是去中石油",  
+    "14": "我一直在做去中石油的准备",  
+    "15": "当时我面试的时候",  
+    "16": "我说试用期只要20天",  
+    "17": "或者只要25天",  
+    "18": "两周到三周",  
+    "19": "hr说为什么?",  
+    "20": "我说很简单",  
+    "21": "我每天飞四川",  
+    "22": "单程两个小时",  
+    "23": "早上去一次",  
+    "24": "晚上去一次",  
+    "25": "每天去两次",  
+    "26": "我坚持10天",  
+    "27": "20次",  
+    "28": "就是20次",  
+    "29": "成都太古里",  
+    "30": "哇简直太爽了",  
+    "31": "逛街",  
+    "32": "去10天就够了",  
+    "33": "然后前面的十天在北京",  
+    "34": "上班",  
+    "35": "严格地上班",  
+    "36": "我说试用期只要二十天",  
+    "37": "咱试用期就结束了",  
+    "38": "哇hr说真的太厉害",  
+    "39": "就挑战性太大了",  
+    "40": "一天都不能请假啊",  
+    "41": "但是后来我还是放弃了，哈哈哈",  
+  
+  
+    "42": "你知道为什么",  
+    "43": "我研究了大量的员工去成都的案例",  
+    "44": "嗯，也有一些基层员工",  
+    "45": "还有尤其是最近一段时间一些比较大胆的行为",  
+    "46": "就是牵手那个我也看了",  
+    "47": "我专门看",  
+    "48": "研究",  
+    "49": "就一直，我就一直下不了决心",  
+    "50": "其实我真的非常想去啊，内心深处非常想",  
+    "51": "你知道最大问题是什么，当然这是一个专业问题，简单地说最大问题就是街拍",  
+    "52": "就是街拍",  
+    "53": "因为你去了他就拍你啊",  
+    "54": "就没有办法",  
+    "55": "对一个员工",  
+    "56": "对一个向往太古里的员工",  
+    "57": "一个经常逛太古里的员工来说",  
+    "58": "他给你来一个街拍",  
+    "59": "全给你拍下来",  
+    "60": "上传抖音",  
+    "61": "因为你不能蹭蹭蹭蹭",  
+    "62": "逛的太快啊",  
+    "63": "不能啊",  
+    "64": "你从南边到北边",  
+    "65": "你中间得逛啊",  
+    "66": "就拍了",  
+    "67": "就拍了",  
+    "68": "第一是街拍避免不了",  
+    "69": "无论怎么样",  
+    "70": "我想来想去",  
+    "71": "因为我算个内行嘛",  
+    "72": "我不去了，我就知道街拍跑不了",  
+    "73": "街拍，避免不了",  
+  
+    "74": "第二个",  
+    "75": "你的工资会全都损失了",  
+    "76": "不是损失一半的工资，一半无所谓",  
+    "77": "是全部的工资，奖金，绩效，年终奖全都没有了",  
+    "78": "然后你还得停职",  
+    "79": "就很尴尬啊",  
+    "80": "这样子就不好混了",  
+    "81": "真的不好混了",  
+    "82": "最后我差不多一个多月的思想斗争",  
+    "83": "那是个重大决定",  
+    "84": "因为我都是按照去中石油准备的",  
+    "85": "背面试题呢",  
+    "86": "后来说放弃",  
+    "87": "我自己决定放弃",  
+    "88": "一个人做的决定，一个人的思考",  
+    "89": "一个多月以后我放弃了，我第一个电话打给人力，我说我放弃去中石油。他，啊这，就不能接受",  
+    "90": "他已经完全沉浸到去太古里当中去了，你知道吧",  
+    "91": "就想着太好了，就喜欢的不得了",  
+    "92": "怎么可能就过来说服我",  
+    "93": "我说你不用跟我说",  
+    "94": "你都不太清楚",  
+    "95": "反正去中石油",  
+    "96": "说怎么可能，你能做到，就开始给我忽悠",  
+    "97": "我放弃了",  
+    "98": "然后我跟女朋友说放弃",  
+    "99": "哎呀，她说她把包包裙子都买了，这那的",  
+    "100": "所有人，大家都觉得太遗憾了。",  
+    "101": "然后跟老板说",  
+    "102": "最有意思是跟老板说",  
+    "103": "说真的不去中石油了",  
+    "104": "哎呀，哎呀",  
+    "105": "就觉着好像就没劲了，哈哈哈",  
+    "106": "说你不是开玩笑吧",  
+    "107": "哎呀就觉得，好像不想要我了似的",  
+    "108": "开玩笑啊，开玩笑",  
+    "109": "就所有人都沮丧而失落",  
+    "110": "就我看到大家的反应",  
+    "111": "我也很难过，很难过",  
+    "112": "我我，我后来还是放弃了",  
+    "113": "放弃了，嗯",  
+    "114": "所以中石油offer是一个学习",  
+    "115": "它对于一个追求太古里的一个员工来说",  
+    "116": "它是破坏性的",  
+    "117": "你去了中石油又能怎么样呢?",  
+    "118": "你丢掉了信仰",  
+    "119": "丢掉了人格啊",  
+    "120": "孰重孰轻啊",  
+    "121": "所以我在学习",  
+    "122": "我在学习做一个合格员工的思考",  
+    "123": "这就是我的，遗憾",  
+    "124": "但也许是我的一个清醒",  
+    "125": "或者学习的心得",  
+}
+```
+
+这里字典的key是文件名，value是音频的内容。
+
+随后加载声码器地址中的配置文件：
+
+```ini
+# frontend  
+frontend = get_frontend(  
+    lang="mix",  
+    phones_dict=os.path.join(am_inference_dir, "phone_id_map.txt"),  
+    tones_dict=None  
+)  
+  
+# am_predictor  
+am_predictor = get_predictor(  
+    model_dir=am_inference_dir,  
+    model_file="fastspeech2_mix" + ".pdmodel",  
+    params_file="fastspeech2_mix" + ".pdiparams",  
+    device=device)  
+  
+# voc_predictor  
+voc_predictor_pwgan = get_predictor(  
+    model_dir=voc_inference_dir_pwgan,  
+    model_file="pwgan_aishell3" + ".pdmodel",      
+    params_file="pwgan_aishell3" + ".pdiparams",  
+    device=device)  
+  
+  
+voc_predictor_wavernn = get_predictor(  
+    model_dir=voc_inference_dir_wavernn,  
+    model_file="wavernn_csmsc" + ".pdmodel",      
+    params_file="wavernn_csmsc" + ".pdiparams",  
+    device=device)  
+  
+output_dir = Path(wav_output_dir)  
+output_dir.mkdir(parents=True, exist_ok=True)  
+  
+sentences = list(text_dict.items())
+```
+
+这里我们准备两个声码器对象。
+
+最后运行克隆函数：
+
+```ini
+def clone(voc_predictor):  
+  
+    merge_sentences = True  
+    fs = 24000  
+    for utt_id, sentence in sentences:  
+        am_output_data = get_am_output(  
+            input=sentence,  
+            am_predictor=am_predictor,  
+            am="fastspeech2_mix",  
+            frontend=frontend,  
+            lang="mix",  
+            merge_sentences=merge_sentences,  
+            speaker_dict=os.path.join(am_inference_dir, "phone_id_map.txt"),  
+            spk_id=0, )  
+        wav = get_voc_output(  
+                voc_predictor=voc_predictor, input=am_output_data)  
+        # 保存文件  
+        sf.write(output_dir / (utt_id + ".wav"), wav, samplerate=fs)  
+  
+  
+if __name__ == '__main__':  
+      
+    clone(voc_predictor_pwgan)
+```
+
+这里默认的采样率是24000，am模型使用fastspeech2_mix，因为它可以兼容英文的阅读。
+
+声码器选择voc_predictor_pwgan，当然也可以将参数修改为voc_predictor_wavernn。
+
+生成后的效果：
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6213037ba2e845dcb03d804ff9d2517c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+### 结语2
+
+基于声学模型 FastSpeech2的PaddleSpeech的产品力已经相当惊人，就算是放在全球人工智能领域的尺度上，摆在微软这种业界巨头的最佳产品Azure-tts旁边，也是毫不逊色的，感谢百度，让普通人也能玩恶搞配音项目，最后奉上国师的鬼畜视频一键生成项目：<https://github.com/zcxey2911/zhangyimou_voice_clone_text>

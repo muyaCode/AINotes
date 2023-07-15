@@ -20,6 +20,17 @@ export default {
       ]
     },
     {
+      text: "语言模型社区",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "语言模型社区",
+          link: "/Document/语言模型社区/语言模型社区",
+        },
+      ]
+    },
+    {
       text: "AI工具使用前置",
       collapsible: true, // 可折叠
       collapsed: true, // 初始不折叠
@@ -84,8 +95,51 @@ export default {
           link: "/Document/ChatGPT使用的扩展/ChatGPT插件",
         },
         {
-          text: "",
-          link: "/Document/ChatGPT使用的扩展/",
+          text: "ChatGPT应用知识",
+          link: "/Document/ChatGPT使用的扩展/ChatGPT应用知识",
+        },
+        {
+          text: "ChatGPT应用开发",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "OpenAI Whisper + FFmpeg + TTS：动态实现跨语言视频音频翻译",
+              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/OpenAI Whisper + FFmpeg + TTS：动态实现跨语言视频音频翻译",
+            },
+            {
+              text: "基于大模型的优质Prompt开发课",
+              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/基于大模型的优质Prompt开发课",
+            },
+            {
+              text: "",
+              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+            },
+            {
+              text: "",
+              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+            },
+            {
+              text: "",
+              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+            },
+            {
+              text: "",
+              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+            },
+            {
+              text: "",
+              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+            },
+            {
+              text: "",
+              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+            },
+            {
+              text: "",
+              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+            },
+          ]
         },
       ]
     },
@@ -222,6 +276,10 @@ export default {
               text: "Stable Diffusion插件手册",
               link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/Stable Diffusion插件手册",
             },
+            {
+              text: "Stable Diffusion版本和资讯",
+              link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/Stable Diffusion版本和资讯",
+            },
           ]
         },
         {
@@ -274,12 +332,8 @@ export default {
           link: "/Document/AI音频相关/AI变声器",
         },
         {
-          text: "AI语音识别",
-          link: "/Document/AI音频相关/AI语音识别",
-        },
-        {
-          text: "AI音频提取",
-          link: "/Document/AI音频相关/AI音频提取",
+          text: "AI音频提取和识别",
+          link: "/Document/AI音频相关/AI音频提取和识别",
         },
         {
           text: "",
@@ -433,6 +487,21 @@ export default {
         {
           text: "AI办公工具",
           link: "/Document/AI办公工具/AI办公工具",
+        },
+      ]
+    },
+    {    
+      text: "服务器搭建AI工具网站",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "AI 开发工具Vercel AI SDK 快速入门",
+          link: "/Document/服务器搭建AI工具网站/",
+        },
+        {
+          text: "",
+          link: "/Document/服务器搭建AI工具网站/",
         },
       ]
     },

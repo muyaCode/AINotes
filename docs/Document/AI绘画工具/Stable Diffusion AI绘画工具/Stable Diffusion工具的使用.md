@@ -1,5 +1,52 @@
 # Stable Diffusion工具的使用
 
+[万字长文！从零开始带你进阶AI绘画神器Stable Diffusion - 优设网 - 学设计上优设 (uisdc.com)](https://www.uisdc.com/stable-diffusion-8)
+
+[Stable Diffusion教程-①安装使用_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1BM4y127eD/?vd_source=5f0c99b3deddffe219938763769b15ac)
+
+[Stable Diffusion 新手入门手册 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/619120794)
+
+这是一篇 Stable Diffusion 的进阶教程。开篇介绍了作者个人的 SD 学习路线，清晰合理，值得借鉴。
+
+> 1. **跑通流程**：先学最基础的，大概理解参数模型提示词的用途，先把 SD 的流程跑通，这一步大概可以做出来相对看得过去的图了
+> 2. **模型和提示词高级用法**：然后再去研究模型和提示词的高级用法，比如混用 lora 模型、提示词的分步和融合写法，并对图进行针对性的优化
+> 3. **其他高级功能**：学习其他功能，图生图，Controlnet 插件，以及分层控制 Lora 模型等进阶功能
+> 4. **训练自己的模型**
+
+### 💡 一、**图片对比**
+
+> 1. XYZ 图表的使用
+> 2. 提示词矩阵
+
+### 💡  二、**图片微调**
+
+### 💡  三、**图片放大**
+
+> 1. 插件的安装
+> 2. 插件的使用
+
+### 💡  四、**提示词进阶**
+
+> 1. 提示词的顺序
+> 2. 分步描绘
+> 3. 融合描绘
+> 4. 反向提示词的进阶用法
+> 5. 借助 ChatGPT 写提示词
+> 6. 提示词管理
+
+### 💡 五、**ControlNet 插件**
+
+> 1. 插件安装与模型下载
+> 2. 基本使用流程
+> 3. 具体参数介绍
+
+### 💡 六、**常见问题**
+
+> 1. Vae 模型是否必须要有
+> 2. 大模型和 lora 是否必须对应
+> 3. 明明描述的是一个人，最终图像却生成了多个人
+> 4. 无法生成全身照
+
 ![Stable Diffusion界面解读](.\assets\Stable Diffusion界面解读.jpg)
 
 **AI辅助设计高阶训练工作流 从零到一系统教程（￥599.90）**：[AI辅助设计高阶训练工作流 从零到一系统教程-设计小教室 (designdid.top)](https://www.designdid.top/series/XL101039)
@@ -307,6 +354,50 @@ view of left side
 - [www.aigodlike.com/](https://www.aigodlike.com)
 - [civitai.com/](https://civitai.com)
 
+## Stable Diffusion 进阶教程！让AI绘画更可控的混合语法
+
+当我们需要混合多个颜色或者多种元素的时候，就需要混合语法啦!在 Stable Diffusion 中，混合语法有三种形式，我们挨个来看吧!
+
+### 🔔 1. **竖杠混合**
+
+用竖杠 `|` 分割多个关键词，可以混合多个元素 (竖杠 `|` 输入方法：按住 `Shift+`就可以输入 `|`)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d6d3fd2e9c5347e9ab9f1fb9d463e65a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+> 1 girl, white | (pink:1.1) | (blue:0.9) hair
+>
+> 1.1 表示将粉色权重增加 0.1，0.9 表示将蓝色权重减少 0.1
+
+> 1 dog | dragon in the sky
+>
+> 创造了结合狗和龙特征的新生物
+
+> 除了竖杠，还可以用空格、逗号、加号+、或小写 and，但出图会有很大不同
+
+### 🔔 2. **AND 混合**
+
+用大写 AND 分割多个关键词，进行元素的混合 (注意！AND 要全部大写，以及部分采样方法不能用 AND法)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ed6eebc755504b8d85b5244c5c17a122~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+> 1 girl, pink hair AND green hair
+>
+> AND语法可以非常好的表现混色的感觉
+
+> 1 dog:1.5 AND 1 cabbage
+>
+> 一只狗 AND 一个包心菜，狗子的权重增加到 1.5 倍
+
+### 🔔 3. **交替词混合**
+
+通过一对中括号和竖杠实现 `[tag1 | tag2]` (呈现的效果为第1步画 tag1，第2步画 tag2，以此来交替混合)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e7c85578235e404fb34ff5245c963556~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+> [dog | panda | tiger]
+>
+> 这个语法不支持权重之类的，最后的结果全靠抽奖 ~ 不是很推荐使用 [**⋙ 来源**](https://www.uisdc.com/stable-diffusion-13)
+
 ## Stable Diffusion设计相关
 
 【StableDiffusion创意合成·ControlNet.的运用-巧匠】<https://www.bilibili.com/video/BV1cu411a7DP?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
@@ -332,6 +423,10 @@ PS加stable diffusion商业插画教程：【【AI+手绘创作】画力加倍�
 【文生图】：反向提示词：文本模型
 
 【Stable diffusion几乎不用提示词,完成画风完美迁移，超简单（保姆级教程）】<https://www.bilibili.com/video/BV1oo4y1N7G7?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
+
+## 基于 stable diffusion 制作上世纪90年代的游戏美术风格
+
+[基于 stable diffusion 制作上世纪90年代的游戏美术风格 - 掘金 (juejin.cn)](https://juejin.cn/post/7250348861238247461)
 
 ## 小说推文|小说转漫画
 
@@ -363,6 +458,8 @@ Stable Diffusion 启动器 AI绘画 模型 插件 整合包 Lora 云服务 macOS
 用作参考开发：[‌⁣⁣﻿⁢‍⁢‌﻿﻿⁣⁡‌﻿‌⁤‍⁡﻿﻿⁤⁣⁤⁤‍‬‬⁡‌‬⁣﻿‍‍﻿⁢⁢⁤速推助手小说转漫画导航 - 飞书云文档 (feishu.cn)](https://snvazev2ds.feishu.cn/docx/P7Sld712PoFIvtxZXxXcO0q6nIe)
 
 ## 真人转绘
+
+[堂哥让我给他做个真人动漫头像 - 掘金 (juejin.cn)](https://juejin.cn/post/7246199632387735608)
 
 ebsynth+单帧脚本+controlnet
 

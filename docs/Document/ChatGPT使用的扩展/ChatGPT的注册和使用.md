@@ -1,10 +1,10 @@
 # ChatGPT的注册和使用
 
-[‌‍⁣⁢‌⁤‬⁤⁡‬‍‬⁡﻿‍‌‌‍⁤⁡‌⁢⁣‌⁢⁢⁡‬⁣⁡‌‬⁡‬‬‌‍⁢﻿⁡‌⁡‌最全 ChatGPT 使用手册 - 飞书云文档 (feishu.cn)](https://eibot3u32o.feishu.cn/docx/E7jodtO4fosu4SxdgCrcWF1Znvd)
+[‌‍⁣⁢‌‌最全 ChatGPT 使用手册 - 飞书云文档 (feishu.cn)](https://eibot3u32o.feishu.cn/docx/E7jodtO4fosu4SxdgCrcWF1Znvd)
 
 [莱森: 🧵 《人人都能用好 AI · 目录贴》 AI 提问的底层思维 + AI 提问专题典例 + AI 工作流 💬 写在前面 随着AI技术逐渐的普及和大家接触AI工具时间的增加，越来越多人终于意识到：「原来这一次AI的浪潮，真的会完完全全打破原有认知，改变我们的生活」。除了 Stable Diffusion、Midjourney 为首的 AI 生成图片的工具 - 即刻 (okjike.com)](https://web.okjike.com/originalPost/6442e70cde61ca0bfc4f9ea4)
 
-## 🤖 『ChatGPT 用不了咋办？』送你一份求生路线图！
+## 🤖 『ChatGPT 用不了咋办？』送你一份求生路线图
 
 **🧰 路线1**：用 OpenAI 的 API Playground。
 
@@ -12,7 +12,7 @@
 
 **🧰 路线2**：用 OpenAI 的 API，不想编程就找个现成的界面，比如 Typingmind，填上 key 就能用。
 
-> https://www.typingmind.com/
+> <https://www.typingmind.com/>
 
 **🧰 路线3**：用 Poe 里面的 ChatGPT (其实也是 OpenAI 的 API)。
 
@@ -26,12 +26,30 @@
 > - 用Chrome打开无痕模式，打开 bing.com/new
 > - 在日本节点下注册新账号，新账号默认归属日本
 > - 注册成功加入waitlist，不用审核直接可以通过。 (微博@UNCLE疯叔)
-
+>
 > 申请通过后，下载 🌍[Become a Microsoft Edge Insider | Microsoft Edge](https://www.microsoft.com/zh-cn/edge/download/insider?form=MA13FJ)，并且安装 🌍[**HeaderEditor 插件**](https://microsoftedge.microsoft.com/addons/detail/header-editor/afopnekiinpekooejpchnkgfffaeceko)，设置插件参数，就可以使用了。
-
+>
 > 新必应 (New Bing)国内申请与使用教程：
 
 当然，要是 ChatGPT 彻底崩了，上面这几个也一样用不了，可以试试 Poe 里的其他 Bot，也能凑活用~
+
+## 『ChatGPT大面积封号』原因分析与应对策略
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e2cfa3f940054e70b4b5864b26eceaef~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+昨天，ShowMeAI 社群不断有小伙伴表示 ChatGPT 账号被封。结合各方消息判断，这次大规模封号的原因是综合的，包括批量注册、节点切换、账号代充、账号共享、使用中文等等。结合社群和网络讨论，给出以下近期的安全操作建议：
+
+> *1* 别用共享账号，自己的账号自己用
+>
+> *2* **如无必要，尽量别频繁切换 IP，别频繁切换节点**
+>
+> *3* 不要使用批量注册的邮箱账号，典型如以 outlook 结尾
+>
+> *4* **注册电话号码和充值银行卡走正规渠道，接码平台和代充有风险**
+>
+> *5* 国内很多镜像站需要你输入 key，谨慎使用
+>
+> *6* 非专业人士，别自己调用 API
 
 ## 🤖 编写优质 ChatGPT 提示词的12个技巧 (普适版本)
 
@@ -109,6 +127,20 @@
 > *23*. 如何用 ChatGPT 做会议自动总结
 >
 > *24*. 如何用 ChatGPT 拆解爆款内容并提出修改意见
+
+## ChatGPT近期感受
+
+1、它发挥多大效能取决于你的知识储备，它只能锦上添花，无法雪中送炭
+
+2、提问是门技术，无论是向他人求助，还是之前用搜索引擎，大部分人连提问都搞不定
+
+3、未来ChatGPT必然更加强大，会更好用，但依然无法解决上面俩个问题
+
+4、未来N年他会持续进化，国内做模型大概率邯郸学步
+
+5、真正的机会在应用侧，大面积复制国外各种现有应用，但是肯定也会高出更多玩法
+
+6、这个赛道很长，无论你对它什么态度，可能最终都会影响你，就像之前的搜索引擎和推荐算法
 
 ## Full ChatGPT Prompts + Resources』目前最完整和有效的 ChatGPT 资源库
 
@@ -192,6 +224,171 @@
 > - ChatGPT as 1940’s mobster
 > - It takes $100k/day to run ChatGPT everyday
 > - Know everything about movie, books characters
+
+## 微软官方教程：提示工程技术，入门与进阶指南(中文)
+
+ [⋙ **提示工程简介**](https://learn.microsoft.com/zh-cn/azure/cognitive-services/openai/concepts/prompt-engineering) | [**提示工程技术**](https://learn.microsoft.com/zh-cn/azure/cognitive-services/openai/concepts/advanced-prompt-engineering)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/badff0ebf2c2420b8b7d48985eda9b25~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+大模型发布后，Prompt设计成了下一个重点。微软官方发布了这份中文版本的「提示工程 (Prompt Engineering)」 指南。指南分为「入门」和「进阶」两个部分，帮助提升构建优秀 Prompt 的能力。
+
+### 🔔 **提示工程简介**
+
+> *▢* **基本信息**
+>
+> - 提示组件
+> - 主要内容
+> - 示例
+> - 提示
+> - 支持内容
+>
+> *▢* **最佳做法**
+>
+> - 尽量具体
+> - 具有描述性
+> - 强调
+> - 给事项排序
+> - 给模型一个「出路」
+>
+> *▢* **空间效率**
+
+### 🔔 **提示工程技术**
+
+> *▢* **系统消息**：在Prompt开头，为模型提供上下文、说明或用例信息
+>
+> *▢* **少样本学习**：在Prompt中提供训练样本，给模型额外上下文
+>
+> *▢* **非聊天场景**：目前大模型主要应用于对话生成，但也可用于非对话场景，如情感分析Prompt
+>
+> *▢* **从明确的说明开始**：Prompt 信息顺序重要，开头告诉模型执行任务，再提供其他上下文或示例，有助模型产生高质量输出
+>
+> *▢* **在末尾重复指令**：模型易受最近偏差影响，Prompt末尾信息可能比开头对输出影响更大
+>
+> *▢* **引导输出**：Prompt末尾包含词或短语获得符合形式的模型响应
+>
+> *▢* **添加明确的语法**：为Prompt添加语法 (如标点、标题等)，使输出更易解析
+>
+> *▢* **分解任务**：大型语言模型通常对分解为更小step的任务表现更好
+>
+> *▢* **使用可供性**：在模型生成可供性调用时停止生成，然后将结果粘贴回提示中
+>
+> *▢* **思维链提示**：分解任务技术的变体，指示模型响应逐步进行，并提出所有涉及的步骤
+>
+> *▢* **指定输出结构**：要求模型响应同时包含引文，有助于减少错误响应的概率
+>
+> *▢* **温度和 Top_p 参数**：温度参数可以设置为 0 到 ，较高的值 (如 0.7) 将使输出更随机，并产生更多发散的响应
+>
+> *▢* **提供基础上下文**：提供可靠答案的最有效方法之一是为模型提供数据，让它从基础数据得出响应
+
+## 6 万字的 AI Prompt 教程
+
+如果你不知道能拿 ChatGPT 或者其他 AI 产品来干什么；如果你不知道如何更好地使用 OpenAI 提供的 API；那本教程应该能帮到你。**这是一份教你如何更好使好地使用 ChatGPT 和其他 AI 产品的免费教程**。
+
+在线地址：🌏 [**免费 Prompt Engineering 教程**](https://learningprompt.wiki/)
+
+开源地址：[thinkingjimmy/Learning-Prompt: 免费 Prompt Engineering 教程 (github.com)](https://github.com/thinkingjimmy/Learning-Prompt)
+
+分为基础篇、高级篇、技巧篇、资料 & 产品推荐四部分，详细介绍了如何使用 AI 产品等基础操作、如何开发 AI 产品、使用 AI 产品的种种技巧汇总、以及更多的使用场景。全部教程 6 万字，可谓手把手带你入门和升级！推荐推荐~
+
+> **😎 基础篇**
+>
+> - 简介
+> - 基础用法
+> - 基本原则 & 建议
+> - 基本使用场景 & 使用技巧
+>
+> **🚀 高级篇**
+>
+> - ChatGPT Prompt Framework
+> - Zero-Shot Prompts
+> - Few-Shot Prompting
+> - Self-Condidtency
+> - PAL Models
+> - OpenAI Playground 使用方法
+> - 搭建基于知识库内容的机器人
+>
+> **🗒️ 技巧篇**
+>
+> - 技巧1：To Do and Not To Do
+> - 技巧2：增加示例
+> - 技巧3：使用引导词，引导模型输出特定语言代码
+> - 技巧4：增加 Role（角色）或人物
+> - 技巧5：使用特殊符号指令和需要处理的文本分开
+> - 技巧6：通过示例来阐述需要输出的格式
+> - 技巧7：Zero-Shot Chain of Thought
+> - 技巧8：Few-Shot Chain of Thought
+> - 技巧9：其他
+>
+> **📚 资料 & 产品推荐**
+>
+> - 值得尝试的场景
+> - 值得阅读的资料
+> - 值得试用的工具
+
+## 🤖 Prompt Engineer提示工程师最全求职手册
+
+[Become a Prompt Engineer: A Career Designing and Crafting Prompts for Advanced Language Models - Promptstacks - GPT Prompt Engineering Community](https://www.promptstacks.com/prompt-reads/become-a-prompt-engineer-a-career-designing-and-crafting-prompts-for-advanced-language-models)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ec06961fb5304e008ec7edaffa052ff1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+PromptStacks网站这篇长文，非常系统地介绍了如何成为一名优秀的 Prompt Engineer (提示工程师)，是一份综合的求职指南。
+
+未来几年Prompt Engineer的需求会大幅增加，熟练掌握语言模型并善于构建交互提示，将会成为一个值得期待的新兴职业方向。
+
+> *1*. **提示工程师的角色**
+>
+> *▢* 最终目标是设计创造性和逻辑性的提示，鼓励语言模型生成有趣和多样的输出
+>
+> *2*. **对提示工程师的期望**
+>
+> *▢* 充分理解模型用于的任务或应用程序
+>
+> *▢* 了解模型的功能和限制
+>
+> *▢* 设计有创造性的、多样化的提示
+>
+> *▢* 设计清晰简洁的提示
+>
+> *▢* 测试和评估模型的输出
+>
+> *▢* 持续改进提示的性能
+>
+> *▢* 意识到训练数据中的潜在偏差
+>
+> *▢* 与其他岗位员工合作
+>
+> *▢* 了解机器学习、自然语言处理，掌握编程技能
+>
+> *3*. **知识与技能储备**
+>
+> *▢* LLM架构知识
+>
+> *▢* 梳理复杂问题并抓住要点，并迁移解决问题
+>
+> *4*. **提示工程师的薪水**
+>
+> *▢* Anthropic 公开招聘的岗位薪资是每年25万美元-35万美元
+>
+> *5*. **ChatGPT、DALL-E和Midjourney的提示词有区别么**
+>
+> *▢* 提示技术在不同的大语言模型之间是有变化的，并根据特定任务进行微调
+>
+> *▢* 不过设计有效提示的基本原则是相同的
+>
+> *6*. **如何改善现在的提示词**
+>
+> *▢* 将说明放在提示符的开头
+>
+> *▢* 具体说明所需的上下文、结果、长度、格式、风格等
+>
+> *▢* 通过实例阐明所需的输出格式
+>
+> *▢* 从Zero-shot开始，然后是Few-shot，两者都不起作用时进行 Fine-tune
+>
+> *▢* 明确告知要做什么，而不是说别做什么
+>
+> *▢* 使用「suggestive words」将模型推向特定模式
 
 ## 🤖 『Prompt Engineering』提示词工程指南-中文版
 
@@ -319,7 +516,7 @@ ChatGPT是一款最先进的语言模型，能够生成类似人类的文本。�
 >
 > 第二十四章：文本生成提示
 
-## 🤖 『PromptBase』提示工程不止是个专业，还可以是赚钱的机会！
+## 🤖 『PromptBase』提示工程不止是个专业，还可以是赚钱的机会
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0dabd9c9091f430e8e35f525bf956676~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
@@ -342,7 +539,7 @@ OpenAI 和 ChatGPT 的爆火，以超高的频率将大量AI术语带到了大�
 > **这是 ShowMeAI 社区共创的 No.003 资料，词汇与解释仍在由社区共同持续补充中。稍后完整版 PDF 将发布在社群中**。欢迎加入社区共创，而不仅仅是加入收藏夹~
 >
 > [showmeai.feishu.cn/docx/N2Jsdw…](https://showmeai.feishu.cn/docx/N2JsdwEzgoKPAMxp7elcVm02nQf)
-
+>
 > 🤖 Artificial General Intelligence (AGI)
 >
 > 🚀 Singularity
@@ -429,7 +626,7 @@ OpenAI 和 ChatGPT 的爆火，以超高的频率将大量AI术语带到了大�
 
 这份中文版提示工程指南，介绍了大语言模型相关的论文研究、学习指南、模型、讲座、参考资料、大语言模型能力，以及其他相关工具。
 
-**提示工程简介**
+**提示工程简介**：
 
 > *▢* 大语言模型设置
 >
@@ -441,7 +638,7 @@ OpenAI 和 ChatGPT 的爆火，以超高的频率将大量AI术语带到了大�
 >
 > *▢* 提示词示例
 
-**提示技术**
+**提示技术**：
 
 > *▢* 零样本提示
 >
@@ -465,7 +662,7 @@ OpenAI 和 ChatGPT 的爆火，以超高的频率将大量AI术语带到了大�
 >
 > *▢* 基于图的提示
 
-**提示应用**
+**提示应用**：
 
 > *▢* 程序辅助语言模型
 >
@@ -477,7 +674,7 @@ OpenAI 和 ChatGPT 的爆火，以超高的频率将大量AI术语带到了大�
 >
 > *▢* Prompt Function
 
-**模型**
+**模型**：
 
 > *▢* Flan
 >
@@ -489,7 +686,7 @@ OpenAI 和 ChatGPT 的爆火，以超高的频率将大量AI术语带到了大�
 >
 > *▢* Model Collection
 
-**风险和误用**
+**风险和误用**：
 
 > *▢* 对抗性提示
 >
@@ -497,15 +694,15 @@ OpenAI 和 ChatGPT 的爆火，以超高的频率将大量AI术语带到了大�
 >
 > *▢* 偏见
 
-**论文**
+**论文**：
 
-**工具和库**
+**工具和库**：
 
-**Prompt Engineering 笔记本**
+**Prompt Engineering 笔记本**：
 
-**数据集**
+**数据集**：
 
-## ChatGPT快捷指令
+## ChatGPT快捷指令：rockbenben/ChatGPT-Shortcut
 
 开源地址：[rockbenben/ChatGPT-Shortcut: 🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 (github.com)](https://github.com/rockbenben/ChatGPT-Shortcut)
 
@@ -513,13 +710,25 @@ OpenAI 和 ChatGPT 的爆火，以超高的频率将大量AI术语带到了大�
 
 🌍[**ChatGPT Shortcut**](https://newzone.top/chatgpt/) 是一个收录了众多 ChatGPT 提示词网站，即使是初学者，你只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出，让你的生产力加倍！
 
+ChatGPT Shortcut 是根据领域和功能划分的 ChatGPT 快捷指令表，可通过标签筛选、关键词搜索和一键复制来使用提示词，旨在简化你的工作流程并提高生产力。即使是初学者，你只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出，让你的生产力加倍！
+
 **网站提供了非常多使用模板**，比如编程问题、Excel工作表、Midjourney 提示生成、PHP解释、R语言编程、五子棋、产品经理、会计师等，上手非常方便。
 
 关于 ChatGPT 的讨论越来越多，大多数人仅仅将其视为一款聊天机器人，并从猎奇的角度去测试其人工智能的回答。然而 ChatGPT 不仅仅是一个猎奇的 AI 玩具，未来它将会成为必备生产工具。ChatGPT 之类的 AI 工具将用它巨大的语言知识库，为我们创造更多的价值。
 
+## AIPRM for ChatGPT
+
+这是一个插件，单击一下，就可以访问精选的 ChatGPT 提示，这些提示是专门为 SEO、SaaS、营销和更多 ChatGPT 的精选提示模板列表而设计的。
+
+插件安装： [chrome.google.com/webstore/de…](https://chrome.google.com/webstore/detail/aiprm-for-chatgpt/ojnbohmppadfgpejeebfnmnknjdlckgj)
+
+官网：[www.aiprm.com/](https://www.aiprm.com/)
+
+AIPRM for ChatGPT 最方便的地方在于能够设定输出语言、文字用语、文字风格，想它风趣一点或是严肃一点，现在可以轻松做到。 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/192975a2a0654a6c858d3079e5c06397~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
 ## 🤖 专为 Prompt 编写者设计的工具
 
-官网：https://www.clickprompt.org/zh-CN/
+官网：<https://www.clickprompt.org/zh-CN/>
 
 🌍[**ClickPrompt**](https://www.clickprompt.org/zh-CN/) 是一款专为 Prompt 编写者设计的工具 ，它支持多种基于 Prompt 的 AI 应用，例如 Stable Diffusion、ChatGPT 和 GitHub Copilot 等。
 
@@ -723,9 +932,27 @@ ChatGPT非常擅长信息的提炼和总结，它可以快速总结一篇文章�
 
 开源Markdown生成PPT工具：
 
+## 『ChatGPT』零基础让 ChatGPT 帮你做PPT
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b9e47f0e249041418aa9a19d44118961~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+操作步骤非常简单：
+
+1. 把你的需求描述给ChatGPT，让它写一段vba，需求越清晰越好
+2. 打开PPT，在自定义功能区启用【开发者工具】
+3. 在开发者工具里点击 Visual Basic，新建一个模块把代码粘进去，点击运行就搞定
+
+出现问题的时候模仿甲方口吻反馈即可，但一定要指出具体的错误。
+
+➡️ 常见问题1：运行的时候报错，直接反馈给 AI 改就行
+
+➡️ 常见问题2：由于免费版经常掉线，刷新一下页面让AI继续写就行（微博 @Simon_阿文）
+
+> 🌏[**遇到问题，点击这里查看操作细节**](https://weibo.com/1757693565/MtV4j54gU)
+
 ## 使用AI工具写一篇精彩的小说
 
-**目前最常用的3个主要工具**
+**目前最常用的3个主要工具**：
 
 > *▢* **Sudowrite** - 主流写作工具
 >
@@ -733,7 +960,7 @@ ChatGPT非常擅长信息的提炼和总结，它可以快速总结一篇文章�
 >
 > *▢* **Claude** (Claude Instant / Claude+ / Claude 100K) - 生成观点和简短段落
 
-**小说创作流程与Prompt优化**
+**小说创作流程与Prompt优化**：
 
 > *1*. **ChatGPT和Claude都可以提供丰富的、令人印象深刻的故事创意**
 >
@@ -754,22 +981,22 @@ ChatGPT非常擅长信息的提炼和总结，它可以快速总结一篇文章�
 > ```bash
 > Using the following synopsis, create a detailed outline of the story, fleshing out additional details, and breaking it into parts using The 3-act structure: \[synopsis]
 > ```
-
+>
 > *3*. **为AI提供完整大纲，并要求它为每部分编写故事节点，即每个场景中发生什么事情**
 >
 > ```bash
 > use the following outline and create story beats for each section of it. You can add characters, speaking scenes and locations to create a more vivid story: \[outline]
 > ```
-
+>
 > *4*. **开始最有挑战的部分——小说写作，使用 Sudowrite / ChatGPT / Claude 工具来创建完整的章节和场景，并将其拼接在一些**
 >
 > ```bash
 > Ariella walks through town and sees a strange man giving a speech to the townsfolk. He speaks of ancient prophecies that foretell the balance between light and dark is shifting.
 > ```
-
+>
 > *5*. **编辑和校对，修正故事中不流畅或者令人困惑的情节，校对语法和拼写错误等**
 
-**改善小说的5种方法**
+**改善小说的5种方法**：
 
 > *▢* 产生创意和Prompt，尤其是意想不到的情节转折等
 >
@@ -781,7 +1008,27 @@ ChatGPT非常擅长信息的提炼和总结，它可以快速总结一篇文章�
 >
 > *▢* 协助完成编辑和校对流程，尤其是语法和拼写检查  [**⋙ 来源**](https://tangledtech.com/artificial-intelligence-ai/how-to-write-a-novel-using-ai-chatgpt-sudowrite-claude)
 
+## 🤖 『从不自量力到 AI 助力，如何翻译完一整本英文书』
+
+[**⋙ 全文**](https://sspai.com/post/79534) |  [**中文飞书文档**](https://rngzej6pnb.feishu.cn/docx/ZIjjdVkXyowZrMxH8pZci9z9npg)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4c291fd4ce114686a65f423eb58db477~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+**作为一枚英语水平有限的读者，AI工具的爆发让我们的翻译和阅读更简单了么？是的！**
+
+作者分享了他翻译「**The Great CEO Within**」(**CEO修炼手册**) 英文书籍的全过程！一路上使用各种工具降妖除魔，最终完成翻译、校对并毛遂自荐获得了作者授权。
+
+> *▢* 使用 DeepL 和 Google Translate 两个翻译工具边阅读边翻译；缺点是非常繁琐，且需要打开四个窗口
+>
+> *▢* 部署开源的AI翻译工具 bilingual_book_maker，消耗自己的token，成本大概 1 万字/ 0.15 美元；缺点是每次卡在百分之十几的部分
+>
+> *▢* 使用开源工具 Sigil 直接编辑切割EPUB文件，解决了文本过长的问题，终于完成机翻
+>
+> *▢* 使用AI工具 Bob 对机器翻译的缺漏之处进行人工校对补充
+
 ## 小红书等自媒体人设定位选题
+
+[ChatGPT 探索：💥 小红书 style 👍👍👍 - 掘金 (juejin.cn)](https://juejin.cn/post/7244174817678622775)
 
 prompt：你+GPT角色+需求+格式
 
@@ -834,13 +1081,11 @@ XXXXXXXX
 
 ### 矩阵号运营
 
-
-
 ### 🤖 优质具体的 Prompt 结构，以及小红书 Prompt 爆款文案模板
 
 推特作者 @JefferyTatsuya 结合自己长时间的实践经验，总结了一套完整、具体的 Prompt 模板，并给出了亲测好用的「小红书」爆款文案模板！
 
-**① 角色、技能、个性**
+**① 角色、技能、个性**：
 
 > *▢* **角色**：该提示以声明AI的明确角色开始。这已经成为了标准的最佳实践。它会切换到那个角色来思考问题
 >
@@ -848,11 +1093,11 @@ XXXXXXXX
 >
 > *▢* **个性**：输出的语调、个性(尤其是需要生成内容)、沟通方式等
 
-**② 目标**
+**② 目标**：
 
 > *▢* 告知让它完成一个什么目标。这是最核心的，必须非常清晰明确
 
-**③ 具体的上下文、关键词、负面词**
+**③ 具体的上下文、关键词、负面词**：
 
 > *▢* **上下文**：这个尤其重要，要告知它已经发生了什么，有哪些具体信息。它才可以给出独特的结果
 >
@@ -860,11 +1105,11 @@ XXXXXXXX
 >
 > *▢* **负面词**：让它避免输出不需要的内容。包括不要输出什么样的内容
 
-**④ 输入规则**
+**④ 输入规则**：
 
 > *▢* 明确输入的格式，有的时候最好用JSON格式给到它，这样就不会有歧义
 
-**⑤ 输出规则**
+**⑤ 输出规则**：
 
 > *▢* 这个非常重要，越详细越好。比如说：
 >
@@ -874,11 +1119,11 @@ XXXXXXXX
 >
 > *▢* 要遵循哪些策略等等
 
-**⑥ 输入输出的例子**
+**⑥ 输入输出的例子**：
 
 > *▢* 在上面的输入输出规则基础上，最好的情况是给出一到多个例子。LLM在模仿例子方面非常的杰出，基本上给了3个典型的例子，后面类似的情况一定会严格按照例子来。
 
-------
+————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 > 你是小红书爆款写作专家，请你用以下步骤来进行创作，产出1个正文
 >
@@ -986,6 +1231,12 @@ ChatGPT 语音扩展插件，安装好之后，在 ChatGPT 的回答上就会出
 
 打开即可使用，你把想要它能够帮你总结PDF文件扔给它，它会自动解析并生成一些关键性问题。然后你可以针对这些关键内容，或者你想问的问题进行提问。它都能按照文章内容给你解答。有一个沟通技巧，就是让它总结的时候，一段一段给出回复。比如："请用10段文字总结这篇文章，每段xx字，先发第一段。"
 
+基于 ChatGPT API 的读取 PDF 工具 ChatPDF：可以直接把需要阅读的 pitch deck、白皮书、文档、论文、图书喂给它，让它做总结和提问。
+
+ChatPDF 简直是学习神器，上传 PDF 文件后，可以对它提问任何关于这份 PDF 的问题，非常适合快速提取各种 paper 论文的摘要，也支持中文输出。
+
+上传pdf即可，然后你就可以基于pdf的内容去提问了
+
 备注：免费版本有限制，120页PDF、不高于10M，每天3个PDF文件，一天最多提50个问题。但基本够用。
 
 ### 4. Whispe：免费生成音频字幕
@@ -999,3 +1250,43 @@ ChatGPT 语音扩展插件，安装好之后，在 ChatGPT 的回答上就会出
 ChatGPT桌面版，根据ChatGPT地址上套了一个壳，可以像本地应用一样打开使用，比较方便。另外他还支持导出聊天记录
 
 网址：[github.com/lencx/ChatG…](https://github.com/lencx/ChatGPT)
+
+## ChatGPT 探索：Code Interpreter 高级指南
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b08a41a750de49eab92f5523fcc1a73a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+7月7日，OpenAI 在官方推特发布信息，接下来一周内，将向所有 ChatGPT Plus 用户开放 Code Interpreter (代码解释器) 功能。最近几天，对这个新功能的尝试可谓不亦乐乎！也再次见证了 OpenAI 的炸群能力 (*￣3￣)╭ 一起通过案例来看看功能的使用方法和效果！
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3d584122c454776b3244e77d9ba2e80~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+> 1. **使用 Python 进行编程**：模型内置一个 Python 解释器，可以运行 Python 代码
+> 2. **处理上传和下载**：支持将文件上传到当前对话工作区，并下载工作结果
+> 3. **沙箱化执行环境**：解释器插件在一个受保护的执行环境中运行，包括防火墙和临时磁盘空间
+> 4. **持久会话**：代码由解释器插件在一个持久的会话中进行评估，会话在聊天对话的持续时间内保持活动状态，可通过多次调用构建（超时销毁）
+> 5. **使用场景**：解决数学问题 (定量和定性)，进行数据分析、数据可视化、绘制流程图、转换视频/图片等文件格式、处理图片/PDF等文件等 [**⋙ Twitter @OpenAI**](https://twitter.com/OpenAI/status/1677015057316872192) | [**Code Interpreter 高级指南**](https://mp.weixin.qq.com/s/K_csi1oWDv5tEaeeKSlvwA)
+
+## 🤖 『ChatGPT + Code Interpreter = Magic』魔法
+
+[**⋙ 部分推文**](https://twitter.com/rezkhere/status/1653779990222188546)
+
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7f4544bb3dfd4f4abfd2489524be2d6c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+
+OpenAI 近期面向部分用户发放了 Code Interpreter (代码解释器) 插件使用权限，推上目前满屏惊讶脸 😮 拿到权限的用户，展示了使用 Code Interpreter插件进行的诸多尝试：
+
+> *1*. 处理图片。输出动态二维码、脸部识别、图片转ASCII码、创建调色板等
+>
+> *2*. OCR 识别。导入图片输出文本等
+>
+> *3*. 画图，生成较为复杂的svg
+>
+> *4*. 生成 GIF 动画，也可以将GIF转为视频
+>
+> *5*. 生成音频。创作音乐等
+>
+> *6*. 生成日历邀请文件 .ics
+>
+> *7*. 游戏模拟器，比如吃豆人游戏、行星轨道、跳棋、国际象棋
+>
+> *8*. 数据分析。对上传的任意excel文件进行数据分析，绘制各类型图表，并提供洞察
+>
+> *9*. 多个插件之间可以串起来，前一个代码运行的结果可以给下一个插件代码作为参数
