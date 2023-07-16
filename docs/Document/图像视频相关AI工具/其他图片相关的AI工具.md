@@ -1,5 +1,13 @@
 # 其他图片相关的AI工具
 
+## stitching将多幅照片合成一幅
+
+[stitching](https://github.com/lukasalexanderweber/stitching)
+
+![img](https://cdn.beekka.com/blogimg/asset/202208/bg2022081607.webp)
+
+一个 Python 软件包，用于将多幅照片合成一幅。
+
 ## Google推出StyleDrop技术-用单张图进行风格迁移
 
 - 案例演示地址：https://styledrop.github.io/

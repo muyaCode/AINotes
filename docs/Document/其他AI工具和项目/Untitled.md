@@ -1,3 +1,11 @@
+## Animated Drawings将手绘的人物草图变成一段动画
+
+[Animated Drawings](https://github.com/facebookresearch/AnimatedDrawings)
+
+![img](https://cdn.beekka.com/blogimg/asset/202304/bg2023041402.webp)
+
+这个工具使用 AI 模型，将手绘的人物草图变成一段动画。
+
 ## 『网站 | Shell』目前最好的口语练习ChatGPT，在线外教网站可危险了
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f3850236028f4f189caf6916ee82e43a~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)

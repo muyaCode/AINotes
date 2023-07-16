@@ -20,6 +20,14 @@ Git项目网址：<https://github.com/RVC-Project/Retrieval-based-Voice-Conversi
 
 便利服務——云桌面服務器链接：<http://mtw.so/5EkzAu>
 
+## Bark
+
+[Bark](https://github.com/suno-ai/bark)
+
+![img](https://cdn.beekka.com/blogimg/asset/202304/bg2023042101.webp)
+
+一个语音生成引擎，效果不错，可以在朗读的同时，发出大笑、叹息和哭泣，还可以生成音乐。
+
 ## 『TTSMaker』免费文本转语音的 AI 工具
 
 [**TTSMaker**](https://ttsmaker.com/)

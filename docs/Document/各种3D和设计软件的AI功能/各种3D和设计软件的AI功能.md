@@ -82,6 +82,8 @@ sunshine大模型链接：<https://pan.baidu.com/s/1XEIX2FEw4Kc55SmqerveuA?pwd=d
 
 ## Adobe Firefly
 
+Adobe Firefly：通过 PhotoShop 使用
+
 Adobe Firefly: <https://www.adobe.com/sensei/generative-ai/firefly.html>
 
 是 **Adobe 推出的创意生成式AI模型集**， 将Adobe创意及数字体验应用的强大功能与人工智能结合，帮助设计师提升设计的效率，突破创意的边界。

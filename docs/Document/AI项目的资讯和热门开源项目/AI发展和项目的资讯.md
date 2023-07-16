@@ -1,5 +1,9 @@
 # AI发展和项目的资讯
 
+[新浪科技_新浪网 (sina.com.cn)](https://tech.sina.com.cn/)
+
+[分类：周刊 - 阮一峰的网络日志 (ruanyifeng.com)](https://www.ruanyifeng.com/blog/weekly/)
+
 ## 全景式了解海外生成式AI最新动态
 
 [#嘉程原创:盘点181家海外Generative AI创业公司 (qq.com)](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUxNTM5NjUyNg==&action=getalbum&album_id=2916931955659931648&scene=173&from_msgid=2247496456&from_itemidx=1&count=3&nolastread=1#wechat_redirect)

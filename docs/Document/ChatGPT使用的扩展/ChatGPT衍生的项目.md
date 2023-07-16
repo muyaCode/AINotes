@@ -1,5 +1,95 @@
 # ChatGPT衍生的项目
 
+## 这个 awesome 仓库收集 ChatGPT 的各种资源
+
+地址：[Awesome ChatGPT](https://github.com/sindresorhus/awesome-chatgpt)
+
+## ChatGPT 网站导航
+
+开源地址：[lzwme/chatgpt-sites: ChatGPT 网站导航。搜集国内可用的 ChatGPT 在线体验免费网站列表。定时任务每日更新 (github.com)](https://github.com/lzwme/chatgpt-sites)
+
+搜集国内可用的 ChatGPT 在线体验免费网站列表。定时任务每日更新
+
+免费的 ChatGPT 镜像网站列表：[LiLittleCat/awesome-free-chatgpt: 🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated. (github.com)](https://github.com/LiLittleCat/awesome-free-chatgpt)
+
+免费ChatGPT网站列表：[hello-ai/home/FreeChatGPTSiteList.md at main · xxxily/hello-ai (github.com)](https://github.com/xxxily/hello-ai/blob/main/home/FreeChatGPTSiteList.md)
+
+## Read Something
+
+[Read Something](https://github.com/ReadSomething/ReadSomething)
+
+![img](https://cdn.beekka.com/blogimg/asset/202306/bg2023060114.webp)
+
+一个开源的 Chrome 插件，可以将网页转成阅读模式，并且内置了 AI 总结、翻译、Mardown 转换等功能
+
+## StockAI.Trade：基于 ChatGPT 的 AI 选股工具
+
+[StockAI.Trade](https://stockai.trade/)
+
+![img](https://cdn.beekka.com/blogimg/asset/202307/bg2023071315.webp)
+
+基于 ChatGPT 的 AI 选股工具（仅限中国 A 股）
+
+## AI 面试助手
+
+[AI 面试助手](https://interview.sofasay.com/)
+
+![img](https://cdn.beekka.com/blogimg/asset/202306/bg2023062807.webp)
+
+只需职位、职位描述以及简历信息，就可以开始模拟面试，AI 扮演面试官角色提问。
+
+## Dora.ai文本描述就能生成网页
+
+[Dora.ai](https://www.dora.run/)
+
+![img](https://cdn.beekka.com/blogimg/asset/202305/bg2023052521.webp)
+
+国人开发的一个 AI 工具，给出文本描述就能生成网页，还能添加 3D 互动。目前处于测试阶段，需要排队登记内测资格。
+
+[Product Hunt 的投票中](https://www.producthunt.com/posts/dora-ai-alpha)，暂时排在第一，作者到周刊讨论区求票了
+
+## HuggingChat
+
+[HuggingChat](https://huggingface.co/chat)
+
+![img](https://cdn.beekka.com/blogimg/asset/202305/bg2023051202.webp)
+
+AI 平台 HuggingFace 自家的 AI 聊天页面，底层可以配置不同模型，免费使用。
+
+## 面向开发人员的 ChatGPT 提示工程
+
+[面向开发人员的 ChatGPT 提示工程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+
+![img](https://cdn.beekka.com/blogimg/asset/202304/bg2023043004.webp)
+
+吴恩达与 OpenAI 合作的免费英文课程，教大家怎么编写 ChatGPT 提示，做出一个自己的聊天机器人。
+
+## LaWGPT基于中文法律知识的开源大语言模型
+
+[LaWGPT](https://github.com/pengxiao-song/LawGPT)
+
+![img](https://cdn.beekka.com/blogimg/asset/202305/bg2023051813.webp)
+
+基于中文法律知识的开源大语言模型，很适合用于司法考试。
+
+## AI 法律助手
+
+在线地址：[AI 法律助手](https://law-cn-ai.vercel.app/)
+
+开源地址：https://github.com/lvwzhen/law-cn-ai
+
+![img](https://cdn.beekka.com/blogimg/asset/202304/bg2023042701.webp)
+
+作者将中国法律法规喂给 ChatGPT，做成的法律问答引擎
+
+## OPS/OpenPromptStudioAI 提示词的图形化 Web 管理软件
+
+[OPS/OpenPromptStudio](https://moonvy.com/apps/ops/)
+
+![img](https://cdn.beekka.com/blogimg/asset/202304/bg2023041202.webp)
+
+一个 AI 提示词的图形化 Web 管理软件，自动将中文输入译成英文，并对提示词进行分类标签管理
+
 ## 『医疗保健开源框架 OpenGPT 和大语言模型 NHS-LLM』医疗任务表现优于 ChatGPT
 
 [**⋙ GitHub**](https://github.com/CogStack/opengpt) | [**Blog**](https://aiforhealthcare.substack.com/p/a-large-language-model-for-healthcare)
@@ -59,6 +149,30 @@ Shell是一款基于ChatGPT的AI英语口语聊天工具，有4款机器人可�
 点击底部录制按钮后，可以立马得到语音回复。点击 Text 可以看到文字，点击 Translate 可以将回复翻译成英文。学习英语口语的利器！
 
 ## ChatGPT WEB用户界面
+
+### flutter_chatgpt
+
+[flutter_chatgpt](https://github.com/bravekingzhang/flutter_chat_box)
+
+![img](https://cdn.beekka.com/blogimg/asset/202306/bg2023060111.webp)
+
+一款开源的 ChatGPT 聊天客户端，基于 Flutter，支持手机和桌面所有平台。
+
+### ChatGPT-Desktop
+
+开源的跨平台 ChatGPT 桌面应用程序，使用 Tauri + Vue3 开发
+
+开源地址：[Synaptrix/ChatGPT-Desktop: Fuel your productivity with ChatGPT-Desktop - Blazingly fast and supercharged! (github.com)](https://github.com/Synaptrix/ChatGPT-Desktop)
+
+### chatGPTBox
+
+开源地址：[josStorer/chatGPTBox: Integrating ChatGPT into your browser deeply, everything you need is here (github.com)](https://github.com/josStorer/chatGPTBox)
+
+浏览器插件，将 ChatGPT 与浏览器融合，同时对常用网站做了 ChatGPT 加强。
+
+### chatgpt-web
+
+[Chanzhaoyu/chatgpt-web: 用 Express 和 Vue3 搭建的 ChatGPT 演示网页 (github.com)](https://github.com/Chanzhaoyu/chatgpt-web)
 
 ### ChatGPT Next Web
 
@@ -2188,6 +2302,8 @@ Chato是一款强大而易用的工具，能帮助你将垂直行业知识注入
 
 ## langchain+chatGLM的本地知识库项目
 
+[LangChain 的中文入门教程 (github.com)](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)
+
 教程：【【防坑指南】手把手演示本机部署langchain+chatGLM本地知识库】<https://www.bilibili.com/video/BV1Ah4y1d79a?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
 传送门：<https://github.com/imClumsyPanda/langchain-ChatGLM>
@@ -3808,7 +3924,9 @@ input:focus{
 
 我们今天要做的事情，其实就是在基于 `GPT-3.5` 或 `GPT-4` 这样强大的模型上，做 `Fine-tuning`，训练微调出我们想要的语言模型。
 
-### Dify 介绍
+### Dify AI 介绍
+
+一个开发者工具，帮你快速生成基于 AI 的应用：<https://dify.ai/>
 
 [Dify](https://docs.dify.ai/v/zh-hans/getting-started/intro-to-dify) 是今天文章的主角，我们正是依靠于该平台强大的能力，搭建出属于我们的语言模型！
 

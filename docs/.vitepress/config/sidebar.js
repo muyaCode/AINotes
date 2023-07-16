@@ -231,6 +231,14 @@ export default {
               text: "",
               link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/",
             },
+            {
+              text: "",
+              link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/",
+            },
+            {
+              text: "破解换脸伪造",
+              link: "/Document/图像视频相关AI工具/视频和直播实时换脸AI/破解换脸伪造",
+            },
           ]
         },
       ]
@@ -517,6 +525,14 @@ export default {
         {
           text: "热门AI开源项目",
           link: "/Document/AI项目的资讯和热门开源项目/热门AI开源项目",
+        },
+        {
+          text: "AI等科技资讯",
+          link: "/Document/AI项目的资讯和热门开源项目/AI等科技资讯",
+        },
+        {
+          text: "",
+          link: "/Document/AI项目的资讯和热门开源项目/",
         },
       ]
     },

@@ -99,6 +99,14 @@
 
 Microsoft 365 Copilot 掀起了办公软件革命。Word、PPT、Excel、Outlook…… 所有你想得到的软件，通通得到 GPT-4 的加持。
 
+1、[Microsoft Loop](https://loop.microsoft.com/)
+
+上周五，微软发布协作工具 Loop，可以免费使用。
+
+![img](https://cdn.beekka.com/blogimg/asset/202303/bg2023032401.webp)
+
+它属于 Microsoft 365 套件的一种，允许用户将各种 Office 组件（Word、Excel、PPT 等）插在一个文档里，进行协作，跟 Notion 很像，参见[官网介绍](https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/22/new-microsoft-loop-app-is-built-for-modern-co-creation/)。
+
 ## 『WPS AI 携文字、表格、演示、PDF四大家族成员亮相』二次上新
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5cd74417f42e4814aa1562ecd0631cc9~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)

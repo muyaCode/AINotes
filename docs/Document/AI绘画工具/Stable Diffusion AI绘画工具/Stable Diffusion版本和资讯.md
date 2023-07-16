@@ -64,3 +64,8 @@ SDXL 到底是什么
 - SDXL体验地址：[clipdrop.co/stable-diff…](https://clipdrop.co/stable-diffusion)
 - SDXL Base模型：[huggingface.co/stabilityai…](https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9)
 - SDXL Refiner模型：[huggingface.co/stabilityai…](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9)
+
+## 体验最新版的Stable Diffusion SDXL1.0模型
+
+2023年7月14日，SDXL公司在discord网址中部署了10个机器人，Stable Foundation，加入服务器即可，体验最新版的Stable Diffusion SDXL1.0模型
+

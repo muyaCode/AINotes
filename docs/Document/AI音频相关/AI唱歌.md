@@ -1,5 +1,13 @@
 # AI唱歌
 
+## Musico自动生成音乐的 AI 模型
+
+[Musico](https://www.musi-co.com/listen/streams)
+
+![img](https://cdn.beekka.com/blogimg/asset/202209/bg2022093004.webp)
+
+一个自动生成音乐的 AI 模型，它的官网可以收听这个模型生成的音乐。
+
 ## 介绍
 
 ## 软件

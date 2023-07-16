@@ -142,6 +142,42 @@
 
 6、这个赛道很长，无论你对它什么态度，可能最终都会影响你，就像之前的搜索引擎和推荐算法
 
+## 基于 GPT3.5 搭建定制化知识库
+
+[基于 GPT3.5 搭建定制化知识库](https://mp.weixin.qq.com/s?__biz=MzIyNDAzMzYxNQ==&mid=2652028778&idx=1&sn=985a386f915dea0d4dc97186af7c50b6&srcid=0316LqkslRQXM1UyluqQFTxe)（中文）
+
+作者的一个小实验，通过 chatpdf.com 这个网站，将某个领域的文档（比如这份周刊）提供给 AI 训练，就会得到一个基于这些材料的问答引擎
+
+## 智能文案小助手
+
+[智能文案小助手](https://github.com/CatsAndMice/lanlan)
+
+![img](https://cdn.beekka.com/blogimg/asset/202303/bg2023031412.webp)
+
+一个开源的 ChatGPT 前端表单页面，输入提示，自动生成文案。
+
+## Writely
+
+[Writely](https://github.com/anc95/writely)：Chrome 浏览器插件，类似于 Notion AI，支持在任意编辑器网页上进行写作辅助
+
+## Chaty
+
+[Chaty](https://github.com/cosin2077/chaty)：一个命令行工具，支持使用一条命令，完成 ChatGPT 的各种相关操作
+
+## Chatbox
+
+[Chatbox](https://github.com/Bin-Huang/chatbox)：OpenAI API 跨平台桌面客户端，主要用作 Prompt Debugging Console
+
+![img](https://cdn.beekka.com/blogimg/asset/202303/bg2023031409.webp)
+
+## PromptPerfect
+
+[PromptPerfect](https://promptperfect.jina.ai/)：专为生成式 AI 优化输入提示（prompt）的工具
+
+## 人工智能和提示工程的入门电子书：《提示工程入门》
+
+地址：[提示工程指南 | Prompt Engineering Guide (promptingguide.ai)](https://www.promptingguide.ai/zh)
+
 ## Full ChatGPT Prompts + Resources』目前最完整和有效的 ChatGPT 资源库
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/da157cb1f9834f0da7ac8e320aa57155~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)

@@ -1,5 +1,13 @@
 # AI代码工具合集
 
+## SQL Chat
+
+[SQL Chat](https://www.sqlchat.ai/)
+
+![img](https://cdn.beekka.com/blogimg/asset/202303/bg2023032906.webp)
+
+一个 Web 应用，使用自然语言查询数据库，底层使用 OpenAI 的 API 将自然语言转成 SQL，支持 MySQL 和 PostgreSQL，[代码开源](https://github.com/bytebase/sqlchat)。
+
 ## 🤖 『面向 ChatGPT 编程的18种方法』成为10倍生产力的全栈开发
 
 这是一篇非常完整的 🌍[**面向 ChatGPT 编程的实操教程**](https://mp.weixin.qq.com/s/d1qp3JnsLKfFa1Qe59Or9Q)，不仅有在一个语言内部的辅助编程能力演示，还拓展到了命令行、前端、数据库、全栈开发，帮助你成为一名合格的 Prompt 工程师！
