@@ -4,6 +4,10 @@
 
 [莱森: 🧵 《人人都能用好 AI · 目录贴》 AI 提问的底层思维 + AI 提问专题典例 + AI 工作流 💬 写在前面 随着AI技术逐渐的普及和大家接触AI工具时间的增加，越来越多人终于意识到：「原来这一次AI的浪潮，真的会完完全全打破原有认知，改变我们的生活」。除了 Stable Diffusion、Midjourney 为首的 AI 生成图片的工具 - 即刻 (okjike.com)](https://web.okjike.com/originalPost/6442e70cde61ca0bfc4f9ea4)
 
+
+
+官网文档例子：[Examples - OpenAI API](https://platform.openai.com/examples)
+
 ## 🤖 『ChatGPT 用不了咋办？』送你一份求生路线图
 
 **🧰 路线1**：用 OpenAI 的 API Playground。

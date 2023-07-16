@@ -70,33 +70,37 @@ export default {
       ]
     },
     {
-      text: "ChatGPT使用的扩展",
+      text: "ChatGPT注册使用和扩展",
       collapsible: true, // 可折叠
       collapsed: true, // 初始不折叠
       items: [
         {
-          text: "ChatGPT的注册和使用",
-          link: "/Document/ChatGPT使用的扩展/ChatGPT的注册和使用",
+          text: "ChatGPT的注册",
+          link: "/Document/ChatGPT注册使用和扩展/ChatGPT的注册",
+        },
+        {
+          text: "ChatGPT的使用",
+          link: "/Document/ChatGPT注册使用和扩展/ChatGPT的使用",
         },
         {
           text: "ChatGPT的脑洞和应用",
-          link: "/Document/ChatGPT使用的扩展/ChatGPT的脑洞和应用",
+          link: "/Document/ChatGPT注册使用和扩展/ChatGPT的脑洞和应用",
         },
         {
           text: "ChatGPT衍生的项目",
-          link: "/Document/ChatGPT使用的扩展/ChatGPT衍生的项目",
+          link: "/Document/ChatGPT注册使用和扩展/ChatGPT衍生的项目",
         },
         {
           text: "ChatGPT的使用领域",
-          link: "/Document/ChatGPT使用的扩展/ChatGPT的使用领域",
+          link: "/Document/ChatGPT注册使用和扩展/ChatGPT的使用领域",
         },
         {
           text: "ChatGPT插件",
-          link: "/Document/ChatGPT使用的扩展/ChatGPT插件",
+          link: "/Document/ChatGPT注册使用和扩展/ChatGPT插件",
         },
         {
           text: "ChatGPT应用知识",
-          link: "/Document/ChatGPT使用的扩展/ChatGPT应用知识",
+          link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用知识",
         },
         {
           text: "ChatGPT应用开发",
@@ -105,39 +109,39 @@ export default {
           items: [
             {
               text: "OpenAI Whisper + FFmpeg + TTS：动态实现跨语言视频音频翻译",
-              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/OpenAI Whisper + FFmpeg + TTS：动态实现跨语言视频音频翻译",
+              link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用开发/OpenAI Whisper + FFmpeg + TTS：动态实现跨语言视频音频翻译",
             },
             {
               text: "基于大模型的优质Prompt开发课",
-              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/基于大模型的优质Prompt开发课",
+              link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用开发/基于大模型的优质Prompt开发课",
+            },
+            {
+              text: "ChatGPT的API应用工具准备",
+              link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用开发/ChatGPT的API应用工具准备",
             },
             {
               text: "",
-              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+              link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用开发/",
             },
             {
               text: "",
-              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+              link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用开发/",
             },
             {
               text: "",
-              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+              link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用开发/",
             },
             {
               text: "",
-              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+              link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用开发/",
             },
             {
               text: "",
-              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+              link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用开发/",
             },
             {
               text: "",
-              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
-            },
-            {
-              text: "",
-              link: "/Document/ChatGPT使用的扩展/ChatGPT应用开发/",
+              link: "/Document/ChatGPT注册使用和扩展/ChatGPT应用开发/",
             },
           ]
         },
