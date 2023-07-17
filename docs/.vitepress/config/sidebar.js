@@ -28,6 +28,10 @@ export default {
           text: "语言模型社区",
           link: "/Document/语言模型社区/语言模型社区",
         },
+        {
+          text: "AI模型训练",
+          link: "/Document/语言模型社区/AI模型训练",
+        },
       ]
     },
     {
@@ -72,6 +76,10 @@ export default {
           collapsed: true, // 初始不折叠
           items: [
             {
+              text: "0.ChatGPT应用知识",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/0.ChatGPT应用知识",
+            },
+            {
               text: "1.ChatGPT工作原理",
               link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/1.ChatGPT工作原理",
             },
@@ -88,47 +96,60 @@ export default {
               link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/4.ChatGPT的Prompts指南",
             },
             {
-              text: "ChatGPT的脑洞和应用",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT的脑洞和应用",
+              text: "5.ChatGPT插件",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/5.ChatGPT插件",
             },
             {
-              text: "ChatGPT办公",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT办公",
+              text: "6.ChatGPT提升生产力和工作效率",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/6.ChatGPT提升生产力和工作效率"
             },
             {
-              text: "ChatGPT的使用领域",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT的使用领域",
+              text: "7.ChatGPT的使用领域",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/7.ChatGPT的使用领域",
             },
             {
-              text: "ChatGPT插件",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT插件",
+              text: "8.ChatGPT的脑洞和应用",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/8.ChatGPT的脑洞和应用",
             },
             {
-              text: "ChatGPT应用知识",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用知识",
+              text: "9.ChatGPT办公",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/9.ChatGPT办公",
             },
             {
-              text: "ChatGPT变现和赚钱",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT变现和赚钱",
+              text: "10.ChatGPT使用问题汇总",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/10.ChatGPT使用问题汇总",
             },
             {
-              text: "ChatGPT衍生的项目",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT衍生的项目",
+              text: "11.ChatGPT衍生的项目",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/11.ChatGPT衍生的项目",
             },
             {
-              text: "ChatGPT竞品项目",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT竞品项目",
+              text: "12.ChatGPT竞品项目",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/12.ChatGPT竞品项目",
             },
             {
-              text: "ChatGPT竞品开源项目",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT竞品开源项目",
-            },{
-              text: "国内ChatGPT镜像站收集",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/国内ChatGPT镜像站收集",
+              text: "13.ChatGPT竞品开源项目",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/13.ChatGPT竞品开源项目",
             },
             {
-              text: "ChatGPT问题汇总",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT问题汇总",
+              text: "14.问答模型整合网站",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/14.问答模型整合网站",
+            },
+            {
+              text: "14.ChatGPT变现和赚钱",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/14.ChatGPT变现和赚钱",
+            },
+            {
+              text: "15.国内ChatGPT镜像站收集",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/15.国内ChatGPT镜像站收集",
+            },
+            {
+              text: "16.ChatGPT资源收集",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/16.ChatGPT资源收集",
+            },
+            {
+              text: "ChatGPT功能更新",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT功能更新",
             },
             {
               text: "设计中使用ChatGPT",
@@ -146,19 +167,7 @@ export default {
                 {
                   text: "",
                   link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/设计中使用ChatGPT/",
-                },
-                {
-                  text: "",
-                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/设计中使用 ChatGPT/",
-                },
-                {
-                  text: "",
-                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/设计中使用 ChatGPT/",
-                },
-                {
-                  text: "",
-                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/设计中使用 ChatGPT/",
-                },
+                }
               ]
             },
             {
@@ -185,23 +194,7 @@ export default {
                 {
                   text: "",
                   link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/",
-                },
-                {
-                  text: "",
-                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/",
-                },
-                {
-                  text: "",
-                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/",
-                },
-                {
-                  text: "",
-                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/",
-                },
-                {
-                  text: "",
-                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/",
-                },
+                }
               ]
             },
           ]

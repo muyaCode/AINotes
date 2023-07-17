@@ -1,6 +1,6 @@
 # 基于大模型的优质Prompt开发课
 
-## 『百度 · 文心大模型官方 Prompt 课程来啦』教你写出超赞Prompt ，轻松调教大模型！
+## 『百度 · 文心大模型官方 Prompt 课程来啦』教你写出超赞Prompt ，轻松调教大模型
 
 课程：[基于大模型的优质Prompt开发课 - 飞桨AI Studio (baidu.com)](https://aistudio.baidu.com/aistudio/course/introduce/28604)
 
@@ -14,4 +14,4 @@
 >
 > *第三课* 针对应用场景定向开发优质Prompt
 >
-> *第四课* 优质Prompt分享与结业颁奖 
+> *第四课* 优质Prompt分享与结业颁奖
