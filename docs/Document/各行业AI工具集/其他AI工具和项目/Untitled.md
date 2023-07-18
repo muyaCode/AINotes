@@ -2,123 +2,123 @@
 
 ### Thoughts
 
-https://gpt3demo.com/apps/intelligent-gpt-3-tweets 
+<https://gpt3demo.com/apps/intelligent-gpt-3-tweets>
 
 ### Content Generation Engine
 
-https://gpt3demo.com/apps/content-generation-engine-by-dentsu
+<https://gpt3demo.com/apps/content-generation-engine-by-dentsu>
 
 ## AI 帮你发邮件
 
 ### Magic Email
 
-https://gpt3demo.com/apps/magicemail-io 
+<https://gpt3demo.com/apps/magicemail-io>
 
 ### Otherside AI
 
-https://gpt3demo.com/apps/othersideai 
+<https://gpt3demo.com/apps/othersideai>
 
 ### Magic Sales Bot
 
-https://gpt3demo.com/apps/magicsalesbot 
+<https://gpt3demo.com/apps/magicsalesbot>
 
 ### Lean-to
 
-https://gpt3demo.com/apps/leanto-me 
+<https://gpt3demo.com/apps/leanto-me>
 
 ### OutboundFlow AI
 
-https://gpt3demo.com/apps/outboundflow-ai
+<https://gpt3demo.com/apps/outboundflow-ai>
 
 ## AI 帮你做决定
 
 ### Condorsay
 
-https://gpt3demo.com/apps/condorsay 
+<https://gpt3demo.com/apps/condorsay>
 
 ### Oogway
 
-https://gpt3demo.com/apps/oogway-ai 
+<https://gpt3demo.com/apps/oogway-ai>
 
 ### Rationale
 
-https://gpt3demo.com/apps/rationale-jina-ai
+<https://gpt3demo.com/apps/rationale-jina-ai>
 
 ## AI客服支持
 
 ### ActiveChat.ai
 
-https://gpt3demo.com/apps/activechat-ai 
+<https://gpt3demo.com/apps/activechat-ai>
 
 ### Viable
 
-https://gpt3demo.com/apps/askviable 
+<https://gpt3demo.com/apps/askviable>
 
 ### Chatdesk
 
-https://gpt3demo.com/apps/chatdesk 
+<https://gpt3demo.com/apps/chatdesk>
 
 ### Messagebird
 
-https://gpt3demo.com/apps/messagebird 
+<https://gpt3demo.com/apps/messagebird>
 
 ### Sapling AI
 
-https://gpt3demo.com/apps/sapling-ai 
+<https://gpt3demo.com/apps/sapling-ai>
 
 ### Sidekick AI
 
-https://gpt3demo.com/apps/sidekickai-co
+<https://gpt3demo.com/apps/sidekickai-co>
 
 ## AI 帮你写作业
 
 ### Chatsonic
 
-https://gpt3demo.com/apps/chatsonic 
+<https://gpt3demo.com/apps/chatsonic>
 
 ### BetterWriter
 
-https://gpt3demo.com/apps/betterwriter 
+<https://gpt3demo.com/apps/betterwriter>
 
 ### Ai to Write
 
-https://gpt3demo.com/apps/aitowrite 
+<https://gpt3demo.com/apps/aitowrite>
 
 ### Contenda
 
-https://gpt3demo.com/apps/contenda-co 
+<https://gpt3demo.com/apps/contenda-co>
 
 ### ContentBot.ai
 
-https://gpt3demo.com/apps/contentbot-ai 
+<https://gpt3demo.com/apps/contentbot-ai>
 
 ### Conto AI
 
-https://gpt3demo.com/apps/conto-ai 
+<https://gpt3demo.com/apps/conto-ai>
 
 ### CopyAI
 
-https://gpt3demo.com/apps/copy-ai 
+<https://gpt3demo.com/apps/copy-ai>
 
 ### Copyhat
 
-https://gpt3demo.com/apps/copyhat 
+<https://gpt3demo.com/apps/copyhat>
 
 ### Conversion AI
 
-https://gpt3demo.com/apps/conversion-ai 
+<https://gpt3demo.com/apps/conversion-ai>
 
 ### Copycraft AI
 
-https://gpt3demo.com/apps/copycraftai 
+<https://gpt3demo.com/apps/copycraftai>
 
 ### Copysmith
 
-https://gpt3demo.com/apps/copysmith-ai 
+<https://gpt3demo.com/apps/copysmith-ai>
 
 ### Copy Shark
 
-https://gpt3demo.com/apps/copyshark-ai 
+<https://gpt3demo.com/apps/copyshark-ai>
 
 ## Animated Drawings将手绘的人物草图变成一段动画
 
@@ -135,10 +135,6 @@ https://gpt3demo.com/apps/copyshark-ai
 Shell是一款基于ChatGPT的AI英语口语聊天工具，有4款机器人可以选择，语音非常接近真人，理解能力超强。
 
 点击底部录制按钮后，可以立马得到语音回复。点击 Text 可以看到文字，点击 Translate 可以将回复翻译成英文。学习英语口语的利器！[**官网**](https://app.myshell.ai/invite/e9898f)
-
-
-
-
 
 【【线上兼职】2个月的时间，我靠这6个AI工具挣了一年生活费，躺床上有手机就能做的副业！！】<https://www.bilibili.com/video/BV1rL411X7Tp?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 三三搜帧：
