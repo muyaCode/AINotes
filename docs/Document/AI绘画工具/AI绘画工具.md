@@ -2,62 +2,56 @@
 
 Stable Diffusion (开源)，在线使用地址：
 
-- https://dreamlike.art/create
+- <https://dreamlike.art/create>
   - 使用教程：
-- https://playgroundai.com/create
+- <https://playgroundai.com/create>
   - 使用教程：
-- https://dreamstudio.ai/dream
+- <https://dreamstudio.ai/dream>
   - 使用教程：
 
-Disco Diffusion (开源) : https://github.com/alembics/disco-diffusion
+Disco Diffusion (开源) : <https://github.com/alembics/disco-diffusion>
 
-Midjourney (未开源) : www.midjourney.com，教程详见下面课程
+Midjourney (未开源) : <www.midjourney.com，教程详见下面课程>
 
-DALL-E-2(未开源): https://openai.com/dall-e-2
+DALL-E-2(未开源): <https://openai.com/dall-e-2>
 
 NovelAI (未开源) : [NovelAI - The AI Storyteller](https://novelai.net/)
 
 ## Alpaca
 
-﻿ https://gpt3demo.com/apps/alpaca
+<https://gpt3demo.com/apps/alpaca>
 
 ## AI Render
 
-﻿ https://gpt3demo.com/apps/ai-render
+<https://gpt3demo.com/apps/ai-render>
 
 ## Dall-E-2
 
-﻿ https://gpt3demo.com/apps/dall-e-2-by-openai
+<https://gpt3demo.com/apps/dall-e-2-by-openai>
 
 ## Diffusion Bee
 
-﻿ https://gpt3demo.com/apps/diffusion-bee
+<https://gpt3demo.com/apps/diffusion-bee>
 
 ## Getimg.ai
 
-﻿ https://gpt3demo.com/apps/getimg-ai
+<https://gpt3demo.com/apps/getimg-ai>
 
 ## Hotpot.ai
 
-﻿ https://gpt3demo.com/apps/hotpot-ai
+<https://gpt3demo.com/apps/hotpot-ai>
 
 ## Midjourney
 
-﻿ https://gpt3demo.com/apps/midjourney
+<https://gpt3demo.com/apps/midjourney>
 
 ## Pixray
 
-﻿ https://gpt3demo.com/apps/pixray
+<https://gpt3demo.com/apps/pixray>
 
 ## Playground ai
 
-﻿ https://gpt3demo.com/apps/playgroundai
-
-## Playground ai
-
-﻿ https://gpt3demo.com/apps/playgroundai
-
-
+<https://gpt3demo.com/apps/playgroundai>
 
 - Midjourney：这是一个基于扩散的文本到图像生成模型，它使用了一个 1.5 亿参数的 Transformer 编码器-解码器模型，并在一个包含 14 万张图片和 400 万个文本标签的数据集上进行预训练。Midjourney 可以根据简单或复杂的文本提示生成图像，并且可以通过调整不同的参数来控制图像的质量和多样性。Midjourney 的特点是新手友好，但可控性差、细节优化难。下限高，但上限低。
 - Anything：这是一个以二次元漫画为主打的模型，一直也比较火。Anything 可以生成各种风格和主题的动漫图像，对关键词的要求不太高。Anything 的版本也比较多，包括 Anything-V3.5，Anything-V4.0，Anything-V4.5，Anything-V5.0 等等，不同版本下还有各类变形版本和剪枝版本。推荐下载 4.0 或者更新的版本。
@@ -762,52 +756,52 @@ Leonardo还有非常多的功能，大家可以慢慢体验~
 
 ### 注册
 
-无界AI，创作无限，以致涌现! https://www.wujieai.com/register?inviteCode=24YH4T
+无界AI，创作无限，以致涌现! <https://www.wujieai.com/register?inviteCode=24YH4T>
 
-![img](./assets/1689683691915-211.png)
+![img](./assets/无界AI注册使用/1689683691915-211.png)
 
 ### 简单介绍
 
 这边界面上方有很多入口指南，可以参考一下。
 
-![img](./assets/1689683691914-201.png)
+![img](./assets/无界AI注册使用/1689683691914-201.png)
 
 刚开始注册我这边赠送了80积分，自己实操了一下几张图 现在还剩下30积分。
 
-积分用量取决于精绘和分辨率还有加速生成。包括下载的超分辨。（超分辨需要2积分） 
+积分用量取决于精绘和分辨率还有加速生成。包括下载的超分辨。（超分辨需要2积分）
 
 ### 基础操作
 
 **接下来是一些基础的操作，和选项。**
 
-![img](./assets/1689683691914-202.png)
+![img](./assets/无界AI注册使用/1689683691914-202.png)
 
 **这里会提供一些模型，种类还算齐全。可以选择自己需要的。**
 
-![img](./assets/1689683691914-203.png)
+![img](./assets/无界AI注册使用/1689683691914-203.png)
 
 **风格的话也可以选择，省去了在关键词里填写。**
 
-![img](./assets/1689683691914-204.png)
+![img](./assets/无界AI注册使用/1689683691914-204.png)
 
 **高级设置其实有点像sd，但是有些是会员专享。**
 
-![img](./assets/1689683691914-205.png)
+![img](./assets/无界AI注册使用/1689683691914-205.png)
 
-![img](./assets/1689683691914-206.png)
+![img](./assets/无界AI注册使用/1689683691914-206.png)
 
 **生成的话有普通生成，这个需要排队。加速生成的话也是只加了2积分。**
 
-![img](./assets/1689683691914-207.png)
+![img](./assets/无界AI注册使用/1689683691914-207.png)
 
 **我这边生成了一些简单的吉卜力风格的，AI绘画统一问题还是手脚还是没搞清楚，这个后续看会不会完善。这边拿比较完整的一张给大家参考。**
 
-![img](./assets/1689683691915-208.png)
+![img](./assets/无界AI注册使用/1689683691915-208.png)
 
 ### 生成效果图
 
-![img](./assets/1689683691915-209.jpeg)
+![img](./assets/无界AI注册使用/1689683691915-209.jpeg)
 
-![img](./assets/1689683691915-210.jpeg)
+![img](./assets/无界AI注册使用/1689683691915-210.jpeg)
 
 。。。。

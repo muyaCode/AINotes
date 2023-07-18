@@ -1,28 +1,30 @@
 # 文本生成视频AI模型
 
+## 待定模型
+
 ### Colossyan
 
-﻿ https://gpt3demo.com/apps/colossyan 
+<https://gpt3demo.com/apps/colossyan>
 
 ### Elai
 
-﻿ https://gpt3demo.com/apps/elai-io 
+<https://gpt3demo.com/apps/elai-io>
 
 ### Media.io
 
-﻿ https://gpt3demo.com/apps/media-io 
+<https://gpt3demo.com/apps/media-io>
 
 ### MOVIO
 
-﻿ https://gpt3demo.com/apps/movio-la 
+<https://gpt3demo.com/apps/movio-la>
 
 ### Hour One
 
-﻿ https://gpt3demo.com/apps/hourone-ai 
+<https://gpt3demo.com/apps/hourone-ai>
 
 ### Synthesia
 
-﻿ ﻿ https://gpt3demo.com/apps/synthesia-io
+<https://gpt3demo.com/apps/synthesia-io>
 
 ## 🤖 『阿里达摩院 | 文本生成视频大模型』可以试玩，支持一下国产LLM
 

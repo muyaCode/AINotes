@@ -4,53 +4,53 @@
 
 ### GPT-Startup
 
-﻿ https://gpt3demo.com/apps/gpt-startup 
+<https://gpt3demo.com/apps/gpt-startup>
 
 ### IdeasAI
 
-﻿ https://gpt3demo.com/apps/ideasai 
+<https://gpt3demo.com/apps/ideasai>
 
 ### ideasby.ai
 
-﻿ https://gpt3demo.com/apps/ideasby-ai 
+<https://gpt3demo.com/apps/ideasby-ai>
 
 ### InventorBot
 
-﻿ https://gpt3demo.com/apps/inventorbot
+<https://gpt3demo.com/apps/inventorbot>
 
 ## AI 帮你做 PPT
 
-妙映功能上线，直接文档一键切换成ppt：https://www.mojidoc.com/05dbc-xfe6pwx42vhm5eyyq5hyzk4t2i-00b
+妙映功能上线，直接文档一键切换成ppt：<https://www.mojidoc.com/05dbc-xfe6pwx42vhm5eyyq5hyzk4t2i-00b>
 
-Tome AI：https://gpt3demo.com/apps/tome-app 
+Tome AI：<https://gpt3demo.com/apps/tome-app>
 
-Tome AI | Discover AI use cases：https://gpt3demo.com/apps/tome-app
+Tome AI | Discover AI use cases：<https://gpt3demo.com/apps/tome-app>
 
-Beautiful.ai：﻿ https://gpt3demo.com/apps/beautiful-ai-presentation-maker 
+Beautiful.ai：<https://gpt3demo.com/apps/beautiful-ai-presentation-maker>
 
-Beautiful.ai | Discover AI use cases：https://gpt3demo.com/apps/beautiful-ai-presentation-maker
+Beautiful.ai | Discover AI use cases：<https://gpt3demo.com/apps/beautiful-ai-presentation-maker>
 
 <iframe src="https://gpt3demo.com/apps/beautiful-ai-presentation-maker" style="box-sizing: border-box; user-select: text !important; height: 332px; width: 588px; border: none;"></iframe>
 
 # Deckrobot
 
-﻿ https://gpt3demo.com/apps/deckrobot 
+<https://gpt3demo.com/apps/deckrobot>
 
 ## DeckRobot | Discover AI use cases
 
 Generative AI for PowerPoint Presentations DeckRobot is an artificial intelligence add-on to Microsoft Office's PowerPoint to all a user to create appro...
 
-https://gpt3demo.com/apps/deckrobot
+<https://gpt3demo.com/apps/deckrobot>
 
 <iframe src="https://gpt3demo.com/apps/deckrobot" style="box-sizing: border-box; user-select: text !important; height: 332px; width: 588px; border: none;"></iframe>
 
 # Slidekick
 
-﻿ https://gpt3demo.com/apps/slidekick-ai 
+<https://gpt3demo.com/apps/slidekick-ai>
 
 # PresentationsAI
 
-﻿ https://gpt3demo.com/apps/presentations-ai
+<https://gpt3demo.com/apps/presentations-ai>
 
 ## AI办公工具哪个好
 
@@ -66,7 +66,7 @@ https://gpt3demo.com/apps/deckrobot
 
 全平台免费思维导图软件，支持AI一键生成思维导图，图片一键转思维导图、文档自动转思维导图、大纲编辑脑图、一键自动布局、多人实时协作、插入公式/贴纸/备注/关系线、批量管理文件、格式刷、自定义主题、快速查看历史版本、添加概括、演说模式、专注模式、多格式无水印导出、全平台数据自动同步等等。可用于做内容框架、头脑风暴、读书笔记、编写大纲、制定计划等等。
 
-### 软件特点：
+### 软件特点
 
 - 支持输入一句话，AI生成思维导图
 - 支持上传Word/PDF文档，AI自动生成思维导图
@@ -86,7 +86,7 @@ https://gpt3demo.com/apps/deckrobot
 
 由 Notion 开发的一项人工智能服务写作助手，用来帮助用户写作、初稿整理以及记录创意点子。它可以根据输入的关键词智能推荐相关的文章素材，包括写博客、创建内容大纲、撰写学术论文等等。
 
-### 软件特点：
+### 软件特点
 
 - 可用于撰写文章初稿
 - 可在编辑文字时，发现错误和翻译文字
@@ -96,15 +96,13 @@ https://gpt3demo.com/apps/deckrobot
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/275873b577e34225a65ba4e5df03b466~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
- 
-
 ## 3、酷表ChatExcel
 
 [chatexcel.com/](https://chatexcel.com/)
 
 一款具有智能处理Excel表格功能的AI工具，用户可以通过与其进行聊天来实现Excel表格的自动处理。这款AI工具基于人工智能技术，拥有出色的自然语言处理能力和智能化的数据处理能力，可以快速分析和理解用户的需求，并自动完成Excel表格的相关操作。
 
-### 软件特点：
+### 软件特点
 
 - 可以根据用户提出的新需求和上一轮生成的表格，动态地调整和更新数据处理过程和结果
 - 可以对原始数据源进行实时监测和同步更新
@@ -112,15 +110,13 @@ https://gpt3demo.com/apps/deckrobot
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8d444b2f86de42b7b79bf385e905fd23~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
- 
-
 ## 4、通义听悟
 
 [tingwu.aliyun.com/](https://tingwu.aliyun.com/)
 
 通义听悟是阿里云推出的一款AI助手，支持在会议、课程、访谈、培训等场景下实时转录和音视频转文字，智能生成总结，实时翻译打破跨语言沟通障碍。可以快速标记关键信息，识别结果和笔记能够轻松导出至本地或储存在阿里云盘。
 
-### 软件特点：
+### 软件特点
 
 - 支持会议实时语音转文字，多语言同步翻译
 - 转换速度快，1小时音视频，5分钟即可转成文字
@@ -130,15 +126,13 @@ https://gpt3demo.com/apps/deckrobot
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a19c2021402c4eb1ab832513b9a9ed50~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
- 
-
 ## 5、ChatPDF
 
 [www.chatpdf.com/](https://www.chatpdf.com/)
 
 基于ChatGPT技术的PDF解读工具可以让用户像与人类交互一样与PDF文档进行交互。这款解读工具利用ChatGPT技术，可以实现对PDF文档的自然语言处理和理解。用户可以直接对话式地与PDF文档进行交互，获得更加直观和深入的文件解读和分析。
 
-### 软件特点：
+### 软件特点
 
 - 可以向聊天机器人提出任何关于PDF文件的问题
 - ChatPDF会对PDF文件进行深度分析，创建每个段落的语义索引

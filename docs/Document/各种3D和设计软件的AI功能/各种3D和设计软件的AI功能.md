@@ -131,11 +131,11 @@ keyzhen插件官网：[K帧 - 致力于打造高效专业的AfterEffect插件 ke
 
 ### Infinigen：无限生成逼真3D世界
 
-论文地址：[[2306.09310\] Infinite Photorealistic Worlds using Procedural Generation (arxiv.org)](https://arxiv.org/abs/2306.09310)
+论文地址：[Infinite Photorealistic Worlds using Procedural Generation (arxiv.org)](https://arxiv.org/abs/2306.09310)
 
 项目主页：[Home | Infinigen](https://infinigen.org/)
 
-GitHub地址：https://github.com/princeton-vl/infinigen
+GitHub地址：<https://github.com/princeton-vl/infinigen>
 
 [零AI含量！纯随机数学无限生成逼真3D世界火了，普林斯顿华人一作｜CVPR‘23 - 掘金 (juejin.cn)](https://juejin.cn/post/7246330395272659003)
 

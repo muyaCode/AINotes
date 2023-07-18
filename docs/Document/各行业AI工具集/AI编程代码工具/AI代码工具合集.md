@@ -4,65 +4,65 @@
 
 ### Codeium
 
-﻿ https://gpt3demo.com/apps/codeium 
+<https://gpt3demo.com/apps/codeium>
 
 ### CodeVox
 
-﻿ https://gpt3demo.com/apps/codevox 
+<https://gpt3demo.com/apps/codevox>
 
 ### Kodezi
 
-﻿ https://gpt3demo.com/apps/kodezi 
+<https://gpt3demo.com/apps/kodezi>
 
 ### Tabnine
 
-﻿ https://gpt3demo.com/apps/tabnine 
+<https://gpt3demo.com/apps/tabnine>
 
 ### DeepMind Alphacode
 
-﻿ https://gpt3demo.com/apps/deepmind-alphacode 
+<https://gpt3demo.com/apps/deepmind-alphacode>
 
 ### Github Copilot
 
-﻿ https://gpt3demo.com/apps/github-copilot
+<https://gpt3demo.com/apps/github-copilot>
 
 ## AI 开发者工具
 
 ### Askai
 
-﻿ https://gpt3demo.com/apps/askai 
+<https://gpt3demo.com/apps/askai>
 
 ### Banana
 
-﻿ https://gpt3demo.com/apps/banana-dev 
+<https://gpt3demo.com/apps/banana-dev>
 
 ### Codex CLI
 
-﻿ https://gpt3demo.com/apps/codex-cli 
+<https://gpt3demo.com/apps/codex-cli>
 
 ### CommitGPT
 
-﻿ https://gpt3demo.com/apps/commitgpt 
+<https://gpt3demo.com/apps/commitgpt>
 
 ### COG
 
-﻿ https://gpt3demo.com/apps/cog 
+<https://gpt3demo.com/apps/cog>
 
 ### DeepSpeed
 
-﻿ https://gpt3demo.com/apps/deepspeed 
+<https://gpt3demo.com/apps/deepspeed>
 
 ### Everyprompt
 
-﻿ https://gpt3demo.com/apps/everyprompt 
+<https://gpt3demo.com/apps/everyprompt>
 
 ### Fix
 
-﻿ https://gpt3demo.com/apps/fix 
+<https://gpt3demo.com/apps/fix>
 
 ### HASH
 
-﻿ https://gpt3demo.com/apps/hash-ai
+<https://gpt3demo.com/apps/hash-ai>
 
 ## SQL Chat
 
@@ -511,9 +511,9 @@ ChatGPT 可以帮我们开启想要编写的任何新内容的骨架结构，从
 
 ## AI逐行代码解读工具
 
-逐行代码解读网站仓库地址：https://github.com/labmlai/annotated_deep_learning_paper_implementations
+逐行代码解读网站仓库地址：<https://github.com/labmlai/annotated_deep_learning_paper_implementations>
 
-代码解读可视化网站：https://nn.labml.ai/
+代码解读可视化网站：<https://nn.labml.ai/>
 
 ## 🤖 『Cursor | 集成了 GPT-4 的编辑器』不需要订阅Copilot，不需要API Key，免费
 
@@ -608,7 +608,4 @@ CodeWhisperer官网注册链接：<https://aws.amazon.com/cn/codewhisperer/?trk=
 
 ## chatgpt engineer AI编程工具
 
-
-
 ## Github Copilot
-

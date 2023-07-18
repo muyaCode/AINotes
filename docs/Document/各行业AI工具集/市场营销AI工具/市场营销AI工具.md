@@ -6,15 +6,15 @@
 
 ### Copymonkey AI
 
-﻿ https://gpt3demo.com/apps/copymonkey-ai 
+https://gpt3demo.com/apps/copymonkey-ai 
 
 ### Copypad
 
-﻿ https://gpt3demo.com/apps/copymonkey-ai 
+https://gpt3demo.com/apps/copymonkey-ai 
 
 ### Friday
 
-﻿ https://gpt3demo.com/apps/friday 
+https://gpt3demo.com/apps/friday 
 
 ### Friday | Discover AI use cases
 
@@ -26,8 +26,8 @@ https://gpt3demo.com/apps/friday
 
 ### LensAI
 
-﻿ https://gpt3demo.com/apps/lens-ai 
+https://gpt3demo.com/apps/lens-ai 
 
 ### Superbuzz
 
-﻿ https://gpt3demo.com/apps/superbuzz-io
+https://gpt3demo.com/apps/superbuzz-io

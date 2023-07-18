@@ -4,15 +4,15 @@
 
 ### Alien Genesys
 
-﻿ https://gpt3demo.com/apps/alien-genesys 
+<https://gpt3demo.com/apps/alien-genesys>
 
 ### Botto
 
-﻿ https://gpt3demo.com/apps/botto 
+<https://gpt3demo.com/apps/botto>
 
 ### ChatGPT Batman
 
-﻿ https://gpt3demo.com/apps/chatgpt-batman
+<https://gpt3demo.com/apps/chatgpt-batman>
 
 ## 『生成式设计工具「即时AI」全面开放』
 
@@ -74,7 +74,7 @@ GitHub地址：[Shiriluz/Word-As-Image (github.com)](https://github.com/Shiriluz
 
 官网（收费）：[#1 AI 应用程序图标生成器 — IconifyAI.com](https://www.iconifyai.com/)
 
-## 『生成式设计工具「即时AI」全面开放』
+## 生成式设计工具「即时AI」全面开放
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fd09e3023ee84cf28e5e3f5e485fb072~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 

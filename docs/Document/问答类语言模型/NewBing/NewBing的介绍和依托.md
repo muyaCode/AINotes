@@ -30,7 +30,7 @@ Bing Unchained 是一个 Chrome 浏览器插件，可以在 Chrome 重直接使�
 
 ## extractGPT(需自备梯子)
 
-gpt爬虫 从网站中提取数据 https://chrome.google.com/webstore/detail/extractgpt/jkienildijlphoalpepaipkcoafbmbdc
+gpt爬虫 从网站中提取数据：<https://chrome.google.com/webstore/detail/extractgpt/jkienildijlphoalpepaipkcoafbmbdc>
 
 ## NewBing阅读文档并回答问题
 
@@ -46,7 +46,7 @@ PDF等文档文章
 
 由OpenAI DALL∙E 2 驱动，可通过简单文字描述生成一张相关图片。
 
-## 『NewBing 开源桌面客户端 BingGPT』支持 Windows，macOS和Linux！
+## 『NewBing 开源桌面客户端 BingGPT』支持 Windows，macOS和Linux
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/85659a3493214bf5a30247a549c09645~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
 
