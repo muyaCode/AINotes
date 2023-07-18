@@ -1,5 +1,57 @@
 # AI办公工具
 
+## AI 生成创业想法
+
+### GPT-Startup
+
+﻿ https://gpt3demo.com/apps/gpt-startup 
+
+### IdeasAI
+
+﻿ https://gpt3demo.com/apps/ideasai 
+
+### ideasby.ai
+
+﻿ https://gpt3demo.com/apps/ideasby-ai 
+
+### InventorBot
+
+﻿ https://gpt3demo.com/apps/inventorbot
+
+## AI 帮你做 PPT
+
+妙映功能上线，直接文档一键切换成ppt：https://www.mojidoc.com/05dbc-xfe6pwx42vhm5eyyq5hyzk4t2i-00b
+
+Tome AI：https://gpt3demo.com/apps/tome-app 
+
+Tome AI | Discover AI use cases：https://gpt3demo.com/apps/tome-app
+
+Beautiful.ai：﻿ https://gpt3demo.com/apps/beautiful-ai-presentation-maker 
+
+Beautiful.ai | Discover AI use cases：https://gpt3demo.com/apps/beautiful-ai-presentation-maker
+
+<iframe src="https://gpt3demo.com/apps/beautiful-ai-presentation-maker" style="box-sizing: border-box; user-select: text !important; height: 332px; width: 588px; border: none;"></iframe>
+
+# Deckrobot
+
+﻿ https://gpt3demo.com/apps/deckrobot 
+
+## DeckRobot | Discover AI use cases
+
+Generative AI for PowerPoint Presentations DeckRobot is an artificial intelligence add-on to Microsoft Office's PowerPoint to all a user to create appro...
+
+https://gpt3demo.com/apps/deckrobot
+
+<iframe src="https://gpt3demo.com/apps/deckrobot" style="box-sizing: border-box; user-select: text !important; height: 332px; width: 588px; border: none;"></iframe>
+
+# Slidekick
+
+﻿ https://gpt3demo.com/apps/slidekick-ai 
+
+# PresentationsAI
+
+﻿ https://gpt3demo.com/apps/presentations-ai
+
 ## AI办公工具哪个好
 
 - GitMind

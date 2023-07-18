@@ -1,5 +1,19 @@
 # AI设计相关工具
 
+## AI 帮你做美术
+
+### Alien Genesys
+
+﻿ https://gpt3demo.com/apps/alien-genesys 
+
+### Botto
+
+﻿ https://gpt3demo.com/apps/botto 
+
+### ChatGPT Batman
+
+﻿ https://gpt3demo.com/apps/chatgpt-batman
+
 ## 『生成式设计工具「即时AI」全面开放』
 
 [**⋙ 官网**](https://js.design/ai)

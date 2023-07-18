@@ -1,8 +1,136 @@
 # ChatGPT的API应用工具准备
 
+## API计费相关
+
+[‌⁡⁤⁡‍⁣‍⁤‍‌⁢⁡‍‬⁢⁤‌﻿﻿⁣‌‬‍‌‌⁢‌‬⁡‍⁤‬﻿﻿⁢⁡‬⁤⁢⁡‍12、API 相关 - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/WKv0wxTVpivDyxkabGYcz2mXnXb)
+
+————————————————————————————————————————————
+
 [基于 Azure OpenAI 免费注册 ChatGPT - 掘金 (juejin.cn)](https://juejin.cn/post/7248035486614175781)
 
-官网开发接口文档：[API Reference - OpenAI API](https://platform.openai.com/docs/api-reference)
+[使用 Azure OpenAI 打造自己的 ChatGPT - 晓晨Master - 博客园 (cnblogs.com)](https://www.cnblogs.com/stulzq/p/17271937.html)
+
+OpenAI API官网开发接口文档：[API Reference - OpenAI API](https://platform.openai.com/docs/api-reference)
+
+[通过腾讯云免费访问ChatGPT，跟科学上网说拜拜吧！ - 掘金 (juejin.cn)](https://juejin.cn/post/7212249660580020282)
+
+[使用chatGPT自动回复抖音评论 - 掘金 (juejin.cn)](https://juejin.cn/post/7222640431530786872)
+
+[教程：部署个人专属的 ChatGPT 镜像教程 - 掘金 (juejin.cn)](https://juejin.cn/post/7217381222024233016)
+
+[如何从 OpenAI 迁移到 Azure OpenAI 🧐（保姆级教程，包含如何兼容 JS 语言版 LangChain） - 掘金 (juejin.cn)](https://juejin.cn/post/7241095368179826748)
+
+——————————————————————————————————————————
+
+chatGPT聊天机器人搭建全攻略汇总: [﻿‍⁣‍‍‍⁣⁡⁡‬﻿‬⁣⁢‍‬⁢‬⁡⁣‌‍⁡⁤⁡‍⁢⁣⁤⁡⁢﻿⁣﻿⁣‌‬‬⁢‍‍‬ChatGPT聊天机器人搭建全攻略汇总：精心整理 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/QAgvdO3tLodIp8xN4Iwc069qnsf)
+
+[ChatGPT 接入飞书教程，创建自己的聊天机器人（保姆级教程） - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/Wk9DdFN9xoyA4rx0nfLcJOhsnfc)
+
+[‬⁢‌⁡‬‍⁤﻿﻿⁡‌⁡⁢‬‍⁣⁡‌‌‬⁤﻿⁣⁤‌⁢‬⁡⁣‍⁤⁡‍⁤⁢⁤⁣ChatGPT接入Siri（保姆级教程） - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/VhPGd0Sa0ouxGLxrWyScYUAxnrh)
+
+[零代码基础，一分钟教你快速搭建微信ChatGPT机器人！ - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/GyQbdFCZWomK1gx30YwcDJBEnnh)
+
+[‍‌⁤⁤⁣‍⁣﻿‬‌‌‍‍⁤⁢⁣⁢‌⁣‌‍⁤⁢‍‌‌⁢‬‌⁣‌⁡⁡⁢﻿‍‬⁤⁤⁤⁣⁤ChatGPT与Discord无缝接入指南，获取你的专属聊天机器人（保姆级教程） - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/XQpGdpIrvozRC7xa7iKcBd2UnFA)
+
+[‍‬‬‬⁣‬‍⁤⁢﻿﻿‍⁡⁣⁢‍﻿﻿⁢‍⁢‬⁡‍﻿⁢⁣⁡⁢‍⁡‬⁢⁢‬‍‌⁤‌⁣⁤⁡全免费开源-国内搭建ChatGPT个人镜像站与维护全攻略 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/UlTgdv8FSo1dKgx1nMScWhNjnGb)
+
+## 对接应用
+
+### chatgpt接入小爱同学
+
+https://github.com/xianyu110/xiaogpt
+
+### 自定义聊天机器人
+
+只需上传文档或添加指向您网站的链接，即可获得一个类似 ChatGPT 的聊天机器人，可以回答有关它的任何问题。然后将聊天小部件添加到您的网站。 https://www.chatbase.co/
+
+### TalkGPT
+
+通过对话与 ChatGPT 交流的小玩具。 https://github.com/xianyu110/TalkGPT.git
+
+### 小程序版
+
+对接 ChatGPT 的 OpenAI 接口，在国内实现与 ChatGPT 实时聊天，包含会话界面和聊天界面，一键分享聊天记录到微信聊天和朋友圈 https://github.com/xianyu110/staringai-mini-program
+
+由openAI公司发布的大型预训练语言模型chatGPT接入微信小程序 [xianyu110/chatGPT-wx (github.com)](https://github.com/xianyu110/chatGPT-wx)
+
+### 对接微信
+
+慎用！容易封号 [wechatbot: ChatGPT for wechat (gitee.com)](https://gitee.com/the_efforts_paid_offf/wechatbot)
+
+在微信上迅速接入 ChatGPT，让它成为你最好的助手！ https://github.com/xianyu110/wechat-chatgpt
+
+### 对接QQ
+
+基于OpenAI ChatGPT 开发的 QQ 机器人 bot，mirai+ChatGPT QQ实现，多平台一键部署，高稳定性
+
+https://github.com/xianyu110/QChatGPT
+
+🚀 一键部署！真正的 ChatGPT QQ 聊天机器人！支持 ChatGPT Plus，多账号负载均衡，人设调教，对话上下文，文字转图片发送，代理加速 (内有视频教程） https://github.com/xianyu110/chatgpt-mirai-qq-bot
+
+一个以Graia Ariadne框架为基础的 QQ 机器人 https://github.com/xianyu110/xiaomai-bot qq机器人🤖 距离上次更新已经过了很久，这段时间基于 Langchain 重构了一下代码。受 Auto-GPT 启发引入了思考链和记忆数据库，使 AI 更真实。但是受限于上下文长度，目前的效果还没达到理想情况，等大模型的能力增强，战未来！ 开源地址：https://github.com/Syan-Lin/CyberWaifu
+
+### QQ机器人频道
+
+https://github.com/xianyu110/QQChannelChatGPT
+
+### 对接公众号
+
+[gtoxlili/wechat-chatGPT: 实现微信公众号被动返回接口的ChatGPT (github.com)](https://github.com/gtoxlili/wechat-chatGPT)
+
+### 对接钉钉
+
+https://github.com/eryajf/chatgpt-dingtalk
+
+### 对接知识星球
+
+[xianyu110/chatbot-api: 《ChatGPT AI 问答助手》 开源免费项目，涵盖爬虫接口、ChatGPT API对接、DDD架构设计、镜像打包、Docker容器部署，小巧精悍，流程全面。对于Java编程伙伴来说，非常具有学习价值。 (github.com)](https://github.com/xianyu110/chatbot-api)
+
+### 对接飞书
+
+https://github.com/xianyu110/ChatGPT-Feishu
+
+快速将 ChatGPT 接入飞书，基于 OpenAI 官方接口，作为私人工作助理或者企业员工助理 https://github.com/whatwewant/chatgpt-for-chatbot-feishu
+
+### 对接Telegram
+
+https://github.com/TBXark/ChatGPT-Telegram-Workers
+
+### Java简易代码
+
+[chatGpt玩法源码: b站视频相应源码 (gitee.com)](https://gitee.com/the_efforts_paid_offf/chat-gpt-play-source)
+
+### Python简易代码
+
+https://mp.weixin.qq.com/s/gH9D91T1KB8r_-LwoS5fQQ
+
+### 必应接合chatgpt申请
+
+https://blog.csdn.net/xianyu120/article/details/128930285
+
+## 部署
+
+部署网页需要购买服务器吗？正常情况下是需要的，但是现在有免费的部署服务网站，对于自用或流量较小的网页服务，可以选择免费部署在 Vercel 或 Netlify 上。
+
+**注意，ChatGPT-Web只能通过 Railway 部署，免费使用只能22天， Vercel可以永久免费使用，所以推荐使用 Vercel.**
+
+以下是将 Free-ChatGPT 部署在 Vercel 上的步骤：
+
+1. 打开 [vercel.com/](https://vercel.com/)，点击右上角的登录，选择 GitHub 账号登录（如果没有账号，请先在 [github.com/](https://github.com/) 注册），然后回到第二步，将您喜欢的网页项目 fork 到您自己的仓库里。 ![img](./assets/部署项目/08bceda18f344b2084e66e2e815d7af9.webp)
+
+![img](./assets/部署项目/f94cf2495e264d2eabcaae2bc224134d.webp)
+
+1. 完成 fork 后，回到 vercel.com，点击"创建一个应用"，选择您刚刚 fork 的应用，点击"import"按钮。 ![img](./assets/部署项目/9e52521b9cb14b92b95cf1e17ecd0f20.webp)
+
+2. 填入环境变量 APP_KEY，点击"Add"，然后点击"Deploy"。
+
+   ![img](./assets/部署项目/00b649b86c0e4d42a4252f181363386d.webp)
+
+3. 等待几秒钟，项目部署完成后，点击项目详情，就可以看到访问链接。
+
+![img](./assets/部署项目/522fb94e909a487db97fb953ca570102.webp)
+
+恭喜！您已成功部署自己的 ChatGPT 镜像站。
 
 ## 如何构建全栈 AI 应用
 

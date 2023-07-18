@@ -20,6 +20,18 @@ Bing Unchained 是一个 Chrome 浏览器插件，可以在 Chrome 重直接使�
 
 > [**获取插件**](https://chrome.google.com/webstore/detail/bing-unchained-use-new-bi/laldfnbbeocphnilnofhedhcjcnchbld/related)
 
+## EdgeGPT逆向库
+
+[acheong08/EdgeGPT: Reverse engineered API of Microsoft's Bing Chat AI (github.com)](https://github.com/acheong08/EdgeGPT)
+
+## BingGPT
+
+[dice2o/BingGPT: Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux) (github.com)](https://github.com/dice2o/BingGPT)
+
+## extractGPT(需自备梯子)
+
+gpt爬虫 从网站中提取数据 https://chrome.google.com/webstore/detail/extractgpt/jkienildijlphoalpepaipkcoafbmbdc
+
 ## NewBing阅读文档并回答问题
 
 对于在浏览器中打开的文档，NewBing不仅可以通过问答进行内容总结、大纲提炼等任务，还能跨中英文直接作答。

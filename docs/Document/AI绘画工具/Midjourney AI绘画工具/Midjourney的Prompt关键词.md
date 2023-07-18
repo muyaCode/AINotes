@@ -4,6 +4,10 @@
 
 [willwulfken/MidJourney-Styles-and-Keywords-Reference: A reference containing Styles and Keywords that you can use with MidJourney AI. There are also pages showing resolution comparison, image weights, and much more! (github.com)](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
 
+## 两种方法让ChatGPT为你写Midjourney提示词
+
+
+
 ## 『HayoAI = Product Hunt + Midjourney社区 + Discord + 聊天机器人+ FlowGPT』搭配使用流程
 
 [**⋙ HayoAI官网**](https://www.hayo.com/) | [**解读**](https://web.okjike.com/originalPost/644def2dc567913bb5028b3e)

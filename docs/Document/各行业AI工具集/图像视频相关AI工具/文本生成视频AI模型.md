@@ -1,5 +1,29 @@
 # 文本生成视频AI模型
 
+### Colossyan
+
+﻿ https://gpt3demo.com/apps/colossyan 
+
+### Elai
+
+﻿ https://gpt3demo.com/apps/elai-io 
+
+### Media.io
+
+﻿ https://gpt3demo.com/apps/media-io 
+
+### MOVIO
+
+﻿ https://gpt3demo.com/apps/movio-la 
+
+### Hour One
+
+﻿ https://gpt3demo.com/apps/hourone-ai 
+
+### Synthesia
+
+﻿ ﻿ https://gpt3demo.com/apps/synthesia-io
+
 ## 🤖 『阿里达摩院 | 文本生成视频大模型』可以试玩，支持一下国产LLM
 
 🌍[**文本生成视频大模型-英文-通用领域**](https://modelscope.cn/models/damo/text-to-video-synthesis/summary)  基于多阶段文本到视频生成扩散模型, 输入描述文本，返回符合文本描述的视频。仅支持英文输入。

@@ -1,4 +1,8 @@
-# dd
+# 如何快速创建一个 ChatGPT 机器人
+
+ChatGPT搭建微信聊天机器人：[zhayujie/chatgpt-on-wechat: Wechat robot based on ChatGPT, which using OpenAI api and itchat library. 使用ChatGPT搭建微信聊天机器人，基于GPT3.5/4.0 API实现，支持个人微信、公众号、企业微信部署，能处理文本、语音和图片，访问操作系统和互联网。 (github.com)](https://github.com/zhayujie/chatgpt-on-wechat)
+
+[bupticybee/ChineseAiDungeonChatGPT: 中文版的ai地牢，直接使用的openai的ChatGPT api作为讲故事的模型。 (github.com)](https://github.com/bupticybee/ChineseAiDungeonChatGPT)
 
 ## GPT4All：ChatGPT本地私有化部署,终生免费
 

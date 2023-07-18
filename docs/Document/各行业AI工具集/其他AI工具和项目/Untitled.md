@@ -1,3 +1,125 @@
+## AI 帮你写文章
+
+### Thoughts
+
+﻿ https://gpt3demo.com/apps/intelligent-gpt-3-tweets 
+
+### Content Generation Engine
+
+﻿ https://gpt3demo.com/apps/content-generation-engine-by-dentsu
+
+## AI 帮你发邮件
+
+### Magic Email
+
+﻿ https://gpt3demo.com/apps/magicemail-io 
+
+### Otherside AI
+
+﻿ https://gpt3demo.com/apps/othersideai 
+
+### Magic Sales Bot
+
+﻿ https://gpt3demo.com/apps/magicsalesbot 
+
+### Lean-to
+
+﻿ https://gpt3demo.com/apps/leanto-me 
+
+### OutboundFlow AI
+
+﻿ ﻿ https://gpt3demo.com/apps/outboundflow-ai
+
+## AI 帮你做决定
+
+### Condorsay
+
+﻿ https://gpt3demo.com/apps/condorsay 
+
+### Oogway
+
+﻿ https://gpt3demo.com/apps/oogway-ai 
+
+### Rationale
+
+﻿ https://gpt3demo.com/apps/rationale-jina-ai
+
+## AI客服支持
+
+### ActiveChat.ai
+
+﻿ https://gpt3demo.com/apps/activechat-ai 
+
+### Viable
+
+﻿ https://gpt3demo.com/apps/askviable 
+
+### Chatdesk
+
+﻿ https://gpt3demo.com/apps/chatdesk 
+
+### Messagebird
+
+﻿ https://gpt3demo.com/apps/messagebird 
+
+### Sapling AI
+
+﻿ https://gpt3demo.com/apps/sapling-ai 
+
+### Sidekick AI
+
+﻿ ﻿ https://gpt3demo.com/apps/sidekickai-co
+
+## AI 帮你写作业
+
+### Chatsonic
+
+﻿ https://gpt3demo.com/apps/chatsonic 
+
+### BetterWriter
+
+﻿ https://gpt3demo.com/apps/betterwriter 
+
+### Ai to Write
+
+﻿ https://gpt3demo.com/apps/aitowrite 
+
+### Contenda
+
+﻿ https://gpt3demo.com/apps/contenda-co 
+
+### ContentBot.ai
+
+﻿ https://gpt3demo.com/apps/contentbot-ai 
+
+### Conto AI
+
+﻿ https://gpt3demo.com/apps/conto-ai 
+
+### CopyAI
+
+﻿ https://gpt3demo.com/apps/copy-ai 
+
+### Copyhat
+
+﻿ https://gpt3demo.com/apps/copyhat 
+
+### Conversion AI
+
+﻿ https://gpt3demo.com/apps/conversion-ai 
+
+### Copycraft AI
+
+﻿ https://gpt3demo.com/apps/copycraftai 
+
+### Copysmith
+
+﻿ https://gpt3demo.com/apps/copysmith-ai 
+
+### Copy Shark
+
+﻿ https://gpt3demo.com/apps/copyshark-ai 
+
 ## Animated Drawings将手绘的人物草图变成一段动画
 
 [Animated Drawings](https://github.com/facebookresearch/AnimatedDrawings)

@@ -152,6 +152,10 @@ export default {
               link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT功能更新",
             },
             {
+              text: "ChatGPT越狱",
+              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT越狱",
+            },
+            {
               text: "设计中使用ChatGPT",
               collapsible: true, // 可折叠
               collapsed: true, // 初始不折叠
@@ -188,13 +192,25 @@ export default {
                   link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/ChatGPT的API应用工具准备",
                 },
                 {
-                  text: "",
-                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/",
+                  text: "ChatGPT API Key申请使用及充值教程",
+                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/ChatGPT API Key申请使用及充值教程",
+                },
+                {
+                  text: "ChatGPT用户界面",
+                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/ChatGPT用户界面",
+                },
+                {
+                  text: "ChatGPT Plugins插件开发",
+                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/ChatGPT Plugins插件开发",
+                },
+                {
+                  text: "如何快速创建一个 ChatGPT 机器人",
+                  link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/如何快速创建一个 ChatGPT 机器人",
                 },
                 {
                   text: "",
                   link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/ChatGPT应用开发/",
-                }
+                },
               ]
             },
           ]
@@ -448,6 +464,10 @@ export default {
           link: "/Document/AI绘画工具/AI绘画工具",
         },
         {
+          text: "AI绘画变现",
+          link: "/Document/AI绘画工具/AI绘画变现",
+        },
+        {
           text: "Midjourney AI绘画工具",
           collapsible: true, // 可折叠
           collapsed: true, // 初始不折叠
@@ -542,11 +562,15 @@ export default {
           collapsed: true, // 初始不折叠
           items: [
             {
-              text: "DALL-E 2 简介和相关网址工具",
+              text: "Leonardo.AI简介和相关网址工具",
               link: "/Document/AI绘画工具/Leonardo.AI绘画工具/Leonardo.AI简介和相关网址工具",
             },
             {
-              text: "DALL-E 2使用教程",
+              text: "Leonardo.AI注册",
+              link: "/Document/AI绘画工具/Leonardo.AI绘画工具/Leonardo.AI注册",
+            },
+            {
+              text: "Leonardo.AI使用教程",
               link: "/Document/AI绘画工具/Leonardo.AI绘画工具/Leonardo.AI使用教程",
             },
           ]

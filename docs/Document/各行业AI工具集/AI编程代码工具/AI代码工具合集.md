@@ -1,5 +1,69 @@
 # AI代码工具合集
 
+## AI 帮你写代码
+
+### Codeium
+
+﻿ https://gpt3demo.com/apps/codeium 
+
+### CodeVox
+
+﻿ https://gpt3demo.com/apps/codevox 
+
+### Kodezi
+
+﻿ https://gpt3demo.com/apps/kodezi 
+
+### Tabnine
+
+﻿ https://gpt3demo.com/apps/tabnine 
+
+### DeepMind Alphacode
+
+﻿ https://gpt3demo.com/apps/deepmind-alphacode 
+
+### Github Copilot
+
+﻿ https://gpt3demo.com/apps/github-copilot
+
+## AI 开发者工具
+
+### Askai
+
+﻿ https://gpt3demo.com/apps/askai 
+
+### Banana
+
+﻿ https://gpt3demo.com/apps/banana-dev 
+
+### Codex CLI
+
+﻿ https://gpt3demo.com/apps/codex-cli 
+
+### CommitGPT
+
+﻿ https://gpt3demo.com/apps/commitgpt 
+
+### COG
+
+﻿ https://gpt3demo.com/apps/cog 
+
+### DeepSpeed
+
+﻿ https://gpt3demo.com/apps/deepspeed 
+
+### Everyprompt
+
+﻿ https://gpt3demo.com/apps/everyprompt 
+
+### Fix
+
+﻿ https://gpt3demo.com/apps/fix 
+
+### HASH
+
+﻿ https://gpt3demo.com/apps/hash-ai
+
 ## SQL Chat
 
 [SQL Chat](https://www.sqlchat.ai/)

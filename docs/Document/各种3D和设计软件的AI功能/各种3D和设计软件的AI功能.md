@@ -14,6 +14,10 @@
 
 ## PhotoShop的AI功能
 
+**PhotoShop的AI功能教程**：[Photoshop Beta AI 系列 - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/TWIew7RasiNzntkjnUFcdgTanhh)
+
+————————————————————————————————————————————
+
 Photoshop AI：<https://www.adobe.com/products/photoshop/generative-fill.html>
 
 视频教程：
