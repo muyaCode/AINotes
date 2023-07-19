@@ -2,7 +2,47 @@
 
 [⁣‍只要学会这些AI工具，一个人就是一家营销咨询公司 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/HRcldiXBDoLFBmxksVXcyXxWnkc)
 
-### AI营销
+帧: <https://www.frase.io>
+
+伯莎: <https://bertha.ai/>
+
+ContentEdge: <https://www.contentedge.com/>
+
+ChatGPT3: <https://chat.openai.com/>
+
+Hemingwayapp: <https://hemingwayapp.com>
+
+冲浪者 SEO: <https://surferseo.com/>
+
+庞祖: <https://www.ponzu.ai/>
+
+贾斯珀: <https://www.jasper.ai/>
+
+复制史密斯: <https://copysmith.ai/>
+
+PepperType: <https://peppertype.ai/>
+
+Scalenut: <https://www.scalenut.com>
+
+兵变:<https://www.mutinyhq.com/>
+
+简化了: <https://simplified.com/ai-writer/>
+
+月光梁:<https://www.gomoonbeam.com>
+
+聪明的: <https://www.smartly.io/>
+
+第七感: <https://www.theseventhsense.com/>
+
+复制 AI: <https://www.copy.ai/>
+
+MarketMuse: <https://www.marketmuse.com/>
+
+WriteSonic: <https://writesonic.com/>
+
+短语: <https://phrasee.co>
+
+## AI营销
 
 [Ai Mailer](https://ai-mailer.com/)（生成邮件内容）: Ai Mailer是一款智能邮件内容生成工具，利用AI技术自动生成吸引人的电子邮件文本，提升邮件营销效果。
 

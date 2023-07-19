@@ -20,6 +20,32 @@ Git项目网址：<https://github.com/RVC-Project/Retrieval-based-Voice-Conversi
 
 便利服務——云桌面服務器链接：<http://mtw.so/5EkzAu>
 
+
+
+类似于: https://www.resemble.ai/
+
+Broadn: https://www.broadn.io
+
+播客: https://podcast.ai
+
+Fliki: https://fliki.ai/
+
+Wellsaidlabs: https://wellsaidlabs.com/
+
+Voicemod: https://www.voicemod.net/ai-voices
+
+水獭: https://otter.ai/
+
+TLDR 这个: https://tldrthis.com/
+
+Glasp AI: https://glasp.co/ai-summary
+
+Sembly: https://www.sembly.ai
+
+Summari:https://www.summari.com/products/chrome
+
+Coqui: https://coqui.ai
+
 ## Bark
 
 [Bark](https://github.com/suno-ai/bark)

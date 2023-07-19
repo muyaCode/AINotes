@@ -434,6 +434,61 @@ export default {
           ]
         },
         {
+          text: "销售AI工具",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "销售AI工具",
+              link: "/Document/各行业AI工具集/销售AI工具/销售AI工具",
+            },
+          ]
+        },
+        {
+          text: "市场营销AI工具",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "市场营销AI工具",
+              link: "/Document/各行业AI工具集/市场营销AI工具/",
+            },
+          ]
+        },
+        {
+          text: "日常工作场所AI工具",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "日常工作场所AI工具",
+              link: "/Document/各行业AI工具集/日常工作场所AI工具/日常工作场所AI工具",
+            },
+          ]
+        },
+        {
+          text: "休闲时间AI工具",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "休闲时间AI工具",
+              link: "/Document/各行业AI工具集/休闲时间AI工具/休闲时间AI工具",
+            },
+          ]
+        },
+        {
+          text: "聊天机器人AI工具",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "聊天机器人AI工具",
+              link: "/Document/各行业AI工具集/聊天机器人AI工具/聊天机器人AI工具",
+            },
+          ]
+        },
+        {
           text: "其他AI工具和项目",
           collapsible: true, // 可折叠
           collapsed: true, // 初始不折叠

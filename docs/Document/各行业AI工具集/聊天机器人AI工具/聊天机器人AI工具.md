@@ -1,5 +1,7 @@
 # 聊天机器人AI工具
 
+## 工具列表
+
 ### AI Buddy
 
 <https://gpt3demo.com/apps/ai-buddy>
@@ -39,3 +41,19 @@
 ### Kuku.ai
 
 <https://gpt3demo.com/apps/kukuai>
+
+Landbot: <https://landbot.io/>
+
+Cresta: <https://cresta.com/>
+
+赞: <https://kaizan.ai/>
+
+WotNot: <https://wotnot.io/>
+
+核心: <https://cohere.ai/>
+
+Tidio: <https://www.tidio.com/>
+
+Typewise: <https://www.typewise.app/>
+
+Quickchat: <https://www.quickchat.ai/>

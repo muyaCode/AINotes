@@ -1,5 +1,11 @@
 # AI代码工具合集
 
+## 到 SQL 工具的文本列表
+
+1.AI2sql: https://www.ai2sql.io
+
+2.寻找: https://www.seek.ai/
+
 #### [使用 LLMs 通过自然语言生成任意函数：AI Functions](https://www.askmarvin.ai/)
 
 使用 OpenAI GPT4, 描述函数功能即刻得到相应的函数代码，使用 GPT4 替代程序猿更近一步了，下面是核心代码：

@@ -1,5 +1,43 @@
 # 其他AI写作工具
 
+复制 AI: https://www.copy.ai/
+
+贾斯珀: https://www.jasper.ai/
+
+WriteSonic: https://writesonic.com/
+
+ChatGPT3: https://chat.openai.com/
+
+Headlime: https://headlime.com/
+
+PepperType: https://peppertype.ai/
+
+MarkCopy: https://www.markcopy.ai/
+
+Quillbot: https://quillbot.com/
+
+Rytr: https://rytr.me/
+
+月光梁: https://www.gomoonbeam.com/
+
+简化了:[https://simplified.com/ai-writer/](https://simplified.com/ai-writer/)
+
+Lex页: https://lex.page/
+
+复制史密斯: https://copysmith.ai/
+
+Subtxt: https://subtxt.app/
+
+艾莉的电子邮件助理: https://tryellie.com/
+
+Wordtune: https://www.wordtune.com
+
+Sudowrite: https://www.sudowrite.com
+
+小说: https://novelai.net/
+
+组成部分: https://www.compose.ai/
+
 ### AI辅助写作
 
 - [ChatGPT](https://chat.openai.com/)  
