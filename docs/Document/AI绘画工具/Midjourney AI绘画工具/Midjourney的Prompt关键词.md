@@ -12,7 +12,7 @@
 
 [MJ提示词工具-AI健身教练 (aijiaolian.chat)](https://aijiaolian.chat/midjourney)
 
-
+[Andrei Kovalev's Midlibrary | Midjourney AI Styles Library | V5.1 V5, V4, niji](https://www.midlibrary.io/)
 
 ## 『HayoAI = Product Hunt + Midjourney社区 + Discord + 聊天机器人+ FlowGPT』搭配使用流程
 

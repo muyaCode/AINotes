@@ -216,17 +216,25 @@ export default {
           ]
         },
         {
-          text: "NewBing的使用和扩展",
+          text: "NewBing必应AI的使用和扩展",
           collapsible: true, // 可折叠
           collapsed: true, // 初始不折叠
           items: [
             {
-              text: "NewBing的介绍和依托",
-              link: "/Document/问答类语言模型/NewBing/NewBing的介绍和依托",
+              text: "Edge浏览器的功能和使用",
+              link: "/Document/问答类语言模型/NewBing必应AI的使用和扩展/Edge浏览器的功能和使用",
             },
             {
-              text: "Edge浏览器的功能和使用",
-              link: "/Document/问答类语言模型/NewBing/Edge浏览器的功能和使用",
+              text: "NewBing必应AI的介绍",
+              link: "/Document/问答类语言模型/NewBing必应AI的使用和扩展/NewBing必应AI的介绍",
+            },
+            {
+              text: "NewBing必应AI的使用",
+              link: "/Document/问答类语言模型/NewBing必应AI的使用和扩展/NewBing必应AI的使用",
+            },
+            {
+              text: "NewBing必应AI插件",
+              link: "/Document/问答类语言模型/NewBing必应AI的使用和扩展/NewBing必应AI插件",
             },
           ]
         },
