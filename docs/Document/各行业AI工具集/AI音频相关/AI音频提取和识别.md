@@ -1,5 +1,12 @@
 # AI音频提取和识别
 
+### 语音/视频合成
+
+- [Murf AI](https://murf.ai/)  
+- [Resemble AI](https://www.resemble.ai/)  
+- [Synthesia](https://www.synthesia.io/)  
+- [Adobe Podcast](https://podcast.adobe.com/)
+
 ## 『writeout.ai』使用 OpenAI 的 Whisper API 转录和翻译音频文件
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/351de51fe20449648a69182f759dd26e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)

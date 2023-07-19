@@ -1,6 +1,66 @@
 # AI代码工具合集
 
+#### [使用 LLMs 通过自然语言生成任意函数：AI Functions](https://www.askmarvin.ai/)
+
+使用 OpenAI GPT4, 描述函数功能即刻得到相应的函数代码，使用 GPT4 替代程序猿更近一步了，下面是核心代码：
+
+[GitHub 开源实现：AI-Functions](https://github.com/Torantulino/AI-Functions)
+
+```
+import openai
+
+def ai_function(function, args, description, model = "gpt-4"):
+    # parse args to comma seperated string
+    args = ", ".join(args)
+    messages = [{"role": "system", "content": f"You are now the following python function: ```# {description}\n{function}```\n\nOnly respond with your `return` value. no verbose, no chat."},{"role": "user", "content": args}]
+
+    response = openai.ChatCompletion.create(
+        model=model,
+        messages=messages,
+        temperature=0
+    )
+
+    return response.choices[0].message["content"]
+```
+
+### 向量数据库
+
+如果说 ChatGPT 是 LLM 的处理核心，prompts 是 code，那么向量数据库就是 LLM 需要的存储。
+
+| 名称                                             | 简介                                                         | 备注                                                         |
+| ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [PineCone](https://www.pinecone.io/)             | Pinecone为向量数据提供了数据存储解决方案。                   | 提供免费方案，目前注册火爆，需要等待                         |
+| [Milvus](https://github.com/milvus-io/milvus)    | Milvus 是一个开源矢量数据库，旨在为嵌入相似性搜索和 AI 应用程序提供支持。 除了向量，Milvus 还支持布尔型、整数、浮点数等数据类型。 Milvus 中的一个集合可以包含多个字段，用于容纳不同的数据特征或属性。 Milvus 将标量过滤与强大的向量相似性搜索相结合，为分析非结构化数据提供了一个现代、灵活的平台。 | 目前提供多种部署方式，支持docker, k8s, embed-milvus(pip install嵌入安装)，同时也有[在线云服务](https://cloud.zilliz.com/)。 |
+| [chroma](https://github.com/chroma-core/chroma)  | Chroma 是一个用于 Python / JavaScript LLM 应用程序的嵌入式数据库，它具有内存快速访问的优势。 | -                                                            |
+| [weaviate](https://github.com/weaviate/weaviate) | 开源的向量数据库，可以存储对象和向量，允许将向量搜索与结构化过滤相结合，并具有云原生数据库的容错性和可扩展性，可通过 GraphQL、REST 和各种语言客户端进行访问。 | -                                                            |
+
 ## AI 帮你写代码
+
+#### [AI代码助手: codeium](https://codeium.com/)
+
+个人使用免费，有 vscode 插件，github copilot 平替
+
+#### [Github Copilot 开源平替，可本地部署: Tabby ](https://github.com/TabbyML/tabby)
+
+#### [将 OpenAI ChatGPT 集成到 VSCode: vscode-chatgpt](https://github.com/gencay/vscode-chatgpt)
+
+#### [GPT 驱动的代码编辑器: Cursor](https://www.cursor.so/)
+
+GPT-4 驱动的一款强大代码编辑器，可以辅助程序员进行日常的编码，目前免费。
+
+#### [智能测试： codium](https://www.codium.ai/)
+
+CodiumAI这个项目构建了一个名为TestGPT的语言模型，是一个专注于软件测试方面的AI，用它通过对话式来生成代码分析、测试计划和测试代码。目前有vscode和jetbrains的插件可供使用。
+
+[GitHub 官方出品新一代代码编辑器：copilot-x](https://github.com/features/preview/copilot-x)
+
+[将代码从一个语言翻译为另一个语言：ai-code-translator](https://github.com/mckaywrigley/ai-code-translator)
+
+[Copilot](https://github.com/features/copilot)  
+
+[Codeium](https://codeium.com/)  
+
+[Replit](https://replit.com/)
 
 ### Codeium
 

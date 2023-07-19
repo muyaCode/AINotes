@@ -1,5 +1,16 @@
 # ChatGPT Plugins插件开发
 
+OpenAI 现已经支持插件功能，可以预见这个插件平台将成为新时代的 Apple Store，将会带来巨大的被动流量，新时代的机会！
+
+### 中文开发指南
+
+指南中介绍了开发者申请开发插件的流程，与网页浏览器插件、代码解释器插件、Retrieval 插件、第三方插件等插件的功能、交互样式，详细介绍了开发流程，并通过“待办事项列表(to-do list)插件”的案例开发过程进行了演示。
+
+- [开发指南：ChatGPT 插件开发（上）](https://mp.weixin.qq.com/s/AmNkiLOqJo7tEJZPX34oeg) 
+- [开发指南：ChatGPT 插件开发（下）](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247485810&idx=2&sn=8bc4da188c39e1e2e9f808a362b6271f&scene=21#wechat_redirect)
+
+——————————————————————————————————————————
+
 如何使用 OpenAPI 规范记录 API，以及如何将插件连接到ChatGPT UI。
 
 时，还提供了编写插件描述和调试插件的最佳实践。

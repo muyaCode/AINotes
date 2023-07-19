@@ -578,6 +578,68 @@ export default {
       ]
     },
     {
+      text: "提示工程",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "提示工程-介绍",
+          link: "/Document/提示工程/提示工程-介绍",
+        },
+        {
+          text: "提示工程-基础提示",
+          link: "/Document/提示工程/提示工程-基础提示",
+        },
+        {
+          text: "提示工程-高级提示",
+          link: "/Document/提示工程/提示工程-高级提示",
+        },
+        {
+          text: "提示工程-提示应用程序",
+          link: "/Document/提示工程/",
+        },
+        {
+          text: "",
+          link: "/Document/提示工程/",
+        },
+        {
+          text: "",
+          link: "/Document/提示工程/",
+        },
+      ]
+    },
+    {
+      text: "AI法律相关",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "互联网信息服务深度合成管理规定",
+          link: "/Document/AI法律相关/互联网信息服务深度合成管理规定",
+        },
+        {
+          text: "ChatGPT的法律风险",
+          link: "/Document/AI法律相关/ChatGPT的法律风险",
+        },
+        {
+          text: "ChatGPT的法律过滤情况示例",
+          link: "/Document/AI法律相关/ChatGPT的法律过滤情况示例",
+        },
+        {
+          text: "",
+          link: "/Document/AI法律相关/",
+        },
+        {
+          text: "",
+          link: "/Document/AI法律相关/",
+        },
+        {
+          text: "",
+          link: "/Document/AI法律相关/",
+        },
+      ]
+    },
+    {
       text: "各种3D和设计软件的AI功能",
       collapsible: true, // 可折叠
       collapsed: true, // 初始不折叠

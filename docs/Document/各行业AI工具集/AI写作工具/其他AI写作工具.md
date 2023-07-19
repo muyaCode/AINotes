@@ -1,5 +1,15 @@
 # 其他AI写作工具
 
+### AI辅助写作
+
+- [ChatGPT](https://chat.openai.com/)  
+- [Craft](https://www.craft.do/)  
+- [Notion](https://notion.so/)  
+- [Compose AI](https://www.compose.ai/)  
+- [copy.ai](http://copy.ai/)  
+- [Jasper](https://www.jasper.ai/)  
+- [copysmith](https://copysmith.ai/)
+
 ## AI 帮你写论文
 
 ### AI Essay Writer

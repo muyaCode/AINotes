@@ -1,5 +1,11 @@
 # AI办公工具
 
+### PPT生成
+
+- [Tome](https://beta.tome.app/)
+- [beautiful.ai](https://www.beautiful.ai/)
+- [gamma](https://gamma.app/)
+
 ## AI 生成创业想法
 
 ### GPT-Startup

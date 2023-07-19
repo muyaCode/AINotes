@@ -12,6 +12,10 @@
 
 [我嫌ai出图效率太低，又研究了一下进阶玩法！ (qq.com)](https://mp.weixin.qq.com/s/dLkoNpXAI51U9uc9IWhphA)
 
+[人类还剩几集可以逃？ChatGPT + Midjourney + Clipchamp AI大军联合玩内容创作 (文稿/插图/配乐/配音/字幕全包)](https://www.bilibili.com/video/BV1wW4y1G7a3/?share_source=copy_web&vd_source=b68f853f829d65fae4ec428042e47343)
+
+[2天300+作品，Midjourney将彻底颠覆食品包装设计！](https://mp.weixin.qq.com/s/b1v2Jp04119bDeyuBLv_Iw)
+
 ## M idjourney的基础参数与指令
 
 ![img](./assets/Midjourney的使用/1689682960998-97.png)

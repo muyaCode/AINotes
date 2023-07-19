@@ -66,6 +66,20 @@ Chat Chat 可以使用 OpenAI、微软 Azure、Claude、Cohere、Hugging Face �
 
 此外，Chat Chat 还支持 Plugins，可以搜索内容和总结网页；并且支持分享记录，支持云端存储记录和个人设置等
 
+### 💻 第三方开发者开发的 ChatGPT 客户端
+
+第三方客户端很多，基本都是通过调用 OpenAI 的 API 实现，这些客户端往往需要你自备 OpenAI 的 Api Key 使用。
+
+| 名称                                                         | 简介                                                         | 备注                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------- |
+| [lencx/ChatGPT](https://github.com/lencx/ChatGPT)            | 基于 tauri 的跨平台 ChatGPT 客户端, 支持: Windows, Linux, MacOS, 应用内嵌入 ChatGPT 网页. | 需要翻墙。                             |
+| [chatbox](https://github.com/Bin-Huang/chatbox)              | 开源的ChatGPT桌面应用，prompt 开发神器                       | 全平台支持，下载安装包就能用           |
+| [ChatGPT-Desktop](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop) | 基于 tauri + vue3 开发的跨平台桌面端应用                     | 需要自行准备 API KEY 使用。            |
+| [Chuanhu ChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) | 为ChatGPT API提供了一个轻快好用的 Web 图形界面               | 支持直接在Hugging Face上部署，很方便。 |
+| [token/ChatGpt.Desktop](https://github.com/239573049/ChatGpt.Desktop) | 基于 Blazor Web Assembly 的跨平台客户端,支持: Windows, Linux, MacOS, Android, iOS, Web. 程序内内嵌自建网页并调用 API. | 需要 OpenAI 账户, 需要翻墙。           |
+| [SlimeNull/OpenGptChat](https://github.com/SlimeNull/OpenGptChat) | 基于 WPF 的原生 Windows 客户端, 调用 OpenAI 的 API, 需要一个 OpenAI 账户. | 内置反向代理, 国内可用。               |
+| [ChatGPT-Desktop](https://github.com/Synaptrix/ChatGPT-Desktop) | ChatGPT-Desktop应用                                          | -                                      |
+
 ## ChatGPT 桌面应用程序
 
 ### Chatbox
@@ -86,7 +100,7 @@ Chat Chat 可以使用 OpenAI、微软 Azure、Claude、Cohere、Hugging Face �
 
 非官方 ChatGPT API 的 Python 客户端，具有自动令牌重新生成、对话跟踪、代理支持等功能。
 
-Github：https://github.com/rawandahmad698/PyChatGPT
+Github：<https://github.com/rawandahmad698/PyChatGPT>
 
 ### ChatGPT-Desktop
 

@@ -8,6 +8,12 @@
 
 
 
+## Midjourney在线提示词工具
+
+[MJ提示词工具-AI健身教练 (aijiaolian.chat)](https://aijiaolian.chat/midjourney)
+
+
+
 ## 『HayoAI = Product Hunt + Midjourney社区 + Discord + 聊天机器人+ FlowGPT』搭配使用流程
 
 [**⋙ HayoAI官网**](https://www.hayo.com/) | [**解读**](https://web.okjike.com/originalPost/644def2dc567913bb5028b3e)

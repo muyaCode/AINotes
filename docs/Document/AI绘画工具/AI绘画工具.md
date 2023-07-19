@@ -17,6 +17,8 @@ DALL-E-2(未开源): <https://openai.com/dall-e-2>
 
 NovelAI (未开源) : [NovelAI - The AI Storyteller](https://novelai.net/)
 
+[Hypotenuse AI](https://app.hypotenuse.ai/invited)（文字内容和绘画）：一款综合性的人工智能工具，专注于自动化文字内容和绘画生成。它利用了多种AI技术，包括自然语言处理、图像生成和深度学习，为用户提供一站式的创作解决方案。
+
 ## Alpaca
 
 <https://gpt3demo.com/apps/alpaca>
