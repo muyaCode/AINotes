@@ -2,6 +2,73 @@
 
 各类AI工具：[未来百科AI工具 的个人主页 - 文章 - 掘金 (juejin.cn)](https://juejin.cn/user/3245414058301261/posts)
 
+## AI工具教程
+
+[MidjourneyAI绘画工具入门到精通 最新AI绘画保姆级教程 - 小高网_专注于资源收集与活动分享_小高教程最新技术爱分享网 (impactgame.store)](http://xg.impactgame.store/tisheng/9471.html)
+
+[ChatGPT训练营 - 小高网_专注于资源收集与活动分享_小高教程最新技术爱分享网 (impactgame.store)](http://xg.impactgame.store/zixuejishu/9521.html)
+
+[AI智能绘画课程学习经验分享学习，有需要的自存-小K网 (xkwo.com)](https://www.xkwo.com/article/30698.html)
+
+[AI设计从入门到精通轻松上手-小刀娱乐网 - 专注活动，软件，教程分享！总之就是网络那些事。 (x6d.com)](https://xd.x6d.com/i-wz-23336.html)
+
+[12000+AI绘画关键词分享-小K网 (xkwo.com)](https://www.xkwo.com/article/30154.html)
+
+## AI导航
+
+- [AI 学习平台 - AI工具箱](https://www.phpcms9.com/ai/aistudy?from=phpcms9.com)
+- [AI工具集导航 | 500+ AI工具导航大全，国内外AI工具集合网站](https://ai-bot.cn/)
+- [AI产品工具箱 - 人工智能创新应用导航平台 | AI共存派](https://www.163264.com/category/ai-tool)
+- [Futurepedia - The Largest AI Tools Directory | Home](https://www.futurepedia.io/)
+- [超实用的10个AI工具汇总！建议收藏](http://m.wuyaogexing.com/article/1682067597133307.html)
+- [【AI】AI 工具合集_iHero的博客-CSDN博客](https://blog.csdn.net/ihero/article/details/129794540)
+- [70+款AI工具合集，值得收藏 - 数英](https://www.digitaling.com/articles/925441.html)
+- [2023最常用AI工具大合集，强大而且非常离谱](https://wenjie.org/archives/ai-tools)
+- [AI智能工具集（含AI语音合成、视频补帧、视频放大、目标检测、图片风格化等） - 哔哩哔哩](https://www.bilibili.com/read/cv18049289)
+- [(80 条消息) 有哪些好用的AI工具或者工具集网站？ - 知乎](https://www.zhihu.com/question/592101575/answer/2956731635?utm_id=0)
+- [iperov/DeepFaceLive: Real-time face swap for PC streaming or video calls](https://github.com/iperov/DeepFaceLive)
+- [(/≧▽≦/)你又回来啦！](https://blog.godgy.xyz/dmroom/otherv/336/?replytocom=12&only_author=1)
+- [dflive_免费高速下载|百度网盘-分享无限制](https://pan.baidu.com/s/139ufJxAy_F9WHlcdQb-MYA?pwd=erx6#list/path=%2F&parentPath=%2Fsharelink2143486987-658918314166307)
+- [OpenGVLab/InternGPT: InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (支持DragGAN、ChatGPT、ImageBind、SAM的在线Demo系统)](https://github.com/OpenGVLab/InternGPT)
+- [Zeqiang-Lai/DragGAN: Online Demo and Implementation of DragGAN - "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold" （DragGAN 全功能实现，在线Demo，本地部署试用，代码、模型已全部开源，支持Windows, macOS, Linux）](https://github.com/Zeqiang-Lai/DragGAN)
+- [AIGC Magic AI赋能超级个体 | 找到适合自己的AIGC产品](https://aigcmagic.com/)
+- [AI研究所 – 国内外AI工具资讯首发站](https://www.aiyjs.com/)
+- [ikaijua/Awesome-AITools: Collection of AI-related utilities. Welcome to submit issues and pull requests /收藏AI相关的实用工具，欢迎提交issues 或者pull requests](https://github.com/ikaijua/Awesome-AITools)
+
+## 待定项目
+
+**1、[Real-Time-Person-Removal](https://link.zhihu.com/?target=https%3A//github.com/jasonmayes/Real-Time-Person-Removal)**
+在 Web 浏览器中实时移除人像。该项目采用 JavaScript+TensorFlow.js 实现“凭空消失”
+
+![img](./AI工具导航.assets/v2-c23f3ec4b3ea51d1d9f980da455f79cb_720w.png)
+
+
+
+**2、[Real-Time-Voice-Cloning](https://link.zhihu.com/?target=https%3A//github.com/CorentinJ/Real-Time-Voice-Cloning)** 克隆某个人说话声音的 AI 项目。仅需几秒音频，就能模仿出原音频的人声
+
+![img](./AI工具导航.assets/v2-062b19bdecee4c925625069ab6f4a2b1_720w.png)
+
+
+
+**3、[Real-ESRGAN](https://link.zhihu.com/?target=https%3A//github.com/xinntao/Real-ESRGAN)**
+[图像超分辨率](https://www.zhihu.com/search?q=图像超分辨率&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A2299113744})模型，修复漫画图像的效果惊艳。通过 AI 技术将低分辨率、模糊的[图像修复](https://www.zhihu.com/search?q=图像修复&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A2299113744})成高清图像，可用于图像放大和提升质量。基于它实现的[桌面工具](https://link.zhihu.com/?target=https%3A//github.com/X-Lucifer/AI-Lossless-Zoomer)，还有可以直接使用的 Python 脚本，快去试试效果吧
+
+![img](./AI工具导航.assets/v2-79be5210773a47a82d49ec135375f868_720w.png)
+
+
+
+**4、[GameAISDK](https://link.zhihu.com/?target=https%3A//github.com/Tencent/GameAISDK)**
+基于[图像识别](https://www.zhihu.com/search?q=图像识别&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A2299113744})的 AI [自动化](https://www.zhihu.com/search?q=自动化&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A2299113744})框架，支持吃鸡类、射击类、MOBA 类等[游戏类型](https://www.zhihu.com/search?q=游戏类型&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A2299113744})。内置多种图像识别算法和 AI 算法，不用抠图完全基于图像识别的 AI 训练和框架
+
+![img](./AI工具导航.assets/v2-b8b2ba82a64496837902635817cdf26f_720w.png)
+
+
+
+**5、[DouZero_For_HappyDouDiZhu](https://link.zhihu.com/?target=https%3A//github.com/tianqiraf/DouZero_For_HappyDouDiZhu)**
+基于快手开源的斗地主强化学习框架，实现的欢乐斗地主 AI 助手
+
+![img](./AI工具导航.assets/v2-d1822cb8aad9cdaa23182f211a07b67a_720w.webp)
+
 ## AI相关网站
 
 AI+**艺术**：造梦日记、MidJourney、Stable Diffusion、Adobe、Stability、Remove

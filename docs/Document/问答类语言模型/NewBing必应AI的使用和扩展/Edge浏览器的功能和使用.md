@@ -1,5 +1,7 @@
 # Edge浏览器的功能和使用
 
+各种Edge浏览器使用教程：[为什么都在夸新版edge？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/385302999/answer/1809402376)
+
 Edge浏览器使用的视频教程：
 
 - 【这才是我想要的浏览器！纯干货，建议收藏！！！】<https://www.bilibili.com/video/BV1Es4y157mF?vd_source=36c9491a7fa2ab8a22ca060af01b7472>

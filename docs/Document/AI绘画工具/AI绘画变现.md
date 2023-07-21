@@ -2,6 +2,8 @@
 
 [‍‬⁣⁢﻿⁡‌‌﻿⁡⁢‬‬‍﻿⁢‍﻿﻿⁣⁤⁣⁤‬⁡‍‬‌⁢‌‌⁣﻿‬‍⁡⁤‍‌﻿⁣⁣⁤‌ChatGPT告诉你如何使用Midjourney搞IP赚钱？ - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/wikcnXM3SyeEOOX9InHGnncVtBc)
 
+[用ChatGPT和Midjourny等生成不露脸视频，一条视频赚10万美金！是怎么办到的呢？一步步拆解！！！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/644016960)
+
 ## AI 绘画目前变现渠道
 
 AI 绘画如何变现，其实现在已经有很多国内 AI 绘画工具了，针对于个人用户来说，它们可能是免费的，但是一旦商用起来，就要开始收费了。

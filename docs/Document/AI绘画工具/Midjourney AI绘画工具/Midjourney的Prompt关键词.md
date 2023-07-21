@@ -4,6 +4,8 @@
 
 [willwulfken/MidJourney-Styles-and-Keywords-Reference: A reference containing Styles and Keywords that you can use with MidJourney AI. There are also pages showing resolution comparison, image weights, and much more! (github.com)](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)
 
+[实测Midjourney V5 的惊艳之处。大量 prompt 公开+隐藏技巧 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/615690076)
+
 ## 两种方法让ChatGPT为你写Midjourney提示词
 
 
