@@ -2,7 +2,7 @@
 
 ## The Document is All You Need！一站式 LLM 底层技术原理入门指南
 
-**飞书文档**：[⁡‌⁢‌‍﻿⁣‬‬‬⁢⁢﻿‬﻿⁢‍‬﻿‌﻿⁣⁣⁤‬﻿⁡﻿⁡⁤⁢⁡The Document is All You Need！一站式 LLM底层技术原理入门指南 - 飞书云文档 (feishu.cn)](https://s3tlxskbq3.feishu.cn/docx/NyPqdCKraoXz9gxNVCfcIFdnnAc)
+**飞书文档**：[⁡The Document is All You Need！一站式 LLM底层技术原理入门指南 - 飞书云文档 (feishu.cn)](https://s3tlxskbq3.feishu.cn/docx/NyPqdCKraoXz9gxNVCfcIFdnnAc)
 
 这是一篇非常「硬核」的飞书文档，面向非科班出身但想要了解AI技术原理的受众，帮助实现**零基础入门大语言模型 (Large Language Mode, LLM) 底层技术原理**。
 
@@ -46,13 +46,13 @@
 >
 > - **LLM 的技术内涵**：详细介绍了 LLM 的技术原理 (包括 Transformer、Attention 机制、并行处理等)，分析了 LLM 相较 RNN 的优势，以及模型规模不断增长的趋势
 > - **LLM 的分类**：根据语言处理过程的不同，可分为 Encoder、Decoder 和 Encoder-Decoder 三类 LLM 模型，各有优势
-
+>
 > 1. **我们过去对 LLM 的认知**
 >
 > - **泛化能力**： LLM 可快速泛化应用到新的任务，无需全新训练，体现出强大的迁移学习能力
 > - **性能可预测**：模型规模越大，数据量越多， LLM 性能 predictable，呈现可量化的规模法则
 > - **研究热点**：介绍了 LLM 研究的主要方向，包括模型缩放、效率提升、多模态等
-
+>
 > 1. **InstructGPT 的贡献**：InstructGPT 通过引入 SFT 和 RLHF 提升了 LLM 的可控性和 alignment，为后续模型奠定基础
 > 2. **Instruction Fine-tuning 和 RLHF**：详细解释了InstructGPT的两大技术要点，包括实现方式、意义等
 > 3. **LLM 作为推理代理**：基于 Prompt Engineering等技术，LLM 可作为推理代理完成复杂任务，发挥强大的问题解决能力
@@ -141,7 +141,7 @@ LLM应该算是目前当之无愧的最有影响力的AI技术。而很多人在
 > *▢* **代码**：[github.com/microsoft/L…](https://github.com/microsoft/LoRA)
 >
 > *▢* **简介**：通过增加旁路低秩矩阵来模拟全模型微调，只训练降维矩阵A和升维矩阵B，固定原模型参数，实现轻量级微调
-
+>
 > *2*. **Adapter**
 >
 > *▢* **论文**：Parameter-Efficient Transfer Learning for NLP - [arxiv.org/pdf/1902.00…](https://arxiv.org/pdf/1902.00751.pdf)
@@ -149,7 +149,7 @@ LLM应该算是目前当之无愧的最有影响力的AI技术。而很多人在
 > *▢* **论文**：MAD-X: An Adapter-Based Framework for Multi-Task Cross-Lingual Transfer - [arxiv.org/pdf/2005.00…](https://arxiv.org/pdf/2005.00052.pdf)
 >
 > *▢* **简介**：在模型层中添加 Adapter 模块，只训练 Adapter 的参数，固定原模型，避免灾难性遗忘；Adapter Fusion 通过两阶段训练提升性能
-
+>
 > *3*. **Prefix-tuning**
 >
 > *▢* **论文**：Prefix-Tuning: Optimizing Continuous Prompts for Generation - [arxiv.org/pdf/2101.00…](https://arxiv.org/pdf/2101.00190.pdf)
@@ -157,7 +157,7 @@ LLM应该算是目前当之无愧的最有影响力的AI技术。而很多人在
 > *▢* **代码**：[github.com/XiangLi1999…](https://github.com/XiangLi1999/PrefixTuning)
 >
 > *▢* **简介**：为模型添加连续的任务特定向量作为前缀，只优化前缀参数，实现轻量级微调
-
+>
 > *4*. **P-tuning**
 >
 > *▢* **论文**：GPT Understands, Too - [arxiv.org/abs/2103.10…](https://arxiv.org/abs/2103.10385)
@@ -165,7 +165,7 @@ LLM应该算是目前当之无愧的最有影响力的AI技术。而很多人在
 > *▢* **代码**：[github.com/THUDM/P-tun…](https://github.com/THUDM/P-tuning)
 >
 > *▢* **简介**：使用模板和编码过的 prompt，在输入前后加入 anchor，同时只更新 prompt 的参数，适合 NLP 下游任务
-
+>
 > *5*. **Prompt-tuning**
 >
 > *▢* **简介**：为每个任务自定义 prompt 拼接在输入上，固定原模型只训练 prompt，可以达到与全模型微调相近的效果 [**⋙ 知乎 @腾讯技术工程**](https://zhuanlan.zhihu.com/p/644122818)
@@ -180,8 +180,8 @@ LLM应该算是目前当之无愧的最有影响力的AI技术。而很多人在
 > 2. **在哪评测**：总结了19个流行的基准测试，每个基准关注不同的方面和评估标准，为各自的领域做出了贡献
 > 3. **如何评测**：介绍了自动评估和人工评估两种主要方法。这两种方法在评估语言模型和机器翻译等任务时起着重要的作用
 > 4. **综述总结**：总结大语言模型的成功案例和可能的失败情况
-
-> 1. **重大挑战**：提出了7项大语言模型评估面临的重大挑战
+>
+> 1.**重大挑战**：提出了7项大语言模型评估面临的重大挑战
 >
 > - **设计 AGI 基准测试**：什么是可靠、可信任、可计算的能正确衡量 AGI 任务的评估指标？
 > - **设计 AGI 基准完成行为评估**：除去标准任务之外，如何衡量 AGI 在其他任务，如机器人交互中的表现？

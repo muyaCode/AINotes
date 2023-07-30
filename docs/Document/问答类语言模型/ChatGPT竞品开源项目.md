@@ -4,7 +4,7 @@
 
 ## 开源模型系列
 
-[‌⁡﻿‬‍‌⁢⁡⁢‬⁡﻿‬‌⁣⁢﻿‬﻿﻿‬⁤‬⁡‌⁣‬‌⁢⁡‍‍‌⁣⁡‬‬⁤⁤⁤‬‬开源模型系列 - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/wikcnpTh2THKPJtcWEBufzz89px)
+[‌开源模型系列 - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/wikcnpTh2THKPJtcWEBufzz89px)
 
 OpenAI 的 ChatGPT 大型语言模型（LLM）并未开源，这部分收录一些深度学习开源的 LLM 供感兴趣的同学学习参考。
 
@@ -207,15 +207,13 @@ main:    total time = 48455.85 ms
 
 OpenAI 研究科学家 Andrej Karpathy 在推特上表示：**对于人工智能和 LLM 来说，这确实是重要的一天。这是目前能够把权重提供给所有人使用的最为强大的 LLM**。
 
-对于开源社区来说，这个大模型就是「全村的希望」。它的出现将进一步缩小开源大模型与闭源大模型的差距，让所有人都有机会基于它构建自己的大模型应用 
+对于开源社区来说，这个大模型就是「全村的希望」。它的出现将进一步缩小开源大模型与闭源大模型的差距，让所有人都有机会基于它构建自己的大模型应用
 
 [**⋙ Llama 2网站**](https://ai.meta.com/llama) | [**Llama 2性能测试**](https://mp.weixin.qq.com/s/q4xVrfAsCzfdeRoquCV5cg)
 
 ### Llama 2 UI
 
 **llama2-webui**：<https://github.com/liltom-eth/llama2-webui>
-
-
 
 ## 闻达-Wenda 大语言模型调用平台，搭建专属知识库
 
@@ -589,7 +587,7 @@ web_demo这个文件 加载模型的路径记得改一下
 上面安装完成之后可以执行 python webdemo.py 跑一下，如果报错且提示
 ![c166dc08acd03ba5b816591b5c604c9.png](./ChatGPT竞品开源项目.assets/590f3d4dda304c8496c02d9f90a2abf9.webp)
 那么去这个[GCC](https://jmeubank.github.io/tdm-gcc/) 安装 10.3.0的版本 就行，输入 gcc-v 出现这个就成功啦
-![image.png](./ChatGPT竞品开源项目.assets/竞品开源项目/7ac40579378b41ce9c8736615e9eea5.webp)
+![image.png](./ChatGPT竞品开源项目.assets/7ac40579378b41ce9c8736615e9eea5.webp)
 
 最后的最后，如果cuad 、 torch 版本对应正确，那么运行python web_demo.py就成功啦
 ![image.png](./ChatGPT竞品开源项目.assets/36c05da639e24c50b155ce3b8e25cc04.webp)
@@ -1649,7 +1647,7 @@ pip install -r requirements.txt
 
 运行
 
-```arduino
+```bash
 python run.py
 ```
 

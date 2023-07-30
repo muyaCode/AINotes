@@ -87,13 +87,13 @@ SDXL1.0绘图赏析：
 
 提示词：
 
-```text
+```bash
 Canon 6D, 35mm, standing in the sunset of the city, smiling and playing the guitar as a man , HDR,UHD,8K, best quality
 ```
 
 负面提示词：
 
-```text
+```bash
 nsfw,logo,text,badhandv4,EasyNegative,ng_deepnegative_v1_75t,rev2-badprompt,verybadimagenegative_v1.3,negative_hand-neg,mutated hands and fingers,poorly drawn face,extra limb,missing limb,disconnected limbs,malformed hands,ugly,FastNegativeV2,aid291,NegfeetV2
 ```
 
@@ -107,7 +107,7 @@ nsfw,logo,text,badhandv4,EasyNegative,ng_deepnegative_v1_75t,rev2-badprompt,very
 
 提示词：
 
-```text
+```bash
 Canon 6D, 35mm, HDR,UHD,8K, best quality ,A hamburger with beef and eggs in it
 ```
 
@@ -119,7 +119,7 @@ Canon 6D, 35mm, HDR,UHD,8K, best quality ,A hamburger with beef and eggs in it
 
 提示词：
 
-```text
+```bash
 Anime style, giant robots in the valley
 ```
 
@@ -133,7 +133,7 @@ Anime style, giant robots in the valley
 
 提示词：
 
-```text
+```bash
 Sony A7,50mm,A girl holding a cat on the streets of the city , best quality, HDR,UHD,8K
 ```
 
@@ -167,7 +167,7 @@ DreamShaper是C站最受欢迎且下载量最高的模型之一，在SDXL0.9发�
 
 提示词：
 
-```text
+```bash
 photo of beautiful age 18 girl, pastel hair, freckles sexy, beautiful, close up, young, dslr, 8k, 4k, ultrarealistic, realistic, natural skin, textured skin
 ```
 
@@ -179,13 +179,13 @@ photo of beautiful age 18 girl, pastel hair, freckles sexy, beautiful, close up,
 
 提示词 （[搜索引擎](https://www.zhihu.com/search?q=搜索引擎&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra={"sourceType"%3A"answer"%2C"sourceId"%3A3138235795})搜的 SD 咒语，随便找了个帖子）
 
-```text
+```bash
 (masterpiece:1.1), (best quality:1.2),((illustration)), ((floating hair)), ((chromatic aberration)), ((caustic)), lens flare, dynamic angle, highres, original, extremely detailed wallpaper, official art, amazing, ultra-detailed, facing the lens,(1girl:1.1), ((hidden hands)), aqua eyes, (beautiful detailed eyes),(hazmat suit), bare legs,butterfly hair ornament,((frills)), ribbons, bowties, buttons, (((small breast))), ((huge clocks)), ((glass strips)), (floating glass fragments), ((colorful refraction)), (beautiful detailed sky), ((dark intense shadows)), ((cinematic lighting)), ((overexposure)), ruins, park, petals on liquid, overexposure, dark intense shadows, depth of field, ((sharp focus)), ((extremely detailed)), colorful, hdr
 ```
 
 负向提示词
 
-```text
+```bash
 lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, bad feet, missing legs, realistic, parody, traditional media, poorly drawn eyes, huge breasts, malformed arm, long neck, ugly, poorly drawn pantie, bad face, poorly drawn pussy, bad thigh gap, extra legs, futa, long face, missing arms, extra arm, bad_prompt
 ```
 

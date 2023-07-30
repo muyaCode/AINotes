@@ -1,6 +1,6 @@
 # Midjourney心得
 
-# 最重要的Prompt和参数
+## 最重要的Prompt和参数
 
 AI绘画的核心就是Prompt，那么了解Prompt后你才能用的得心应手。
 
@@ -98,15 +98,15 @@ AI绘画的核心就是Prompt，那么了解Prompt后你才能用的得心应手
 
 **通过图生成描述，让你不再发愁prompt怎么写。**
 
-当然也可以利用ChatGPT调解生成：可参考这篇文章：[干货分享：Midjourney出图不理想？用ChatGPT调教批量出咒语，附30G网盘资料。](https://y3if3fk7ce.feishu.cn/docx/LTdodwUwCoHByxxXtKpcUZocnKh) 
+当然也可以利用ChatGPT调解生成：可参考这篇文章：[干货分享：Midjourney出图不理想？用ChatGPT调教批量出咒语，附30G网盘资料。](https://y3if3fk7ce.feishu.cn/docx/LTdodwUwCoHByxxXtKpcUZocnKh)
 
 1. **💫 图生图：**
 
-**1）混合命令 /blend**
+**1）混合命令 /blend**:
 
 该命令允许用户上传 2-5 张图像，然后查看每张图像的概念和美学，并将它们合并成一个新颖的新图像。
 
-**2）垫图指令 /imagine prompt: url1 url2 描述 参数**
+**2）垫图指令 /imagine prompt: url1 url2 描述 参数**:
 
 **例如：htts://s.mj.run/h84Xh2GHYdM a cute girl --q 2 --niji 5 --s 750** **请注意，url 可以有两个，其效果类似/blend合成图的效果**
 
@@ -117,13 +117,13 @@ AI绘画的核心就是Prompt，那么了解Prompt后你才能用的得心应手
 ![img](./assets/心得/1689684408772-256.png)
 
 1. **💫 显示作业 /Show Job**
-2. **💫 SEED值：保持画面一致性** 
-   1.  **可以参考下这篇文章：****[SEED值：保持画面一致性](https://y3if3fk7ce.feishu.cn/docx/AsYxdCwS2oL9E2xvS4UcIY3Rnrr)** 
+2. **💫 SEED值：保持画面一致性**
+   1. **可以参考下这篇文章：****[SEED值：保持画面一致性](https://y3if3fk7ce.feishu.cn/docx/AsYxdCwS2oL9E2xvS4UcIY3Rnrr)**
 3. **💫 辅助网站:**
 
-可视化编辑prompt辅助网站：https://moonvy.com/apps/ops/
+可视化编辑prompt辅助网站：<https://moonvy.com/apps/ops/>
 
-（注意：上面的网站已开源：https://github.com/Moonvy/OpenPromptStudio） 
+（注意：上面的网站已开源：<https://github.com/Moonvy/OpenPromptStudio）>
 
 ### 四、常用风格词汇
 
@@ -135,32 +135,32 @@ AI绘画的核心就是Prompt，那么了解Prompt后你才能用的得心应手
 
 ![img](./assets/心得/1689684408772-259.png)
 
-### 六、高频实用词汇推荐：
+### 六、高频实用词汇推荐
 
-更多常用的词汇已总结，请访问这里查看下载：[‌⁡‍‌‍﻿⁤⁡⁤⁣⁣⁡⁣⁡⁢﻿⁤⁣﻿‍⁢⁣⁤⁣⁡‌⁡‍⁤⁣﻿⁣‬⁣⁢⁡AI绘图学习心得分享-Midjourney绘画AI，让你少走一些弯路 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/As0DdjQ0rohImBxMeUmcgII0nFg)
+更多常用的词汇已总结，请访问这里查看下载：[‌⁡‍‌AI绘图学习心得分享-Midjourney绘画AI，让你少走一些弯路 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/As0DdjQ0rohImBxMeUmcgII0nFg)
 
 ## Midjourney的一些学习心得：如何高效图生图
 
 相信经常会看到好图也想要的，但是要么抄不出感觉，要么抄过来把水印也抄了
 
-AI 绘画的核心就是给他怎么样的Prompt 。然而想让Midjourney 高效出图，图生图功能必不可少。 解决痛点：单一的描述Prompt 出不来我们想要的图片效果。 
+AI 绘画的核心就是给他怎么样的Prompt 。然而想让Midjourney 高效出图，图生图功能必不可少。 解决痛点：单一的描述Prompt 出不来我们想要的图片效果。
 
-有两种方法： 
+有两种方法：
 
-1.图生图： 
+1.图生图：
 
-- 指令：url +指令+参数 例如：hts://s.mj.run/h84Xh2GHYdM a beautiful girl --q 2 --niji 5 --s 750 请注意，url 可以有两个，其效果类似合成图的效果 
+- 指令：url +指令+参数 例如：hts://s.mj.run/h84Xh2GHYdM a beautiful girl --q 2 --niji 5 --s 750 请注意，url 可以有两个，其效果类似合成图的效果
 
-2.合成图： 
+2.合成图：
 
-- 指令：/blend 
-- 该命令允许用户上传 2-5 张图像，然后查看每张图像的概念和美学，并将它们合并成一个新颖的新图像。 
+- 指令：/blend
+- 该命令允许用户上传 2-5 张图像，然后查看每张图像的概念和美学，并将它们合并成一个新颖的新图像。
 
-抄图有几个点需要注意的 
+抄图有几个点需要注意的
 
-- 1.引用 
-- 2.控制相似度 
-- 3.控制风格强度 
+- 1.引用
+- 2.控制相似度
+- 3.控制风格强度
 - 4.强调符号
 
 ![img](./assets/心得/1689684147347-234.jpeg)
@@ -173,7 +173,7 @@ AI 绘画的核心就是给他怎么样的Prompt 。然而想让Midjourney 高�
 
 ![img](./assets/心得/1689684147348-238.jpeg)
 
-## UI/UX 设计师如何用好 Midjourney？我总结了5个方面！
+## UI/UX 设计师如何用好 Midjourney？我总结了5个方面
 
 [UI/UX设计师如何用好Midjourney？我总结了5个方面！ - 优设网 - 学设计上优设 (uisdc.com)](https://www.uisdc.com/midjourney-ui)
 
@@ -193,7 +193,7 @@ AI 绘画的核心就是给他怎么样的Prompt 。然而想让Midjourney 高�
 > - **手表端**：watchos
 > - **大屏端**：data dashboard
 > - **车载端**：carhmidesign
-
+>
 > *2*. **界面类型**
 >
 > - **App图标**：appicon
@@ -202,13 +202,13 @@ AI 绘画的核心就是给他怎么样的Prompt 。然而想让Midjourney 高�
 > - **吉祥物**：mascot
 > - **状态插图**：flatillustration
 > - **徽标**：logo for
-
+>
 > *3*. **添加元素**
 >
 > - **出行相关产品** ：3d car model
 > - **直播相关产品**：gift box、neon realistic
 > - **会员相关产品**：medaldesign
-
+>
 > *4*. **选定配色**
 >
 > **指定色调**
@@ -232,7 +232,7 @@ AI 绘画的核心就是给他怎么样的Prompt 。然而想让Midjourney 高�
 > - 白色干净：White and clean
 > - 电影色彩：Kinemacolor
 > - 夏日色：Summer color
-
+>
 > *5*. **设计风格**
 >
 > **UI领域设计师**
@@ -262,5 +262,5 @@ AI 绘画的核心就是给他怎么样的Prompt 。然而想让Midjourney 高�
 文档给出的提示词也非常详细！以第一部分「**界面载体**」的「电脑端」「手机端」为例，文档给出了说明、提示词和效果图：
 
 > ***电脑端***：An e-commerce **website** selling aromatherapy products with a minimalist design featuringa white background, deep green and forest color scheme, and illustrations of plants andleaves for a relaxed and soothing atmosphere, **ui website design**
-
-> ***手机端***：**An e-commerce app** selling plant essential oils with minimalist design, interface designand deep green healing color scheme, **ios app ui** 
+>
+> ***手机端***：**An e-commerce app** selling plant essential oils with minimalist design, interface designand deep green healing color scheme, **ios app ui**

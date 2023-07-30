@@ -2,7 +2,7 @@
 
 ## 教程
 
-[‌⁤‌⁣‌⁣‌‍‍﻿⁣‌‍⁢⁣⁢‍﻿﻿⁢⁡﻿‍‍‍‍‍‬⁡⁢⁤⁡‌‍⁢⁡⁢⁤‌Midjourney 学习导航 - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/wikcn5LLVhHZ8G8AsaiiRsOpEYf)
+[‌⁤‌⁣‌⁣‌‍⁡⁢⁤⁡‌‍⁢⁡⁢⁤‌Midjourney 学习导航 - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/wikcn5LLVhHZ8G8AsaiiRsOpEYf)
 
 ——————————————————————————————————————
 
@@ -542,11 +542,11 @@ Join Beta，使用刚刚的 Discoard 账号登录，就能进入到界面了。
 
 ## 各个朝代士兵自拍合集
 
-[⁡⁤⁣⁤‬‬⁣⁤⁢⁡﻿⁤﻿⁣⁤⁢﻿⁣‬‍‬⁢⁣‍‍⁣⁤⁢‌⁢﻿⁢‬AI绘画的各个朝代士兵自拍合集。 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/QEqxdhHp3or5dsxHrJRcLbv5nhb)
+[⁡⁤⁣AI绘画的各个朝代士兵自拍合集。 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/QEqxdhHp3or5dsxHrJRcLbv5nhb)
 
 ## Midjourney 怎么制订专属AI头像
 
-[‌⁤‬‬﻿⁣⁡⁣‌⁡⁡‌‍⁢﻿⁤⁤‌⁣‍⁣⁡⁡﻿⁢⁣‌﻿﻿‬⁢⁣﻿‌‬⁣⁤‌⁡⁡Midjourney 怎么制订专属AI头像 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/S4hrdh5VlozS8NxNiO2czL4Nnvh)
+[‌Midjourney 怎么制订专属AI头像 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/S4hrdh5VlozS8NxNiO2czL4Nnvh)
 
 ## Midjourney利用照片生成动漫虚拟3D头像
 

@@ -8,7 +8,7 @@
 
 ## 两种方法让ChatGPT为你写Midjourney提示词
 
-
+待定
 
 ## Midjourney在线提示词工具
 

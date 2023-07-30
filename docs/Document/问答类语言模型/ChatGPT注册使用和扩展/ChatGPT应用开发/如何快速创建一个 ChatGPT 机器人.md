@@ -574,7 +574,7 @@ print(llm_chain.run(question))
 
 运行之后你会得到一个这样的结果：
 
-```vbnet
+```bash
 Please use the following context to answer questions.
 Context: 1.What is a PLC
 2.Where and Why it is used

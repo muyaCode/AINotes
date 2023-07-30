@@ -1,6 +1,6 @@
 # AI绘画变现
 
-[‍‬⁣⁢﻿⁡‌‌﻿⁡⁢‬‬‍﻿⁢‍﻿﻿⁣⁤⁣⁤‬⁡‍‬‌⁢‌‌⁣﻿‬‍⁡⁤‍‌﻿⁣⁣⁤‌ChatGPT告诉你如何使用Midjourney搞IP赚钱？ - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/wikcnXM3SyeEOOX9InHGnncVtBc)
+[‌ChatGPT告诉你如何使用Midjourney搞IP赚钱？ - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/wikcnXM3SyeEOOX9InHGnncVtBc)
 
 [用ChatGPT和Midjourny等生成不露脸视频，一条视频赚10万美金！是怎么办到的呢？一步步拆解！！！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/644016960)
 
@@ -114,7 +114,7 @@ AI 确实要火了，9 月份是一个高潮，看来他们都准备好了百度
 
 ## 头像平台挂载
 
-变现实操：[AI壁纸号一周增加上千粉丝，轻松变现的成功案例分享](https://y3if3fk7ce.feishu.cn/docx/WG42dlOmBolzapxpbN5c8O2tnnf) 
+变现实操：[AI壁纸号一周增加上千粉丝，轻松变现的成功案例分享](https://y3if3fk7ce.feishu.cn/docx/WG42dlOmBolzapxpbN5c8O2tnnf)
 
 ![img](./assets/变现/1689686751425-287.png)![img](./assets/变现/1689686751425-288.png)
 
@@ -193,15 +193,15 @@ AI 确实要火了，9 月份是一个高潮，看来他们都准备好了百度
 
 在实现这些变现策略时，你需要考虑如何提供真正有价值的内容，以满足订阅者的需求和期望。此外，建立和维护订阅者的信任也至关重要。同时，你也需要不断学习和提升自己，以确保你能持续提供高质量的内容。
 
-具体可以看下这个案例：[小报童60%分成-ChatGPT应用案例](https://y3if3fk7ce.feishu.cn/docx/KQxvdvr88orfykx6O2ocQiagnQb) 
+具体可以看下这个案例：[小报童60%分成-ChatGPT应用案例](https://y3if3fk7ce.feishu.cn/docx/KQxvdvr88orfykx6O2ocQiagnQb)
 
 ## 案例1.AI绘画合成创意
 
-[‍‬⁡‍⁣⁢⁡⁡⁤‬⁡⁤﻿⁢‬⁤⁣⁣‬﻿‍‌‬⁢⁣⁢⁣﻿‍⁡⁣⁢‌‬﻿⁡AI绘画创意合成，变现思路案例分享 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/AhdBdntudofC5lx5VCEce8qZnxb)
+[⁡AI绘画创意合成，变现思路案例分享 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/AhdBdntudofC5lx5VCEce8qZnxb)
 
 ## 案例2.制作壁纸变现壁纸号
 
-[‌‌⁢⁢⁢⁤⁣⁡‍‌⁤‍⁣‌‬﻿‌‍‬‌⁤‬⁡‌⁢‬⁢⁢⁣⁣⁤‌⁢‬‬﻿⁣AI壁纸号一周增加上千粉丝，轻松变现的成功案例分享 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/WG42dlOmBolzapxpbN5c8O2tnnf)
+[‌‌⁢⁢⁢⁤⁣⁡‍‌⁤‍⁣⁣AI壁纸号一周增加上千粉丝，轻松变现的成功案例分享 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/WG42dlOmBolzapxpbN5c8O2tnnf)
 
 ## 案例3.制作绘本变现
 
@@ -213,7 +213,7 @@ chatgpt写故事，midjourney绘图，制作专属儿童绘本
 
 ## 案例5.AI绘画 prompt交易
 
-图2这套可爱动物的prompt $4.99卖了384份。 平台好像是抽成20% 
+图2这套可爱动物的prompt $4.99卖了384份。 平台好像是抽成20%
 
 ## 案例6.Midjourney代充会员
 

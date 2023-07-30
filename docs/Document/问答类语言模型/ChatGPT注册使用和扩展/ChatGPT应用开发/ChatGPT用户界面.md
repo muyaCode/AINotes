@@ -60,7 +60,7 @@ GitHub：[Yidadaa/ChatGPT-Next-Web: A well-designed cross-platform ChatGPT UI (W
 
 [**⋙ GitHub**](https://github.com/okisdev/ChatChat) | [**官网**](https://chat.okisdev.com/)
 
-![img](./assets/用户界面/219c5b4432da422b87e8b9b3380cf729.webp)
+![img](./assets/用户界面/219c5.webp)
 
 Chat Chat 可以使用 OpenAI、微软 Azure、Claude、Cohere、Hugging Face 等多个 API，让你的 AI 对话体验更加丰富。
 
