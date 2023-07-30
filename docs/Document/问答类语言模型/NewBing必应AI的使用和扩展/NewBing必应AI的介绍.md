@@ -38,7 +38,26 @@
 
 还可以帮助您满足创意需求，例如写诗、故事、歌曲，甚至可以 在同一平台内 使用Bing 的 Image Creator从文本生成图像。
 
+## 微软必应聊天上线所有浏览器
+
+[Bing Chat is coming to Google Chrome and Safari - The Verge](https://www.theverge.com/2023/7/24/23805493/bing-ai-chat-google-chrome-safari)
+
+7月24日，微软的必应聊天已开始上线包括谷歌Chrome、苹果Safari在内的所有浏览器，部分用户已获得访问权限。此外，微软还为必应聊天推出了黑暗模式功能，用户可以通过右上角菜单进行切换。
+
+与 Edge 浏览器相比，非微软浏览器上的必应聊天存在一些功能限制，如最多只能输入2000个字的提示、对话上下文保留轮数降低等。
+
+业内分析认为，这是微软拓展用户量的重要举措。展望未来，在这一领域，微软与谷歌的竞争或将更加激烈
+
 ## AI进行画图
 
 由OpenAI DALL∙E 2 驱动，可通过简单文字描述生成一张相关图片。
 
+## 微软推出 Bing Chat 企业版，并公布 Microsoft 365 Copilot 定价
+
+7月18日，微软公布了大模型产品的最新进展，包含推出 Bing Chat Enterprise (企业版) 预览版，以及公布 Microsoft 365 Copilot 定价。
+
+Bing Chat Enterprise 将会为用户提供由 AI 支持的聊天功能，同时保护企业的商业数据—— Bing Chat Enterprise 不会保存聊天数据，微软也无法对其进行监视访问。Bing Chat 企业版已经推出预览版，未来将发布独立产品，采用付费订阅模型，价格是每位用户每月 5 美元。
+
+Microsoft 365 Copilot **面向商业客户的价格正式出炉，Microsoft 365 E3、E5、Business Standard和Business Premium客户的价格将为每个用户每月30美元**。
+
+根据微软官方介绍，Microsoft 365 Copilot 以 Microsoft Graph 中的业务数据为基础，包括所有电子邮件、日历、聊天记录、文档等，可以帮助企业对所有业务数据进行推理，包括从会议/邮件中生成最新信息并发送给团队、帮助了解项目进展、从内部文件和网络数据中创建SWOT分析、提出问题并从网络上获得答案等 [**⋙ Microsoft Blog**](https://blogs.microsoft.com/blog/2023/07/18/furthering-our-ai-ambitions-announcing-bing-chat-enterprise-and-microsoft-365-copilot-pricing/)

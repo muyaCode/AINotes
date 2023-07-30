@@ -172,3 +172,95 @@ AI 绘画的核心就是给他怎么样的Prompt 。然而想让Midjourney 高�
 ![img](./assets/心得/1689684147348-237.jpeg)
 
 ![img](./assets/心得/1689684147348-238.jpeg)
+
+## UI/UX 设计师如何用好 Midjourney？我总结了5个方面！
+
+[UI/UX设计师如何用好Midjourney？我总结了5个方面！ - 优设网 - 学设计上优设 (uisdc.com)](https://www.uisdc.com/midjourney-ui)
+
+![img](./Midjourney心得.assets/811ec41b142645e6b689f188edc51354tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+
+![img](./Midjourney心得.assets/5723a8417b3d4fb49fa2021dde8aff7etplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+
+这是一份非常详备的 AIGC + UI/UX 工作手册，不仅分门别类地给出了常见的设计关键词，还提供了非常详细的 Prompt 和效果展示图。
+
+这份文档绝对值得收藏和翻阅，帮助快速生成想要的设计效果图、设计元素、指定配色、指定设计师风格等等。以下是文档的核心内容和关键词：
+
+> *1*. **界面载体**
+>
+> - **电脑端**：website、webui
+> - **手机端**：mobile app ui
+> - **平板端**：tablet、iPadOS
+> - **手表端**：watchos
+> - **大屏端**：data dashboard
+> - **车载端**：carhmidesign
+
+> *2*. **界面类型**
+>
+> - **App图标**：appicon
+> - **Banner**：banner
+> - **启动页**：launch page
+> - **吉祥物**：mascot
+> - **状态插图**：flatillustration
+> - **徽标**：logo for
+
+> *3*. **添加元素**
+>
+> - **出行相关产品** ：3d car model
+> - **直播相关产品**：gift box、neon realistic
+> - **会员相关产品**：medaldesign
+
+> *4*. **选定配色**
+>
+> **指定色调**
+>
+> - 金银色调：gold and silver tone
+> - 白粉色调：white and pink tone
+> - 黄黑色调：yellow and black tone
+> - 红黑色调：red and black tone
+> - 霓虹色调：neon shades
+> - 景泰蓝：Cloisonne
+> - 低纯度色调：the low-purity tone
+> - 高纯度色调：the high-purity tone
+> - 单色调：monotone
+> - 谈色调：muted tone
+>
+> **描述氛围感**
+>
+> - 梦幻般柔和：Dreamy Pastel
+> - 丰富多彩的：Coloful
+> - 优雅尊贵的：Graceful and noble
+> - 白色干净：White and clean
+> - 电影色彩：Kinemacolor
+> - 夏日色：Summer color
+
+> *5*. **设计风格**
+>
+> **UI领域设计师**
+>
+> - Leo Natsume
+> - Zhenya Rynzhuk
+> - Nguyen Le
+> - Salim Dabanca
+> - Jide Lambo
+> - Daniel Korpai
+> - Mike Locke
+> - Gary Simon
+>
+> **跨领域设计师**
+>
+> - leoh Ming Pei / 贝律铭
+> - ghibli studio / 吉卜力工作室
+> - Hayao Miyazaki / 宫崎骏
+> - Kazimir Malevich / 蒙德里安
+> - Junji lto / 伊藤润二
+> - Makoto Niitsu / 新海诚
+> - RonWayne / 罗恩韦恩
+> - TanYin / 唐伯虎
+
+![img](./Midjourney心得.assets/300c260eb1c74247a5eaee3152701bc6tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+
+文档给出的提示词也非常详细！以第一部分「**界面载体**」的「电脑端」「手机端」为例，文档给出了说明、提示词和效果图：
+
+> ***电脑端***：An e-commerce **website** selling aromatherapy products with a minimalist design featuringa white background, deep green and forest color scheme, and illustrations of plants andleaves for a relaxed and soothing atmosphere, **ui website design**
+
+> ***手机端***：**An e-commerce app** selling plant essential oils with minimalist design, interface designand deep green healing color scheme, **ios app ui** 

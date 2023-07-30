@@ -29,8 +29,31 @@ export default {
           link: "/Document/语言模型社区/语言模型社区",
         },
         {
+          text: "社区活动",
+          link: "/Document/语言模型社区/社区活动",
+        },
+        {
           text: "AI模型训练",
           link: "/Document/语言模型社区/AI模型训练",
+        },
+        {
+          text: "",
+          link: "/Document/语言模型社区/",
+        },
+      ]
+    },
+    {
+      text: "开源模型训练",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "开源LLM微调训练指南",
+          link: "/Document/开源模型训练/开源LLM微调训练指南",
+        },
+        {
+          text: "",
+          link: "/Document/开源模型训练/",
         },
       ]
     },
@@ -65,6 +88,10 @@ export default {
         {
           text: "问答类语言模型类型",
           link: "/Document/问答类语言模型/问答类语言模型类型",
+        },
+        {
+          text: "问答模型聚合类网站",
+          link: "/Document/问答类语言模型/问答模型聚合类网站",
         },
         {
           text: "",
@@ -126,14 +153,6 @@ export default {
             {
               text: "12.ChatGPT竞品项目",
               link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/12.ChatGPT竞品项目",
-            },
-            {
-              text: "13.ChatGPT竞品开源项目",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/13.ChatGPT竞品开源项目",
-            },
-            {
-              text: "14.问答模型整合网站",
-              link: "/Document/问答类语言模型/ChatGPT注册使用和扩展/14.问答模型整合网站",
             },
             {
               text: "14.ChatGPT变现和赚钱",
@@ -216,6 +235,10 @@ export default {
           ]
         },
         {
+          text: "ChatGPT竞品开源项目",
+          link: "/Document/问答类语言模型/ChatGPT竞品开源项目",
+        },
+        {
           text: "NewBing必应AI的使用和扩展",
           collapsible: true, // 可折叠
           collapsed: true, // 初始不折叠
@@ -245,6 +268,10 @@ export default {
       collapsible: true, // 可折叠
       collapsed: true, // 初始不折叠
       items: [
+        {
+          text: "归类总结",
+          link: "/Document/各行业AI工具集/归类总结",
+        },
         {
           text: "📔图像相关AI工具",
           collapsible: true, // 可折叠
@@ -288,16 +315,12 @@ export default {
               collapsed: true, // 初始不折叠
               items: [
                 {
-                  text: "DeepFaceLive",
-                  link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/DeepFaceLive",
+                  text: "开源换脸项目",
+                  link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/开源换脸项目",
                 },
                 {
                   text: "Roop",
                   link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/Roop",
-                },
-                {
-                  text: "Swapface",
-                  link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/Swapface",
                 },
                 {
                   text: "",
@@ -337,8 +360,8 @@ export default {
               link: "/Document/各行业AI工具集/AI音频相关/AI音频提取和识别",
             },
             {
-              text: "",
-              link: "/Document/各行业AI工具集/AI音频相关/",
+              text: "音频发展资讯",
+              link: "/Document/各行业AI工具集/AI音频相关/音频发展资讯",
             },
             {
               text: "",
@@ -531,6 +554,14 @@ export default {
           link: "/Document/AI绘画工具/AI绘画变现",
         },
         {
+          text: "问题",
+          link: "/Document/AI绘画工具/问题",
+        },
+        {
+          text: "Nijijourney官方AI绘画课程，艺术修养与绘画理论必修课",
+          link: "/Document/AI绘画工具/Nijijourney官方AI绘画课程，艺术修养与绘画理论必修课",
+        },
+        {
           text: "Midjourney AI绘画工具",
           collapsible: true, // 可折叠
           collapsed: true, // 初始不折叠
@@ -602,6 +633,22 @@ export default {
               text: "免费在线的Stable Diffuion",
               link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/免费在线的Stable Diffuion",
             },
+            {
+              text: "文生图模型—SDXL",
+              link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/文生图模型—SDXL",
+            },
+            {
+              text: "提示词工具网站",
+              link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/提示词工具网站",
+            },
+            {
+              text: "Stability AI公司",
+              link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/Stability AI公司",
+            },
+            {
+              text: "",
+              link: "/Document/AI绘画工具/Stable Diffusion AI绘画工具/",
+            },
           ]
         },
         {
@@ -662,8 +709,8 @@ export default {
           link: "/Document/提示工程/",
         },
         {
-          text: "",
-          link: "/Document/提示工程/",
+          text: "提示工程-工具",
+          link: "/Document/提示工程/提示工程-工具",
         },
         {
           text: "",

@@ -40,7 +40,6 @@ Databricks 发布的 Dolly 2.0 大语言模型（LLM）的又一个新版本。
 
 Databricks 表示，Dolly 2.0 是业内第一个开源、遵循指令的 LLM，它在透明且免费提供的数据集上进行了微调，该数据集也是开源的，可用于商业目的。这意味着 Dolly 2.0 可用于构建商业应用程序，无需支付 API 访问费用或与第三方共享数据。
 
-
 ### [中文LLaMA&Alpaca大语言模型+本地部署: Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
 
 项目开源了中文LLaMA模型和经过指令精调的Alpaca大模型。这些模型在原版LLaMA的基础上扩充了中文词表并使用了中文数据进行二次预训练，进一步提升了中文基础语义理解能力。同时，在中文LLaMA的基础上，本项目使用了中文指令数据进行指令精调，显著提升了模型对指令的理解和执行能力。
@@ -66,25 +65,25 @@ Lightning-AI 基于nanoGPT的LLaMA语言模型的实现。支持量化，LoRA微
 
 **热门问题:**
 
-- 本仓库只是一点点代码。想要完整运行，需要 下载模型。
-- 输出性能优化：[Store KV cache of computed prompts to disk to avoid re-compute in follow-up runs · Issue #64 · ggerganov/llama.cpp (github.com)](https://github.com/ggerganov/llama.cpp/issues/64)
-- 创建一个 `llama.cpp` logo：[Create a logo · Issue #105 · ggerganov/llama.cpp (github.com)](https://github.com/ggerganov/llama.cpp/issues/105)
+* 本仓库只是一点点代码。想要完整运行，需要 下载模型。
+* 输出性能优化：[Store KV cache of computed prompts to disk to avoid re-compute in follow-up runs · Issue #64 · ggerganov/llama.cpp (github.com)](https://github.com/ggerganov/llama.cpp/issues/64)
+* 创建一个 `llama.cpp` logo：[Create a logo · Issue #105 · ggerganov/llama.cpp (github.com)](https://github.com/ggerganov/llama.cpp/issues/105)
 
 ### 描述
 
 和ChatGPT对比起来，llama的好处是：使用普通的Macbook，Linux，甚至Docker、树莓派等，就可以运行类比于 ChatGPT 的对话模型。
 
-- 纯C++代码，代码少，而且没有任何依赖
-- Apple 的M1 芯片也可以跑，而且有性能优化
-- x86架构拥有 AVX2 支持
-- 在 CPU 上就能跑，不需要 GPU
+* 纯C++代码，代码少，而且没有任何依赖
+* Apple 的M1 芯片也可以跑，而且有性能优化
+* x86架构拥有 AVX2 支持
+* 在 CPU 上就能跑，不需要 GPU
 
 支持的平台:
 
-- [x] Mac OS
-- [x] Linux
-- [x] Windows (via CMake)
-- [x] Docker
+* [x] Mac OS
+* [x] Linux
+* [x] Windows (via CMake)
+* [x] Docker
 
 模型下载地址：
 
@@ -132,10 +131,10 @@ curl -o ggml-alpaca-7b-q4.bin -C - https://gateway.estuary.tech/gw/ipfs/QmQ1bf2B
 ./main -m ./ggml-alpaca-7b-q4.bin -p "Will the future be female?" -n 512 --color
 ```
 
-- m 指定的是模型的位置。
-- p 是对话或者问题。比如这里，我问我是否能够吃狗肉!
-- n 指定的是输出的文字数量，默认是128。
-- --color 输出彩色内容。
+* m 指定的是模型的位置。
+* p 是对话或者问题。比如这里，我问我是否能够吃狗肉!
+* n 指定的是输出的文字数量，默认是128。
+* --color 输出彩色内容。
 
 下面是一些输出。首先会将输入进行切分，然后生成内容，最后将耗时打印。
 
@@ -194,6 +193,30 @@ main:    total time = 48455.85 ms
 
 把这些有限的数据预装在小型的设备中，这就会成为最小的智能体。在数据中加入人格（目前的Chat系列是可以做到的），这个智能体就可以充当我们的秘书、代言人，甚至男女朋友。
 
+## Llama 2
+
+7月19日，Meta 发布大模型 Llama 2，**宣布免费且可以商用**，GitHub 项目的 Star 在几天时间里冲破 30K。一夜之间，大模型格局再次发生巨变。以下是 Llama 2 大模型的基本信息：
+
+> *▢* 包含 70 亿、130 亿和 700 亿三种参数变体，此外还训练了 340 亿参数变体，但并没有发布，只在技术报告中提到了
+>
+> *▢* 在 2 万亿的 token 上进行训练，相比于 Llama 1 的训练数据多了 40%，精调 Chat 模型是在 100 万人类标记数据上训练的
+>
+> *▢* 支持的上下文 token 长度翻倍，由原来的 2048 升级到 4096
+>
+> *▢* 免费可商用，但日活大于 7 亿的产品需要单独申请商用权限
+
+OpenAI 研究科学家 Andrej Karpathy 在推特上表示：**对于人工智能和 LLM 来说，这确实是重要的一天。这是目前能够把权重提供给所有人使用的最为强大的 LLM**。
+
+对于开源社区来说，这个大模型就是「全村的希望」。它的出现将进一步缩小开源大模型与闭源大模型的差距，让所有人都有机会基于它构建自己的大模型应用 
+
+[**⋙ Llama 2网站**](https://ai.meta.com/llama) | [**Llama 2性能测试**](https://mp.weixin.qq.com/s/q4xVrfAsCzfdeRoquCV5cg)
+
+### Llama 2 UI
+
+**llama2-webui**：<https://github.com/liltom-eth/llama2-webui>
+
+
+
 ## 闻达-Wenda 大语言模型调用平台，搭建专属知识库
 
 1.闻达Github主页地址：<https://github.com/wenda-LLM/wenda>
@@ -208,15 +231,15 @@ main:    total time = 48455.85 ms
 
 ChatRWKV模型6G显存部署实战，可极限操作1.5GB显存部署14B模型
 
-- 1、项目Git：github.com/BlinkDL/ChatRWKV
-- 2、中文在线：modelscope.cn/studios/BlinkDL/RWKV-CHN/summary/
-- 3、Raven英语14B在线：huggingface.co/spaces/BlinkDL/ChatRWKV-gradio
-- 4、ChatRWKV LoRA微调：github.com/Blealtan/RWKV-LM-LoRA
-- 5、ChatRWKV C++：github.com/harrisonvanderbyl/rwkv-cpp-cuda
-- 6、Wenda：github.com/l15y/wenda
-- 7、模型量化：Use v2/convert_model.py to convert a model for a strategy, for faster loading & saves CPU RAM.
-- 8、作者给出的中文教程：zhuanlan.zhihu.com/p/618011122
-- 9、1.5GB显存部署14B模型：zhuanlan.zhihu.com/p/616986651
+* 1、项目Git：github.com/BlinkDL/ChatRWKV
+* 2、中文在线：modelscope.cn/studios/BlinkDL/RWKV-CHN/summary/
+* 3、Raven英语14B在线：huggingface.co/spaces/BlinkDL/ChatRWKV-gradio
+* 4、ChatRWKV LoRA微调：github.com/Blealtan/RWKV-LM-LoRA
+* 5、ChatRWKV C++：github.com/harrisonvanderbyl/rwkv-cpp-cuda
+* 6、Wenda：github.com/l15y/wenda
+* 7、模型量化：Use v2/convert_model.py to convert a model for a strategy, for faster loading & saves CPU RAM.
+* 8、作者给出的中文教程：zhuanlan.zhihu.com/p/618011122
+* 9、1.5GB显存部署14B模型：zhuanlan.zhihu.com/p/616986651
 
 部署视频教程：【ChatRWKV模型6G显存部署实战—凡人之躯, 比肩ChatGPT!!?】<https://www.bilibili.com/video/BV1hm4y1C7Ai?vd_source=36c9491a7fa2ab8a22ca060af01b7472>
 
@@ -250,7 +273,7 @@ RWKV官方仓库：<https://github.com/BlinkDL/RWKV-LM>
 
 ## 『搭建基于LLM的客服系统的实践』基于清华大模型 ChatGLM-6B 完成6类任务
 
-![img](./assets/4fdf4f60019749b69048e2b4d4d43452.webp)
+![img](./ChatGPT竞品开源项目.assets/4fdf4f60019749b69048e2b4d4d43452.webp)
 
 随着 ChatGPT 和 GPT-4 等强大生成模型出现，自然语言处理任务方式正在逐步发生改变：或许未来我们不再为每个具体任务去 finetune 一个模型，而是基于同一个大模型对不同任务设计其独有的 prompt，以解决不同的问题。
 
@@ -350,8 +373,8 @@ OpenAI发布的ChatGPT火爆全球以来，全球互联网大厂陆续跟进，�
 
 如果是做一个垂直领域的Chat产品，有2种方案：
 
-- 直接使用商业化产品，前提是商业化产品支持对模型做fine-tune(微调)。比如OpenAI就支持对它的基础模型做fine-tune来实现个性化的模型。
-- 使用开源的大语言模型，对开源模型做fine-tune来实现垂直领域的Chat产品。
+* 直接使用商业化产品，前提是商业化产品支持对模型做fine-tune(微调)。比如OpenAI就支持对它的基础模型做fine-tune来实现个性化的模型。
+* 使用开源的大语言模型，对开源模型做fine-tune来实现垂直领域的Chat产品。
 
 本文重点介绍有较大参考价值的开源大语言模型，方便大家快速找到适合自己应用场景的开源模型。
 
@@ -369,10 +392,10 @@ OpenAI发布的ChatGPT火爆全球以来，全球互联网大厂陆续跟进，�
 
 开源模型有几个注意点：
 
-- 第一，LLaMA由Meta开源，LLaMA目前仅用于学术、社会公益项目，不能用于商业化项目。
-- 第二，Alpaca, Vicuna, Koala基于LLaMA衍生而来，是在LLaMA大语言模型基础上做了fine-tune得到的，因此训练成本极低，只需用比较少的指令数据做fine-tune即可。这也是为什么这几个模型的训练成本很低，因为站在了LLaMA这个巨人的肩膀上。另外，这几个模型由于本质上还是LLaMA，受限于LLaMA的license限制，同样不能用于商业化目的。
-- Dolly 2.0是在EleutherAI pythia模型衍生而来，指令微调的数据集称为 databricks-dolly-15k，也已开源发布，包含来自数千名 Databricks 员工的 15,000 个高质量的人工生成的问答数据，专为指令调优大型语言模型而设计。且 databricks-dolly-15k 根据（Creative Commons Attribution-ShareAlike 3.0 Unported License）的许可条款，任何人都可以出于任何目的使用、修改或扩展此数据集，包括商业应用。
-- 国内目前开源的主要就是清华主导的ChatGLM，以及华为和鹏程实验室主导的盘古alpha模型。
+* 第一，LLaMA由Meta开源，LLaMA目前仅用于学术、社会公益项目，不能用于商业化项目。
+* 第二，Alpaca, Vicuna, Koala基于LLaMA衍生而来，是在LLaMA大语言模型基础上做了fine-tune得到的，因此训练成本极低，只需用比较少的指令数据做fine-tune即可。这也是为什么这几个模型的训练成本很低，因为站在了LLaMA这个巨人的肩膀上。另外，这几个模型由于本质上还是LLaMA，受限于LLaMA的license限制，同样不能用于商业化目的。
+* Dolly 2.0是在EleutherAI pythia模型衍生而来，指令微调的数据集称为 databricks-dolly-15k，也已开源发布，包含来自数千名 Databricks 员工的 15,000 个高质量的人工生成的问答数据，专为指令调优大型语言模型而设计。且 databricks-dolly-15k 根据（Creative Commons Attribution-ShareAlike 3.0 Unported License）的许可条款，任何人都可以出于任何目的使用、修改或扩展此数据集，包括商业应用。
+* 国内目前开源的主要就是清华主导的ChatGLM，以及华为和鹏程实验室主导的盘古alpha模型。
 
 ### 训练模型
 
@@ -402,8 +425,8 @@ GPT模型现在真的是日新月异，很多是基于基础模型，结合问�
 
 ### References
 
-- <https://mp.weixin.qq.com/s/7CW4p8RgAF3jYGmgefB_eg>
-- <https://mp.weixin.qq.com/s/M-ToNk8SABoP2JG0xLUBxQ>
+* <https://mp.weixin.qq.com/s/7CW4p8RgAF3jYGmgefB_eg>
+* <https://mp.weixin.qq.com/s/M-ToNk8SABoP2JG0xLUBxQ>
 
 ## BLOOMChat: 开源可商用支持多语言的大语言模型
 
@@ -445,7 +468,7 @@ GPT模型现在真的是日新月异，很多是基于基础模型，结合问�
 
 ## 博思白板boardmix：加速提升内容生产力  
 
-![image3.png](./assets/19d5913e6380430baa677a21023e1dda.webp) boardmix AI助手是博思白板内新上线的AI助手工具，支持AI生成文本、AI生成代码、AI翻译、互动聊天、在线搜索等功能，为用户提供高效的创作体验。在基于其强大的内容生成能力和搜索能力之外，还能结合boardmix本身的产品功能特点实现AI生成思维导图、任务清单和便利贴等更多样化的创意内容
+![image3.png](./ChatGPT竞品开源项目.assets/19d5913e6380430baa677a21023e1dda.webp) boardmix AI助手是博思白板内新上线的AI助手工具，支持AI生成文本、AI生成代码、AI翻译、互动聊天、在线搜索等功能，为用户提供高效的创作体验。在基于其强大的内容生成能力和搜索能力之外，还能结合boardmix本身的产品功能特点实现AI生成思维导图、任务清单和便利贴等更多样化的创意内容
 
 。此外boardmix AI助手在思维发散、灵感收集、头脑风暴方面也能发挥重要作用，为创意工作者提供智能支持。
 
@@ -472,17 +495,17 @@ GPT模型现在真的是日新月异，很多是基于基础模型，结合问�
 nvidia-smi
 ```
 
-![image.png](./assets/e4e9e9e59e7a42e4a0e5491cf5453f61.webp)
+![image.png](./ChatGPT竞品开源项目.assets/e4e9e9e59e7a42e4a0e5491cf5453f61.webp)
 这个是查看自己有没有显卡驱动的命令，一般笔记本买来默认都是装了的，如果你很特别是个伪灵根，那么得自己装下驱动 可以点击这里查看符合电脑的驱动 [驱动](https://www.nvidia.cn/geforce/drivers/)
 上面的驱动版本是452.06 ，CUDA版本是11.0 ，意味着**我这个驱动最高支持的CUDA版本是11.0**.可以根据Torch的版本 **降级选择其他的CUDA版本**，**这里推荐安装10.2**，为什么是它，**跟6B里写的代码有关也跟Torch有关**，实测10.2是Torch支持最多的一个型号，安装torch的时候再详细说明，[CUDA下载地址](https://developer.nvidia.com/cuda-toolkit-archive)
-![image.png](./assets/940f48e09edb429e870611adfed67064.webp)
+![image.png](./ChatGPT竞品开源项目.assets/940f48e09edb429e870611adfed67064.webp)
 其他CUDA版本可 安装对应的版本 但是，最好安装
  **torch>=1.10.1支持的 CUDA版本**
 **torch>=1.10.1支持的 CUDA版本**
 **torch>=1.10.1支持的 CUDA版本**
  可以去[官网](https://pytorch.org/get-started/locally/)这里查看 自己的CUDA版本支不支持1.10.1以上的torch
 还需要安装一个 [CUDNN](https://developer.nvidia.com/rdp/cudnn-archive), 对应CUDA的版本即可。
-![image.png](./assets/421be063dc0d4f67b3a56cc83fb7634d.webp)
+![image.png](./ChatGPT竞品开源项目.assets/421be063dc0d4f67b3a56cc83fb7634d.webp)
 下载完成这两个之后开始安装这个玩意
 
 #### 安装CUDA
@@ -491,9 +514,9 @@ nvidia-smi
 
 > 以下图片来自 [blog.csdn.net/L1778586311…](https://blog.csdn.net/L1778586311/article/details/112425993)，详细可看它的安装步骤
 
-![img](./assets/670aafafb58c446bb7e16811ace3abd2.webp)
-![img](./assets/d394d6b2ab9c4e96a5d9e0cc0ff02253.webp)
-![img](./assets/66a2e306e538484ba192670ef9fc4ab6.webp)
+![img](./ChatGPT竞品开源项目.assets/670aafafb58c446bb7e16811ace3abd2.webp)
+![img](./ChatGPT竞品开源项目.assets/d394d6b2ab9c4e96a5d9e0cc0ff02253.webp)
+![img](./ChatGPT竞品开源项目.assets/66a2e306e538484ba192670ef9fc4ab6.webp)
 这里的貌似可以不用勾选，如果勾选了那么你的电脑还需要安装Visual Studio ，我个人一开始没注意，就安装了，如果可以的话 不安装这个试试，它是用来编译c文件的，但是我猜测运行的时候用不上吧，我也不确定，不想省点空间 就勾选上吧 VS也装上可以使用2019版本，这里百度一下。
 后面就直接下一步下一步就完事。**上面的那个博客还新建了很多环境变量，我这里并没有新建环境变量，它自己会添加两个就足够了。**
 
@@ -504,33 +527,33 @@ nvidia-smi
 > 把cuDNN压缩包解压缩，分别把bin、include、lib\x64三个文件夹中的.dll、.h和.lib文件复制到CUDA目录下对应文件夹里。 不是把三个文件夹复制过去覆盖掉，是里面的文件！！！ 不是把三个文件夹复制过去覆盖掉，是里面的文件！！！ 不是把三个文件夹复制过去覆盖掉，是里面的文件！！！
 
 在这个路径执行命令出现这个就成功了
-![image.png](./assets/002b6eeccd4d415a8a1072063203d9e9.webp)
+![image.png](./ChatGPT竞品开源项目.assets/002b6eeccd4d415a8a1072063203d9e9.webp)
 
 ### 第二式：安装PyTorch
 
 这也是一坑点，我的踩坑之路就来自于它，首先看段代码
-![image.png](./assets/3e3757a3a977452ab24164d8214216d8.webp)
+![image.png](./ChatGPT竞品开源项目.assets/3e3757a3a977452ab24164d8214216d8.webp)
 这个官方加载模型的代码，里面的skip_init方法是1.10.1版本才有的，**我一开始用的CUDA11 ，troch版本只有1.7.1支持CUDA11，是没有这个方法的，想不通为什么版本高 反而支持的少！！🤬**
 
 这也是上面为什么一定要安装torch版本大于1.10.1以上版本的原因，否则会报这个方法找不到。
 然后我去问了官方，它让我改下代码
-![image.png](./assets/c5833ae51ef04017a4791a10dae06d05.webp)
+![image.png](./ChatGPT竞品开源项目.assets/c5833ae51ef04017a4791a10dae06d05.webp)
 但是并没有什么用，这个不报错了，又会有其他问题
 所以还是看[官网](https://pytorch.org/get-started/locally/)
-![image.png](./assets/b4d07a0a3aab4073a650a09304a0dd4e.webp)
+![image.png](./ChatGPT竞品开源项目.assets/b4d07a0a3aab4073a650a09304a0dd4e.webp)
 如果你骨骼优秀是CUDA11.7 11.8,那么复制下面的地址安装就完了，如果你的版本不是就点击，previours versions 里 进到一个页面
-![image.png](./assets/e8312346dbce498a8a0a3ecf950bd909.webp)
+![image.png](./ChatGPT竞品开源项目.assets/e8312346dbce498a8a0a3ecf950bd909.webp)
 因为它很多，所以我选择相信这个版本，其实是因为没得选，这是我电脑目前最合适的一个版本了，我之前按照我电脑最高版本的CUDA11.0 去安装，发现只有2个版本选择
-![image.png](./assets/4d85513080024bb796af217765f33622.webp)
+![image.png](./ChatGPT竞品开源项目.assets/4d85513080024bb796af217765f33622.webp)
 这里千万不要用什么清华的镜像源去安装，不要用什么清华的镜像源去安装，不要用什么清华的镜像源去安装
 感觉那东西下载下来有问题，
 但是官网源的下载很慢，这里推荐使用离线安装
 进到这个地址 [链接](https://download.pytorch.org/whl/cu102/torch_stable.html) cu102的，地址上的cu102 可以换成其他对应的cuda版本。然后看哪个torch支持，后面cp 对应的是python版本
-![image.png](./assets/a3689ab3d25648819d3be60def0123b1.webp)
+![image.png](./ChatGPT竞品开源项目.assets/a3689ab3d25648819d3be60def0123b1.webp)
 
 下载下来，然后 torchaudio、torchvision 也是一样的，都在这个网站可以找到。
 这里贴下我这三个包对应的版本
-![image.png](./assets/61392b5e2e0b482a883500d915091fb1.webp)
+![image.png](./ChatGPT竞品开源项目.assets/61392b5e2e0b482a883500d915091fb1.webp)
 我猜清华源下载的是不带对应cuda版本的，一个torch1.10.2的版本 可以是cuda 102  103 105等等。。。我装过清华源下载的是不行的，可能我脸黑
 然后进入到文件下载目录 使用
 
@@ -553,31 +576,31 @@ print(torch.cuda.is_available(),'GPU部署')
 ### 第三斧：下载int4模型
 
 官方说没有量化的版本需要13G内存，卧槽，这对于家用笔记本也是一个大大大内存了
-![image.png](./assets/029503bdb67d44d1be1ef4846bf7bfd2.webp)
+![image.png](./ChatGPT竞品开源项目.assets/029503bdb67d44d1be1ef4846bf7bfd2.webp)
 所以我们直接下载，量化好的版本，在这个地址[int4](https://huggingface.co/THUDM/chatglm-6b-int4),这里还需要下载 git fls ,然后用梯子下载会快点。下载到6b的仓库目录哦
 完整目录：
-![image.png](./assets/f683b277bfa04db5aa879adbbec0a9c1.webp)
+![image.png](./ChatGPT竞品开源项目.assets/f683b277bfa04db5aa879adbbec0a9c1.webp)
 
 web_demo这个文件 加载模型的路径记得改一下
-![image.png](./assets/b140c36f16c348f5b67d8bfe8f1fb779.webp)
+![image.png](./ChatGPT竞品开源项目.assets/b140c36f16c348f5b67d8bfe8f1fb779.webp)
 
 ### 第四刀：安装GCC
 
 上面安装完成之后可以执行 python webdemo.py 跑一下，如果报错且提示
-![c166dc08acd03ba5b816591b5c604c9.png](./assets/590f3d4dda304c8496c02d9f90a2abf9.webp)
+![c166dc08acd03ba5b816591b5c604c9.png](./ChatGPT竞品开源项目.assets/590f3d4dda304c8496c02d9f90a2abf9.webp)
 那么去这个[GCC](https://jmeubank.github.io/tdm-gcc/) 安装 10.3.0的版本 就行，输入 gcc-v 出现这个就成功啦
-![image.png](./assets/竞品开源项目/7ac40579378b41ce9c8736615e9eea5.webp)
+![image.png](./ChatGPT竞品开源项目.assets/竞品开源项目/7ac40579378b41ce9c8736615e9eea5.webp)
 
 最后的最后，如果cuad 、 torch 版本对应正确，那么运行python web_demo.py就成功啦
-![image.png](./assets/36c05da639e24c50b155ce3b8e25cc04.webp)
+![image.png](./ChatGPT竞品开源项目.assets/36c05da639e24c50b155ce3b8e25cc04.webp)
 
 ### 总结1
 
-- **下载的cuda版本和torch版本一定要对应，**
-- **多去官网查看两者对应的版本，（如果你的电脑和我一样落后）**
-- 这个版本的cuda还是老了，**有 条件的升级驱动，没条件的换新电脑，下载更新的cuad版本的 torch**，但是安装思路是一样的。
-- 下次搞个服务器，找好训练集，训练一个什么出来试试？
-- 希望大家安装成功，踏入语言模型修仙领域的第一步
+* **下载的cuda版本和torch版本一定要对应，**
+* **多去官网查看两者对应的版本，（如果你的电脑和我一样落后）**
+* 这个版本的cuda还是老了，**有 条件的升级驱动，没条件的换新电脑，下载更新的cuad版本的 torch**，但是安装思路是一样的。
+* 下次搞个服务器，找好训练集，训练一个什么出来试试？
+* 希望大家安装成功，踏入语言模型修仙领域的第一步
 
 ## Open Assistant
 
@@ -591,7 +614,7 @@ OpenAssistant是一个开源的对话模型，基于Pythia和LLaMA微调而来�
 
 项目的Roadmap中也给出了后续的成长计划。
 
-![img](./assets/b9961f44fe2f4770ae8fd401271e92ba.webp)
+![img](./ChatGPT竞品开源项目.assets/b9961f44fe2f4770ae8fd401271e92ba.webp)
 
 这个项目自发布以来，之所以能吸引大批网友的关注，其中一个原因就是因为按照项目官网的说法，这是一个致力于将聊天语言模型普及化的项目，最终的目标是希望这些模型能在消费级的硬件上运行。
 
@@ -599,11 +622,11 @@ OpenAssistant是一个开源的对话模型，基于Pythia和LLaMA微调而来�
 
 目前Open Assistant的官网给出了使用入口，用户可以直接试用这一AI助理。
 
-![img](./assets/d31d0cc93e65485e883e38a47b8c9f22.webp)
+![img](./ChatGPT竞品开源项目.assets/d31d0cc93e65485e883e38a47b8c9f22.webp)
 
 进入官网后，用户丢个邮箱然后验证一下就可以直接使用了。
 
-![img](./assets/6151f1fb011e4b08bc5367678a567441.webp)
+![img](./ChatGPT竞品开源项目.assets/6151f1fb011e4b08bc5367678a567441.webp)
 
 这里我们也进去简单试用了一下，和网友们试用后的感觉有点像。
 
@@ -611,21 +634,21 @@ OpenAssistant是一个开源的对话模型，基于Pythia和LLaMA微调而来�
 
 比如基本的问答、对话以及请求都能做出回答。
 
-![img](./assets/1bb58ca23afb4442af034985a5074379.webp)
+![img](./ChatGPT竞品开源项目.assets/1bb58ca23afb4442af034985a5074379.webp)
 
-![img](./assets/29f9fed33af642c1bc6752ac4f5a7b43.webp)
+![img](./ChatGPT竞品开源项目.assets/29f9fed33af642c1bc6752ac4f5a7b43.webp)
 
 再者，像写个简单代码等类似请求也能顺利完成。
 
-![img](./assets/62d8eb0d74ec4a3c86b3469f8b76a09f.webp)
+![img](./ChatGPT竞品开源项目.assets/62d8eb0d74ec4a3c86b3469f8b76a09f.webp)
 
 但是使用的过程中也发现很多问题。
 
 比如对中文的支持目前感觉并不是很好，很多时候输入的问题是中文，但给出的输出仍是英文。
 
-![img](./assets/ddf27c9bbb894530a709276ac1a9a966.webp)
+![img](./ChatGPT竞品开源项目.assets/ddf27c9bbb894530a709276ac1a9a966.webp)
 
-![img](./assets/1c71edd19a044660be1f6d72e0617185.webp)
+![img](./ChatGPT竞品开源项目.assets/1c71edd19a044660be1f6d72e0617185.webp)
 
 而且有时候回答的准确性还有待提高，且有错误发生。
 
@@ -633,11 +656,11 @@ OpenAssistant是一个开源的对话模型，基于Pythia和LLaMA微调而来�
 
 这...这是认真的么？（doge）
 
-![img](./assets/77d24386583d44c4a7bbef931df482ed.webp)
+![img](./ChatGPT竞品开源项目.assets/77d24386583d44c4a7bbef931df482ed.webp)
 
 再者就是提问的过程中偶尔会遇到排队的情况，需要在队列中等待一会儿才出结果。
 
-![img](./assets/9f46bfcab71b4d68ae1554e8afa45f11.webp)
+![img](./ChatGPT竞品开源项目.assets/9f46bfcab71b4d68ae1554e8afa45f11.webp)
 
 当然这些倒是能理解，毕竟人家是免费给用户使用的，还要啥自行车。
 
@@ -675,7 +698,7 @@ GitHub：[RasaHQ/rasa: 💬 Open source machine learning framework to automate t
 
 还有一个比较有意思的功能就是，我们可以通过点击MOSS回复消息框右下角的小灯泡，来查看MOSS的「内心想法」。
 
-![img](./assets/e66a5cb8d74d496fbaad98ed36fb8769.webp)
+![img](./ChatGPT竞品开源项目.assets/e66a5cb8d74d496fbaad98ed36fb8769.webp)
 
 根据介绍，moss-moon系列模型具有160亿参数，并且已经在1000亿中文token上进行了训练，总训练token数量达到7000亿，其中还包含约3000亿代码。
 
@@ -685,19 +708,19 @@ GitHub：[RasaHQ/rasa: 💬 Open source machine learning framework to automate t
 
 ### 官方演示
 
-![img](./assets/1e532a4685584b1fb79e9c41c06b2b18.webp)
+![img](./ChatGPT竞品开源项目.assets/1e532a4685584b1fb79e9c41c06b2b18.webp)
 
 调用搜索引擎
 
-![img](./assets/1cfabd713b2c4fd9a24603080d802f07.webp)
+![img](./ChatGPT竞品开源项目.assets/1cfabd713b2c4fd9a24603080d802f07.webp)
 
 解方程
 
-![img](./assets/cd90474342d34a24bced4ca9fc2b2d5e.webp)
+![img](./ChatGPT竞品开源项目.assets/cd90474342d34a24bced4ca9fc2b2d5e.webp)
 
 生成图片
 
-![img](./assets/8fe04063c7564b71a77ec5dabe02143b.webp)
+![img](./ChatGPT竞品开源项目.assets/8fe04063c7564b71a77ec5dabe02143b.webp)
 
 无害性
 
@@ -705,7 +728,7 @@ GitHub：[RasaHQ/rasa: 💬 Open source machine learning framework to automate t
 
 除了这些官方演示外，知名答主「段小草」也在第一时间进行了评测。
 
-![img](./assets/e7a65d1a4a064aedb2e480e41a30d736.webp)
+![img](./ChatGPT竞品开源项目.assets/e7a65d1a4a064aedb2e480e41a30d736.webp)
 
 「段小草」表示，插件能力的激发需要分成两个步骤：
 
@@ -720,7 +743,7 @@ GitHub：[RasaHQ/rasa: 💬 Open source machine learning framework to automate t
 
 如果MOSS显示了插件图表和计算公式，就说明它调用了响应插件。
 
-![img](./assets/f19eb4178ab44e8a93e97721f5b50304.webp)
+![img](./ChatGPT竞品开源项目.assets/f19eb4178ab44e8a93e97721f5b50304.webp)
 
 #### **Equation solver：求解方程**
 
@@ -728,15 +751,15 @@ GitHub：[RasaHQ/rasa: 💬 Open source machine learning framework to automate t
 
 在触发插件时，MOSS可以作答正确，表现还是很优异的。
 
-![img](./assets/97b2e3bbceba4db292f0ed701d5f3061.webp)
+![img](./ChatGPT竞品开源项目.assets/97b2e3bbceba4db292f0ed701d5f3061.webp)
 
 但有时也会回答错误，比如下面这个例子，MOSS就把列方程和求解都做错了。
 
-![img](./assets/07f97beed93f4ee9baeffb787e415d9d.webp)
+![img](./ChatGPT竞品开源项目.assets/07f97beed93f4ee9baeffb787e415d9d.webp)
 
 在未能触发插件时，MOSS也把题算错了。
 
-![img](./assets/3e79b67880d443e0b61b5d362c209523.webp)
+![img](./ChatGPT竞品开源项目.assets/3e79b67880d443e0b61b5d362c209523.webp)
 
 #### **Text-to-image：文生图**
 
@@ -744,21 +767,21 @@ GitHub：[RasaHQ/rasa: 💬 Open source machine learning framework to automate t
 
 MOSS画得很漂亮，但好像不太对的样子。
 
-![img](./assets/986919228ee040e8b4a13e815b1eafad.webp)
+![img](./ChatGPT竞品开源项目.assets/986919228ee040e8b4a13e815b1eafad.webp)
 
 再来个「胸有成竹的男人」？
 
 感觉MOSS有自己的想法，还不算错。
 
-![img](./assets/913461a55c774e5e9068cb163e9296df.webp)
+![img](./ChatGPT竞品开源项目.assets/913461a55c774e5e9068cb163e9296df.webp)
 
 #### **Web search：联网搜索**
 
 使用联网插件时，第一次虽然不成功，但在重新尝试之后， MOSS给出了正确的答案。
 
-![img](./assets/2050c92f2da64f51861a49b665f76b03.webp)
+![img](./ChatGPT竞品开源项目.assets/2050c92f2da64f51861a49b665f76b03.webp)
 
-![img](./assets/6e61458c699a47bbb86b50137bf0b98a.webp)
+![img](./ChatGPT竞品开源项目.assets/6e61458c699a47bbb86b50137bf0b98a.webp)
 
 ### **MOSS** **的迭代过程**
 
@@ -774,7 +797,7 @@ ChatGPT初问世时，大大冲击了国内NLP从业者。当时还没有开源�
 
 微调后的OpenChat 001，已经具备了指令遵循能力和多轮能力，训练语料中虽然没有中文，却可以理解中文。
 
-![img](./assets/799fb4525f31469fb06532965347504f.webp)
+![img](./ChatGPT竞品开源项目.assets/799fb4525f31469fb06532965347504f.webp)
 
 OpenChat 001的指令遵循能力
 
@@ -792,7 +815,7 @@ OpenChat 001的指令遵循能力
 
 此外，团队还构造了约30万插件增强的对话数据，包含搜索引擎、文生图、计算器、方程求解等。以上数据将陆续完整开源。
 
-![img](./assets/0c71d7641b7546bd929a7debcf547791.webp)
+![img](./ChatGPT竞品开源项目.assets/0c71d7641b7546bd929a7debcf547791.webp)
 
 值得注意的是，由于模型参数量较小和自回归生成范式，MOSS仍然可能生成包含事实性错误的误导性回复，或包含偏见/歧视的有害内容。
 
@@ -806,7 +829,7 @@ OpenChat 001的指令遵循能力
 
 2月20日晚，复旦大学自然语言处理实验室发布类ChatGPT模型MOSS的消息一竟公开，服务器立马被挤爆。并且很快就登顶了知乎热榜。
 
-![img](./assets/2295687f6c72463a8219a50d143820e0.webp)
+![img](./ChatGPT竞品开源项目.assets/2295687f6c72463a8219a50d143820e0.webp)
 
 作为一个「类ChatGPT模型」，MOSS在开发上确实采用了和ChatGPT类似的步骤。其中包括两个阶段：自然语言模型的基座训练和理解人类意图的对话能力训练。
 
@@ -818,7 +841,7 @@ OpenChat 001的指令遵循能力
 
 还有一点，MOSS的开源会给开发者社区的研究做出贡献，而对于OpenAI不open，咱们是耳熟能详了。
 
-![img](./assets/1c7b101b8f404d0f8874688989da3a78.webp)
+![img](./ChatGPT竞品开源项目.assets/1c7b101b8f404d0f8874688989da3a78.webp)
 
 ### **开源** **清单**
 
@@ -826,22 +849,22 @@ OpenChat 001的指令遵循能力
 
 目前，团队已经上传了三个模型到Hugging Face：
 
-- moss-moon-003-base：基座语言模型，具备较为丰富的中文知识。
-- moss-moon-003-sft：基座模型在约110万多轮对话数据上微调得到，具有指令遵循能力、多轮对话能力、规避有害请求能力。
-- moss-moon-003-sft-plugin：基座模型在约110万多轮对话数据和约30万插件增强的多轮对话数据上微调得到，在moss-moon-003-sft基础上还具备使用搜索引擎、文生图、计算器、解方程等四种插件的能力。
+* moss-moon-003-base：基座语言模型，具备较为丰富的中文知识。
+* moss-moon-003-sft：基座模型在约110万多轮对话数据上微调得到，具有指令遵循能力、多轮对话能力、规避有害请求能力。
+* moss-moon-003-sft-plugin：基座模型在约110万多轮对话数据和约30万插件增强的多轮对话数据上微调得到，在moss-moon-003-sft基础上还具备使用搜索引擎、文生图、计算器、解方程等四种插件的能力。
 
 下面三个模型，则会在近期进行开源：
 
-- moss-moon-003-pm: 在基于moss-moon-003-sft收集到的偏好反馈数据上训练得到的偏好模型。
-- moss-moon-003: 在moss-moon-003-sft基础上经过偏好模型moss-moon-003-pm训练得到的最终模型，具备更好的事实性和安全性以及更稳定的回复质量。
-- moss-moon-003-plugin: 在moss-moon-003-sft-plugin基础上经过偏好模型moss-moon-003-pm训练得到的最终模型，具备更强的意图理解能力和插件使用能力。
+* moss-moon-003-pm: 在基于moss-moon-003-sft收集到的偏好反馈数据上训练得到的偏好模型。
+* moss-moon-003: 在moss-moon-003-sft基础上经过偏好模型moss-moon-003-pm训练得到的最终模型，具备更好的事实性和安全性以及更稳定的回复质量。
+* moss-moon-003-plugin: 在moss-moon-003-sft-plugin基础上经过偏好模型moss-moon-003-pm训练得到的最终模型，具备更强的意图理解能力和插件使用能力。
 
 #### **数据**
 
-- moss-002-sft-data：MOSS-002所使用的多轮对话数据，覆盖有用性、忠实性、无害性三个层面，包含由text-davinci-003生成的约57万条英文对话和59万条中文对话。
-- moss-003-sft-data：moss-moon-003-sft所使用的多轮对话数据，基于MOSS-002内测阶段采集的约10万用户输入数据和gpt-3.5-turbo构造而成，相比moss-002-sft-data，moss-003-sft-data更加符合真实用户意图分布，包含更细粒度的有用性类别标记、更广泛的无害性数据和更长对话轮数，约含110万条对话数据。目前仅开源少量示例数据，完整数据将在近期开源。
-- moss-003-sft-plugin-data：moss-moon-003-sft-plugin所使用的插件增强的多轮对话数据，包含支持搜索引擎、文生图、计算器、解方程等四个插件在内的约30万条多轮对话数据。目前仅开源少量示例数据，完整数据将在近期开源。
-- moss-003-pm-data：moss-moon-003-pm所使用的偏好数据，包含在约18万额外对话上下文数据及使用moss-moon-003-sft所产生的回复数据上构造得到的偏好对比数据，将在近期开源。
+* moss-002-sft-data：MOSS-002所使用的多轮对话数据，覆盖有用性、忠实性、无害性三个层面，包含由text-davinci-003生成的约57万条英文对话和59万条中文对话。
+* moss-003-sft-data：moss-moon-003-sft所使用的多轮对话数据，基于MOSS-002内测阶段采集的约10万用户输入数据和gpt-3.5-turbo构造而成，相比moss-002-sft-data，moss-003-sft-data更加符合真实用户意图分布，包含更细粒度的有用性类别标记、更广泛的无害性数据和更长对话轮数，约含110万条对话数据。目前仅开源少量示例数据，完整数据将在近期开源。
+* moss-003-sft-plugin-data：moss-moon-003-sft-plugin所使用的插件增强的多轮对话数据，包含支持搜索引擎、文生图、计算器、解方程等四个插件在内的约30万条多轮对话数据。目前仅开源少量示例数据，完整数据将在近期开源。
+* moss-003-pm-data：moss-moon-003-pm所使用的偏好数据，包含在约18万额外对话上下文数据及使用moss-moon-003-sft所产生的回复数据上构造得到的偏好对比数据，将在近期开源。
 
 #### **协议**
 
@@ -946,7 +969,7 @@ pip install -r requirements.txt
 
 此时，可以直接与MOSS进行多轮对话，输入 clear 可以清空对话历史，输入 stop 终止Demo。
 
-![img](./assets/63da91f9245a4c37ab0527e98b7729a6.webp)
+![img](./ChatGPT竞品开源项目.assets/63da91f9245a4c37ab0527e98b7729a6.webp)
 
 ### **团队介绍**
 
@@ -956,7 +979,7 @@ pip install -r requirements.txt
 
 在此之前，他曾于2020年在亚马逊云科技上海人工智能进行研究实习。
 
-![img](./assets/95e4a16044b54a47b7d8391efac191b3.webp)
+![img](./ChatGPT竞品开源项目.assets/95e4a16044b54a47b7d8391efac191b3.webp)
 
 邱锡鹏教授，博士生导师，复旦大学计算机科学技术学院。他于复旦大学获得理学学士和博士学位，共发表CCF-A/B类论文70余篇。
 
@@ -964,19 +987,19 @@ pip install -r requirements.txt
 
 目前，由邱教授主持开发的开源自然语言处理工具FudanNLP、FastNLP，已经获得了学术界和产业界的广泛使用。
 
-![img](./assets/3b3f37bf70a5436395c61cc31743d7a0.webp)
+![img](./ChatGPT竞品开源项目.assets/3b3f37bf70a5436395c61cc31743d7a0.webp)
 
 ### **贡献和致谢**
 
-![img](./assets/5b15451c5388441dab240b17b95797bc.webp)
+![img](./ChatGPT竞品开源项目.assets/5b15451c5388441dab240b17b95797bc.webp)
 
-- CodeGen：基座模型在CodeGen初始化基础上进行中文预训练
-- Mosec：模型部署和流式回复支持
-- 上海人工智能实验室（Shanghai AI Lab）：算力支持
+* CodeGen：基座模型在CodeGen初始化基础上进行中文预训练
+* Mosec：模型部署和流式回复支持
+* 上海人工智能实验室（Shanghai AI Lab）：算力支持
 
 参考资料：
 
-- [github.com/OpenLMLab/M…](https://github.com/OpenLMLab/MOSS)
+* [github.com/OpenLMLab/M…](https://github.com/OpenLMLab/MOSS)
 
 ## Auto-GPT
 
@@ -988,7 +1011,7 @@ pip install -r requirements.txt
 
 问题来了，AutoGPT 到底是什么？**它是一个实验性的开源应用程序，展示了 GPT-4 \*语言模型\*的功能。该程序由 GPT-4 驱动，可以自主实现用户设定的任何目标。**
 
-![img](./assets/2d01ffa92fed4ad890d2fb581a8e4660.webp)
+![img](./ChatGPT竞品开源项目.assets/2d01ffa92fed4ad890d2fb581a8e4660.webp)
 
 具体来说，AutoGPT 相当于给基于 GPT 的模型一个内存和一个身体。有了它，你可以把一项任务交给 AI 智能体，让它自主地提出一个计划，然后执行计划。此外其还具有互联网访问、长期和短期内存管理、用于*文本生成*的 GPT-4 实例以及使用 GPT-3.5 进行文件存储和生成摘要等功能。AutoGPT 用处很多，可用来分析市场并提出交易策略、提供客户服务、进行营销等其他需要持续更新的任务。
  正如网友所说 AutoGPT 正在互联网上掀起一场风暴，它无处不在。很快，已经有网友上手实验了，**该用户让 AutoGPT 建立一个网站，不到 3 分钟 AutoGPT 就成功了。** 期间 AutoGPT 使用了 React 和 Tailwind CSS，全凭自己，人类没有插手。看来程序员之后真就不再需要编码了。
@@ -996,36 +1019,36 @@ pip install -r requirements.txt
 之后该用户补充说，自己的目标很简单，就是用 React 创建一个网站。提出的要求是：创建一个表单，添加标题「Made with autogpt」，然后将背景更改为蓝色。AutoGPT 成功的构建了网站。该用户还表示，如果给 AutoGPT 的 prompt 更多，表现会更好。
 
 接下里我们再看一个例子。假装自己经营一家鞋公司，给 AutoGPT 下达的命令是对防水鞋进行市场调查，然后让其给出 top5 公司，并报告竞争对手的优缺点 :
- ![img](./assets/61a20b268c7140969a3c35254e5c63c6.webp)
+ ![img](./ChatGPT竞品开源项目.assets/61a20b268c7140969a3c35254e5c63c6.webp)
 
 首先，AutoGPT 直接去谷歌搜索，然后找防水鞋综合评估 top 5 的公司。一旦找到相关链接，AutoGPT 就会为自己提出一些问题，例如「每双鞋的优缺点是什么、每款排名前 5 的防水鞋的优缺点是什么、男士排名前 5 的防水鞋」等。
  之后，AutoGPT 继续分析其他各类网站，并结合谷歌搜索，更新*查询*，直到对结果满意为止。期间，AutoGPT 能够判断哪些评论可能偏向于伪造，因此它必须验证评论者。
- ![img](./assets/cc4a83bce9b944a680f279fe6597bdde.webp)
+ ![img](./ChatGPT竞品开源项目.assets/cc4a83bce9b944a680f279fe6597bdde.webp)
  执行过程中，AutoGPT 甚至衍生出自己的子智能体来执行分析网站的任务，找出解决问题的方法，所有工作完全靠自己。
  结果是，AutoGPT 给出了 top 5 防水鞋公司的一份非常详细的报告，报告包含各个公司的优缺点，此外还给出了一个简明扼要的结论。全程只用了 8 分钟，费用为 10 美分。期间也完全没有优化。
- ![img](./assets/65f8df7c98a14522adf2089e9899f99b.webp)
+ ![img](./ChatGPT竞品开源项目.assets/65f8df7c98a14522adf2089e9899f99b.webp)
  这个能够独立自主完成任务的 AutoGPT 是如何运行的呢？我们接着来看。
  **AutoGPT：30 分钟内构建你自己的 AI 助手**
  作为风靡互联网的 AI 智能体，**AutoGPT 可以在 30 分钟内完成设置。** 你就可以拥有自己的 AI，协助完成任务，提升工作效率。
  这一强大的 AI 工具能够自主执行各种任务，设置和启动的简便性是一大特征。在开始之前，你需要设置 Git、安装 Python、下载 Docker 桌面、获得一个 OpenAI API 密钥。
  **克隆存储库**
  首先从 GitHub 中克隆 AutoGPT 存储库。
- ![img](./assets/28387dcbea9a4108bf441a22294604ae.webp)
+ ![img](./ChatGPT竞品开源项目.assets/28387dcbea9a4108bf441a22294604ae.webp)
  使用以下命令导航到新建文件夹 Auto-GPT。
- ![img](./assets/18ca5cc1daad424b870239df58c3243a.webp)
+ ![img](./ChatGPT竞品开源项目.assets/18ca5cc1daad424b870239df58c3243a.webp)
  **配置环境**
  在 Auto-GPT 文件夹中，找到.env.template 文件并插入 OpenAI API 密钥。接着复制该文件并重命名为.env。
- ![img](./assets/0a526237520b4be8b9ca16eeeaa88fe8.webp)
+ ![img](./ChatGPT竞品开源项目.assets/0a526237520b4be8b9ca16eeeaa88fe8.webp)
  **安装 Python 包**
  运行以下命令，安装需要的 Python 包。
- ![img](./assets/e7d28498643c488c883eb3278b050814.webp)
+ ![img](./ChatGPT竞品开源项目.assets/e7d28498643c488c883eb3278b050814.webp)
  **运行 Docker**
  运行 Docker 桌面，不需要下载任何容器，只需保证程序处于激活状态。
- ![img](./assets/7dd7679551474111a9d9ba5929afe784.webp)
+ ![img](./ChatGPT竞品开源项目.assets/7dd7679551474111a9d9ba5929afe784.webp)
  **运行 AutoGPT**
- ![img](./assets/9294d17d7c2f41109a4a5d430b415de4.webp)
+ ![img](./ChatGPT竞品开源项目.assets/9294d17d7c2f41109a4a5d430b415de4.webp)
  执行以下命令，运行 AutoGPT。
- ![img](./assets/445c430043484648aded32f3569445a9.webp)
+ ![img](./ChatGPT竞品开源项目.assets/445c430043484648aded32f3569445a9.webp)
  **设置目标****
  **AutoGPT 虽是一个强大的工具，但并不完美。为避免出现问题，最好从简单的目标开始，对输出进行测试，并根据自身需要调整目标，如上文中的 ResearchGPT。
  不过，你如果想要释放 AutoGPT 的全部潜力，需要 GPT-4 API 访问权限。GPT-3.5 可能无法为智能体或响应提供所需的深度。**
@@ -1035,18 +1058,18 @@ pip install -r requirements.txt
 近日，又有开发者对 AutoGPT 展开了新的探索尝试，创建了一个
 
 可以在浏览器中组装、配置和部署自主 AI 智能体的项目 ——`AgentGPT`。项目主要贡献者之一为亚马逊软件工程师 Asim Shrestha
- ![img](./assets/2142eb5c4b124a5ca990abae482aedd4.webp)
+ ![img](./ChatGPT竞品开源项目.assets/2142eb5c4b124a5ca990abae482aedd4.webp)
 
-- AgentGPT项目主页：[agentgpt.reworkd.ai/](https://agentgpt.reworkd.ai/)
-- AgentGPT GitHub 地址：[github.com/reworkd/Age…](https://github.com/reworkd/AgentGPT)
+* AgentGPT项目主页：[agentgpt.reworkd.ai/](https://agentgpt.reworkd.ai/)
+* AgentGPT GitHub 地址：[github.com/reworkd/Age…](https://github.com/reworkd/AgentGPT)
 
 AgentGPT 允许你为自定义 AI 命名，让它执行任何想要达成的目标。自定义 AI 会思考要完成的任务、执行任务并从结果中学习，试图达成目标。如下为 demo 示例：HustleGPT，设置目标为创立一个只有 100 美元资金的初创公司。
 
-![img](./assets/e32e2ca154934f4180a8a8543a2d05cd.webp)
+![img](./ChatGPT竞品开源项目.assets/e32e2ca154934f4180a8a8543a2d05cd.webp)
 
 再比如 PaperclipGPT，设置目标为制造尽可能多的回形针。
 
-![img](./assets/2233226262b14201b6678eeb25a29088.webp)
+![img](./ChatGPT竞品开源项目.assets/2233226262b14201b6678eeb25a29088.webp)
 
 不过，用户在使用该工具时，同样需要输入自己的 OpenAI API 密钥。AgentGPT 目前处于 beta 阶段，并正致力于长期记忆、网页浏览、网站与用户之间的交互。
  GPT 的想象力空间还有多大，我们继续拭目以待。
@@ -1057,7 +1080,7 @@ AgentGPT 允许你为自定义 AI 命名，让它执行任何想要达成的目�
 
 ShowMeAI整理了一批基于 AutoGPT、AgentGPT 的在线体验 Demo，目前支持直接免费使用！抓紧！[**完整版体验教程**](https://mp.weixin.qq.com/s/YPYtIxLngehraA3yT_r9gQ)
 
-![img](./assets/cdf799f2acf548ac873a650495833045.webp)
+![img](./ChatGPT竞品开源项目.assets/cdf799f2acf548ac873a650495833045.webp)
 
 ### AgentGPT
 
@@ -1065,7 +1088,7 @@ AgentGPT 是一个可以在浏览器内直接部署的自主AI工具，可以让
 
 > [agentgpt.reworkd.ai/](https://agentgpt.reworkd.ai/)
 
-![img](./assets/9d865d7737884250939738d8f1e319a8.webp)
+![img](./ChatGPT竞品开源项目.assets/9d865d7737884250939738d8f1e319a8.webp)
 
 ### cognosys.ai
 
@@ -1073,7 +1096,7 @@ cognosys.ai 基本上和AgentGPT一样，也是完全免费，也需要登录，
 
 > [www.cognosys.ai/](https://www.cognosys.ai/)
 
-![img](./assets/e94f69c93f274951b1d915f8dc2ad58e.webp)
+![img](./ChatGPT竞品开源项目.assets/e94f69c93f274951b1d915f8dc2ad58e.webp)
 
 ### Godmode
 
@@ -1163,7 +1186,7 @@ Godmode也是免费的自动助理GPT，也需要登录，他的优势是无需k
 
 [LaWGPT](https://github.com/pengxiao-song/LawGPT)
 
-![img](./assets/bg2023051813.webp)
+![img](./ChatGPT竞品开源项目.assets/bg2023051813.webp)
 
 基于中文法律知识的开源大语言模型，很适合用于司法考试。
 
@@ -1175,13 +1198,13 @@ Godmode也是免费的自动助理GPT，也需要登录，他的优势是无需k
 
 目前，ChatLaw 共有三个版本，分别如下：
 
-- ChatLaw-13B，为学术 demo 版，基于姜子牙 Ziya-LLaMA-13B-v1 训练而来，中文各项表现很好。但是，逻辑复杂的法律问答效果不佳，需要用更大参数的模型来解决；
-- ChatLaw-33B，也为学术 demo 版，基于 Anima-33B 训练而来，逻辑推理能力大幅提升。但是，由于 Anima 的中文语料过少，问答时常会出现英文数据；
-- ChatLaw-Text2Vec，使用 93w 条判决案例做成的数据集，基于 BERT 训练了一个相似度匹配模型，可以将用户提问信息和对应的法条相匹配。
+* ChatLaw-13B，为学术 demo 版，基于姜子牙 Ziya-LLaMA-13B-v1 训练而来，中文各项表现很好。但是，逻辑复杂的法律问答效果不佳，需要用更大参数的模型来解决；
+* ChatLaw-33B，也为学术 demo 版，基于 Anima-33B 训练而来，逻辑推理能力大幅提升。但是，由于 Anima 的中文语料过少，问答时常会出现英文数据；
+* ChatLaw-Text2Vec，使用 93w 条判决案例做成的数据集，基于 BERT 训练了一个相似度匹配模型，可以将用户提问信息和对应的法条相匹配。
 
 根据官方演示，ChatLaw 支持用户上传文件、录音等法律材料，帮助他们归纳和分析，生成可视化导图、图表等。此外，ChatLaw 可以基于事实生成法律建议、法律文书。该项目在 GitHub 上的 Star 量达到了 1.1k。
 
-![img](./assets/f09954c5ae4f4e1baad04eab3e920eed.webp)
+![img](./ChatGPT竞品开源项目.assets/f09954c5ae4f4e1baad04eab3e920eed.webp)
 
 **官网地址**：[Chatlaw ——面向未来的法律人工智能](https://www.chatlaw.cloud/)
 
@@ -1193,19 +1216,19 @@ Godmode也是免费的自动助理GPT，也需要登录，他的优势是无需k
 
 小编本人也还在内测排队中。所以这里先展示一个 ChatLaw 团队提供的官方对话示例，关于日常网购时可能会遇到的「七天无理由退货」问题。不得不说，ChatLaw 回答挺全的。
 
-![img](./assets/8195a640b3c242ff8d90d07be7b6c58a.webp)
+![img](./ChatGPT竞品开源项目.assets/8195a640b3c242ff8d90d07be7b6c58a.webp)
 
 不过，小编发现，ChatLaw 的学术 demo 版本可以试用，遗憾的是没有接入法律咨询功能，只提供了简单的对话咨询服务。这里尝试问了几个问题。
 
-![img](./assets/c43ecbe5679e41509954ee91d678e005.webp)
+![img](./ChatGPT竞品开源项目.assets/c43ecbe5679e41509954ee91d678e005.webp)
 
-![img](./assets/9600ba1125e44da6a1fb080d865094a3.webp)
+![img](./ChatGPT竞品开源项目.assets/9600ba1125e44da6a1fb080d865094a3.webp)
 
-![img](./assets/a0b3f0757b00418f8d747904e9e04dac.webp)
+![img](./ChatGPT竞品开源项目.assets/a0b3f0757b00418f8d747904e9e04dac.webp)
 
 其实最近发布法律大模型的不只有北大一家。上个月底，幂律智能联合智谱 AI 发布了千亿参数级法律垂直大模型 PowerLawGLM。据悉该模型针对中文法律场景的应用效果展现出了独特优势。
 
-![图源：幂律智能](./assets/a11aecb97af24402b55d93d8ac34bcd7.webp)
+![图源：幂律智能](./ChatGPT竞品开源项目.assets/a11aecb97af24402b55d93d8ac34bcd7.webp)
 
 ### ChatLaw 的数据来源、训练框架
 
@@ -1213,15 +1236,15 @@ Godmode也是免费的自动助理GPT，也需要登录，他的优势是无需k
 
 基于法律法规和司法解释的构建示例：
 
-![img](./assets/6f215516d3944966a3571a1557de5155.webp)
+![img](./ChatGPT竞品开源项目.assets/6f215516d3944966a3571a1557de5155.webp)
 
 抓取真实法律咨询数据示例：
 
-![img](./assets/a4083e7f70334a4aa854c8b4b2c5f708.webp)
+![img](./ChatGPT竞品开源项目.assets/a4083e7f70334a4aa854c8b4b2c5f708.webp)
 
 律师考试多项选择题的建构示例：
 
-![img](./assets/1105301c08cf438f874962f12301f893.webp)
+![img](./ChatGPT竞品开源项目.assets/1105301c08cf438f874962f12301f893.webp)
 
 然后是模型层面。为了训练 ChatLAW，研究团队在 Ziya-LLaMA-13B 的基础上使用低秩自适应 (Low-Rank Adaptation, LoRA) 对其进行了微调。此外，该研究还引入 self-suggestion 角色，来缓解模型产生幻觉问题。训练过程在多个 A100 GPU 上进行，并借助 deepspeed 进一步降低了训练成本。
 
@@ -1229,7 +1252,7 @@ Godmode也是免费的自动助理GPT，也需要登录，他的优势是无需k
 
 该研究还在推理中对模型进行了约束，这样才能确保模型生成正确的法律法规，尽可能减少模型幻觉。
 
-![img](./assets/c1b548af33884596a439d37055ad8749.webp)
+![img](./ChatGPT竞品开源项目.assets/c1b548af33884596a439d37055ad8749.webp)
 
 一开始研究团队尝试传统的软件开发方法，如检索时采用 MySQL 和 Elasticsearch，但结果不尽如人意。因而，该研究开始尝试预训练 BERT 模型来进行嵌入，然后使用 Faiss 等方法以计算余弦相似度，提取与用户查询相关的前 k 个法律法规。
 
@@ -1237,7 +1260,7 @@ Godmode也是免费的自动助理GPT，也需要登录，他的优势是无需k
 
 由于大型模型在理解用户查询方面具有显著优势，该研究对 LLM 进行了微调，以便从用户查询中提取关键字。在获得多个关键字后，该研究采用算法 1 检索相关法律规定。
 
-![img](./assets/dc8a75ada902435aa143e0a9cbf2823c.webp)
+![img](./ChatGPT竞品开源项目.assets/dc8a75ada902435aa143e0a9cbf2823c.webp)
 
 ### 实验结果
 
@@ -1245,7 +1268,7 @@ Godmode也是免费的自动助理GPT，也需要登录，他的优势是无需k
 
 然而，研究发现各个模型的准确率普遍偏低。在这种情况下，仅对准确率进行比较并无多大意义。因此，该研究借鉴英雄联盟的 ELO 匹配机制，做了一个模型对抗的 ELO 机制，以便更有效地评估各模型处理法律选择题的能力。以下分别是 ELO 分数和胜率图：
 
-![img](./assets/c041d5bd7f554a17884d0850b08e4b49.webp)
+![img](./ChatGPT竞品开源项目.assets/c041d5bd7f554a17884d0850b08e4b49.webp)
 
 通过对上述实验结果的分析，我们可以得出以下观察结果
 
@@ -1264,7 +1287,7 @@ Godmode也是免费的自动助理GPT，也需要登录，他的优势是无需k
 
 [**⋙ GitHub**](https://github.com/CogStack/opengpt) | [**Blog**](https://aiforhealthcare.substack.com/p/a-large-language-model-for-healthcare)
 
-![img](./assets/ce9178bfe6b544f896c92fd044ff05dd.webp)
+![img](./ChatGPT竞品开源项目.assets/ce9178bfe6b544f896c92fd044ff05dd.webp)
 
 OpenGPT 是一个开源框架，有助于生成基于指令的数据集和LLM的监督训练；NHS-LLM是基于OpenGPT的医疗保健大型语言模型。
 
@@ -1340,7 +1363,7 @@ WebGLM的backbone就是一个在该数据集上训练的GLM模型。
 
 以上三大组件最终按顺序形成WebGLM的pipeline：
 
-![图片](./assets/9054013e01294fe693ffd73119e7e4e4.webp)
+![图片](./ChatGPT竞品开源项目.assets/9054013e01294fe693ffd73119e7e4e4.webp)
 
 可以看到，正好三个模块，对应前面介绍的三部分，其中：
 
@@ -1356,7 +1379,7 @@ LLM增强检索器会将**前五个**最相关的页面作为参考源，让自�
 
 最终结果如下：
 
-![图片](./assets/8d0663ff68244124b8e4dfb9926a5244.webp)
+![图片](./ChatGPT竞品开源项目.assets/8d0663ff68244124b8e4dfb9926a5244.webp)
 
 （“Rel.”、“ Den.”……分别对应上面说的10个指标。）
 
@@ -1374,7 +1397,7 @@ LLM增强检索器会将**前五个**最相关的页面作为参考源，让自�
 
 WebGLM**发布即开源**。
 
-![图片](./assets/fac3966a1999480c912fc6f0a0b65637.webp)
+![图片](./ChatGPT竞品开源项目.assets/fac3966a1999480c912fc6f0a0b65637.webp)
 
 要想部署它，需要从SerpAPI官网获得一个密钥，用于在搜索过程中获取搜索结果。
 
@@ -1384,11 +1407,14 @@ WebGLM**发布即开源**。
 
 你也可以自己训练WebGLM，官方已提供好了生成器和检索器的训练数据供下载～
 
-论文地址：[[2306.07906\] WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences (arxiv.org)](https://arxiv.org/abs//2306.07906)
+论文地址：[WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences (arxiv.org)](https://arxiv.org/abs//2306.07906)
 
 GitHub主页：[THUDM/WebGLM: WebGLM: An Efficient Web-enhanced Question Answering System (KDD 2023) (github.com)](https://github.com/THUDM/WebGLM)
 
 ## ChatGLM2-6B
+
+7 月 14 日，智谱 AI 和清华 KEG 联合发布公告，宣布ChatGLM-6B 和 ChatGLM2-6B 权重对学术研究完全开放，并且在完成企业登记获得授权后，允许免费商业使用。希望通过这个决策，能够为开源社区的发展做出更大的贡献，同时也为用户提供更好的服务和支持。
+此前，智谱AI官网显示， ChatGLM2-6B 不限实例+不限推理或微调工具包的私有化报价为一年 30 万元 ⋙ [公告](https://mp.weixin.qq.com/s/pNMcR2c6kFV1TVaI8wzHRg) | [事件解读](https://mp.weixin.qq.com/s/zPXjbBEsaj9iv2F6YVjfzg)
 
 [在个人电脑上部署ChatGLM2-6B中文对话大模型 - 掘金 (juejin.cn)](https://juejin.cn/post/7250348861238870053)
 
@@ -1410,10 +1436,10 @@ HuggingFace：[THUDM/chatglm2-6b · Hugging Face](https://huggingface.co/THUDM/c
 
 最新版本ChatGLM2-6B增加了许多特性：
 
-- 基座模型升级，性能更强大
-- 支持8K-32k的上下文
-- 推理性能提升了42%
-- 对学术研究完全开放，允许申请商用授权
+* 基座模型升级，性能更强大
+* 支持8K-32k的上下文
+* 推理性能提升了42%
+* 对学术研究完全开放，允许申请商用授权
 
 **ChatGLM2-6B升级亮点**：
 
@@ -1449,15 +1475,15 @@ ChatGLM2-6B权重对学术研究完全开放，在获得官方的书面许可后
 
 **数理逻辑**:
 
-![图片](./assets/1c857aa74ff848d78ca8ac3113eae8c7.webp)![图片](./assets/3a0724edd93e432496a5007709de9596.webp)
+![图片](./ChatGPT竞品开源项目.assets/1c857aa74ff848d78ca8ac3113eae8c7.webp)![图片](./ChatGPT竞品开源项目.assets/3a0724edd93e432496a5007709de9596.webp)
 
 **知识推理**:
 
-![图片](./assets/fdf483c226324c67aa0be8e8adf59a95.webp)![图片](./assets/bf655075801b496b8b2af0a395104e15.webp)
+![图片](./ChatGPT竞品开源项目.assets/fdf483c226324c67aa0be8e8adf59a95.webp)![图片](./ChatGPT竞品开源项目.assets/bf655075801b496b8b2af0a395104e15.webp)
 
 **长文档理解**:
 
-![图片](./assets/db9e8ab098e347f798a5bfe4d5a8fcef.webp)![图片](./assets/12e955fbfcf347f7b175442917933550.webp)
+![图片](./ChatGPT竞品开源项目.assets/db9e8ab098e347f798a5bfe4d5a8fcef.webp)![图片](./ChatGPT竞品开源项目.assets/12e955fbfcf347f7b175442917933550.webp)
 
 **评测结果**:
 
@@ -1465,25 +1491,25 @@ ChatGLM2-6B权重对学术研究完全开放，在获得官方的书面许可后
 
 **MMLU**:
 
-![图片](./assets/07a84d7ff9aa4744941f7b23340009df.webp)
+![图片](./ChatGPT竞品开源项目.assets/07a84d7ff9aa4744941f7b23340009df.webp)
 
 **C-Eval**:
 
-![图片](./assets/7b430ea7e50e430b804fc24cfde1c692.webp)
+![图片](./ChatGPT竞品开源项目.assets/7b430ea7e50e430b804fc24cfde1c692.webp)
 
 **GSM8K**:
 
-![图片](./assets/a38e616e7a244b12befbf07174bf3226.webp)
+![图片](./ChatGPT竞品开源项目.assets/a38e616e7a244b12befbf07174bf3226.webp)
 
 **BBH**:
 
-![图片](./assets/3a142ffd10164ce69da0ecae57285db9.webp)
+![图片](./ChatGPT竞品开源项目.assets/3a142ffd10164ce69da0ecae57285db9.webp)
 
 **推理性能**:
 
 ChatGLM2-6B使用 Multi-Query Attention，提高了生成速度。生成2000个字符的平均速度对比如下：
 
-![图片](./assets/4c42336cef5d4808965b95784aec399d.webp)
+![图片](./ChatGPT竞品开源项目.assets/4c42336cef5d4808965b95784aec399d.webp)
 
 Multi-Query Attention同时也降低了生成过程中KV Cache的显存占用。
 
@@ -1491,11 +1517,11 @@ Multi-Query Attention同时也降低了生成过程中KV Cache的显存占用。
 
 因此，使用6GB显存的显卡进行INT4量化的推理时，初代的ChatGLM-6B模型最多能够生成1119个字符就会提示显存耗尽，而ChatGLM2-6B能够生成至少8192个字符。
 
-![图片](./assets/472f475f6f78473ead2370a627fbbe13.webp)
+![图片](./ChatGPT竞品开源项目.assets/472f475f6f78473ead2370a627fbbe13.webp)
 
 研究团队也测试了量化对模型性能的影响。结果表明，量化对模型性能的影响在可接受范围内。
 
-![图片](./assets/32b3ae0d70674ecd922b0988964076f4.webp)
+![图片](./ChatGPT竞品开源项目.assets/32b3ae0d70674ecd922b0988964076f4.webp)
 
 **使用方法**:
 
@@ -1598,7 +1624,7 @@ Xtekky表示，他计划将聊天机器人迁移到一个不同的域名，将�
 
 ### 项目运行效果
 
-![微信截图_20230703160941.png](./assets/08ecdaccdcd34da48c94b0738bf043da.webp)
+![微信截图_20230703160941.png](./ChatGPT竞品开源项目.assets/08ecdaccdcd34da48c94b0738bf043da.webp)
 
 ### 安装
 
@@ -1631,7 +1657,7 @@ python run.py
 
 该应用程序包括自动代理功能，使其可以与多个免费代理服务器一起使用。 freeGPT API 会拒绝某些连接，自动代理会自动为您解决这个问题。启用后，应用程序将自动获取并测试代理服务器，每 30 分钟更新一次工作代理列表。
 
-- 启用自动代理
+* 启用自动代理
 
 将 `config.json` 中的配置 `use_auto_proxy` 的值改为 `true`
 
@@ -1657,13 +1683,13 @@ response = ChatCompletion.create(
 
 ### gpt4free 支持的供销商有
 
-![微信截图_20230703161737.png](./assets/cb23a185ebff4e2084b4fb802d651022.webp)
+![微信截图_20230703161737.png](./ChatGPT竞品开源项目.assets/cb23a185ebff4e2084b4fb802d651022.webp)
 
 ## 开源框架LangChain：允许与AI一起工作的开发人员将大型语言模型
 
-- 开源地址：[hwchase17/langchain: ⚡ Building applications with LLMs through composability ⚡ (github.com)](https://github.com/hwchase17/langchain)
-- js版开源地址：[hwchase17/langchainjs (github.com)](https://github.com/hwchase17/langchainjs)
-- 文档：[Introduction | 🦜️🔗 Langchain](https://python.langchain.com/docs/get_started/introduction.html)
+* 开源地址：[hwchase17/langchain: ⚡ Building applications with LLMs through composability ⚡ (github.com)](https://github.com/hwchase17/langchain)
+* js版开源地址：[hwchase17/langchainjs (github.com)](https://github.com/hwchase17/langchainjs)
+* 文档：[Introduction | 🦜️🔗 Langchain](https://python.langchain.com/docs/get_started/introduction.html)
 
 LangChain是一个开源的框架，允许与AI一起工作的开发人员将大型语言模型，如GPT-4，与外部的计算和数据源结合起来。
 
@@ -1673,7 +1699,7 @@ LangChain是一个开源的框架，允许与AI一起工作的开发人员将大
 
 ## 『LangChain 中文入门教程』GitHub 1.3K Star，内容巨完整
 
-![img](./assets/d2b4477066554e4eb909981262629f9d.webp)
+![img](./ChatGPT竞品开源项目.assets/d2b4477066554e4eb909981262629f9d.webp)
 
 LangChain 是一个用于开发由语言模型驱动的应用程序的框架，主要拥有「**将 LLM 模型与外部数据源进行连接**」「**允许与 LLM 模型进行交互**」这2个能力，已经在GitHub获得35K Star，并且快速迭代中。
 
@@ -1743,8 +1769,8 @@ ChatGPT是一种功能强大的自然语言处理模型，可以用于生成自�
 
 然而，在搭建智能机器人方面，ChatGPT也存在明显的局限：
 
-- ChatGPT的回答是基于已有的语言数据生成的。资料显示，目前ChatGPT训练的数据截至2021年的，因此该时间点之后产生的数据，它很可能无法回答（或者无法准确地回答）。
-- 无法跟自身业务需求做更深度的结合。原因简单来说就是没有用自身的业务数据去训练它。
+* ChatGPT的回答是基于已有的语言数据生成的。资料显示，目前ChatGPT训练的数据截至2021年的，因此该时间点之后产生的数据，它很可能无法回答（或者无法准确地回答）。
+* 无法跟自身业务需求做更深度的结合。原因简单来说就是没有用自身的业务数据去训练它。
 
 因此，本文简单介绍一下使用LangChain来搭建可以跟自身业务需求相结合的智能机器人。
 
@@ -1917,7 +1943,7 @@ while True:
 
 结果如下图所示：
 
-![LangChain运行结果示意.png](./assets/dfa7362f7c514af89b33ac20a8c002a3.webp)
+![LangChain运行结果示意.png](./ChatGPT竞品开源项目.assets/dfa7362f7c514af89b33ac20a8c002a3.webp)
 
 ### 写在后面
 
