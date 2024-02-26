@@ -1,5 +1,7 @@
 # ChatGPT的API应用工具准备
 
+[手把手教你如何在国内搭建ChatGPT访问网站！！！ (qq.com)](https://mp.weixin.qq.com/s/sIwsGYoJXVxF1tPPD0id0A)
+
 ## 技术教程
 
 * [提示工程课学习](https://learnprompting.org/zh-Hans/docs/basics/intro)

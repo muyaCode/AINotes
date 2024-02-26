@@ -94,9 +94,32 @@ export default {
           link: "/Document/问答类语言模型/问答模型聚合类网站",
         },
         {
-          text: "",
-          link: "/Document/问答类语言模型/",
+          text: "国外的号码如何购买使用",
+          link: "/Document/问答类语言模型/国外的号码如何购买使用",
         },
+        {
+          text: "搭建可检索知识库模型",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "开源AI知识库FastGPT",
+              link: "/Document/问答类语言模型/搭建可检索知识库模型/开源AI知识库FastGPT",
+            }
+          ]
+        },
+        {
+          text: "characterAI注册和使用",
+          collapsible: true, // 可折叠
+          collapsed: true, // 初始不折叠
+          items: [
+            {
+              text: "CharacterAI的注册",
+              link: "/Document/问答类语言模型/characterAI注册和使用/CharacterAI的注册",
+            }
+          ]
+        },
+        
         {
           text: "ChatGPT注册使用和扩展",
           collapsible: true, // 可折叠
@@ -259,7 +282,26 @@ export default {
               text: "NewBing必应AI插件",
               link: "/Document/问答类语言模型/NewBing必应AI的使用和扩展/NewBing必应AI插件",
             },
+            {
+              text: "NewBing本地部署",
+              link: "/Document/问答类语言模型/NewBing必应AI的使用和扩展/NewBing本地部署",
+            },
+            {
+              text: "集成到Win10Win11系统的软件",
+              link: "/Document/问答类语言模型/NewBing必应AI的使用和扩展/集成到Win10Win11系统的软件",
+            },
           ]
+        },
+      ]
+    },
+    {
+      text: "🐲AI变现",
+      collapsible: true, // 可折叠
+      collapsed: true, // 初始不折叠
+      items: [
+        {
+          text: "AI变现项目思路",
+          link: "/Document/AI变现/AI变现项目思路",
         },
       ]
     },
@@ -302,12 +344,20 @@ export default {
               link: "/Document/各行业AI工具集/图像视频相关AI工具/其他图片相关的AI工具",
             },
             {
-              text: "文本生成视频AI模型",
-              link: "/Document/各行业AI工具集/图像视频相关AI工具/文本生成视频AI模型",
+              text: "文本或图片生成视频AI模型",
+              link: "/Document/各行业AI工具集/图像视频相关AI工具/文本或图片生成视频AI模型",
             },
             {
               text: "AI制作电影",
               link: "/Document/各行业AI工具集/图像视频相关AI工具/AI制作电影",
+            },
+            {
+              text: "文本或图片生成视频AI模型",
+              link: "/Document/各行业AI工具集/图像视频相关AI工具/文本或图片生成视频AI模型",
+            },
+            {
+              text: "Topaz全家桶图像AI软件",
+              link: "/Document/各行业AI工具集/图像视频相关AI工具/Topaz全家桶图像AI软件",
             },
             {
               text: "视频和直播实时换脸AI",
@@ -323,16 +373,16 @@ export default {
                   link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/Roop",
                 },
                 {
-                  text: "",
-                  link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/",
-                },
-                {
-                  text: "",
-                  link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/",
+                  text: "Facefusion换脸AI",
+                  link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/Facefusion换脸AI",
                 },
                 {
                   text: "破解换脸伪造",
                   link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/破解换脸伪造",
+                },
+                {
+                  text: "",
+                  link: "/Document/各行业AI工具集/图像视频相关AI工具/视频和直播实时换脸AI/",
                 },
               ]
             },
@@ -364,8 +414,12 @@ export default {
               link: "/Document/各行业AI工具集/AI音频相关/音频发展资讯",
             },
             {
-              text: "",
-              link: "/Document/各行业AI工具集/AI音频相关/",
+              text: "变声或者音频AI整合包",
+              link: "/Document/各行业AI工具集/AI音频相关/变声或者音频AI整合包",
+            },
+            {
+              text: "AI音乐生成",
+              link: "/Document/各行业AI工具集/AI音频相关/AI音乐生成",
             },
           ]
         },
@@ -562,17 +616,80 @@ export default {
           link: "/Document/AI绘画工具/Nijijourney官方AI绘画课程，艺术修养与绘画理论必修课",
         },
         {
+          text: "魔法加速器",
+          link: "/Document/AI绘画工具/魔法加速器",
+        },
+        {
+          text: "图像相关辅助网站",
+          link: "/Document/AI绘画工具/图像相关辅助网站",
+        },
+        {
+          text: "英伟达公司绘画生成工具canvas",
+          link: "/Document/AI绘画工具/英伟达公司绘画生成工具canvas",
+        },
+        {
+          text: "Facechain个人写真生成教程",
+          link: "/Document/AI绘画工具/Facechain个人写真生成教程",
+        },
+        {
+          text: "Ideogram生成创意图像",
+          link: "/Document/AI绘画工具/Ideogram生成创意图像",
+        },
+        {
+          text: "Invoke AI",
+          link: "/Document/AI绘画工具/Invoke AI",
+        },
+        {
           text: "Midjourney AI绘画工具",
           collapsible: true, // 可折叠
           collapsed: true, // 初始不折叠
           items: [
             {
-              text: "Midjourney工具的使用",
-              link: "/Document/AI绘画工具/Midjourney AI绘画工具/Midjourney工具的使用",
+              text: "1.Midjourney注册",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/1.Midjourney注册",
             },
             {
-              text: "Midjourney的Prompt关键词",
-              link: "/Document/AI绘画工具/Midjourney AI绘画工具/Midjourney的Prompt关键词",
+              text: "2.创建Midjourney私人服务器",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/2.创建Midjourney私人服务器",
+            },
+            {
+              text: "3.Midjourney付费订阅",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/3.Midjourney付费订阅",
+            },
+            {
+              text: "4.Midjourney国内使用",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/4.Midjourney国内使用",
+            },
+            {
+              text: "5.Midjourney工具的使用",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/5.Midjourney工具的使用",
+            },
+            {
+              text: "6.Midjourney官方命令详解",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/6.Midjourney官方命令详解",
+            },
+            {
+              text: "7.Midjourney的Prompt关键词",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/7.Midjourney的Prompt关键词",
+            },
+            {
+              text: "8.Midjourney心得",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/8.Midjourney心得",
+            },
+            {
+              text: "9.Midjourney使用痛点",
+              link: "/Document/AI绘画工具/Midjourney AI绘画工具/9.Midjourney使用痛点",
+            },
+            {
+              text: "Midjourney搭配其他AI使用",
+              collapsible: true, // 可折叠
+              collapsed: true, // 初始不折叠
+              items: [
+                {
+                  text: "两种方法让ChatGPT为Midjourney写提示词",
+                  link: "/Document/AI绘画工具/Midjourney AI绘画工具/Midjourney搭配其他AI使用/两种方法让ChatGPT为Midjourney写提示词",
+                }
+              ]
             },
           ]
         },
@@ -713,8 +830,8 @@ export default {
           link: "/Document/提示工程/提示工程-工具",
         },
         {
-          text: "",
-          link: "/Document/提示工程/",
+          text: "提示词网站",
+          link: "/Document/提示工程/提示词网站",
         },
       ]
     },
@@ -804,8 +921,8 @@ export default {
           link: "/Document/服务器搭建AI工具网站/AI开发工具Vercel AI SDK快速入门",
         },
         {
-          text: "",
-          link: "/Document/服务器搭建AI工具网站/",
+          text: "AI使用的GPU服务器",
+          link: "/Document/服务器搭建AI工具网站/AI使用的GPU服务器",
         },
       ]
     },

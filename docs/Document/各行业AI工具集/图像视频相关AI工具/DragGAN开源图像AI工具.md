@@ -160,3 +160,13 @@ python visualizer_drag_gradio.py
 很多人都以为这个项目能直接选一张照片，就能像 PS 一样进行 P 图了，其实并不是，至少目前还不支持，上面你看到的这些图片都是经过训练而生成的模型，所以本质上，你是在操作一个模型，而非图片！
 
 如果你想操作自己的图片，那么按官网说的，你需要使用到 [PTI](https://danielroich/PTI) 项目，将你自定义的图片训练成 StyleGAN 模型。
+
+## 北大团队用Diffusion升级DragGAN，泛化更强生成质量更高
+
+[北大团队用Diffusion升级DragGAN，泛化更强生成质量更高，点一点「大山拔地而起」 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/647535012)
+
+论文地址：[[2307.02421\] DragonDiffusion: Enabling Drag-style Manipulation on Diffusion Models (arxiv.org)](https://arxiv.org/abs/2307.02421)
+
+开源项目地址：[MC-E/DragonDiffusion (github.com)](https://github.com/MC-E/DragonDiffusion)
+
+项目主页：[DragonDiffusion: Enabling Drag-style Manipulation on Diffusion Models (mc-e.github.io)](https://mc-e.github.io/project/DragonDiffusion/)

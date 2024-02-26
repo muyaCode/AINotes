@@ -1,5 +1,13 @@
 # 图片视频修复AI工具
 
+**AI老照片上色网站**，网址连接：https://palette.fm/
+
+延伸小技巧：下载普通的图片后，如果想照片无损放大，可以通过这个在线工具完成。
+
+AI人工智能图片放大：https://bigjpg.com/ 
+
+图片无损放大在线工具（在线放大2倍，4倍，8倍和16倍，但是8倍和16倍的需要升级会员）：https://bigjpg.com/
+
 ## 🚧 『Lama Cleaner』开箱即用的 AI 图像擦除/补全工具，还能可以轻松去水印
 
 开源地址：https://github.com/Sanster/lama-cleaner

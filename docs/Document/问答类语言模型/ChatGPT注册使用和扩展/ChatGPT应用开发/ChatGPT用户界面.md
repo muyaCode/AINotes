@@ -6,6 +6,8 @@
 
 开源地址：[pengzhile/pandora: 潘多拉，一个让你呼吸顺畅的ChatGPT。Pandora, a ChatGPT that helps you breathe smoothly. (github.com)](https://github.com/pengzhile/pandora)
 
+体验地址：[https://chat.zhile.io](https://chat.zhile.io/)
+
 ### chatgpt-demo
 
 ChatGPT 的最小 Web UI，非常简单的页面。

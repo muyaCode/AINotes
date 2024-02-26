@@ -1,5 +1,9 @@
 # 开源LLM微调训练指南
 
+## Flowise - 轻松构建 LLM 应用程序
+
+[FlowiseAI/Flowise：拖放UI来构建您的自定义LLM流程 (github.com)](https://github.com/FlowiseAI/Flowise)
+
 ## The Document is All You Need！一站式 LLM 底层技术原理入门指南
 
 **飞书文档**：[⁡The Document is All You Need！一站式 LLM底层技术原理入门指南 - 飞书云文档 (feishu.cn)](https://s3tlxskbq3.feishu.cn/docx/NyPqdCKraoXz9gxNVCfcIFdnnAc)

@@ -1,5 +1,294 @@
 # AI代码工具合集
 
+分享一些我常用的提升开发效率的工具：转于：[DaweiMa - 即刻 (okjike.com)](https://web.okjike.com/u/7A7EB661-B6FC-47CF-B75B-46DB8D096D5C)
+
+## AI工具
+
+GitHub Copilot：能极大的提高效率，不仅能在编辑器中根据代码上下文自动编写代码，还能以ChatGPT对话的方式回答问题。有了它，极大的降低了对StackOverflow的依赖。
+
+ChatGPT：虽然GitHub Copilot以及能在写代码方面平替ChatGPT，但ChatGPT的GPT4 V的识图功能、DALL E3的绘图功能、移动端的语音对话功能都是GitHub Copilot无法替代的。用ChatGPT绘图或练英语还是很方便的。
+
+[v0.dev](https://v0.dev/)：Vercel出品的AI画UI的神器，试了下，的确能大幅度降低画UI的工作量，相比ChatGPT直接生成代码，V0能以可视化的方式修改界面，这是ChatGPT无法做到的。
+
+\#开发工具
+
+VSCode：因为免费轻量级，哪怕是安装了很多插件，速度也比IDEA快。当然如果开发Java的话，IDEA还是更胜一筹。
+
+DBeaver：数据库连接工具，主打免费可连接多种数据库。
+
+pgAdmin4：管理PG数据库的工具，比DBeaver在PG的管理上更强一点。
+云平台
+
+GitHub：虽然你对GitHub估计很熟悉了，但也推荐看这篇文章：善用GitHub（[www.bmpi.dev](https://www.bmpi.dev/self/use-github-better/)）。
+
+Cloudflare：Serverless最好的平台，能提供如常用的存储R2、KV数据库、CDN、Pages、Worker、MQ、甚至运行AI模型，我开发的个人产品（[www.i365.tech](https://www.i365.tech/)）大多都用它运行的。
+
+Vercel：很适合部署运行Next.js的前端项目，Cloudflare Pages运行Next.js还需要额外的一些配置。
+
+Fly.io：非常好的容器化平台，它能弥补Cloudflare只能运行Serverless的不足，能以Docker的方式运行各种重型API服务。
+
+AWS/Azure/GCP：作为一个巨无霸的云平台，他们可以补充上面云平台所缺失的东西，比如AWS SES就是一个非常好的发邮件服务。
+
+Newrelic：非常好的监控平台，尤其是它能作为免费的日志搜索平台，我把我产品的系统日志都上传到这个平台，然后对日志进行监控。一般的日志平台都是ES架构，价格并不便宜，单Newrelic却能免费。
+
+Optimizely：一个不错的feature toggle平台，可以很方便的做产品的A/B测试。
+
+\#分析工具
+
+Umami：GA的开源平替，我网站流量都是用它监控的，速度快，数据还是自己的。
+
+Plausible：更高级的GA开源平替，比Umami提供更多功能，但托管所需服务比较多，前者能免费跑在Vercel平台上。
+
+Mixpanel：更更高级的GA商业平替，能做很复杂的用户行为分析与溯源，比GA高级多了。
+支付平台
+
+Lemonsqueezy：出海必备的支付平台，用国内身份就可以开通，然后开启出海之旅，赚美刀。
+
+Stripe：相比前者，虽然费率便宜一些，但国内身份没发开通，需要做一些比较复杂的操作才能开通，比如开通一个美国或香港公司就可以开。
+
+\#绘图工具
+
+Excalidraw：非常好用的白板画图工具，适合个人使用。
+
+PlantUML：一个支持文本绘制类UML图的工具，可以在Real World Plantuml找到很多用它实现的图。
+
+Mermaid：通过文本生成各种UML图，最大的亮点是GitHub官方Markdown支持它，能渲染出多种图形如时序图与架构图等。
+
+asciiflow：能简单的免费在线绘制ASCII风格图的网站，C语言大佬最爱的RFC风格绘图工具。
+
+Sketch/OmniGraffle/Lucidchart/Draw.io/Google Drawings/Visio：这类工具相比大家或多或少用过，都是一些桌面端或浏览器常用的画图工具。
+
+\#综合工具
+
+Logseq：OKR + GTD + Note => Logseq（[www.bmpi.dev](https://www.bmpi.dev/self/okr-gtd-note-logseq/)），看完这篇文章，你会知道我为何而推荐这个工具，能做笔记、能规划任务或做OKR啥的。
+
+Beancount：完美记账工具，配合Git能做到数据安全可控，可以看这篇我写的文章：使用Beancount管理家庭财务（[www.bmpi.dev](https://www.bmpi.dev/self/beancount-my-accounting-tool-v2/)），谁再给你推荐记账工具，请把这篇文章扔给他们看。
+
+\#浏览器插件
+
+AdblockPlus：这款插件可以自动屏蔽网站里的绝大多数广告，无需额外复杂的配置，安装好即可。
+
+沉浸式翻译：搭配OpenAI的API Key可以做到非常完美的多语言网页翻译，读外文资料无障碍。
+
+Internet Archive：网页时光机，很多网页因为时间很久的缘故可能无法访问（404），这个插件可以帮助我们找回这个页面，甚至可以像时光机一样查看网页不同时期的版本。
+
+Screely：截屏工具，主要是能美化截屏界面，让其不再难看，比如加点背景。
+
+wappalyzer：查看网站技术栈，比如使用它一些主流网站的技术栈。
+
+SimilarWeb：查看网站PV流量的工具，但是结果有时候准确，有时候偏差挺大的。
+
+SEOquake：查看网站的SEO相关的信息，如外链数量、索引数量、SEO的站内问题等。
+
+Keyword Surfer：关键词工具，可以查看一些关键词的月搜索量。
+
+META SEO inspector：网页Meta信息查看工具，可以方便地解决一些网页SEO的基本问题。分享一些我常用的提升开发效率的工具：
+
+\#AI工具
+
+GitHub Copilot：能极大的提高效率，不仅能在编辑器中根据代码上下文自动编写代码，还能以ChatGPT对话的方式回答问题。有了它，极大的降低了对StackOverflow的依赖。
+
+ChatGPT：虽然GitHub Copilot以及能在写代码方面平替ChatGPT，但ChatGPT的GPT4 V的识图功能、DALL E3的绘图功能、移动端的语音对话功能都是GitHub Copilot无法替代的。用ChatGPT绘图或练英语还是很方便的。
+
+[v0.dev](https://v0.dev/)：Vercel出品的AI画UI的神器，试了下，的确能大幅度降低画UI的工作量，相比ChatGPT直接生成代码，V0能以可视化的方式修改界面，这是ChatGPT无法做到的。
+
+\#开发工具
+
+VSCode：因为免费轻量级，哪怕是安装了很多插件，速度也比IDEA快。当然如果开发Java的话，IDEA还是更胜一筹。
+
+DBeaver：数据库连接工具，主打免费可连接多种数据库。
+
+pgAdmin4：管理PG数据库的工具，比DBeaver在PG的管理上更强一点。
+云平台
+
+GitHub：虽然你对GitHub估计很熟悉了，但也推荐看这篇文章：善用GitHub（[www.bmpi.dev](https://www.bmpi.dev/self/use-github-better/)）。
+
+Cloudflare：Serverless最好的平台，能提供如常用的存储R2、KV数据库、CDN、Pages、Worker、MQ、甚至运行AI模型，我开发的个人产品（[www.i365.tech](https://www.i365.tech/)）大多都用它运行的。
+
+Vercel：很适合部署运行Next.js的前端项目，Cloudflare Pages运行Next.js还需要额外的一些配置。
+
+Fly.io：非常好的容器化平台，它能弥补Cloudflare只能运行Serverless的不足，能以Docker的方式运行各种重型API服务。
+
+AWS/Azure/GCP：作为一个巨无霸的云平台，他们可以补充上面云平台所缺失的东西，比如AWS SES就是一个非常好的发邮件服务。
+
+Newrelic：非常好的监控平台，尤其是它能作为免费的日志搜索平台，我把我产品的系统日志都上传到这个平台，然后对日志进行监控。一般的日志平台都是ES架构，价格并不便宜，单Newrelic却能免费。
+
+Optimizely：一个不错的feature toggle平台，可以很方便的做产品的A/B测试。
+
+\#分析工具
+
+Umami：GA的开源平替，我网站流量都是用它监控的，速度快，数据还是自己的。
+
+Plausible：更高级的GA开源平替，比Umami提供更多功能，但托管所需服务比较多，前者能免费跑在Vercel平台上。
+
+Mixpanel：更更高级的GA商业平替，能做很复杂的用户行为分析与溯源，比GA高级多了。
+支付平台
+
+Lemonsqueezy：出海必备的支付平台，用国内身份就可以开通，然后开启出海之旅，赚美刀。
+
+Stripe：相比前者，虽然费率便宜一些，但国内身份没发开通，需要做一些比较复杂的操作才能开通，比如开通一个美国或香港公司就可以开。
+
+\#绘图工具
+
+Excalidraw：非常好用的白板画图工具，适合个人使用。
+
+PlantUML：一个支持文本绘制类UML图的工具，可以在Real World Plantuml找到很多用它实现的图。
+
+Mermaid：通过文本生成各种UML图，最大的亮点是GitHub官方Markdown支持它，能渲染出多种图形如时序图与架构图等。
+
+asciiflow：能简单的免费在线绘制ASCII风格图的网站，C语言大佬最爱的RFC风格绘图工具。
+
+Sketch/OmniGraffle/Lucidchart/Draw.io/Google Drawings/Visio：这类工具相比大家或多或少用过，都是一些桌面端或浏览器常用的画图工具。
+
+\#综合工具
+
+Logseq：OKR + GTD + Note => Logseq（[www.bmpi.dev](https://www.bmpi.dev/self/okr-gtd-note-logseq/)），看完这篇文章，你会知道我为何而推荐这个工具，能做笔记、能规划任务或做OKR啥的。
+
+Beancount：完美记账工具，配合Git能做到数据安全可控，可以看这篇我写的文章：使用Beancount管理家庭财务（[www.bmpi.dev](https://www.bmpi.dev/self/beancount-my-accounting-tool-v2/)），谁再给你推荐记账工具，请把这篇文章扔给他们看。
+
+\#浏览器插件
+
+AdblockPlus：这款插件可以自动屏蔽网站里的绝大多数广告，无需额外复杂的配置，安装好即可。
+
+沉浸式翻译：搭配OpenAI的API Key可以做到非常完美的多语言网页翻译，读外文资料无障碍。
+
+Internet Archive：网页时光机，很多网页因为时间很久的缘故可能无法访问（404），这个插件可以帮助我们找回这个页面，甚至可以像时光机一样查看网页不同时期的版本。
+
+Screely：截屏工具，主要是能美化截屏界面，让其不再难看，比如加点背景。
+
+wappalyzer：查看网站技术栈，比如使用它一些主流网站的技术栈。
+
+SimilarWeb：查看网站PV流量的工具，但是结果有时候准确，有时候偏差挺大的。
+
+SEOquake：查看网站的SEO相关的信息，如外链数量、索引数量、SEO的站内问题等。
+
+Keyword Surfer：关键词工具，可以查看一些关键词的月搜索量。
+
+META SEO inspector：网页Meta信息查看工具，可以方便地解决一些网页SEO的基本问题。
+
+## 一份AI开发者的工具清单，60+工具帮你效率
+
+[jamesmurdza/awesome-ai-devtools: Curated list of AI-powered developer tools. (github.com)](https://github.com/jamesmurdza/awesome-ai-devtools)
+
+### 🔔 集成开发环境 IDEs
+
+> - **Cursor**（[www.cursor.so/](https://link.juejin.cn?target=https%3A%2F%2Fwww.cursor.so%2F)）: 具有聊天、编辑、生成和调试功能的IDE。从VSCodium分叉，因此界面类似于VS Code。使用OpenAI。
+> - **Mutable**（[mutable.ai/](https://link.juejin.cn?target=https%3A%2F%2Fmutable.ai%2F)）: 基于Web的IDE，与聊天机器人和GitHub集成。
+
+### 🔔 助手 Assistants
+
+> - **Replit Ghostwriter Chat**（[replit.com/site/ghostw…](https://link.juejin.cn?target=https%3A%2F%2Freplit.com%2Fsite%2Fghostwriter)）: 内置于 Replit 的助手，具有聊天、主动调试和自动补全功能。使用 OpenAI 进行聊天，并使用 replit-code-v1-3b（OS）进行自动补全。
+> - **GitHub Copilot X**（[github.com/features/pr…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Ffeatures%2Fpreview%2Fcopilot-x)）: 带有聊天、拉取请求文本生成和单元测试生成功能的 VS Code 扩展。
+> - **Refact AI**（[refact.ai/](https://link.juejin.cn?target=https%3A%2F%2Frefact.ai%2F)）: 开源助手，具有聊天、补全、重构和针对代码库的细调功能。适用于 VS Code 和 JetBrains 的扩展。
+> - **Codeium**（[codeium.com/](https://link.juejin.cn?target=https%3A%2F%2Fcodeium.com%2F)）: 带有自动补全、自然语言搜索和聊天功能的助手。适用于包括 VS Code、JetBrains、Neovim、Vim、Emacs、Eclipse、PyCharm 和 Xcode 在内的 21 个编辑器。企业版包括针对代码库的细调功能。
+> - **Continue**（[continue.dev/](https://link.juejin.cn?target=https%3A%2F%2Fcontinue.dev%2F)）: 带有聊天、重构和代码生成功能的 VS Code 扩展。可编辑多个文件并代表您运行命令。
+> - **Blackbox**（[www.useblackbox.io/](https://link.juejin.cn?target=https%3A%2F%2Fwww.useblackbox.io%2F)）: 带有自动补全和聊天功能的 VS Code 扩展，包括指向在线编码参考的链接。
+> - **Source Graph Cody**（[about.sourcegraph.com/cody](https://link.juejin.cn?target=https%3A%2F%2Fabout.sourcegraph.com%2Fcody)）: 带有聊天、重构和单元测试生成功能的助手。适用于 VS Code 和 IntelliJ 的扩展。
+> - **Quack AI**（[www.quack-ai.com/](https://link.juejin.cn?target=https%3A%2F%2Fwww.quack-ai.com%2F)）: 用于遵循项目编码规范的 VS Code 扩展。等候列表。
+> - **talk-codebase**（[github.com/rsaryev/tal…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Frsaryev%2Ftalk-codebase)）: 具有仓库上下文的命令行聊天机器人。支持 OpenAI，以及通过 GPT4All 本地运行的LLM。
+> - **Magnet**（[www.magnet.run/](https://link.juejin.cn?target=https%3A%2F%2Fwww.magnet.run%2F)）: 基于 Web 的聊天机器人，以仓库和问题为上下文。
+> - **Adrenaline**（[useadrenaline.com/](https://link.juejin.cn?target=https%3A%2F%2Fuseadrenaline.com%2F)）: 使用人工智能和 AST 来回答关于代码库的问题的基于 Web 的聊天机器人。
+> - **Tabby**（[tabbyml.github.io/tabby/](https://link.juejin.cn?target=https%3A%2F%2Ftabbyml.github.io%2Ftabby%2F)）: 开源的、自托管的代码补全助手。适用于 VS Code 和 Vim 的扩展。
+> - **Tabnine**（[www.tabnine.com/](https://link.juejin.cn?target=https%3A%2F%2Fwww.tabnine.com%2F)）: 开源的、自托管的代码补全助手。适用于包括 VS Code、IntelliJ、Neovim、Eclipse 和 PyCharm 在内的 15 个编辑器。
+> - **CodeSquire**（[codesquire.ai/](https://link.juejin.cn?target=https%3A%2F%2Fcodesquire.ai%2F)）: 为 Google Colab、BigQuery 和 JupyterLab 添加自动补全功能的 Chrome 扩展。
+> - **CodeMate**（[www.codemate.ai/](https://link.juejin.cn?target=https%3A%2F%2Fwww.codemate.ai%2F)）: 用于调试和优化代码的 VS Code 扩展。
+
+### 🔔 Shell助手 Shell assistants
+
+> - **AskCommand**（[www.askcommand.cppexpert.online/](https://link.juejin.cn?target=https%3A%2F%2Fwww.askcommand.cppexpert.online%2F)）: 使用人工智能自动从文本生成 Unix 命令的基于 Web 的工具。
+> - **Butterfish**（[butterfi.sh/](https://link.juejin.cn?target=https%3A%2F%2Fbutterfi.sh%2F)）: 在您的 shell 中嵌入 ChatGPT 以提供方便访问的命令行工具。包括简单的自主能力。
+
+### 🔔 智能体 Agents
+
+> - **Smol Developer**（[github.com/smol-ai/dev…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fsmol-ai%2Fdeveloper)）: 通过CLI代理根据提示生成存储库。使用OpenAI和Anthropic。
+> - **Aider**（[github.com/paul-gauthi…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fpaul-gauthier%2Faider)）: 通过CLI助手和代理生成更改和提交到存储库。使用OpenAI。
+> - **Mentat**（[www.mentat.codes/](https://link.juejin.cn?target=https%3A%2F%2Fwww.mentat.codes%2F)）: 通过CLI助手和代理对存储库进行更改。
+> - **GPT Engineer**（[github.com/AntonOsika/…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FAntonOsika%2Fgpt-engineer)）: 通过CLI代理根据提示生成存储库，并提问澄清问题。
+> - **GPT Migrate**（[github.com/0xpayne/gpt…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2F0xpayne%2Fgpt-migrate)）: 通过CLI代理将全栈应用程序从一种语言或框架转换为另一种。使用GPT-4 32k上下文。
+> - **GitWit**（[gitwit.dev/](https://link.juejin.cn?target=https%3A%2F%2Fgitwit.dev%2F)）: 用于向Git存储库的全栈应用程序添加功能的基于Web的代理。
+> - **DemoGPT**（[github.com/melih-unsal…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fmelih-unsal%2FDemoGPT)）: 具有Llama 2的强大力量的自动生成AI应用程序生成器
+> - **DevOpsGPT**（[github.com/kuafuai/Dev…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fkuafuai%2FDevOpsGPT)）: DevOpsGPT基于AI的软件开发自动化解决方案
+> - **Second.dev**（[www.second.dev/](https://link.juejin.cn?target=https%3A%2F%2Fwww.second.dev%2F)）: 用于向全栈应用程序添加功能的平台。
+> - **Factory**（[www.factory.ai/](https://link.juejin.cn?target=https%3A%2F%2Fwww.factory.ai%2F)）: 用于代码生成的代理。等待中。
+
+### 🔔 应用生成器 App generators
+
+> - **Pico**（[picoapps.xyz/](https://link.juejin.cn?target=https%3A%2F%2Fpicoapps.xyz%2F)）: 具有即时部署的端到端微应用生成器
+> - **Literally anything**（[literallyanything.io/](https://link.juejin.cn?target=https%3A%2F%2Fliterallyanything.io%2F) ） : HTML和JavaScript Web应用生成器。
+
+### 🔔 代码片段生成器 Snippet generators
+
+> - **CodePal**（[codepal.ai/](https://link.juejin.cn?target=https%3A%2F%2Fcodepal.ai%2F) ） : 一个用于快速生成或重构代码的Web工具。
+> - **AI Code Convert**（[aicodeconvert.com/](https://link.juejin.cn?target=https%3A%2F%2Faicodeconvert.com%2F) ） : 一个用于在编程语言之间转换代码的Web工具。
+> - **AI Code Playground**（[aicodeplayground.com/](https://link.juejin.cn?target=https%3A%2F%2Faicodeplayground.com%2F) ） : 用于重构和改进代码的Web工具。
+
+### 🔔 文档 Documentation
+
+> - **Trelent**（[trelent.net/](https://link.juejin.cn?target=https%3A%2F%2Ftrelent.net%2F)）: 一个用于生成文档字符串的VS Code扩展。使用专有模型。
+> - **Docify**（[docify.ai4code.io/](https://link.juejin.cn?target=https%3A%2F%2Fdocify.ai4code.io%2F)）: 一个用于生成文档字符串的VS Code扩展。
+> - **Mintlify Writer**（[writer.mintlify.com/](https://link.juejin.cn?target=https%3A%2F%2Fwriter.mintlify.com%2F)）: 一个用于生成文档字符串的VS Code扩展。
+
+### 🔔 持续集成机器人 Continuous integration bots
+
+> - **BitBuilder**（[www.bitbuilder.ai/](https://link.juejin.cn?target=https%3A%2F%2Fwww.bitbuilder.ai%2F)）: 一个用于从问题生成拉取请求的GitHub集成。
+> - **Sweep**（[sweep.dev/](https://link.juejin.cn?target=https%3A%2F%2Fsweep.dev%2F)）: 另一个用于从问题生成拉取请求的GitHub集成。
+> - **Code Review GPT**（[github.com/mattzcarey/…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fmattzcarey%2Fcode-review-gpt)）: 用于审查PR的开源工具。可以作为GitHub动作、Gitlab CLI或本地工具使用。
+> - **Nova**（[www.trynova.ai/](https://link.juejin.cn?target=https%3A%2F%2Fwww.trynova.ai%2F)）: 一个用于为新的PR添加摘要和测试等操作的CI机器人。
+> - **CodeRabbit**（[coderabbit.ai/](https://link.juejin.cn?target=https%3A%2F%2Fcoderabbit.ai%2F)）: 可定制的CI工具，用于为PR添加摘要和代码建议。
+
+### 🔔 Code generation: 代码生成
+
+> - **Magic**（[magic.dev/](https://link.juejin.cn?target=https%3A%2F%2Fmagic.dev%2F)）: 该公司承诺推出两款产品，一个助手和一个基于代码训练的底层基础模型LTM-1。等候名单。
+
+### 🔔 智能体平台 Agent platforms
+
+> - **E2B**（[www.e2b.dev/](https://link.juejin.cn?target=https%3A%2F%2Fwww.e2b.dev%2F)）: 用于托管基于LLM的代理的开源云平台。支持Smol Developer。
+> - **Morph Rift**（[github.com/morph-labs/…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fmorph-labs%2Frift)）: 开源的VS Code扩展，允许合并代码生成代理的输出。
+> - **SuperAGI**（[superagi.com/](https://link.juejin.cn?target=https%3A%2F%2Fsuperagi.com%2F)）: 用于托管基于LLM的代理的开源平台，包括SuperCoder。
+
+### 🔔 OpenAI插件 OpenAI plugins
+
+> - **ChatWithGit**（[gitsearch.sdan.io/](https://link.juejin.cn?target=https%3A%2F%2Fgitsearch.sdan.io%2F)）: 允许ChatGPT搜索GitHub并返回相关存储库的链接。
+> - **Code ChatGPT Plugin**（[github.com/kesor/chatg…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fkesor%2Fchatgpt-code-plugin)）: ChatGPT插件的开源示例，从文件目录中提取上下文。
+
+### 🔔 搜索 Search
+
+> - **Bloop**（[bloop.ai/](https://link.juejin.cn?target=https%3A%2F%2Fbloop.ai%2F)）: 用于存储库的自然语言搜索。
+> - **Buildt**（[www.buildt.ai/](https://link.juejin.cn?target=https%3A%2F%2Fwww.buildt.ai%2F)）: 用于存储库的自然语言搜索。
+
+### 🔔 测试 Testing
+
+> - **OctoMind**（[octomind.dev/](https://link.juejin.cn?target=https%3A%2F%2Foctomind.dev%2F)）: 自动维护和生成的基于浏览器的端到端测试，集成到Github Actions，Azure DevOps等。
+> - **Traceloop**（[traceloop.com/](https://link.juejin.cn?target=https%3A%2F%2Ftraceloop.com%2F)）: 利用开放遥测跟踪数据和生成的人工智能来提高系统可靠性。
+> - **Carbonate**（[carbonate.dev/](https://link.juejin.cn?target=https%3A%2F%2Fcarbonate.dev%2F)）: 使用自然语言进行端到端测试。与现有的测试套件集成（目前支持Jest，PHPUnit和Python的unittest）。
+> - **Meticulous.ai**（[www.meticulous.ai/](https://link.juejin.cn?target=https%3A%2F%2Fwww.meticulous.ai%2F)）: 自动生成、自动维护的端到端测试: 随着应用程序的发展，测试套件也随之演变。
+> - **DiffBlue**（[www.diffblue.com/](https://link.juejin.cn?target=https%3A%2F%2Fwww.diffblue.com%2F)）: 为Java自动生成单元测试 
+
+## AI编程工作流
+
+[【在公司前端项目中落地 ChatGPT】初探成果 - 掘金 (juejin.cn)](https://juejin.cn/post/7230319403723948093)
+
+## 🤖 使用AI工具「bloop」读懂「Webpilot」插件源码，再高效教会我
+
+[javascript - 效率max：AI读了源码后再教我 - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000044067958)
+
+![img](./AI代码工具合集.assets/62dd4fff233341fdb48f1bf26ee947ebtplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+
+> **Webpilot** 是一个浏览器插件,允许用户对网页内容进行自然语言提问，并自动生成回答。
+>
+> **bloop**是一个面向软件开发者的AIGC工具，可以回答关于代码库的问题，核心技术是 embeddings——将代码块映射为向量，然后检索向量之间关联度最强的内容来回答问题。但是 bloop 不了解代码之间的依赖关系，在提问时需要提供足够上下文，才能得到准确回答。
+
+作者在这篇文章中展示了如何使用 bloop 工具来分析 Webpilot 的源码：通过逐步深入的技术思路，先用 bloop 对项目做整体的概述，然后再针对关键功能细节继续提问，逐步让 bloop 解释代码的具体逻辑。核心流程如下：
+
+> 1. 首先需要在 bloop 中绑定 Webpilot 的代码仓库，让 bloop 对代码进行向量化表示
+> 2. 然后可以就项目整体提出一个概述性问题，如"简单介绍下这个项目"；这可以让 bloop 对项目有一个大致的了解
+> 3. 在得到项目简介后，可以询问一些关键功能的实现，如"与网页进行自由形式对话"是如何实现的；bloop会指出相关的代码位置
+> 4. 根据 bloop 提供的代码位置，可以继续询问该代码的详细作用和逻辑；bloop 会尝试解释代码含义
+> 5. 在理解了一个功能点后，可以继续问其他功能的实现代码在哪，并重复上述过程逐步深入
+> 6. 当对全部关键逻辑都进行了解析后，就可以比较系统地理解该项目的代码实现了
+> 7. 在提问时，需要提供足够具体的上下文信息，而不要只问一些过于概括的问题
+> 8. 如果bloop的回答不对或不全，需要修正提问方式提供更多上下文线索
+
 ## 🤖 程序员如何在 ChatGPT 世界中生存，并保持领先
 
 [How Coders Can Survive—and Thrive—in a ChatGPT World - IEEE Spectrum](https://spectrum.ieee.org/ai-programming)

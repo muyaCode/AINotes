@@ -1,5 +1,7 @@
 # AI模型训练
 
+[强推！大语言模型『百宝书』，一文缕清所有大模型！ - 掘金 (juejin.cn)](https://juejin.cn/post/7261628991055888442)
+
 ## 轻松可视化 Fine-tuning 训练你的模型
 
 ### Fine-tuning 介绍
@@ -16,11 +18,23 @@
 
 [Dify](https://docs.dify.ai/v/zh-hans/getting-started/intro-to-dify) 是今天文章的主角，我们正是依靠于该平台强大的能力，搭建出属于我们的语言模型！
 
-Dify 是一个可视化、可运营、可改进的 `LLM` 训练平台，它提供了强大的 `LLMOps` 能力。此外，它还提供了搭建 `Web App` 的能力。这些意味着你可以用它快速开发一个专属于你的 `ChatGPT` 应用，你可以基于此进行训练、微调，直到它变成你喜欢的模样！
+Dify 是一个无代码的 LLM Ops 平台，也是一个可视化、可运营、可改进的 `LLM` 训练平台，它提供了强大的 `LLMOps` 能力。此外，它还提供了搭建 `Web App` 的能力。这些意味着你可以用它快速开发一个专属于你的 `ChatGPT` 应用，你可以基于此进行训练、微调，直到它变成你喜欢的模样！
+
+让任何人都可以轻松创建和运营基于 GPT 等大型语言模型的AI应用。
 
 > LLMOps（Large Language Model Operations）是一种基于机器学习模型的运维（Operations）实践，是一个涵盖了大型语言模型（如GPT系列）开发、部署、维护和优化 的一整套实践和流程。
 >
 > LLMOps 的目标是确保高效、可扩展和安全地使用这些强大的 AI 模型来构建和运行实际应用程序。它涉及到模型训练、部署、监控、更新、安全性和合规性等方面。
+
+模型供应商上新增了一大批国内外知名的开源模型：
+
+> - 凡托管在 Hugging Face 及 Replicate 上的模型，在 Dify 上只需要输入 Hugging Face 、 Replicate 的 API token 和模型名称就可以轻松接入调用 (如Llama2、ChatGLM、百川Baichuan、通义千问-7B 等)
+> - 与国内数家模型厂商达成了友好的上下游合作，讯飞星火、MiniMax、文心一言、通义千问都已在本批次接入
+
+Dify 为用户争取到了讯飞星火和 MiniMax 体验额度，可以通过设置 --> 模型供应商 --> 讯飞星火或 MiniMax 图标处点击【免费获取】：
+
+> - **讯飞星火**：免费领取 300 万 token，需要从 Dify 的入口进入，完成讯飞星火开放平台的注册，返回 Dify 静候 5 分钟即可在 Dify 页面体现可用额度（仅限未注册过讯飞星火的手机号）
+> - **MiniMax**：免费领取 100 万 token，只需点击【免费领取】即可到账额度，无需手动注册流程 [**⋙ 了解更多**](https://mp.weixin.qq.com/s/uIdCnP1iVgnknjEUixKXdA)
 
 ### Dify 快速开始
 

@@ -195,6 +195,8 @@ main:    total time = 48455.85 ms
 
 ## Llama 2
 
+[快速玩转 Llama2！阿里云机器学习 PAI 推出最佳实践（二）——全参数微调训练 - 掘金 (juejin.cn)](https://juejin.cn/post/7260161636412358712)
+
 7月19日，Meta 发布大模型 Llama 2，**宣布免费且可以商用**，GitHub 项目的 Star 在几天时间里冲破 30K。一夜之间，大模型格局再次发生巨变。以下是 Llama 2 大模型的基本信息：
 
 > *▢* 包含 70 亿、130 亿和 700 亿三种参数变体，此外还训练了 340 亿参数变体，但并没有发布，只在技术报告中提到了
@@ -332,6 +334,8 @@ RWKV官方仓库：<https://github.com/BlinkDL/RWKV-LM>
 目前，作者发布了3个任务的实现细节，ShowMeAI将与大家共同关注系列更新进展。
 
 ## langchain+chatGLM的本地知识库项目
+
+[简单30行代码，使用LangChain 搭建专属 GPT知识库 (qq.com)](https://mp.weixin.qq.com/s/ILiFpws6AqFBcQ_KnooDXw)
 
 [徒手使用LangChain搭建一个ChatGPT PDF知识库](https://juejin.cn/post/7234821431804002365)
 

@@ -8,12 +8,23 @@
 
 [优设网官网 - UISDC - 国内专业设计师平台 - 看设计文章，学AIGC教程，找灵感素材，尽在优设网！](https://www.uisdc.com/)
 
+[量子位 - 知乎 (zhihu.com)](https://www.zhihu.com/org/liang-zi-wei-48)
+
+[每日AI快讯、热点、动态、融资、产品发布 | AI工具集导航 (ai-bot.cn)](https://ai-bot.cn/daily-ai-news/)
+
+[AI资讯-知学堂 (wehelpwin.com)](https://www.wehelpwin.com/newslist)
+
+[品玩-有品好玩的科技，一切与你有关 (pingwest.com)](https://www.pingwest.com/)
+
 ## 科技资讯
 
 - [36氪](https://www.36kr.com/)：这是一个专注于创业和创新的科技媒体平台，它为用户深度剖析最前沿的资讯，致力于让一部分人先看到未来，内容涵盖快讯，科技，金融，投资，房产，汽车，互联网等领域。
 - [央视网科技频道](https://news.cctv.com/tech/)：这是中国中央电视台的官方网站，它提供了国内外最新的科技新闻、视频、评论、专题等内容，涉及航天、生物、环境、农业、医疗等多个领域。
 - [知乎](https://www.zhihu.com/question/26475515)：这是一个知识分享社区，用户可以在这里提问、回答、分享和探索各种话题，包括科技、互联网、数码、游戏等。您可以在这里找到很多关于前沿科技的好问题和优质答案。
 - [Re/Code](https://zhuanlan.zhihu.com/p/163290663)：这是一个独立的科技新闻、评论和分析网站，由著名的科技记者沃尔特·莫斯伯格和卡拉·斯韦舍尔创办。它主要报道互联网、移动、社交媒体、电子商务等领域的最新动态和趋势。
+- 极客公园：
+  - https://www.geekpark.net/
+
 
 ## 人工智能和机器学习
 

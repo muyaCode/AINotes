@@ -1,5 +1,31 @@
 # AI等科技资讯
 
+## 8 家大模型通过《生成式人工智能服务管理暂行办法》备案
+
+8月31日共 8 家大模型通过《生成式人工智能服务管理暂行办法》备案，可正式上线面向公众提供服务。下方是这8家机构的清单和大模型使用链接，需要注意的是，大家关注的阿里通义千问、360 智脑、讯飞星火等均不在首批获批名单中。
+
+> - **百度 (文心一言)**：[wenxin.baidu.com](https://wenxin.baidu.com)
+> - **抖音 (云雀大模型)**：[www.doubao.com/chat](https://www.doubao.com/chat)
+> - **智谱 AI (GLM 大模型)**：[chatglm.cn](https://chatglm.cn)
+> - **中科院 (紫东太初大模型)**：[xihe.mindspore.cn](https://xihe.mindspore.cn)
+> - **百川智能 (百川大模型)**：[www.baichuan-ai.com/home](https://www.baichuan-ai.com/home)
+> - **商汤 (日日新大模型)**：[www.sensetime.com/cn](https://www.sensetime.com/cn)
+> - **MiniMax (ABAB 大模型)**：[api.minimax.chat](https://api.minimax.chat)
+> - **上海人工智能实验室 (书生通用大模型)**：[intern-ai.org.cn](https://intern-ai.org.cn)
+
+## AI监管文件，于2023年8月15日起施行
+
+[国家网信办等七部门联合公布《生成式人工智能服务管理暂行办法》_中央网络安全和信息化委员会办公室 (cac.gov.cn)](http://www.cac.gov.cn/2023-07/13/c_1690898326795531.htm)
+
+8月15日起，《生成式人工智能服务管理暂行办法》(以下称《办法》) 开始施行，这也是**我国首个针对生成式人工智能产业的规范性政策**。
+
+《办法》界定了生成式人工智能技术的基本概念，规定了生成式人工智能服务提供者的制度要求，为生成式人工智能的健康发展指明了方向：
+
+> 1. 坚持发展和安全并重，对生成式人工智能服务实行包容审慎和分类分级监管
+> 2. 明确适用对象和范围：适用于向境内公众提供AIGC服务，对大量垂直领域如科研、工业应用等场景排除适用范围
+> 3. 以鼓励产业创新和发展为重，明确生成式人工智能技术发展路径和重点方向
+> 4. 搭建人工智能全生命周期监管体系，对数据、算法等业务适度“松绑” [**⋙ 微信阅读全文**](https://mp.weixin.qq.com/s/TztAWbEJmA3qBCiLgvZMyg) | [**专家解读**](https://mp.weixin.qq.com/s/FERv605YrGK2Wie0kpFf5g)
+
 ## 新闻话题
 
 * [ChatGPT 爆火带动全新职业提示工程师，提示工程有多重要？未来该职业走向如何？](https://www.zhihu.com/question/585294957)
@@ -12,6 +38,16 @@
 * [微软 ChatGPT 版 Bing 上线了，使用体验如何？符合你的需求吗？](https://www.zhihu.com/question/583588366)
 * [如何评价 ChatGPT ？会取代搜索引擎吗？](https://www.zhihu.com/question/570062224)
 * [OpenAI CEO:将发布工具让用户定制AIGC系统](https://m.163.com/tech/article/HVF0CG7A00097U7T.html?spss=adap_pc)
+
+## 🤖 巨量引擎推出AI智能成片工具，商家5分钟生成十余条带货短视频
+
+![img](./AI等科技资讯.assets/e69bde92a78f479a8e8e21eea3557aa9tplv-k3u1fbpfcp-zoom-in-crop-mark1512000.webp)
+
+上周，巨量引擎宣布推出AI混剪工具「**智能成片**」，免费开放给抖音商家使用，可以帮助商家轻松制作跑量的带货短视频。
+
+不用写脚本、找素材、找配乐，只需有商品空镜视频 (至少3条)，就能制作爆款带货短视频啦！5分钟即可快速成片，提供10+条跑量效果好的短视频，而且商家0成本使用、批量成片，大幅节省开支~
+
+以下两个路径均可使用「智能成片」工具：巨量千川PC首页 → 工具 → 三方工具 → 智能成片、星图即合 → 智能成片  [**⋙ 巨量千川**](https://qianchuan.jinritemai.com)   |   [**星图即合**](https://lcreative.xingtu.cn)
 
 ## 网易有道首推教育大模型「子曰」，6项应用可在线体验
 

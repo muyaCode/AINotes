@@ -1,6 +1,463 @@
 # AI工具导航
 
+2023AIGC产业全景报告
+
+[https://www.aliyundrive.com/s/KeMcbbWCxAZ](https://www.xgw5.com/go?_=c115b98e76aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvS2VNY2JiV0N4QVo%3D)
+
+AI时代的颠覆论
+
+[https://www.aliyundrive.com/s/foT3V1mHnvJ](https://www.xgw5.com/go?_=ab7f589018aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvZm9UM1YxbUhudko%3D)
+
+ChatGPT主题报告合编（83份）
+
+[https://www.aliyundrive.com/s/HrU92TF6cuE](https://www.xgw5.com/go?_=9bee509a92aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvSHJVOTJURjZjdUU%3D)
+
+ChatGPT指令大全（调教口令）
+
+[https://www.aliyundrive.com/s/sFoym2mCCej](https://www.xgw5.com/go?_=601fb8c9a5aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3Mvc0ZveW0ybUNDZWo%3D)
+
+21个AI提示词站点收集！玩转AI必备的工具！.pdf
+
+[https://www.aliyundrive.com/s/b8kXYgqZz2r](https://www.xgw5.com/go?_=73839734a5aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvYjhrWFlncVp6MnI%3D)
+
+150种ChatGPT中文提示词收集
+
+[https://www.aliyundrive.com/s/ABeVdrMbMnJ](https://www.xgw5.com/go?_=46e842b566aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvQUJlVmRyTWJNbko%3D)
+
+ChatGPT技术报告（GPT-4）
+
+[https://www.aliyundrive.com/s/t3gPEd8ogBg](https://www.xgw5.com/go?_=2d6f4b9eceaHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvdDNnUEVkOG9nQmc%3D)
+
+ChatGPT视频教程
+
+[https://www.aliyundrive.com/s/pixGifESs1S](https://www.xgw5.com/go?_=2d60b4db16aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvcGl4R2lmRVNzMVM%3D)
+
+ChatGPT商业版+自用版源码
+
+[https://www.aliyundrive.com/s/jAwDhmiQHJU](https://www.xgw5.com/go?_=4a971833feaHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvakF3RGhtaVFISlU%3D)
+
+Midjourney入门到精通 AI绘图作画教学
+
+[https://www.aliyundrive.com/s/FDnXMKY8RFV](https://www.xgw5.com/go?_=7805713dbeaHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvRkRuWE1LWThSRlY%3D)
+
+Midjourney入门到精通 AI绘画保姆级教程
+
+[https://www.aliyundrive.com/s/E9VmnGR1Uz1](https://www.xgw5.com/go?_=eb612cb2e1aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvRTlWbW5HUjFVejE%3D)
+
+Midjourney 绘画关键词+配图 12000+
+
+[https://www.aliyundrive.com/s/oLNGyBNczPW](https://www.xgw5.com/go?_=7b21b05412aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3Mvb0xOR3lCTmN6UFc%3D)
+
+Midjourney相关资料汇总
+
+[https://www.aliyundrive.com/s/kguWnuDqqi3](https://www.xgw5.com/go?_=02b739c27baHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3Mva2d1V251RHFxaTM%3D)
+
+书籍分享:
+
+工业人工智能三部曲（共3册）
+
+[https://www.aliyundrive.com/s/GGjJ8k9vwFv](https://www.xgw5.com/go?_=7a6db51077aHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvR0dqSjhrOXZ3RnY%3D)
+
+ChatGPT 中文指令公式手册
+
+[https://www.aliyundrive.com/s/xgJT9euFyL9](https://www.xgw5.com/go?_=45676584cdaHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MveGdKVDlldUZ5TDk%3D)
+
+ChatGPT 提问艺术
+
+[https://www.aliyundrive.com/s/LfUapq6m4uy](https://www.xgw5.com/go?_=67823c284daHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvTGZVYXBxNm00dXk%3D)
+
+ChatGPT4.0在投资中的运用初探
+
+[https://www.aliyundrive.com/s/N5eieL8UTvN](https://www.xgw5.com/go?_=aa268174eaaHR0cHM6Ly93d3cuYWxpeXVuZHJpdmUuY29tL3MvTjVlaWVMOFVUdk4%3D)
+
+————————————————————————————————————————
+
+🧰 免费体验【ChatGPT】【GPT-4】【Claude】等工具汇总 ：https://t.zsxq.com/11Wa21d4S
+
 各类AI工具：[未来百科AI工具 的个人主页 - 文章 - 掘金 (juejin.cn)](https://juejin.cn/user/3245414058301261/posts)
+
+- 1.AI扩展图片：https://clipdrop.co/uncrop
+- 2.AI模特试衣：https://www.x-design.com/?channel=10017
+- 3.AI文本转3D：https://www.meshy.ai/
+- 4.AI人声分离：https://vocalremover.org/zh/
+- 5.AI黑白照上色：https://palette.fm/
+
+**工具清单**
+
+**ChatGPT**：https://openai.com/blog/chatgpt
+
+ChatGPT 是一款非常好用的论文阅读和润色工具，只需要掌握基本的输入技巧，就可以完成角色扮演、背景介绍、关键词限定、任务目标、格式化输出等任务。
+
+**ChatGPT Academic**：https://github.com/binary-husky/gpt_academic
+
+ChatGPT Academic (ChatGPT 学术优化) 是一款学术版润色工具，为 GPT、GLM 提供了图形交互界面。模块化设计支持自定义快捷按钮和各种函数插件；并且新增 Python / C++ 项目剖析和自译解功能等。
+
+**ChatReviewer / ChatResponse**：https://github.com/nishiwen1214/ChatReviewer
+
+ChatReviewer 是一款基于 GPT-3.5 API 开发的智能论文分析与建议助手。可以对论文的优缺点进行快速总结和分析，提高科研人员的文献阅读和理解的效率；也可以对本地论文进行分析，生成改进建议帮助进行查漏补缺，进一步提高论文质量。
+
+https://github.com/nishiwen1214/ChatReviewer
+
+https://huggingface.co/spaces/ShiwenNi/ChatReviewer
+
+**「使用时要注意学术伦理」**
+
+ChatResponse 是一款根据审稿人的评论自动生成作者回复的AI助手，可以根据输入的审稿意见，自动提取其中各个审稿人的问题和担忧，并生成点对点的回复。
+
+https://github.com/nishiwen1214/ChatReviewer
+
+https://huggingface.co/spaces/ShiwenNi/ChatResponse
+
+**「使用时要注意学术伦理」**
+
+**New Bing**：http://www.bing.com/
+
+对于在浏览器中打开的文档，NewBing不仅可以通过问答进行内容总结、大纲提炼等任务，还能跨中英文直接作答。事实上，不仅仅是PDF，任何浏览器中的页面都可以这样处理。关键，是免费的！真的强！
+
+**ChatDOC**：https://chatdoc.com/
+
+ChatDOC图片ChatDOC 是一个基于 ChatGPT 的文件阅读助手，支持中英文，可以快速从上传研究论文、书籍、手册等文件中提取、定位和汇总文件信息，并通过聊天的方式在几秒钟内给出问题的答案。
+
+**ChatPDF**：https://www.chatpdf.com/
+
+ChatPDF是一款强大的PDF阅读和问答工具，支持不同语言间的互动。原理是分析时创建PDF段落的语义索引，回答问题时找到最相关段落并利用OpenAl的API生成答案，每天可免费处理3个PDF (最多120页)。
+
+**ChatPaper**：https://chatpaper.org/
+
+ChatPaper 是一个超万星的 GitHub 热榜开源项目，可以根据用户输入的关键词自动下载 arxiv 最新论文，再利用 ChatGPT API 接口的强大总结能力，将论文总结为固定格式。当然，ChatPaper 也可以直接处理本地的 PDF 文档。
+
+**BriefGPT**：https://briefgpt.xyz/
+
+BriefGPT (AI论文速递)，是一个日更 Arxiv 最新人工智能论文的网站，项目作者 Rick Yu 抓取论文后通过 GPT 生成中文标题、论文概要、展示论文 Key Words，并设置了顶会、ChatGPT专栏，帮助用户快速了解 AI 最新动态。
+
+**Auto-Draft**：https://github.com/CCCBora/auto-draft
+
+https://huggingface.co/spaces/auto-academic/auto-draft
+
+Auto-Draft 是一款基于 GPT-4 的文献整理辅助工具，通过输入一个领域的名称，即可自动对这个领域的相关文献进行归纳总结。Auto-Draft 提供了自动搜索主题相关文献、引用文献均有对应原文、按照 LaTeX 模板统一输出等功能。
+
+**SciSpace**：https://typeset.io/
+
+SciSpace 是一个科学写作平台，帮助研究人员发现、创建和发表他们的研究论文。可用于直接搜索在线论文，当然也支持上传本地文档；还可以额在右侧以问答的方式进行实时分析，帮助理解和学习论文。
+
+**OpenRead**：https://www.openread.academy/home
+
+OpenRead 是一款AI驱动的交互式论文工具，将论文阅读、笔记、写作和编辑功能高效地融合到了一款工具中，具备反向链接、外部链接功能，还有数千个期刊论文模板，加速论文阅读与学习过程。
+
+**小绿鲸文献阅读**：https://www.xljsci.com/
+
+小绿鲸文献阅读器是一款集翻译、笔记、文献管理、写作功能于一体的云端英文文献阅读器。重点推荐这款阅读器的各学科专业术语库和划词翻译功能，非常显著地提升了阅读效率和质量。更多AI相关功能，也即将上线。
+
+#### 常见功能的工具选择建议
+
+> > **1**. **「论文批量下载」**：ChatPaper、BriefGPT
+>
+> **2**. **「本地文件理解」**：New Bing
+>
+> **3**. **「文案生成」**：实时信息 New Bing；长文本输入 GPT-4
+>
+> **4**. **「简单代码生成」**：New Bing
+>
+> **5**. **「复杂代码生成」**：GPT-4
+>
+> **6**. **「API调用」**：GPT3.5、特殊场景调用 GPT-4
+>
+> **7**. **「绘图」**：New Bing
+>
+> **8**. **「论文润色」**：ChatGPT、GPT-4、ChatGPT Academic
+
+#### 其他常见的科研加速小技巧
+
+> > **1**. 作为某种意义上的条件概率生成模型，输入多 - 输出少，更能保证准确性和减少 hallucination
+>
+> **2**. **「基于关键词的角色扮演」**。你现在是xx领域的教授xx，请帮我润色下面的论文：[文本内容]
+>
+> **3**. **「格式化输出」**。请按照 xxx; xxx[yyy] 的格式输出/按照 latex 格式输出
+>
+> **4**. **「格式化的示例 (few-shot)」** 。按照论文的经验，提供一个完整的例子，便于LLM举一反三
+>
+> **5**. **「可验证的文本生成」**。对于你懂但记不清、或者懂的不多的领域，可以尝试让它实现具体某个任务，事半功倍
+>
+> **6**. **「哈佛博士的教程」**。GPT可以提供次优选项，让人做选择题，而不用做填空题 https://twitter.com/kareem_carr/status/1640003536925917185
+
+**「其他常见的科研加速小技巧」**
+
+> **GPT全流程加速科研技巧分享*
+>
+> 论文工具的介绍视频
+
+https://www.bilibili.com/video/BV1WL411e7qM
+
+## 衣食住行
+
+🛒 购物 | 🍔 烹饪 | 🏡 智能家居 | 🤖 家用机器人 | ⌚ 可穿戴设备 | ✈️ 出行
+
+### 🛒 购物
+
+[**Entrupy**](https://www.entrupy.com/) — 奢侈品与运动鞋真伪鉴定。
+
+### 🏡 智能家居
+
+[**Aerial**](http://www.aerial.ai/) — 利用AI与无线基础设施创建传感智能，改善人们的日常生活。
+
+[**Josh.ai**](https://www.josh.ai/) — 全屋语音控制。
+
+[**Mycroft**](https://mycroft.ai/) — 可以保护隐私的语音助手，开源模块化系统可以移植到自有设备中。
+
+[**Nanit**](https://www.nanit.com/) — 使用摄像头等产品套件，帮助父母在App端跟踪监护婴儿的睡眠质量。
+
+### 🤖 家用机器人
+
+[**Roboy**](http://roboy.org/) — 更人性化的机器人，模仿人体肌肉与肌腱，动作更柔和。
+
+[**UBTECH Robotics**](http://www.ubtrobot.com/) — 消费类人形机器人、企业服务机器人以及提供儿童STEM技能培养机器人。
+
+### ⌚ 可穿戴设备
+
+[**Eli**](http://eli-talk.com/en/) — 戴在衣领上的小麦克风，可以连接到智能手机App，记录分析日常对话并生成个性化的外语课程。
+
+[**Rokid**](https://www.rokid.com/) — 致力于AR眼镜等软硬件产品的研发，以YodaOS操作系统为载体构建AR生态，引领人机交互风向标。
+
+[**KickAI**](https://www.kickai.com/) — 运动员与武术从业者的可穿戴设备，帮助提升训练效果。
+
+### ✈️ 出行
+
+[**Emma**](http://ema.ai/) — 从日历中自动获取旅行信息，更合理地规划行程。
+
+[**Nexar**](https://www.getnexar.com/) — 智能行车记录仪，支持在App中查看历史视频，出现问题时App可以远程接收警报。
+
+[**Voya**](https://voya.ai/) — 预订和管理商务旅行，规划行程事宜。
+
+[**Vinli**](https://www.vin.li/) — 为世界顶级车队和保险组织构建移动智能产品，功能包括车队管理、评估车辆保险的风险、提供数据驱动的业务决策支持。
+
+## 美好生活
+
+🎓 教育 | 💰 财务 | 🏛️ 法律 | 🩺 健康 | 🏃 运动 | 🎵 音乐 | 👄 娱乐
+
+## 个人助理
+
+🧰 工作助手 | ⏳ 生活助理
+
+## 商业智能
+
+📊 BI | 💎 AI平台 | 📋 数据采集 | 🔬 数据科学 | 💻 发展 | 📂 内部数据 | 🤖 机器学习 | 📡 传感器 | 😎 愿景
+
+## 持续增长
+
+🎙 聊天机器人 | 🤝 客户关系 | 🔍 客户研究 | ☎️ 客户支持 | 📈 市场调研 | 📣 广告营销 | 📩 邮件营销 | 💰 销售 | 🌎 SEO
+
+## 管理优化
+
+👥 人才招聘 | 👭 团队协作 | 💻 网站搭建 | 📲 App制作 | ✒ Logo设计
+
+## 基础建设
+
+🐷 农业
+
+## 生产制造
+
+⚙ 制造业 | 🦾 工业机器人 | 🛩 无人机 | 📺 VR & AR | 🚘 自动驾驶 | 📦 供应链与物流
+
+## 社会发展
+
+🧬 生物医学 | 💉 医疗保健 | 🎞 医学影像 | 💻 网络安全 | 💸 电子商务 | 🛌 本地生活 | 🎮 游戏开发
+
+🔒 安保 | 🎓 教育 | 💵 金融 | 👜 贷款 | 🏢 保险 | 🏛 法律 | 🏗️ 基础设施 | ❤️ 社会影响
+
+## 内容创作
+
+🌐 文字翻译 | 📜 文本生成 | 📚 文本分析 | 📺 文字转视频 | 🔉 音频处理 | 🖼 图片处理 | 👀 演示工具
+
+## 学术研究
+
+🏟 研究 | 🎓 机构和大学
+
+## 技术开发
+
+📰 新闻和博客 | 🎫 活动、会议和社区 | 🧩 开发者工具 | 🏆 开源库 | 🛠 硬件
+
+
+
+## 海外AI工具导航网站，包含44个网址链接
+
+这是一份非常完备的海外AI工具导航网站，包含44个网址链接。不论按照关键词和分类搜索AI工具，还是开发AI工具后自荐推广获得更多曝光，这个清单都非常有用且值得收藏：
+
+> 1. **Product Hunt**：[www.producthunt.com](https://www.producthunt.com)
+> 2. **AI Tools Directory**：[aitoolsdirectory.com](https://aitoolsdirectory.com)
+> 3. **Futurepedia**：[www.futurepedia.io](https://www.futurepedia.io)
+> 4. **AI Tool Board**：[aitoolboard.com](https://aitoolboard.com)
+> 5. **AIdir**：[www.aidir.cc](https://www.aidir.cc)
+> 6. **AI Search Tool**：[www.aisearchtool.com](https://www.aisearchtool.com)
+> 7. **Textify**：[textify.ai/directory](https://textify.ai/directory)
+> 8. **AI Tools Directory**：[www.aitools.directory](https://www.aitools.directory)
+> 9. **Future Tools**：[www.futuretools.io](https://www.futuretools.io)
+> 10. **AI Designer Source**：[aidesignresource.com](https://aidesignresource.com)
+> 11. **Theresanaiforthat**：[theresanaiforthat.com](https://theresanaiforthat.com)
+> 12. **Diffusiondb**：[diffusiondb.com](https://diffusiondb.com)
+> 13. **Library Phygital**：[library.phygital.plus](https://library.phygital.plus)
+> 14. **Tools for Humans**：[www.toolsforhumans.ai](https://www.toolsforhumans.ai)
+> 15. **GPT3Demo**：[gpt3demo.com](https://gpt3demo.com)
+> 16. **Creaitives**：[www.creaitives.com](https://www.creaitives.com)
+> 17. **Saas AI Tools**：[saasaitools.com](https://saasaitools.com)
+> 18. **SerpAI**：[serp.ai](https://serp.ai)
+> 19. **AllthingsAI**：[allthingsai.com](https://allthingsai.com)
+> 20. **Easy with AI**：[easywithai.com](https://easywithai.com)
+> 21. **ToolsAI**：[toolsai.net](https://toolsai.net)
+> 22. **AI Top Tools**：[aitoptools.com](https://aitoptools.com)
+> 23. **AIcyclopedia**：[www.aicyclopedia.com](https://www.aicyclopedia.com)
+> 24. **Tools Design**：[www.toools.design/ai-tools-fo…](https://www.toools.design/ai-tools-for-designers-and-marketing)
+> 25. **Curated Design**：[www.curated.design](https://www.curated.design)
+> 26. **GPTFrance**：[gptfrance.ai/outils](https://gptfrance.ai/outils)
+> 27. **AI Tools Hunter**：[aitoolshunter.com](https://aitoolshunter.com)
+> 28. **DomoreAI**：[domore.ai](https://domore.ai)
+> 29. **AI Finder**：[ai-finder.net](https://ai-finder.net)
+> 30. **AIscount**：[aiscout.net](https://aiscout.net)
+> 31. **InsidrAI**：[www.insidr.ai](https://www.insidr.ai)
+> 32. **AI Tool Mall**：[aitoolmall.com](https://aitoolmall.com)
+> 33. **Draeno**：[draeno.io](https://draeno.io)
+> 34. **Toolscout**：[toolscout.ai](https://toolscout.ai)
+> 35. **AI Center**：[aicenter.ai](https://aicenter.ai)
+> 36. **AI Tools Club**：[www.aitoolsclub.com](https://www.aitoolsclub.com)
+> 37. **ChatGPTDemo**：[chatgptdemo.com](https://chatgptdemo.com)
+> 38. **AI Tool Guru**：[aitoolguru.com](https://aitoolguru.com)
+> 39. **TopAI**：[topai.tools](https://topai.tools)
+> 40. **AI Hunter**：[ai-hunter.io](https://ai-hunter.io)
+> 41. **AI Tools Arena**：[aitoolsarena.com](https://aitoolsarena.com)
+> 42. **Super Tools Therundown**：[supertools.therundown.ai](https://supertools.therundown.ai)
+> 43. **GPTE**：[gpte.ai](https://gpte.ai)
+> 44. **AI Center**：[aicenter.ai](https://aicenter.ai)  [**⋙ 链接**](https://kostja-ai-studio.notion.site/AI-Tools-Directory-757611ae24e942eda884f260911cc103)
+
+## 5.2 ChatGPT相关案例网站
+
+[600+ ChatGPT and GPT-3 Examples, Demos, Apps, Showcase, and AI Use-cases | Discover AI use cases](https://gpt3demo.com/)
+
+汇集了最新的ChatGPT的使用案例，能够提供很多案例思路。
+
+
+
+![2.png](./AI工具导航.assets/lesoscko0nvq.png)
+
+
+
+[All Things AI - The Complete Resource Of Artificial Intelligence Tools & Services](https://allthingsai.com/)
+
+汇集了很多Ai的案例，一切事情均可ai。
+
+
+
+![3.png](./AI工具导航.assets/lesosw030rhe.png)
+
+## 5.3 Ai相关的工具（700+）
+
+### 5.3.1 100个Ai应用
+
+![4.png](./AI工具导航.assets/lesotg7i0bg0.png)
+
+### 5.3.2 600+ai工具箱
+
+工具箱地址：[ClickUp](https://share-docs.clickup.com/25598832/d/h/rd6vg-14247/0b79ca1dc0f7429/rd6vg-12207)
+
+![5.png](./AI工具导航.assets/lesou1i601uc.png)
+
+### 5.3.3 ChatGPT 开源插件
+
+1.ChatGPT ProBot
+
+![6.png](./AI工具导航.assets/lesouxi7066f.png)
+
+这是一个基于ChatGPT实现的Github机器人，可以让ChatGPT帮你审核代码、重构代码，还可以在Github页面上和它进行聊天，咨询问题。
+
+仓库地址: [GitHub - oceanlvr/ChatGPT-ProBot: 🤖️ A GPTChat based GitHub robot. dialogue/CR/etc..](https://github.com/oceanlvr/ChatGPT-ProBot)
+
+
+
+2.ChatGPT-api
+
+![7.png](./AI工具导航.assets/lesovlf00hd4.png)
+
+这个项目是用Node.js基于OpenAI的ChatGPT实现和封装的工具。
+
+可以使用它构建由 ChatGPT 支持的项目，例如，聊天机器人、网站等...
+
+仓库地址: [GitHub - transitive-bullshit/chatgpt-api: Node.js client for the unofficial ChatGPT API. 🔥](https://github.com/transitive-bullshit/chatgpt-api)
+
+
+
+3.ChatGPT-vscode
+
+![8.png](./AI工具导航.assets/lesow8gu0y9x.png)
+
+这是一个基于ChatGPT实现的VS Code扩展程序。
+
+
+
+这款插件把ChatGPT和代码编辑在很多方面做了很好的结合。
+
+例如，提出一个问题，它能够在编辑器内直接生成代码片段，或者选中代码，询问问题，它能够直接在VS Code内给出答复。
+
+
+
+仓库地址: [GitHub - mpociot/chatgpt-vscode: A VSCode extension that allows you to use ChatGPT](https://github.com/mpociot/chatgpt-vscode)
+
+
+
+4.ChatGPT
+
+![1.png](./AI工具导航.assets/lesowy3h0a2b.png)
+
+![1.png](./AI工具导航.assets/lesoxof70xft.png)
+
+这个软件把 ChatGPT 包装成了跨平台的桌面应用，它可以同时在macOS、Windows、Linux上使用，通过这款应用程序可以直接和ChatGPT聊天。
+
+仓库地址: [GitHub - lencx/ChatGPT: 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)](https://github.com/lencx/ChatGPT)
+
+
+
+5.ChatGPT-wechat-bot
+
+![2.png](./AI工具导航.assets/lesoy6u40w6k.png)
+
+
+
+几步即可获得一个基于 ChatGPT 的微信机器人 ,可以直接在微信中用ChatGPT，支持关键词唤醒、支持at时自动回复，当然也支持ChatGPT本身具备的问题回答、聊天功能。
+
+
+
+仓库地址: [GitHub - AutumnWhj/ChatGPT-wechat-bot: ChatGPT for wechat https://github.com/AutumnWhj/ChatGPT-wechat-bot](https://github.com/AutumnWhj/ChatGPT-wechat-bot)
+
+
+
+6.commitgpt
+
+![3.png](./AI工具导航.assets/lesoyqwo0h9n.png)
+
+使用 ChatGPT 自动生成Git的提交消息。
+
+
+
+OpenAI 添加了额外的 Cloudflare 保护，这使得访问非官方 API 变得更加困难。该工具暂时无法使用。
+
+
+
+仓库地址: [GitHub - RomanHotsiy/commitgpt: Automatically generate commit messages using ChatGPT](https://github.com/RomanHotsiy/commitgpt)
+
+
+
+7.ChatGPT for Google
+
+![4.png](./AI工具导航.assets/lesozbe504rq.png)
+
+这是一款ChatGPT的浏览器插件，可以安装在Chrome、Edge、Firefox浏览器，能够根据搜索引擎的内容自动生成搜索问题的答案，支持Google, Bing, DuckDuckGo, Brave, Yahoo, Naver, Yandex, Kagi这些主流的搜索引擎。
+
+
+
+仓库地址: [GitHub - wong2/chatgpt-google-extension: A browser extension that enhance search engines with ChatGPT](https://github.com/wong2/chatgpt-google-extension)
+
+## 5.4 其他领域的机器人
+
+除了ChatGPT还有很多人工智能帮助你躺平，可以顺便了解下其他的机器人辅助。学会了，很多事就不用自己做啦。
+
+解決任何问题: ChaicpT生成真人演讲: Murf时间管理大师:Timelt解決法律问题:Do Not Pay创作生术作品:Dall-E-2自动发布社交媒体:RepurposelO聊天机器人:Chatbot Live专为写文家而生:Jasper Al生成真人视频:Synthesia10、帮你写论文的:Jenni Al11、写故事:Tome会议记录:FireFlies
 
 ## AI工具教程
 
@@ -14,7 +471,32 @@
 
 [12000+AI绘画关键词分享-小K网 (xkwo.com)](https://www.xkwo.com/article/30154.html)
 
+| 应用/工具简介                 | 应用地址                                          |
+| ----------------------------- | ------------------------------------------------- |
+| AI生成Logo                    | https://www.logosc.cn/                            |
+| AI生成PPT                     | https://design.meitu.com/ppt/                     |
+| 营销内容创作没Idear?AI来帮你! | https://copyai.cn/                                |
+| AI生成短视频，再无需自己来    | https://yiqijian.com/                             |
+| AI数字人，我的007打工仔       | https://zenvideo.qq.com/<br/>http://shanjian.tv/  |
+| 三秒实现扣图，再见PS          | https://www.remove.bg/                            |
+| 有了它，闭着眼都能把图P好     | https://playgroundai.com/                         |
+| 在几秒钟内删除不需要的东西    | https://magicstudio.com/zh/magiceraser            |
+| 浏览器插件+Notion AI=办公利器 | https://mp.weixin.qq.com/s/sqF4KgOR44v9annOPd_G_A |
+| 3秒钟创建和使用海量AI应用     | http://www.chatbox.cool                           |
+| AI生成免费LOGO                | https://www.uugai.com                             |
+
 ## AI导航
+
+| [chatGPT](https://chat.openai.com/) （需要梯子）        | [Midjourney](https://www.midjourney.com/) （AI图形生成，需要梯子） | [文心一言](https://yiyan.baidu.com/) （百度AI聊天）          |
+| ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [文心一格](https://yige.baidu.com/) （百度AI图片生成）  | [PhotoRoom ](https://www.photoroom.com/background-remover) （AI图片去掉背景） | [秘塔写作猫](https://xiezuocat.com/) （AI写作，文章生成）    |
+| [彩云小梦](https://if.caiyunai.com/) （能写小故事）     | [爱改写](https://www.aigaixie.com/) （人工智能改写）         | [悉语·智能文案](https://chuangyi.taobao.com/pages/aiCopy) （智能文案） |
+| [effidit](https://effidit.qq.com/) （腾讯旗下智能写作） | [火龙果写作](https://www.mypitaya.com/) （AI驱动的文字生产力工具） | [HeyFriday](https://www.heyfriday.cn/home) （轻松生成高质量原创文章） |
+| [WPS智能写作](https://aiwrite.wps.cn/)                  | [网易天音](https://tianyin.music.163.com/) （AI音乐创作）    | [讯飞智作](https://peiyin.xunfei.cn/) （音频，视频，虚拟人） |
+| [腾讯智影](https://zenvideo.qq.com/) （在线视频制作）   | [万兴播爆](https://virbo.wondershare.cn/) （数字人视频）     | [一帧秒创](https://aigc.yizhentv.com/index.html) （AI视频创作） |
+| [对话写作猫](https://xiezuocat.com/chat?s=)             |                                                              |                                                              |
+
+[分享200+个关于AI的网站 - 掘金 (juejin.cn)](https://juejin.cn/post/7259715842875015205)
 
 - [AI 学习平台 - AI工具箱](https://www.phpcms9.com/ai/aistudy?from=phpcms9.com)
 - [AI工具集导航 | 500+ AI工具导航大全，国内外AI工具集合网站](https://ai-bot.cn/)
@@ -28,7 +510,7 @@
 - [(80 条消息) 有哪些好用的AI工具或者工具集网站？ - 知乎](https://www.zhihu.com/question/592101575/answer/2956731635?utm_id=0)
 - [iperov/DeepFaceLive: Real-time face swap for PC streaming or video calls](https://github.com/iperov/DeepFaceLive)
 - [(/≧▽≦/)你又回来啦！](https://blog.godgy.xyz/dmroom/otherv/336/?replytocom=12&only_author=1)
-- [dflive_免费高速下载|百度网盘-分享无限制](https://pan.baidu.com/s/139ufJxAy_F9WHlcdQb-MYA?pwd=erx6#list/path=%2F&parentPath=%2Fsharelink2143486987-658918314166307)
+- [dflive_免费高速下载|百度网盘-分享无限制](https://pan.baidu.com/s/139ufJxAy_F9WHlcdQb-MYA?pwd=erx6#list/path=/&parentPath=/sharelink2143486987-658918314166307)
 - [OpenGVLab/InternGPT: InternGPT (iGPT) is an open source demo platform where you can easily showcase your AI models. Now it supports DragGAN, ChatGPT, ImageBind, multimodal chat like GPT-4, SAM, interactive image editing, etc. Try it at igpt.opengvlab.com (支持DragGAN、ChatGPT、ImageBind、SAM的在线Demo系统)](https://github.com/OpenGVLab/InternGPT)
 - [Zeqiang-Lai/DragGAN: Online Demo and Implementation of DragGAN - "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold" （DragGAN 全功能实现，在线Demo，本地部署试用，代码、模型已全部开源，支持Windows, macOS, Linux）](https://github.com/Zeqiang-Lai/DragGAN)
 - [AIGC Magic AI赋能超级个体 | 找到适合自己的AIGC产品](https://aigcmagic.com/)

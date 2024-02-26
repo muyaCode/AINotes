@@ -1,6 +1,6 @@
 import socialLinks from "./config/socialLinks";
 import nav from "./config/nav";
-import algolia from "./config/algolia";
+// import algolia from "./config/algolia";
 import sidebar from "./config/sidebar";
 
 // 配置文档：https://vitepress.vuejs.org/config/introduction
@@ -43,13 +43,66 @@ export default {
     outlineTitle: '⚡️文档内容大纲', // 大纲标题
     outline: 'deep', // 大纲显示层级：number：只显示 | [number, number]：指定层级范围显示 | 'deep'：全部显示 | false：不显示
 
+    // 使用浏览器内置索引进行模糊全文搜索
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                displayDetails: '显示详细信息',
+                resetButtonTitle: '清除查询条件',
+                backButtonTitle: '返回搜索结果',
+                footer: {
+                  selectText: '选择',
+                  selectKeyAriaLabel: 'enter',
+                  navigateText: '切换',
+                  navigateUpKeyAriaLabel: 'up arrow',
+                  navigateDownKeyAriaLabel: 'down arrow',
+                  closeText: '关闭',
+                  closeKeyAriaLabel: 'escape'
+                }
+              }
+            }
+          }
+        },
+        // 搜索配置
+        miniSearch: {
+          /**
+           * @type {Pick<import('minisearch').Options, 'extractField' | 'tokenize' | 'processTerm'>}
+           */
+          options: {
+            /* ... */
+          },
+          /**
+           * @type {import('minisearch').SearchOptions}
+           * @default
+           * { fuzzy: 0.2, prefix: true, boost: { title: 4, text: 2, titles: 1 } }
+           */
+          searchOptions: {
+            /* ... */
+          }
+        },
+        // 从搜索结果中排除页面
+        exclude: (path) => path.startsWith('/some/path')
+      }
+    },
 
+    // 使用 algolia 搜索框
+    // search: {
+    //   provider: 'algolia',
+    //   options: algolia,
+    // },
     // 右上角导航
     nav,
     // 右上角导航中显示带有图标的社交帐户链接
     socialLinks,
-    // 展示 algolia 搜索框
-    algolia,
     // *****左边侧栏导航*****
     sidebar,
 

@@ -7,6 +7,18 @@
 - [Synthesia](https://www.synthesia.io/)  
 - [Adobe Podcast](https://podcast.adobe.com/)
 
+## 🤖 Meta推出开源模型「SeamlessM4T」，能翻译和转录近百种语言
+
+[**⋙ Meta Blog**](https://ai.meta.com/blog/seamless-m4t)   |   [**GitHub 模型代码下载**](https://github.com/facebookresearch/seamless_communication)
+
+2023年8月22日，Meta 宣布推出人工智能多模态模型「**SeamlessM4T**」，能够直接翻译35种语言的语音和100种语言的文本。SeamlessM4T 的翻译功能很强大，可以完成语音到文本、语音到语音、文本到语音、文本到文本的翻译，并能够自动识别语音，是 Meta 推出通用翻译器的重要一步。
+
+SeamlessM4T 在翻译基准上的表现要优于 OpenAI 的 Whisper，虽然二者的翻译质量目前都逊色于人类，但差距正在随着模型的优化而不断缩小。
+
+Demo：[Seamless Communication Translation Demo (metademolab.com)](https://seamless.metademolab.com/demo)
+
+秉持其一贯的开源策略，Meta 在开源协议CC BY-NC 4.0下公开发布了 SeamlessM4T，开发人员可以在这个模型的基础上进行开发。同时，Meta 还发布了 SeamlessAlign 的数据集，其博客提到这也是迄今为止最大的开放多模态翻译数据集，覆盖挖掘的语音和文本对齐总计达 270,000 小时 。
+
 ## 『writeout.ai』使用 OpenAI 的 Whisper API 转录和翻译音频文件
 
 ![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/351de51fe20449648a69182f759dd26e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)

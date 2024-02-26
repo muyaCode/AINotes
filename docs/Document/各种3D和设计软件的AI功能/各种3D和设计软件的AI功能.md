@@ -14,7 +14,23 @@
 
 ## PhotoShop的AI功能
 
+**UP主：[影视后期系统教学的个人空间-影视后期系统教学个人主页-哔哩哔哩视频 (bilibili.com)](https://space.bilibili.com/250610800)**
+
+PS Beta旧版本已经失效，官网又调整了局域限制，在国内网络IP无法使用，并且需要使用最新版本。
+故现在想要使用AI创成式功能，需要满足两个条件，需要登录美区账号，同时需要使用魔法。
+此次带来Win和Mac v 25.1.0.2316 Beta版，Win系统便携免安装版，打开就可以使用。Mac 准备了离线安装包，ARM 版本即 M1 和 M2 系列芯片电脑使用，其它 Mac 电脑建议就安装 Intel 版本。
+百度网盘：https://pan.baidu.com/s/1CCw6RGlzEJ7TPWou8pPADQ?pwd=2023 
+阿里云盘：https://www.aliyundrive.com/s/UZSYqjEgs1y
+
+————————————————————————————————————————
+
 **PhotoShop的AI功能教程**：[Photoshop Beta AI 系列 - 飞书云文档 (feishu.cn)](https://ssw9noe1h6.feishu.cn/wiki/TWIew7RasiNzntkjnUFcdgTanhh)
+
+Adobe Photoshop 2023 25.0.0(Beta) Win系统版，可以直接使用中文进行创成式填充的控制，并且解除了地区歧视，无需魔法（科学上网）就可以使用。Mac系统是 24.7.0版本，注册登录国外地区的Adobe账号，并且需要魔法才能正常使用。
+百度网盘：https://pan.baidu.com/s/1CCw6RGlzEJ7TPWou8pPADQ?pwd=2023 
+阿里云盘：https://www.aliyundrive.com/s/UZSYqjEgs1y
+
+视频地址：【PS 2024即将发布，全新Beta 25.0解锁版！完美支持中文输入，无需魔法，支持使用神经滤镜】https://www.bilibili.com/video/BV19h4y1c7Ma?vd_source=36c9491a7fa2ab8a22ca060af01b7472
 
 ————————————————————————————————————————————
 
@@ -83,6 +99,25 @@ sunshine大模型链接：<https://pan.baidu.com/s/1XEIX2FEw4Kc55SmqerveuA?pwd=d
 - controlnet 1.1模型下载链接：<https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main>
 
 语义分割网址：<https://huggingface.co/spaces/shi-labs/OneFormer>
+
+### PS中SDXL插件imagecreator
+
+插件官网主页：https://imagecreator.alkaidvision.com/
+————————
+ImageCreator，这款专门为Photoshop而生的SD出图插件，我介绍过很多次了。但是最近的一次更新，我认为很有必要专门出一期视频给大家讲解和演示一下。
+
+下面分为两个部分跟大家说明。（①对SDXL的支持；②重量级Modelhub功能）
+
+#photoshop #plugins #imagecreation #alkaid #sdxl #Modelhub #stablediffusion
+————————
+
+视频教程：【谁还本地玩SDXL？PS内直接跑图，模型可自由控制！关键还免费】https://www.bilibili.com/video/BV1Gm4y1p7K4?vd_source=36c9491a7fa2ab8a22ca060af01b7472
+
+0:00 最新重磅更新简介
+
+0:25 重磅支持SDXL1.0在PS内出图
+
+1:20 超便捷的模型管理中心Modelhub
 
 ## Adobe Firefly
 

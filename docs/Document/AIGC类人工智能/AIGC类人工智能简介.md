@@ -1,5 +1,21 @@
 # AIGC类人工智能简介
 
+[‍‬⁣﻿﻿‬‍⁡⁡‍﻿⁣⁣‍⁡⁡⁣⁣⁢⁤⁢⁤⁡⁡﻿‍‬‌﻿⁢⁢⁤‬‍‌⁡‌⁢AIGC从入门到精通教程汇总 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/docx/QBqwdyde7omVf4x69paconlgnAc)
+
+[AI专区网盘资源汇总 - 飞书云文档 (feishu.cn)](https://y3if3fk7ce.feishu.cn/sheets/BIeAsn8IvhX3HUtcf84cFViinu3?table=tblTLSqLLvUznxAZ&view=vewP2B92zv)
+
+[互联网丝滑转行AIGC指北，全网最全 (qq.com)](https://mp.weixin.qq.com/s/LT5BDlsprWEza9gSzqAUCA)
+
+[大模型实践总结-最新版（2023.07.03） (qq.com)](https://mp.weixin.qq.com/s/6n8KiOBbro6csGET_mMaYw)
+
+[大模型实践总结 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/616929229)
+
+## 2323年8月中国AIGC产业图
+
+![image-20230905172232628](./AIGC类人工智能简介.assets/image-20230905172232628.png)
+
+出处：[艾瑞咨询 (iresearch.com.cn)](https://www.iresearch.com.cn/)
+
 ## 6道 AIGC 高频面试题，解题思路和回答范例
 
 目前，很多岗位都要求员工掌握 AIGC 和LLM 的使用技能了，因此对于 AIGC 相关技术的理解和掌握，也成为了面试的一部分。这篇文章整理了6个高频问题，以及**回答思路**和**答案要点**。快快收藏~

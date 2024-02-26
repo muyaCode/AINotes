@@ -1,5 +1,9 @@
 # AI唱歌
 
+[AI孙燕姿翻唱爆火，多亏这个开源项目！广西老表带头打造，上手指南已出 - 掘金 (juejin.cn)](https://juejin.cn/post/7231738442274439225)
+
+[南洋才女,德艺双馨,孙燕姿本尊回应AI孙燕姿(基于Sadtalker/Python3.10) - 掘金 (juejin.cn)](https://juejin.cn/post/7241749918451941437)
+
 ## Musico自动生成音乐的 AI 模型
 
 [Musico](https://www.musi-co.com/listen/streams)
